@@ -293,6 +293,7 @@ class Component extends DCLogic {
       var reason = F.REASON[p.get('reason')] ? p.get('reason') : '';
       var query = F.TOPIC[p.get('topic')] ? { type: 'topic', value: p.get('topic') }
         : F.AREA[p.get('group')] ? { type: 'area', value: p.get('group') } : null;
+      if (reason && !query) query = F.presetQuery(reason, p.get('area') || '');   // a reason alone opens on its topic or area
       this.setState({
         loaded: true, loj: p.get('area') || '', reason: reason, reasonText: reason ? F.REASON[reason].name : '',
         query: query, topicText: query ? F.queryLabel(query) : '', county: F.countyFrom(p.get('county'))
@@ -302,8 +303,8 @@ class Component extends DCLogic {
 
   fallbackCopy() { var el = document.getElementById('link'); if (el) { el.select(); try { document.execCommand('copy'); } catch (err) {} } }
   applyPreset(reasonId, loj) {
-    var t = F.presetFor(reasonId, loj);
-    if (t && F.TOPIC[t]) this.setState({ query: { type: 'topic', value: t }, topicText: F.TOPIC[t].name, fromReason: true });
+    var q = F.presetQuery(reasonId, loj);
+    if (q) this.setState({ query: q, topicText: F.queryLabel(q), fromReason: true });
   }
   pickReason(r) {
     this.setState({ reason: r.id, reasonText: r.name, box: null, active: -1, error: false });

@@ -1,38 +1,47 @@
 [
 {
 "area": "Employment",
-"order": 1
+"order": 1,
+"finder_area": "A01"
 },
 {
 "area": "Housing",
-"order": 2
+"order": 2,
+"finder_area": "A02"
 },
 {
 "area": "Places of Public Accommodation",
-"order": 3
+"order": 3,
+"finder_area": "A08"
 },
 {
 "area": "Education",
-"order": 4
+"order": 4,
+"finder_area": "A11"
 },
 {
 "area": "Credit and lending",
-"order": 5
+"order": 5,
+"finder_area": "A08"
 },
 {
 "area": "Volunteer Firefighting Organizations",
-"order": 6
+"order": 6,
+"finder_area": "A14"
 },
 {
 "area": "Boycotting or Blacklisting",
-"order": 7
+"order": 7,
+"finder_area": "A14"
 },
 {
 "area": "Violation of Conciliation Agreement",
-"order": 8
+"order": 8,
+"finder_area": "A14"
 },
 {
 "area": "None",
-"order": 9
+"order": 9,
+"finder_area": "A14"
 }
 ]

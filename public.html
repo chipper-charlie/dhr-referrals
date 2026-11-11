@@ -403,6 +403,8 @@ function readUrl() {
   else if (p.get('group') && F.AREA[p.get('group')]) query = { type: 'area', value: p.get('group') };
   else if (p.get('org') && F.data.orgs[p.get('org')]) query = { type: 'org', value: p.get('org') };
   else if (p.get('q')) query = { type: 'text', value: p.get('q') };
+  // A letter link with only a reason opens on the reason's topic, or its whole area (finder-core presetQuery)
+  else if (p.get('reason') && F.REASON[p.get('reason')]) query = F.presetQuery(p.get('reason'), p.get('area') || '');
   var county = F.countyFrom(p.get('county'));
   // Old ?view=all links (the All topics page) and ?browse=1 open the start page with Browse by topic open
   var browse = p.get('view') === 'all' || p.get('browse') === '1';

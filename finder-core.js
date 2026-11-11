@@ -70,6 +70,7 @@
       kinds: rows(T.kinds).slice().sort(byOrder).map(function (r) { return { id: str(r.kind_id), name: str(r.name) }; }),
       counties: counties, regions: regions, orgs: orgs, listings: listings,
       lojAreas: rows(T.loj_areas).slice().sort(byOrder).map(function (r) { return str(r.area); }),
+      lojFinderArea: (function () { var m = {}; rows(T.loj_areas).forEach(function (r) { m[str(r.area)] = str(r.finder_area); }); return m; })(),
       reasons: rows(T.reasons).map(function (r) {
         var id = str(r.reason_id);
         // description, group and group_order: the line under each reason and its heading in the staff view's reason list
@@ -448,8 +449,16 @@
     var hit = null;
     D.presets.some(function (p) { if (p.reason === reason && p.area === lojArea) { hit = p; return true; } return false; });
     if (!hit) D.presets.some(function (p) { if (p.reason === reason && p.area === 'All') { hit = p; return true; } return false; });
-    if (!hit) D.presets.some(function (p) { if (p.reason === reason) { hit = p; return true; } return false; });
+    if (!hit && !lojArea) D.presets.some(function (p) { if (p.reason === reason) { hit = p; return true; } return false; });
     return hit ? hit.topic : '';
+  }
+  // What a reason opens on: its own topic for the area, else the whole finder area that matches the Protected Places area
+  // (loj_areas.json finder_area: "Not discrimination" in Housing opens on all housing help)
+  function presetQuery(reason, lojArea) {
+    var t = presetFor(reason, lojArea);
+    if (t && TOPIC[t]) return { type: 'topic', value: t };
+    var a = (D.lojFinderArea || {})[lojArea];
+    return a && AREA[a] ? { type: 'area', value: a } : null;
   }
   function reasonsFor(lojArea) {
     return D.reasons.filter(function (r) { return !lojArea || r.areas.indexOf('All') >= 0 || r.areas.indexOf(lojArea) >= 0; });
@@ -540,7 +549,7 @@
   var api = {
     norm: norm, suggest: suggest, intentTopic: intentTopic, suggestOrgs: suggestOrgs, exactOrg: exactOrg, exactTopic: exactTopic, matches: matches, results: results, buildCards: buildCards,
     queryLabel: queryLabel, queryAreaId: queryAreaId, whereLine: whereLine, websiteOf: websiteOf, phoneOf: phoneOf,
-    isWide: isWide, countyLabel: countyLabel, countyFrom: countyFrom, inCounty: inCounty, pinsFor: pinsFor, presetFor: presetFor, reasonsFor: reasonsFor, areasLike: areasLike
+    isWide: isWide, countyLabel: countyLabel, countyFrom: countyFrom, inCounty: inCounty, pinsFor: pinsFor, presetFor: presetFor, presetQuery: presetQuery, reasonsFor: reasonsFor, areasLike: areasLike
   };
   Object.keys(api).forEach(function (k) { FC[k] = api[k]; });
 })();
