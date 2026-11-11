@@ -1,0 +1,422 @@
+[
+{
+"reason_id": "L01",
+"name": "Federal government",
+"description": "A U.S. government agency, the military, a federal site or a bank run by the FDIC.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L02",
+"name": "Airline, Amtrak, long-distance bus",
+"description": "Airlines, Amtrak and long-distance buses. Federal law covers these instead.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L03",
+"name": "Government benefits decision",
+"description": "A government decision about benefits, like unemployment, SNAP, Medicaid or Section 8 eligibility.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L04",
+"name": "Court decision",
+"description": "What a court or judge decided, like in housing court, custody or child support.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L05",
+"name": "A person, not a covered business",
+"description": "Another tenant, neighbor, roommate, customer or family member, rather than a landlord, employer or business.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L06",
+"name": "Police",
+"description": "Police actions, like an arrest or a stop.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L07",
+"name": "Prison or jail",
+"description": "How someone was treated in a prison, jail or other corrections facility.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L08",
+"name": "Not discrimination",
+"description": "Unfair treatment not linked to a protected characteristic, like unpaid wages or a bad landlord.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L09",
+"name": "Child protective services",
+"description": "How CPS or ACS handled a case.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L10",
+"name": "Religious exemption",
+"description": "A religious group acting on its religion, like hiring clergy or running a religious school, event or housing.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L11",
+"name": "Housing exceptions",
+"description": "Rentals the law exempts, like a room in the owner’s home, a two-family house the owner lives in, or senior housing.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L12",
+"name": "Characteristic not covered in this area",
+"description": "A characteristic the law doesn’t protect in this area, like age at a store or family status at a school.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L13",
+"name": "Retaliation not about discrimination",
+"description": "Punished for something other than opposing discrimination, like whistleblowing or reporting unsafe conditions.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L14",
+"name": "Untimely",
+"description": "The last incident happened too long ago to file (past the statute of limitations).",
+"group": "Timeliness, venue or location",
+"group_order": 7
+},
+{
+"reason_id": "L15",
+"name": "Family member as employer",
+"description": "The employer is the person’s parent, spouse or child.",
+"group": "Complainant not covered or no standing",
+"group_order": 6
+},
+{
+"reason_id": "L16",
+"name": "Conviction record outside employment",
+"description": "A conviction record held against someone outside work or licensing, like for housing.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L17",
+"name": "Port Authority",
+"description": "The Port Authority of New York and New Jersey, which both states run.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L18",
+"name": "UN, embassy or consulate",
+"description": "The UN, or a foreign embassy or consulate, as employer. They have diplomatic immunity.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L19",
+"name": "Political views",
+"description": "Political views or party, which the law doesn’t protect.",
+"group": "Basis never protected",
+"group_order": 3
+},
+{
+"reason_id": "L20",
+"name": "Homelessness",
+"description": "Being homeless, which the law doesn’t protect.",
+"group": "Basis never protected",
+"group_order": 3
+},
+{
+"reason_id": "L21",
+"name": "Credit history",
+"description": "Credit history, which state law doesn’t protect.",
+"group": "Basis never protected",
+"group_order": 3
+},
+{
+"reason_id": "L22",
+"name": "Open ACS or CPS case",
+"description": "Having an open child protective case, which the law doesn’t protect.",
+"group": "Basis never protected",
+"group_order": 3
+},
+{
+"reason_id": "L23",
+"name": "Height or weight",
+"description": "Height or weight, which state law doesn’t protect.",
+"group": "Basis never protected",
+"group_order": 3
+},
+{
+"reason_id": "L24",
+"name": "Current illegal drug use",
+"description": "Current illegal drug use. People in recovery are still protected under disability.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L25",
+"name": "Lack of military service",
+"description": "Not having served in the military. Only military service is protected.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L26",
+"name": "Family status: child’s needs",
+"description": "A child’s needs, like time off for school meetings or childcare. Family status covers being a parent, not the child’s needs.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L27",
+"name": "Source of income: loans or whose income",
+"description": "Needing a loan, or whose income it is in the household. Source of income doesn’t cover these.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L28",
+"name": "Arrest record: pending or not in favor",
+"description": "An arrest that’s still pending, or didn’t end in the person’s favor.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L29",
+"name": "Conviction after hire",
+"description": "A conviction that happened after the person was hired. Only earlier convictions are protected.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L30",
+"name": "Age under 18",
+"description": "Under 18. Age protection starts at 18.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L31",
+"name": "Unpaid intern: arrest or conviction",
+"description": "An unpaid intern’s arrest or conviction record. Interns aren’t protected for these.",
+"group": "Basis not protected here",
+"group_order": 4
+},
+{
+"reason_id": "L32",
+"name": "Tribal nation",
+"description": "A business run by a recognized Native American tribe, which has sovereign immunity.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L33",
+"name": "Employee benefit plan (ERISA)",
+"description": "A work benefit plan under federal law (ERISA), for treatment federal law allows, like marital status.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L34",
+"name": "NYS Justice Center",
+"description": "A decision by the NYS Justice Center for the Protection of People with Special Needs.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L35",
+"name": "Government permit decision",
+"description": "A government decision about a permit.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L36",
+"name": "Insurance",
+"description": "Selling insurance or what a policy covers, unless it’s part of something NYDHR covers, like job benefits.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L37",
+"name": "Volunteer EMS",
+"description": "A volunteer ambulance or EMS squad. Only volunteer fire departments are covered.",
+"group": "Respondent not covered",
+"group_order": 1
+},
+{
+"reason_id": "L38",
+"name": "Online ads",
+"description": "An ad posted online, which may not be covered the way print ads are.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L39",
+"name": "Single-sex exemption",
+"description": "A single-sex school, or a place NYDHR has allowed to limit by sex.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L40",
+"name": "Transit disability accommodation",
+"description": "Public transit, like the MTA or city buses, not giving a disability accommodation. Other discrimination by them is covered.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L41",
+"name": "Age exceptions",
+"description": "Ages the law lets employers use, like 18–21 at bars, police and firefighter hiring ages, or some retirement ages.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L42",
+"name": "Conviction record exceptions",
+"description": "Cases where a conviction can count, like law enforcement jobs, gun licenses, an offense linked to the job, or employers with under 10 staff.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L43",
+"name": "Enforcing an earlier order or settlement",
+"description": "Getting someone to follow an earlier ruling or settlement on the same complaint.",
+"group": "Timeliness, venue or location",
+"group_order": 7
+},
+{
+"reason_id": "L44",
+"name": "No legal authority",
+"description": "Filed for someone else without legal authority, like guardianship or power of attorney.",
+"group": "Complainant not covered or no standing",
+"group_order": 6
+},
+{
+"reason_id": "L45",
+"name": "Unclear who or what (call us)",
+"description": "Not enough detail about who did it to tell if NYDHR covers them.",
+"group": "Administrative",
+"group_order": 8
+},
+{
+"reason_id": "L46",
+"name": "Filer under 18",
+"description": "The person filing is under 18.",
+"group": "Complainant not covered or no standing",
+"group_order": 6
+},
+{
+"reason_id": "L47",
+"name": "Filed elsewhere",
+"description": "The same events were already filed in court or with another agency.",
+"group": "Timeliness, venue or location",
+"group_order": 7
+},
+{
+"reason_id": "L48",
+"name": "Outside New York",
+"description": "It happened outside New York, or the business is based outside New York.",
+"group": "Timeliness, venue or location",
+"group_order": 7
+},
+{
+"reason_id": "L49",
+"name": "Unclear or unfocused report",
+"description": "The report is hard to follow, or lists many claims against several parties.",
+"group": "Administrative",
+"group_order": 8
+},
+{
+"reason_id": "L50",
+"name": "Section 8 voucher only",
+"description": "Refused only because of a Section 8 voucher. On hold while the courts decide, not dismissed.",
+"group": "Administrative",
+"group_order": 8
+},
+{
+"reason_id": "L51",
+"name": "Volunteer (not employee)",
+"description": "A volunteer, not an employee. May still be covered, so check with a supervisor.",
+"group": "Complainant not covered or no standing",
+"group_order": 6
+},
+{
+"reason_id": "L52",
+"name": "No adverse action yet",
+"description": "Nothing has happened yet, or a single offhand remark with nothing after it.",
+"group": "Act not covered",
+"group_order": 2
+},
+{
+"reason_id": "L53",
+"name": "Returned to EEOC",
+"description": "Sent back to the U.S. EEOC to handle.",
+"group": "Timeliness, venue or location",
+"group_order": 7
+},
+{
+"reason_id": "L54",
+"name": "Fake or no connection",
+"description": "The report seems fake, or the filer has no connection to the person it happened to.",
+"group": "Administrative",
+"group_order": 8
+},
+{
+"reason_id": "L55",
+"name": "Withdrawn or abandoned",
+"description": "The person withdrew, didn’t sign, or never followed up.",
+"group": "Administrative",
+"group_order": 8
+},
+{
+"reason_id": "L56",
+"name": "Remote employee",
+"description": "A remote worker whose worksite may not be in New York. Check with a supervisor.",
+"group": "Timeliness, venue or location",
+"group_order": 7
+},
+{
+"reason_id": "L57",
+"name": "Labor boycott",
+"description": "A boycott connected with a labor dispute, like a strike or picket line. The law exempts these.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L58",
+"name": "Boycott to protest discrimination",
+"description": "A boycott held to protest unlawful discrimination. The law exempts these.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L59",
+"name": "Distinctly private club or place",
+"description": "A club or place that is truly private and not open to the public, so it isn’t a place of public accommodation.",
+"group": "Exemption applies",
+"group_order": 5
+},
+{
+"reason_id": "L60",
+"name": "Conviction record: public employer or agency",
+"description": "A government employer or licensing agency held a conviction against someone. These go to state court (Article 78), not NYDHR.",
+"group": "Basis not protected here",
+"group_order": 4
+}
+]

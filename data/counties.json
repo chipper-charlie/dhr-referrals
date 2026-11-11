@@ -1,0 +1,250 @@
+[
+{
+"county": "Albany",
+"region": "Capital Region"
+},
+{
+"county": "Allegany",
+"region": "Western New York"
+},
+{
+"county": "Bronx",
+"region": "New York City"
+},
+{
+"county": "Broome",
+"region": "Southern Tier"
+},
+{
+"county": "Cattaraugus",
+"region": "Western New York"
+},
+{
+"county": "Cayuga",
+"region": "Central New York"
+},
+{
+"county": "Chautauqua",
+"region": "Western New York"
+},
+{
+"county": "Chemung",
+"region": "Southern Tier"
+},
+{
+"county": "Chenango",
+"region": "Southern Tier"
+},
+{
+"county": "Clinton",
+"region": "North Country"
+},
+{
+"county": "Columbia",
+"region": "Capital Region"
+},
+{
+"county": "Cortland",
+"region": "Central New York"
+},
+{
+"county": "Delaware",
+"region": "Southern Tier"
+},
+{
+"county": "Dutchess",
+"region": "Mid-Hudson"
+},
+{
+"county": "Erie",
+"region": "Western New York"
+},
+{
+"county": "Essex",
+"region": "North Country"
+},
+{
+"county": "Franklin",
+"region": "North Country"
+},
+{
+"county": "Fulton",
+"region": "Mohawk Valley"
+},
+{
+"county": "Genesee",
+"region": "Finger Lakes"
+},
+{
+"county": "Greene",
+"region": "Capital Region"
+},
+{
+"county": "Hamilton",
+"region": "North Country"
+},
+{
+"county": "Herkimer",
+"region": "Mohawk Valley"
+},
+{
+"county": "Jefferson",
+"region": "North Country"
+},
+{
+"county": "Kings (Brooklyn)",
+"region": "New York City"
+},
+{
+"county": "Lewis",
+"region": "North Country"
+},
+{
+"county": "Livingston",
+"region": "Finger Lakes"
+},
+{
+"county": "Madison",
+"region": "Central New York"
+},
+{
+"county": "Monroe",
+"region": "Finger Lakes"
+},
+{
+"county": "Montgomery",
+"region": "Mohawk Valley"
+},
+{
+"county": "Nassau",
+"region": "Long Island"
+},
+{
+"county": "New York (Manhattan)",
+"region": "New York City"
+},
+{
+"county": "Niagara",
+"region": "Western New York"
+},
+{
+"county": "Oneida",
+"region": "Mohawk Valley"
+},
+{
+"county": "Onondaga",
+"region": "Central New York"
+},
+{
+"county": "Ontario",
+"region": "Finger Lakes"
+},
+{
+"county": "Orange",
+"region": "Mid-Hudson"
+},
+{
+"county": "Orleans",
+"region": "Finger Lakes"
+},
+{
+"county": "Oswego",
+"region": "Central New York"
+},
+{
+"county": "Otsego",
+"region": "Mohawk Valley"
+},
+{
+"county": "Putnam",
+"region": "Mid-Hudson"
+},
+{
+"county": "Queens",
+"region": "New York City"
+},
+{
+"county": "Rensselaer",
+"region": "Capital Region"
+},
+{
+"county": "Richmond (Staten Island)",
+"region": "New York City"
+},
+{
+"county": "Rockland",
+"region": "Mid-Hudson"
+},
+{
+"county": "Saratoga",
+"region": "Capital Region"
+},
+{
+"county": "Schenectady",
+"region": "Capital Region"
+},
+{
+"county": "Schoharie",
+"region": "Mohawk Valley"
+},
+{
+"county": "Schuyler",
+"region": "Southern Tier"
+},
+{
+"county": "Seneca",
+"region": "Finger Lakes"
+},
+{
+"county": "St. Lawrence",
+"region": "North Country"
+},
+{
+"county": "Steuben",
+"region": "Southern Tier"
+},
+{
+"county": "Suffolk",
+"region": "Long Island"
+},
+{
+"county": "Sullivan",
+"region": "Mid-Hudson"
+},
+{
+"county": "Tioga",
+"region": "Southern Tier"
+},
+{
+"county": "Tompkins",
+"region": "Southern Tier"
+},
+{
+"county": "Ulster",
+"region": "Mid-Hudson"
+},
+{
+"county": "Warren",
+"region": "Capital Region"
+},
+{
+"county": "Washington",
+"region": "Capital Region"
+},
+{
+"county": "Wayne",
+"region": "Finger Lakes"
+},
+{
+"county": "Westchester",
+"region": "Mid-Hudson"
+},
+{
+"county": "Wyoming",
+"region": "Finger Lakes"
+},
+{
+"county": "Yates",
+"region": "Finger Lakes"
+}
+]

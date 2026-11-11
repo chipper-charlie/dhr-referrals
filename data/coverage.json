@@ -1,0 +1,5357 @@
+[
+{
+"listing_id": "LST-EE0E24",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-F86B5E",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-F86B5E",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-F86B5E",
+"scope": "county",
+"place": "Greene"
+},
+{
+"listing_id": "LST-F86B5E",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-F86B5E",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-8FDB7D",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-80A4A6",
+"scope": "county",
+"place": "Hamilton"
+},
+{
+"listing_id": "LST-163AB9",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-163AB9",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-163AB9",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-163AB9",
+"scope": "county",
+"place": "Hamilton"
+},
+{
+"listing_id": "LST-DD0D5D",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-6B663F",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-0BA411",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-0BA411",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-0BA411",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-4AFC88",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-47DA55",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-47DA55",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-47DA55",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-47DA55",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-47DA55",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-A071B3",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-6A7192",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-F274A1",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-975853",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-975853",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-975853",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-B26462",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-B26462",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-C6C79D",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-637B51",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-B546A0",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-B546A0",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-02CA71",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-02CA71",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-02CA71",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-02CA71",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-76B07E",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-76B07E",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-C0D1D2",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-75A193",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-6C99C1",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-EFC629",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-70185C",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-70185C",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-70185C",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-61F77C",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-61F77C",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-10F910",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-9B123D",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-9B123D",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-223CC7",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-5896EE",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-C01DCE",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-C01DCE",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-DD347B",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-A7EF8A",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-41AD58",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-3A8743",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-BE3794",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-7CF9CE",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-4DFB1E",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-4DFB1E",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-33375C",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-9CDF4C",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-6D3D57",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-1B7E69",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-00400A",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-374868",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-374868",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-374868",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-374868",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-374868",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-374868",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-374868",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-7E3A11",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-0DCB03",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-60014A",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-648DEF",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-74FAA1",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-74FAA1",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-9C50FB",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-CB814C",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-CB814C",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-CB814C",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-773C2A",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-212B99",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-6654BA",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-B739E1",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-10B1EC",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-10B1EC",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-10B1EC",
+"scope": "county",
+"place": "Schoharie"
+},
+{
+"listing_id": "LST-378236",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-8B279B",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-8B279B",
+"scope": "county",
+"place": "Orleans"
+},
+{
+"listing_id": "LST-8B279B",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-68CA42",
+"scope": "county",
+"place": "Greene"
+},
+{
+"listing_id": "LST-29272F",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-3E9A99",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-3E9A99",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-3E9A99",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-132805",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-132805",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-A7B79C",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-7659E7",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-7659E7",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-1605B4",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-1605B4",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-EF39C6",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-A21D62",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-A21D62",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-28CFF5",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-28CFF5",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-1AD3A4",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-4CB732",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-F015DE",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-F015DE",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-58FDFB",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-398F73",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-398F73",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-398F73",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-398F73",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-FB746D",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-5244B7",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-5244B7",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-5244B7",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-5244B7",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-5244B7",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-C7126E",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-A53096",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-5E4CFE",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-0BA35C",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-0BA35C",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-0BA35C",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-0BA35C",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-0BA35C",
+"scope": "county",
+"place": "Yates"
+},
+{
+"listing_id": "LST-E6AFCC",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-E6AFCC",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-E14752",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-ADA34F",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-ADA34F",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-24242B",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-9C2D6E",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-10182B",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-EA7510",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-0B4909",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-0B4909",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-161062",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-0A83FE",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-5F669A",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-5F669A",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-5F669A",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-4DBA7A",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-D90CA5",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-D90CA5",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-D90CA5",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-C6B21A",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-C6D6B4",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-2C973A",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-1FE0AF",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-AD645A",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-546F85",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-ED84D4",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-EE0F38",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-5237AD",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-5D6B7B",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-7A06C7",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-6FF4F4",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-00C9B1",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-C2BA2D",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-2B4E4F",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-2B4E4F",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-6E32BE",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-BB38AD",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-77BC2F",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-8DC00E",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-A047D9",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-14E7BD",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-52B0C9",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-5EEE16",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-A81F19",
+"scope": "county",
+"place": "Orleans"
+},
+{
+"listing_id": "LST-863502",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-175C92",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-784786",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-445BEA",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-1E5734",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-95F4A8",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-9CEDF3",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-878E48",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-6AFC4A",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-4F713C",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-5BB838",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-3BC9D5",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-7AEBD4",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-7AEBD4",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-7ADACE",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-B40D22",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-C7B715",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-C7B715",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-C7B715",
+"scope": "county",
+"place": "Washington"
+},
+{
+"listing_id": "LST-845033",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-426861",
+"scope": "county",
+"place": "Schoharie"
+},
+{
+"listing_id": "LST-05205F",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-2CC7E6",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-41ED7F",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-A3460D",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-42E29C",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-7EF0A2",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-6A487A",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-F5D779",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-350063",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-298221",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-F0E5D1",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-F0E5D1",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-B4E20B",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-187050",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-6F4D7E",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-FBE952",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-B0B8D7",
+"scope": "county",
+"place": "Washington"
+},
+{
+"listing_id": "LST-B31CE7",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-881C56",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-15802D",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-0D9E91",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-0D9E91",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-0D9E91",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-0D9E91",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-95AD1F",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-8F4939",
+"scope": "county",
+"place": "Yates"
+},
+{
+"listing_id": "LST-136C9B",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-245DF4",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-7C3B44",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-D0F34F",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-57B121",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-785C29",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-2E46E2",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-2E46E2",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-1A1B19",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-70F4C4",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-CC04E4",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-7092EE",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-F10CA3",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-0C12C5",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-245475",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-B1ED7A",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-BFB485",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-6DA27E",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-BC3D47",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-2F00FC",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-7FD9EA",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-F037F8",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-201AD5",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-201AD5",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-288CEA",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-B236E1",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-9584C3",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-26035F",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-ABBCE0",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-3012CB",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-138230",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-AAB592",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-8C8FCC",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-F9DC70",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-3BE158",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-EE5302",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-EFB12E",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-B4E724",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-446185",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-F04776",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-45E038",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-58FEE0",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-18113A",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-507345",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-507345",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-1493E2",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-57C8AC",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-0B37B5",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-EEBAB7",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-50D012",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-131914",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-F6B9E7",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-F6B9E7",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-C2AEFB",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-C2AEFB",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-C2AEFB",
+"scope": "county",
+"place": "Washington"
+},
+{
+"listing_id": "LST-AB5E41",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-55C6BB",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-01014D",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-04DAE8",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-E81FFE",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-C03265",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-ABCA64",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-B447EB",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-40669B",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-B91E05",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-B91E05",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-E47388",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-A5ABCD",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-60098D",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-D0B2CF",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-57C69C",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-C62A3B",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-C62A3B",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-36ECBE",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-C0E255",
+"scope": "county",
+"place": "Orleans"
+},
+{
+"listing_id": "LST-11AD47",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-569003",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-F552E9",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-BDBBB3",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-E7C4DB",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-DE7E8B",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-54268A",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-653954",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-7516E9",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-3E7740",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-26E21D",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-B6B57F",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-96BAF1",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-3E909B",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-FC2D38",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-BAE2B5",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-AD9F1A",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-9FF607",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-6ABCB3",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-D55412",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-92F86E",
+"scope": "county",
+"place": "Greene"
+},
+{
+"listing_id": "LST-82F62D",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-F0BB0A",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-841A07",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-58C2BF",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-BEB9D7",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-290A24",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-64EF2F",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-C2F740",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-B18CA9",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-4B45CC",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-2B652B",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-C0D81B",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-D468F1",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-329675",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-73E4E1",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-5CD4E9",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-432680",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-4CA2A5",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-A6D339",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-F94231",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-AB996A",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-B85316",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-B85316",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-8A427C",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-8A427C",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-4E255F",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-4AD843",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-36C7BA",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-B14C61",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-1FBA36",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-62017F",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-AD78C2",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-6AEC60",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-6A5C12",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-45B0AE",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-68A613",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-70252C",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-D3BEBF",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-F9CA11",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-E5A152",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-6A730E",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-94972F",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-34A1AB",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-69D992",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-EB9047",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-F00E5E",
+"scope": "county",
+"place": "Orleans"
+},
+{
+"listing_id": "LST-C0C687",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-528307",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-9AC013",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-C82853",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-D5372C",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-76A8BA",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-033E8C",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-A72924",
+"scope": "county",
+"place": "Orleans"
+},
+{
+"listing_id": "LST-B04886",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-3F1F1B",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-EDF63C",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-8A5332",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-BF4767",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-E8AB6B",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-E9C0CE",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-958020",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-D3747E",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-E1D61F",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-78CEC2",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-0200A2",
+"scope": "county",
+"place": "Yates"
+},
+{
+"listing_id": "LST-A5DC70",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-08C534",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-990443",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-990443",
+"scope": "county",
+"place": "Greene"
+},
+{
+"listing_id": "LST-6A9AE3",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-0E1E42",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-FCF931",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-FCF931",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-0F8702",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-8EAB4B",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-58745D",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-67E709",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-E5B1AD",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-2DD6EC",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-59B4F8",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-0E60D3",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-611D0C",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-5C22B3",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-3E8890",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-FC55B7",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-FC55B7",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-17215B",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-2337F9",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-95EBA0",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-13E3FB",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-8E8A6F",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-8342AB",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-28815C",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-0C5BE7",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-0C5BE7",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-30A1FB",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-D0DCAC",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-2299C0",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-34119D",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-08B5CB",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-345136",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-99D623",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-810934",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-CEB832",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-9B27AA",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-7A887F",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-7A887F",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-143B94",
+"scope": "county",
+"place": "Schoharie"
+},
+{
+"listing_id": "LST-EAC9D5",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-68E5DA",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-5CC378",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-66DA2B",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-581398",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-84E0F0",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-6002EC",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-1DF09D",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-BE1CB2",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-02FA7F",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-541219",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-F9CF69",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-3B13AB",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-A3A211",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-6F15D1",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-E1F53E",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-640BEB",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-188B47",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-127D12",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-AC3739",
+"scope": "county",
+"place": "Yates"
+},
+{
+"listing_id": "LST-C824D2",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-2C6DE7",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-85B68F",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-6FA7A9",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-D3266F",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-DE96F8",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-749C82",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-5CEB22",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-2A929A",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-DA9C0D",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-B90709",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-709126",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-709126",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-FF0447",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-FF0447",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-2960ED",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-3ABD14",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-0E856C",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-0E856C",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-62469F",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-5C0691",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-8ACB24",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-FC3A58",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-FC3A58",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-387B2B",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-16A21E",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-235C72",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-B7763F",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-C2C2AE",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-DC13F0",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-430662",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-C83617",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-5CA608",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-CF56D6",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-F3054B",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-1A6F6A",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-AC6220",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-285BA5",
+"scope": "county",
+"place": "Yates"
+},
+{
+"listing_id": "LST-08F300",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-C255E2",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-4FEDB9",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-F36025",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-160244",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-B2DFFF",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-0AF6C8",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-170200",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-B07D98",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-A74D95",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-0AB39A",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-39B419",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-1A1656",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-E93698",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-B7A444",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-411C48",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-D5C729",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-4FE08C",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-2EBAB4",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-A70C41",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-BB61D5",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-889C48",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-498B7A",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-E50772",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-E8EB9A",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-829334",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-A63ACB",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-A111AA",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-4554BA",
+"scope": "county",
+"place": "Washington"
+},
+{
+"listing_id": "LST-F3DDFB",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-603AE1",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-9EF768",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-0301B0",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-E4B158",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-288E78",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-DF0E1F",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-7AFD63",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-B9076A",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-17C092",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-E0D0F1",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-5D0B6A",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-74D608",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-E1F3AE",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-5D9EDD",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-F8B1D4",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-1CECCB",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-43EB4D",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-B6CA64",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-848F4E",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-84D620",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-F68786",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-46A0FF",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-F695E7",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-745A07",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-6C07B9",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-13BBEF",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-D185F6",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-E70F11",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-603964",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-D2435F",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-5DA44C",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-2FB3E8",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-AD9986",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-F093A0",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-38D915",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-E216DD",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-192D1C",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-F44DDF",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-938EBB",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-99C720",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-683B76",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-14FB62",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-19FD37",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-04E193",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-3E1BA6",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-3990D3",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-670D5E",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-29C228",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-12D1DA",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-349D49",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-B01C9D",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-3224F6",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-4BBA2B",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-96A67B",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-96A67B",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-763B12",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-C96921",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-4E5D86",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-4E5D86",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-29AE53",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-938B89",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-D29E8C",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-D75F7D",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-650B6E",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-888160",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-09CB73",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-EA2BD9",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-69EB53",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-69EB53",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-69EB53",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-69EB53",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-69EB53",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-C13DFD",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-13F29A",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-CE9A40",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-CD2B2A",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-1BA29D",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-2077B8",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-DDEC18",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-CBACD6",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-A1184D",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-BDA73F",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-EB3227",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-883A15",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-8FBA30",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-065DAB",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-761285",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-13185F",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-90C8F9",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-32C866",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-3815C8",
+"scope": "region",
+"place": "North Country"
+},
+{
+"listing_id": "LST-ED2F19",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-12E0A7",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-2BE01D",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-6C0A96",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-56D49C",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-A12026",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-D075B2",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-8256A1",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-2780D5",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-B3D1D2",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-4B315B",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-06B643",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-7D03AB",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-832753",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-CF4DA3",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-3DC1C0",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-D9FFB8",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-DF2042",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-BCB3B6",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-659F05",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-3A709D",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-737C57",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-DCDA56",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-75D3C8",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-BED52E",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-BED52E",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-AE9BBC",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-CFDC03",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-44EB57",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-1983EE",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-41277A",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-5DF19F",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-5DF19F",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-55035F",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-0AAD4E",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-0A4426",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-BE9968",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-386CB1",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-05DF82",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-7EFB7E",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-3514A3",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-240A52",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-061F29",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-B6C7F3",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-F52437",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-F95AFD",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-F34BA3",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-F34BA3",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-F34BA3",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-E49C03",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-407171",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-3C7897",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-0525AA",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-27429E",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-27EB95",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-C3A493",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-86A196",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-A1A8DE",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-09EA14",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-E2B445",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-2C50FB",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-1121FC",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-925204",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-4D106B",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-87CD69",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-B101FA",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-ACF7C7",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-0C2076",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-6D6716",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-F97EBA",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-5F489B",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-6B722B",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-A45F61",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-20BC1B",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-4503A3",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-941A34",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-D34CF0",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-67EE4A",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-82703E",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-4DB4A6",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-CA86BA",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-E86E63",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-AAEAA5",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-97D397",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-D051CB",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-70C303",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-907527",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-3A8D1B",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-20FD52",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-CFF073",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-5B26A2",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-0D1EAA",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-FAC037",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-E62664",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-3189C8",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-1ACB1F",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-CAB03C",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-DB8DFD",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-E87B77",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-B4CFC3",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-53A88C",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-82173D",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-6465FC",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-10D326",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-292E7E",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-5221B0",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-983C13",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-FC7038",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-B9CD79",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-10471C",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-98F7E3",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-E42939",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-862595",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-BAD514",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-6072EC",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-532577",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-D86B9B",
+"scope": "region",
+"place": "Long Island"
+},
+{
+"listing_id": "LST-01C8A0",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-03CAD1",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-882876",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-5A1C1A",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-765686",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-E9363F",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-A86E6D",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-FCD0D8",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-D46D6E",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-A223B8",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-0DBEB0",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-0EBA72",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-16AB19",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-E62457",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-88D431",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-2327A8",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-8BBB88",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-3E313A",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-05AF79",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-B039D5",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-74D2A2",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-77DC97",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-D2A6D3",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-63BB0E",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-340A20",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-DE7DB2",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-0D5C96",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-3C34E3",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-805ED2",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-D82AF0",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-2D24B1",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-094F75",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-3F1D67",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-BBE6F2",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-DB3824",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-48A04D",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-B2A9F8",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-A0C433",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-FBE539",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-EEBFE5",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-B97E4C",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-98163B",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-82CCD5",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-6B8A57",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-289F38",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-7F4DC4",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-FC4F40",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-085EDD",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-703454",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-0910D5",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-102B1E",
+"scope": "region",
+"place": "North Country"
+},
+{
+"listing_id": "LST-F1FDAA",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-582DA5",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-630BC9",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-8E116B",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-B1549D",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-ECBA99",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-944CEF",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-09FE12",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-D965FA",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-7DE737",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-876ED3",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-7262FC",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-1A3DB4",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-55D402",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-853551",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-120C83",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-56FF07",
+"scope": "region",
+"place": "North Country"
+},
+{
+"listing_id": "LST-60769D",
+"scope": "region",
+"place": "North Country"
+},
+{
+"listing_id": "LST-C3C73C",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-2A0469",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-F7B02B",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-03F46C",
+"scope": "region",
+"place": "North Country"
+},
+{
+"listing_id": "LST-85054A",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-CB2203",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-0A3884",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-C3272B",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-F1BD1C",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-8FF40C",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-378E05",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-859DE3",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-09D0E8",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-620B57",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-512865",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-27A58A",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-0AC93F",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-D10F1F",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-41327B",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-2F90D7",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-B8C4C3",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-F5BA1C",
+"scope": "region",
+"place": "Mohawk Valley"
+},
+{
+"listing_id": "LST-C63899",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-86C7B1",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-9E0222",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-BE8CDB",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-2DD359",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-8DB0EB",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-1D73E8",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-E62777",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-9CDFEF",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-E10227",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-AC92B0",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-59B766",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-FEB845",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-FA3B0D",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-EA2587",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-650C8F",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-0A4AC8",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-09472F",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-A130E0",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-FE3D83",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-8F5C79",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-A7119A",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-3D6469",
+"scope": "region",
+"place": "North Country"
+},
+{
+"listing_id": "LST-A80590",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-FF3027",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-49D5B0",
+"scope": "region",
+"place": "Mid-Hudson"
+},
+{
+"listing_id": "LST-EA73B6",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-730A54",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-C2D266",
+"scope": "region",
+"place": "Southern Tier"
+},
+{
+"listing_id": "LST-6B9913",
+"scope": "region",
+"place": "Finger Lakes"
+},
+{
+"listing_id": "LST-9D0476",
+"scope": "region",
+"place": "Central New York"
+},
+{
+"listing_id": "LST-1BE6F7",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-D776C8",
+"scope": "region",
+"place": "Western New York"
+},
+{
+"listing_id": "LST-DCBBAF",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-207425",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-D2E9DA",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-ABE57C",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-9F2A7F",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-74CBB7",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-BE916A",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-419127",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-9BBB8A",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-630ECA",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-0C68D2",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-46784E",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-55FF28",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-6ACC1F",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-ACD0A5",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-839930",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-111F22",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-BEDECF",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-2FE4BF",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-E45090",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-26748C",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-D80471",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-D1A046",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-AEA942",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-69B9FE",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-636475",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-DABA4E",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-FBD85F",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-68A854",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-5CBE7C",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-8EE824",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-EE5725",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-210E35",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-CDE54E",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-4863A3",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-DE513C",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-478B35",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-229E5E",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-0C29B4",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-1EC073",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-1FAED3",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-776B28",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-94C4D8",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-E8D6B5",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-AB4058",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-F911E0",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-18C31D",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-03DCBB",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-C24593",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-4FC35B",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-8518CC",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-0C6BB2",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-FEA549",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-22A2AF",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-AEFEB7",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-1C9E57",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-1C9E57",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-1C9E57",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-1C9E57",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-1C9E57",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-8F7F04",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-BE05E7",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-21A05C",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-730A29",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-2A4132",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-F0CAB9",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-20A48F",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-79C36A",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-EBA03F",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-97C143",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-F53AB3",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-7065EB",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-0A8B8B",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-049E7C",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-68DF3C",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-E10A52",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-497355",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-F39073",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-2FF69F",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-772DDD",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-E31CB7",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-BF1EE7",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-7D4911",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-CD85B5",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-0153C6",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-E06EE2",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-65604F",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-30A46B",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-A3D264",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-7F4B7A",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-131B04",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-131B04",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-131B04",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-7ECD51",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-7ECD51",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-7ECD51",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-92639B",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-7EEB17",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-53DCDA",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-53DCDA",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-09E945",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-09E945",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-5CB4FF",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-2C817A",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-2C817A",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-44B69A",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-76DAA8",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-91BFC0",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-988DE7",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-F7F019",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-608AE1",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-CE13F7",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-7D9B74",
+"scope": "county",
+"place": "Hamilton"
+},
+{
+"listing_id": "LST-BD4839",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-A3B681",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-A3B681",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-A3B681",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-2AEBD2",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-E7B3C9",
+"scope": "county",
+"place": "Yates"
+},
+{
+"listing_id": "LST-59AB99",
+"scope": "region",
+"place": "New York City"
+},
+{
+"listing_id": "LST-6192DA",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-530D5D",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-4E8B32",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-4C86D9",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-6AFC49",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-F5BDDD",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-42FD17",
+"scope": "region",
+"place": "Capital Region"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Greene"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Hamilton"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Schoharie"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-E7420E",
+"scope": "county",
+"place": "Washington"
+},
+{
+"listing_id": "LST-DAFED5",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-00ABA2",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-C1A8DE",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-26AD1F",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-231D1C",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-1ACB5A",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-6D98C0",
+"scope": "statewide",
+"place": ""
+},
+{
+"listing_id": "LST-C2870F",
+"scope": "national",
+"place": ""
+},
+{
+"listing_id": "LST-C0766D",
+"scope": "statewide",
+"place": ""
+}
+]

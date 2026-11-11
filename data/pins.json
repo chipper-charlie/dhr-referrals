@@ -1,0 +1,2277 @@
+[
+{
+"reason_id": "L01",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-0A4AC8",
+"any_county": false
+},
+{
+"reason_id": "L01",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-9BBB8A",
+"any_county": false
+},
+{
+"reason_id": "L01",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-A7119A",
+"any_county": false
+},
+{
+"reason_id": "L01",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-419127",
+"any_county": false
+},
+{
+"reason_id": "L01",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-0C68D2",
+"any_county": false
+},
+{
+"reason_id": "L01",
+"area": "None",
+"order": 1,
+"listing_id": "LST-A7119A",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-0A4AC8",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-111F22",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-2FE4BF",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-BEDECF",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "None",
+"order": 1,
+"listing_id": "LST-111F22",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "None",
+"order": 2,
+"listing_id": "LST-2FE4BF",
+"any_county": false
+},
+{
+"reason_id": "L02",
+"area": "None",
+"order": 3,
+"listing_id": "LST-BEDECF",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-6AFC49",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-D2E9DA",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-46784E",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-55FF28",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "None",
+"order": 1,
+"listing_id": "LST-46784E",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "None",
+"order": 2,
+"listing_id": "LST-55FF28",
+"any_county": false
+},
+{
+"reason_id": "L03",
+"area": "None",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L04",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-D82AF0",
+"any_county": false
+},
+{
+"reason_id": "L04",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L04",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-D82AF0",
+"any_county": false
+},
+{
+"reason_id": "L04",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L04",
+"area": "None",
+"order": 1,
+"listing_id": "LST-D82AF0",
+"any_county": false
+},
+{
+"reason_id": "L04",
+"area": "None",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-BBE6F2",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-48A04D",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "Housing",
+"order": 3,
+"listing_id": "LST-289F38",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-BBE6F2",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-48A04D",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-289F38",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "None",
+"order": 1,
+"listing_id": "LST-BBE6F2",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "None",
+"order": 2,
+"listing_id": "LST-48A04D",
+"any_county": false
+},
+{
+"reason_id": "L05",
+"area": "None",
+"order": 3,
+"listing_id": "LST-289F38",
+"any_county": false
+},
+{
+"reason_id": "L06",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-69EB53",
+"any_county": false
+},
+{
+"reason_id": "L06",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-0D5C96",
+"any_county": false
+},
+{
+"reason_id": "L06",
+"area": "None",
+"order": 1,
+"listing_id": "LST-69EB53",
+"any_county": false
+},
+{
+"reason_id": "L06",
+"area": "None",
+"order": 2,
+"listing_id": "LST-0D5C96",
+"any_county": false
+},
+{
+"reason_id": "L07",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-805ED2",
+"any_county": false
+},
+{
+"reason_id": "L07",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-8E116B",
+"any_county": false
+},
+{
+"reason_id": "L07",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-59AB99",
+"any_county": false
+},
+{
+"reason_id": "L07",
+"area": "None",
+"order": 1,
+"listing_id": "LST-805ED2",
+"any_county": false
+},
+{
+"reason_id": "L07",
+"area": "None",
+"order": 2,
+"listing_id": "LST-8E116B",
+"any_county": false
+},
+{
+"reason_id": "L07",
+"area": "None",
+"order": 3,
+"listing_id": "LST-59AB99",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-BE916A",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-DCBBAF",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-D80471",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-E62457",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-0C68D2",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-630ECA",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "None",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L09",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-988DE7",
+"any_county": false
+},
+{
+"reason_id": "L09",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-4E5D86",
+"any_county": false
+},
+{
+"reason_id": "L09",
+"area": "None",
+"order": 1,
+"listing_id": "LST-988DE7",
+"any_county": false
+},
+{
+"reason_id": "L09",
+"area": "None",
+"order": 2,
+"listing_id": "LST-4E5D86",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-6E32BE",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-44B69A",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-CB814C",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-E7B3C9",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-D90CA5",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-8FDB7D",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-0D9E91",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L10",
+"area": "Education",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-EA73B6",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-6E32BE",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-44B69A",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-CB814C",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-E7B3C9",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-D90CA5",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-8FDB7D",
+"any_county": false
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-0D9E91",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Housing",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Education",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Education",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Credit and lending",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Volunteer Firefighting Organizations",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L12",
+"area": "Volunteer Firefighting Organizations",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L13",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-BE916A",
+"any_county": false
+},
+{
+"reason_id": "L13",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L13",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L13",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L13",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L13",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Housing",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Education",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Education",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Credit and lending",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Volunteer Firefighting Organizations",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Volunteer Firefighting Organizations",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Boycotting or Blacklisting",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Boycotting or Blacklisting",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Violation of Conciliation Agreement",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "Violation of Conciliation Agreement",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "None",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "None",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L14",
+"area": "None",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L15",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L15",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L15",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Housing",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Education",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L16",
+"area": "Volunteer Firefighting Organizations",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L17",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-E45090",
+"any_county": true
+},
+{
+"reason_id": "L18",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L18",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L19",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L19",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L20",
+"area": "None",
+"order": 1,
+"listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L21",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L21",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-0C68D2",
+"any_county": false
+},
+{
+"reason_id": "L21",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-0C68D2",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L22",
+"area": "None",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L23",
+"area": "None",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L26",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-ABE57C",
+"any_county": false
+},
+{
+"reason_id": "L26",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-DCBBAF",
+"any_county": false
+},
+{
+"reason_id": "L26",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L27",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-91BFC0",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-91BFC0",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Housing",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-91BFC0",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Credit and lending",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Volunteer Firefighting Organizations",
+"order": 2,
+"listing_id": "LST-91BFC0",
+"any_county": false
+},
+{
+"reason_id": "L28",
+"area": "Volunteer Firefighting Organizations",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L29",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L29",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L29",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L30",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-BE916A",
+"any_county": false
+},
+{
+"reason_id": "L31",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L31",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-09E945",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-53DCDA",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-7EEB17",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-60769D",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-131B04",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-5CB4FF",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-7ECD51",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 1,
+"listing_id": "LST-92639B",
+"any_county": false
+},
+{
+"reason_id": "L32",
+"area": "None",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L33",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-207425",
+"any_county": false
+},
+{
+"reason_id": "L34",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-F5BDDD",
+"any_county": false
+},
+{
+"reason_id": "L34",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L35",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L35",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L36",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-630ECA",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-6E32BE",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-44B69A",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-CB814C",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-E7B3C9",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-D90CA5",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-8FDB7D",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-0D9E91",
+"any_county": false
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-9BBB8A",
+"any_county": false
+},
+{
+"reason_id": "L40",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-839930",
+"any_county": false
+},
+{
+"reason_id": "L40",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-F7F019",
+"any_county": false
+},
+{
+"reason_id": "L42",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-D2A6D3",
+"any_county": false
+},
+{
+"reason_id": "L42",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4E8B32",
+"any_county": false
+},
+{
+"reason_id": "L42",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Housing",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Education",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Credit and lending",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Volunteer Firefighting Organizations",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Boycotting or Blacklisting",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "Violation of Conciliation Agreement",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "None",
+"order": 1,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L43",
+"area": "None",
+"order": 2,
+"listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L57",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-74CBB7",
+"any_county": false
+},
+{
+"reason_id": "L57",
+"area": "Boycotting or Blacklisting",
+"order": 2,
+"listing_id": "LST-9F2A7F",
+"any_county": false
+},
+{
+"reason_id": "L58",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L58",
+"area": "Boycotting or Blacklisting",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L59",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L59",
+"area": "Places of Public Accommodation",
+"order": 2,
+"listing_id": "LST-68A854",
+"any_county": false
+},
+{
+"reason_id": "L60",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L60",
+"area": "Employment",
+"order": 2,
+"listing_id": "LST-4E8B32",
+"any_county": false
+}
+]

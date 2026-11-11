@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>[Prototype] Referrals finder (staff)</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="finder-core.js" data-dir="data/"></script>
+<script src="dc-runtime.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+.scr{--ink:#1a1a1a;--gray:#666;--soft:#4a4a4a;--line:#d4d4d4;--rule:#e4e4e4;--navy:#1f3a5f;--accent:#2a63d6;--tint:#e3ecfd;--page:#fdf8fb;--warn-bg:#fff4e0;--warn-ink:#5a3600;--err:#b3261e;min-height:100vh;background:var(--page);color:var(--ink);font-family:Verdana,Geneva,"DejaVu Sans",sans-serif;font-size:15px;line-height:1.5}
+.scr *{box-sizing:border-box}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.staff{border-top:6px solid var(--navy);background:var(--warn-bg);border-bottom:1px solid #f0c98a;padding:14px 20px;font-size:13px;color:var(--warn-ink);font-weight:700}
+.wrap{max-width:960px;margin:0 auto;padding:48px 20px 80px}
+.scr h1{font-size:22px;line-height:1.3;margin:0 0 12px;color:var(--navy)}
+.scr h2{font-size:17px;line-height:1.3;margin:0;color:var(--navy)}
+.lead{max-width:46em;margin:0 0 32px;color:var(--soft)}
+.lbl{display:block;font-weight:700;margin:0 0 4px}
+.hint{display:block;margin:6px 0 0;font-size:13px;color:var(--gray)}
+.inwrap{position:relative}
+.field{display:block;width:100%;height:48px;border:2px solid #6b6b6b;border-radius:6px;background:#fff;color:var(--ink);font:inherit;padding:0 12px}
+.field.srch{padding-left:42px}
+.field::placeholder{color:#666;opacity:1}
+.field:focus,.btn:focus,.btn2:focus,.edit:focus,.scr a:focus,.linkbtn:focus{outline:3px solid var(--accent);outline-offset:2px}
+.field.srch:focus{border-color:var(--navy)}
+.ico{position:absolute;left:12px;top:13px;width:20px;height:20px;pointer-events:none}
+select.field{-webkit-appearance:none;appearance:none;padding-right:44px;background-image:linear-gradient(45deg,transparent 50%,#1a1a1a 50%),linear-gradient(135deg,#1a1a1a 50%,transparent 50%);background-repeat:no-repeat;background-position:calc(100% - 22px) calc(50% + 1px),calc(100% - 16px) calc(50% + 1px);background-size:6px 6px,6px 6px}
+select.field.unset{color:var(--gray)}
+select.field.unset option{color:var(--ink)}
+.btn{height:48px;padding:0 28px;background:var(--navy);color:#fff;border:0;border-radius:6px;font:inherit;font-weight:700;cursor:pointer}
+.btn2{display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 24px;background:#fff;color:var(--navy);border:1px solid var(--navy);border-radius:6px;font:inherit;font-weight:700;cursor:pointer}
+.btn2:hover{background:var(--tint)}
+.btn2 svg{width:18px;height:18px;flex:0 0 18px}
+.linkbtn{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;background:none;border:0;color:var(--accent);font:inherit;text-decoration:underline;cursor:pointer}
+/* Lists that drop down from the reason and topic boxes */
+.dd{position:absolute;left:0;right:0;top:calc(100% + 8px);max-height:420px;overflow-y:auto;padding:8px 0;background:#fff;border:2px solid var(--navy);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);z-index:5}
+.dd ul{margin:0;padding:0;list-style:none}
+.dd .gh{display:block;margin:0;padding:6px 16px;background:#f0f0f0;font-size:13px;font-weight:700;color:#4a4a4a;letter-spacing:.05em;text-transform:uppercase;cursor:default}
+.dd>ul>li+li .gh{margin-top:4px}
+.opt{display:block;min-height:44px;padding:10px 16px;cursor:pointer}
+.opt+.opt{border-top:1px solid var(--rule)}
+.opt:hover{background:var(--tint)}
+.opt[aria-selected="true"]{background:var(--tint);outline:2px solid var(--accent);outline-offset:-2px}
+.ot{display:block;color:var(--ink)}
+.os{display:block;margin-top:2px;font-size:13px;color:var(--gray)}
+.nomsg{margin:0;padding:12px 16px;font-size:13px;color:var(--gray)}
+/* The search: two panels, letter then need (design 12b) */
+.sf{background:#fff;border:2px solid var(--navy);border-radius:8px;padding:24px}
+.formwrap.after{margin-top:16px}
+.finfo{display:flex;gap:10px;align-items:flex-start;margin:0 0 20px;color:var(--soft)}
+.finfo svg{flex:0 0 20px;width:20px;height:20px;margin-top:2px}
+.duo{display:grid;grid-template-columns:minmax(0,1fr) 40px minmax(0,1fr);align-items:stretch}
+.pane{margin:0;padding:20px;border:1px solid var(--line);border-radius:8px;min-width:0}
+.p1{position:relative;z-index:2;background:#f7f7f7}
+.fl{float:left;width:100%;padding:0;margin:0 0 12px;font-size:13px;font-weight:700;color:var(--gray)}
+.fl+*{clear:both}
+.f+.f{margin-top:16px}
+.arr{display:flex;align-items:center;justify-content:center}
+.arr svg{width:24px;height:24px}
+.err{display:flex;gap:10px;align-items:flex-start;margin:16px 0 0;font-weight:700;color:var(--err)}
+.err svg{flex:0 0 20px;width:20px;height:20px;margin-top:2px}
+.sfoot{display:flex;justify-content:flex-end;margin-top:20px}
+/* After a search: a one-line summary with "Change search" (design 12 and 12c) */
+.sum{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 20px;padding:14px 20px;background:#fff;border:1px solid var(--line);border-radius:8px}
+.actl{display:block;margin:0 0 4px;font-size:13px;font-weight:700;color:var(--gray)}
+.sumt{margin:0}
+.sumt b{color:var(--navy)}
+.sumr{display:block;margin-top:2px;font-size:13px;color:var(--gray)}
+.edit{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;background:#fff;color:var(--navy);border:2px solid var(--navy);border-radius:6px;font:inherit;font-weight:700;cursor:pointer}
+.edit svg{width:18px;height:18px;flex:0 0 18px}
+/* Link for the caller */
+.out{margin-top:16px;padding:20px 24px;background:#fff;border:2px solid var(--navy);border-radius:8px}
+.out .row{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end}
+.out .fq{flex:1 1 360px}
+.out .field{background:var(--page)}
+/* Results: the same groups and cards as the public page (ResultGroups.dc.html) */
+.top{margin-top:32px}
+.scr .top>h2{font-size:20px}
+.top>h2:focus{outline:3px solid var(--accent);outline-offset:4px}
+.nar{margin-top:16px;padding:10px 16px 4px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.nar fieldset{margin:0;padding:0;border:0;min-width:0}
+.nar legend{padding:0;margin:0 0 4px;font-size:13px;font-weight:700;color:var(--gray)}
+.opts{display:flex;flex-wrap:wrap;gap:0 28px}
+.chk{display:inline-flex;align-items:center;gap:10px;min-height:44px;cursor:pointer}
+.chk input{width:22px;height:22px;margin:0;accent-color:var(--navy)}
+.chk input:focus{outline:3px solid var(--accent);outline-offset:2px}
+.chk i{font-style:normal;font-size:13px;color:var(--gray)}
+.hid{margin:12px 0 0;color:var(--soft)}
+.msg{margin:12px 0 0;color:var(--soft)}
+@media (max-width:700px){.duo{grid-template-columns:1fr}.arr{transform:rotate(90deg);height:40px}.sfoot .btn{width:100%}}
+@media (max-width:600px){.wrap{padding:28px 16px 48px}.sf{padding:16px}}
+</style>
+</helmet>
+<div class="scr">
+  <div class="staff">Staff only. Sign-in required.<sc-if value="{{sample}}" hint-placeholder-val="{{false}}"> Sample data: every organization and phone number is made up.</sc-if></div>
+  <main class="wrap">
+    <h1>Referral helper</h1>
+    <sc-if value="{{loading}}" hint-placeholder-val="{{false}}"><p role="status">Loading the listings…</p></sc-if>
+    <sc-if value="{{failed}}" hint-placeholder-val="{{false}}"><p role="alert">The listings didn’t load: {{loadError}}. Check that the data folder sits next to this page.</p></sc-if>
+
+    <sc-if value="{{beforeSearch}}" hint-placeholder-val="{{true}}">
+      <p class="lead">Find help for a caller. Start from the LOJ reason on their letter, or a topic.</p>
+    </sc-if>
+
+    <sc-if value="{{searched}}" hint-placeholder-val="{{false}}">
+      <div class="sum">
+        <div>
+          <p class="actl">Showing help for</p>
+          <p class="sumt"><b>{{sumTopic}}</b>{{sumCounty}}<sc-if value="{{hasSumReason}}" hint-placeholder-val="{{false}}"><span class="sumr">{{sumReason}}</span></sc-if></p>
+        </div>
+        <button class="edit" type="button" aria-expanded="{{editOpenText}}" aria-controls="edit-form" onClick="{{toggleEdit}}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path></svg>Change search</button>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{showForm}}" hint-placeholder-val="{{true}}">
+      <div id="edit-form" class="{{formWrapCls}}">
+        <form class="sf" role="search" aria-label="Find help for a caller" onSubmit="{{onSubmit}}">
+          <p class="finfo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M12 11v6M12 7.5v.5" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path></svg><span>{{finfoText}}</span></p>
+          <div class="duo">
+            <fieldset class="pane p1">
+              <legend class="fl">From the caller’s letter</legend>
+              <div class="f">
+                <label class="lbl" for="area">Area</label>
+                <select id="area" class="{{areaCls}}" value="{{loj}}" onChange="{{onArea}}">
+                  <option value="">Choose an area</option>
+                  <sc-for list="{{lojAreas}}" as="a" hint-placeholder-count="9"><option value="{{a.name}}">{{a.name}}</option></sc-for>
+                </select>
+              </div>
+              <div class="f">
+                <label class="lbl" for="reason">LOJ reason</label>
+                <div class="inwrap">
+                  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
+                  <input id="reason" class="field srch" type="text" value="{{reasonText}}" placeholder="Type to search reasons" onChange="{{onReasonInput}}" onKeyDown="{{onReasonKey}}" onFocus="{{onReasonFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{reasonExpanded}}" aria-controls="r-list" aria-activedescendant="{{reasonActiveId}}" aria-describedby="r-hint" autocomplete="off">
+                  <sc-if value="{{reasonOpen}}" hint-placeholder-val="{{false}}">
+                    <div class="dd">
+                      <sc-if value="{{noReasons}}" hint-placeholder-val="{{false}}"><p class="nomsg">No reasons match “{{reasonText}}”.</p></sc-if>
+                      <ul id="r-list" role="listbox" aria-label="Reasons">
+                        <sc-for list="{{reasonGroups}}" as="g" hint-placeholder-count="2">
+                          <li role="group" aria-labelledby="{{g.id}}">
+                            <span class="gh" id="{{g.id}}" role="presentation">{{g.name}}</span>
+                            <ul role="presentation">
+                              <sc-for list="{{g.items}}" as="o" hint-placeholder-count="2">
+                                <li id="{{o.id}}" role="option" aria-selected="{{o.sel}}" class="opt" onMouseDown="{{o.pick}}"><span class="ot">{{o.name}}</span><span class="os">{{o.desc}}</span></li>
+                              </sc-for>
+                            </ul>
+                          </li>
+                        </sc-for>
+                      </ul>
+                    </div>
+                  </sc-if>
+                  <div class="sr" role="status">{{reasonSr}}</div>
+                </div>
+                <span class="hint" id="r-hint">{{reasonHint}}</span>
+              </div>
+            </fieldset>
+            <div class="arr" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+            <fieldset class="pane">
+              <legend class="fl">What they need help with</legend>
+              <div class="f">
+                <label class="lbl" for="q">Topic</label>
+                <div class="inwrap">
+                  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
+                  <input id="q" class="field srch" type="text" value="{{topicText}}" placeholder="Type to search, or pick from list" onChange="{{onTopicInput}}" onKeyDown="{{onTopicKey}}" onFocus="{{onTopicFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{topicExpanded}}" aria-controls="q-list" aria-activedescendant="{{topicActiveId}}" aria-describedby="q-hint" autocomplete="off">
+                  <sc-if value="{{topicOpen}}" hint-placeholder-val="{{false}}">
+                    <div class="dd">
+                      <sc-if value="{{noTopics}}" hint-placeholder-val="{{false}}"><p class="nomsg">No topics match “{{topicText}}”.</p></sc-if>
+                      <ul id="q-list" role="listbox" aria-label="Topics">
+                        <sc-for list="{{topicGroups}}" as="g" hint-placeholder-count="2">
+                          <li role="group" aria-labelledby="{{g.id}}">
+                            <sc-if value="{{g.name}}" hint-placeholder-val="{{true}}"><span class="gh" id="{{g.id}}" role="presentation">{{g.name}}</span></sc-if>
+                            <ul role="presentation">
+                              <sc-for list="{{g.items}}" as="o" hint-placeholder-count="3">
+                                <li id="{{o.id}}" role="option" aria-selected="{{o.sel}}" class="opt" onMouseDown="{{o.pick}}"><span class="ot">{{o.name}}</span><sc-if value="{{o.sub}}" hint-placeholder-val="{{false}}"><span class="os">{{o.sub}}</span></sc-if></li>
+                              </sc-for>
+                            </ul>
+                          </li>
+                        </sc-for>
+                      </ul>
+                    </div>
+                  </sc-if>
+                  <div class="sr" role="status">{{topicSr}}</div>
+                </div>
+                <span class="hint" id="q-hint">{{topicHint}}</span>
+              </div>
+              <div class="f">
+                <label class="lbl" for="c1">County</label>
+                <select id="c1" class="{{countyCls}}" value="{{county}}" onChange="{{onCounty}}">
+                  <option value="">Choose a county</option>
+                  <sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for>
+                </select>
+              </div>
+            </fieldset>
+          </div>
+          <sc-if value="{{hasError}}" hint-placeholder-val="{{false}}">
+            <p class="err" role="alert"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#b3261e" stroke-width="2"></circle><path d="M12 7v6" fill="none" stroke="#b3261e" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="16.5" r="1.3" fill="#b3261e"></circle></svg><span>Pick an LOJ reason or a topic</span></p>
+          </sc-if>
+          <div class="sfoot"><button class="btn" type="submit">Search</button></div>
+        </form>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{searched}}" hint-placeholder-val="{{false}}">
+      <div class="out">
+        <div class="row">
+          <div class="fq">
+            <label class="lbl" for="link">Link to these results</label>
+            <input id="link" class="field" type="text" readOnly="{{true}}" value="{{link}}" onFocus="{{selectAll}}" aria-describedby="link-hint">
+          </div>
+          <div><button class="btn2" type="button" onClick="{{copy}}"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="#1f3a5f" stroke-width="2"></rect><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="#1f3a5f" stroke-width="2"></path></svg>{{copyLabel}}</button></div>
+        </div>
+        <span class="hint" id="link-hint">Updates as you change the search. The caller sees exactly what’s below.</span>
+        <div class="sr" role="status">{{copiedSr}}</div>
+      </div>
+
+      <section class="top">
+        <h2 id="res-h" role="status" tabindex="-1">{{countText}}</h2>
+        <sc-if value="{{hasKinds}}" hint-placeholder-val="{{false}}">
+          <div class="nar">
+            <fieldset>
+              <legend>Narrow by kind of help (optional)</legend>
+              <div class="opts">
+                <sc-for list="{{kinds}}" as="k" hint-placeholder-count="3">
+                  <label class="chk"><input type="checkbox" checked="{{k.checked}}" onChange="{{k.toggle}}"><span>{{k.name}} <i>({{k.count}})</i></span></label>
+                </sc-for>
+              </div>
+            </fieldset>
+          </div>
+        </sc-if>
+        <sc-if value="{{hasHidden}}" hint-placeholder-val="{{false}}">
+          <p class="hid">Showing {{narrowedTo}} only. {{hiddenText}} <button class="linkbtn" type="button" onClick="{{showAllKinds}}">{{showAllText}}</button></p>
+        </sc-if>
+        <sc-if value="{{noResults}}" hint-placeholder-val="{{false}}"><p class="msg">Nothing is listed for this search yet. Try a broader topic, or another county.</p></sc-if>
+        <!-- Result groups and cards: the same component as the public page -->
+        <dc-import name="ResultGroups" groups="{{groups}}" hint-size="100%,400px"></dc-import>
+      </section>
+    </sc-if>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1100,"height":1660}}'>
+/* Staff referral helper (design 12, 12b, 12c). Same data, rules and result cards as the public page:
+   finder-core.js for the search, ResultGroups.dc.html for the groups and cards.
+   A search needs an LOJ reason or a topic. The reason brings "Often helps with this" and fills in the topic;
+   topic and county bring everything else. After a search, the form folds into a summary with "Change search". */
+var F = window.FinderCore;
+var PUBLIC_PAGE = 'public';
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loaded: false, failed: false,
+      loj: '', reason: '', reasonText: '', query: null, topicText: '', fromReason: false, county: '',
+      box: null, active: -1, error: false,
+      applied: null, editOpen: false, kinds: {}, copied: false
+    };
+    this.onBlur = () => this.setState({ box: null, active: -1 });
+    this.onArea = (e) => {
+      var loj = e.target.value, s = this.state;
+      // A reason that doesn't apply in the new area is cleared
+      var keep = s.reason && F.reasonsFor(loj).some((r) => r.id === s.reason);
+      this.setState({ loj: loj, reason: keep ? s.reason : '', reasonText: keep ? s.reasonText : '' });
+      if (keep) this.applyPreset(s.reason, loj);
+    };
+    this.onCounty = (e) => this.setState({ county: e.target.value });
+    this.onReasonInput = (e) => this.setState({ reasonText: e.target.value, reason: '', box: 'reason', active: -1 });
+    this.onReasonFocus = () => this.setState({ box: 'reason', active: -1 });
+    this.onTopicInput = (e) => this.setState({ topicText: e.target.value, query: null, fromReason: false, box: 'topic', active: -1 });
+    this.onTopicFocus = () => this.setState({ box: 'topic', active: -1 });
+    this.onReasonKey = (e) => this.keys(e, 'reason');
+    this.onTopicKey = (e) => this.keys(e, 'topic');
+    this.onSubmit = (e) => { e.preventDefault(); this.search(); };
+    this.toggleEdit = () => this.setState({ editOpen: !this.state.editOpen });
+    this.showAllKinds = () => this.setState({ kinds: {} });
+    this.selectAll = (e) => e.target.select();
+    this.copy = () => {
+      var link = this.link();
+      var done = () => this.setState({ copied: true });
+      try { navigator.clipboard.writeText(link).then(done, () => { this.fallbackCopy(); done(); }); } catch (err) { this.fallbackCopy(); done(); }
+    };
+  }
+
+  componentDidMount() {
+    F.ready.then(() => {
+      // A link like ?topic=A06.01&county=Monroe&reason=L03&area=Housing opens with that search done
+      var p = new URLSearchParams(window.location.search);
+      var reason = F.REASON[p.get('reason')] ? p.get('reason') : '';
+      var query = F.TOPIC[p.get('topic')] ? { type: 'topic', value: p.get('topic') }
+        : F.AREA[p.get('group')] ? { type: 'area', value: p.get('group') } : null;
+      this.setState({
+        loaded: true, loj: p.get('area') || '', reason: reason, reasonText: reason ? F.REASON[reason].name : '',
+        query: query, topicText: query ? F.queryLabel(query) : '', county: F.countyFrom(p.get('county'))
+      }, () => { if (reason || query) this.search(); });
+    }, () => this.setState({ failed: true }));
+  }
+
+  fallbackCopy() { var el = document.getElementById('link'); if (el) { el.select(); try { document.execCommand('copy'); } catch (err) {} } }
+  applyPreset(reasonId, loj) {
+    var t = F.presetFor(reasonId, loj);
+    if (t && F.TOPIC[t]) this.setState({ query: { type: 'topic', value: t }, topicText: F.TOPIC[t].name, fromReason: true });
+  }
+  pickReason(r) {
+    this.setState({ reason: r.id, reasonText: r.name, box: null, active: -1, error: false });
+    this.applyPreset(r.id, this.state.loj);
+  }
+  pickQuery(query) { this.setState({ query: query, topicText: F.queryLabel(query), fromReason: false, box: null, active: -1, error: false }); }
+
+  /* Run the search shown in the fields. Needs an LOJ reason or a topic. */
+  search() {
+    var s = this.state, query = s.query;
+    if (!query && s.topicText.trim()) {
+      var t = F.exactTopic(s.topicText) || (F.suggest(s.topicText, 1)[0] && F.TOPIC[F.suggest(s.topicText, 1)[0].id]);
+      if (t) query = { type: 'topic', value: t.id };
+    }
+    if (!query && !s.reason) { this.setState({ error: true, box: null }); return; }
+    this.setState({
+      query: query, topicText: query ? F.queryLabel(query) : s.topicText, error: false, box: null, editOpen: false, kinds: {}, copied: false,
+      applied: { query: query, county: s.county, reason: s.reason, loj: s.loj }
+    });
+    setTimeout(() => { var h = document.getElementById('res-h'); if (h) h.focus(); }, 60);
+  }
+
+  /* Reasons for the chosen area, matching what's typed (name or description), under their staff group */
+  reasonOptions() {
+    var qn = F.norm(this.state.reason ? '' : this.state.reasonText);
+    var list = F.reasonsFor(this.state.loj).filter((r) => !qn || F.norm(r.name + ' ' + r.desc).indexOf(qn) >= 0);
+    list.sort((a, b) => (a.groupOrder - b.groupOrder) || a.name.localeCompare(b.name));
+    return list.map((r) => ({ id: 'r-' + r.id, name: r.name, desc: r.desc, group: r.group || 'Other', choose: () => this.pickReason(r) }));
+  }
+  /* Topic box: nothing typed = general help then the 13 areas (as on the public page); typing = matching topics */
+  topicOptions() {
+    var q = this.state.query ? '' : this.state.topicText.trim(), D = F.data;
+    if (q.length < 2) {
+      var start = D.areas.filter((a) => a.start)[0];
+      var list = start ? [{ id: 't-start', name: start.name, group: '', choose: () => this.pickQuery({ type: 'topic', value: D.generalTopic }) }] : [];
+      return list.concat(D.areas.filter((a) => !a.start).map((a) => ({ id: 't-' + a.id, name: a.name, group: 'Or pick a topic', choose: () => this.pickQuery({ type: 'area', value: a.id }) })));
+    }
+    return F.suggest(q, 8).map((s) => ({ id: 't-' + s.id.replace(/\W/g, '-'), name: s.name, sub: s.sub, group: 'Topics', choose: () => this.pickQuery({ type: 'topic', value: s.id }) }));
+  }
+  keys(e, box) {
+    var opts = box === 'reason' ? this.reasonOptions() : this.topicOptions();
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      if (!opts.length) return;
+      e.preventDefault();
+      var n = opts.length, a = this.state.box === box ? this.state.active : -1;
+      a = e.key === 'ArrowDown' ? (a + 1) % n : (a <= 0 ? n - 1 : a - 1);
+      this.setState({ box: box, active: a });
+    } else if (e.key === 'Enter' && this.state.box === box && this.state.active >= 0 && opts[this.state.active]) {
+      e.preventDefault(); opts[this.state.active].choose();
+    } else if (e.key === 'Escape' && this.state.box === box) {
+      e.preventDefault(); this.setState({ box: null, active: -1 });
+    }
+  }
+  /* Options grouped under their headings, in arrow-key order */
+  grouped(opts, box, prefix) {
+    var s = this.state, groups = [], byName = {};
+    opts.forEach((o, i) => {
+      var g = byName[o.group];
+      if (!g) { g = byName[o.group] = { id: prefix + groups.length, name: o.group, items: [] }; groups.push(g); }
+      g.items.push({ id: o.id, name: o.name, desc: o.desc || '', sub: o.sub || '', sel: String(s.box === box && i === s.active), pick: (e) => { e.preventDefault(); o.choose(); } });
+    });
+    return groups;
+  }
+  /* The public page's address for the search on screen */
+  link() {
+    var a = this.state.applied, p = new URLSearchParams();
+    if (!a) return '';
+    if (a.query) p.set(a.query.type === 'area' ? 'group' : 'topic', a.query.value);
+    if (a.county) p.set('county', a.county);
+    if (a.reason) { p.set('reason', a.reason); if (a.loj) p.set('area', a.loj); }
+    return new URL(PUBLIC_PAGE, window.location.href).href.split('?')[0] + '?' + p.toString();
+  }
+
+  renderVals() {
+    var s = this.state;
+    var ropts = s.box === 'reason' ? this.reasonOptions() : [], topts = s.box === 'topic' ? this.topicOptions() : [];
+    var reason = s.reason ? F.REASON[s.reason] : null;
+    var searched = !!s.applied;
+    var v = {
+      sample: s.loaded && !!F.data.sample, loading: !s.loaded && !s.failed, failed: s.failed, loadError: F.error,
+      beforeSearch: s.loaded && !searched, searched: searched, showForm: s.loaded && (!searched || s.editOpen),
+      formWrapCls: searched ? 'formwrap after' : 'formwrap', editOpenText: String(s.editOpen), toggleEdit: this.toggleEdit,
+      finfoText: searched ? 'Every field is optional. Fill in what you know, but you need at least an LOJ reason or a topic.'
+        : 'You need at least an LOJ reason or a topic to search.',
+      lojAreas: F.data.lojAreas.map((a) => ({ name: a })), loj: s.loj, areaCls: s.loj ? 'field' : 'field unset', onArea: this.onArea,
+      counties: F.data.counties.map((c) => ({ name: c })), county: s.county, countyCls: s.county ? 'field' : 'field unset', onCounty: this.onCounty,
+      reasonText: s.reasonText, onReasonInput: this.onReasonInput, onReasonKey: this.onReasonKey, onReasonFocus: this.onReasonFocus,
+      reasonOpen: s.box === 'reason', reasonExpanded: String(s.box === 'reason'), reasonGroups: this.grouped(ropts, 'reason', 'rg'),
+      noReasons: s.box === 'reason' && !ropts.length,
+      reasonActiveId: s.box === 'reason' && ropts[s.active] ? ropts[s.active].id : undefined,
+      reasonSr: s.box === 'reason' ? ropts.length + (ropts.length === 1 ? ' reason' : ' reasons') + '. Use the up and down arrow keys to move, Enter to choose.' : '',
+      reasonHint: reason && reason.desc ? reason.desc : 'Lists reasons for the area you chose, plus reasons that apply to every area.',
+      topicText: s.topicText, onTopicInput: this.onTopicInput, onTopicKey: this.onTopicKey, onTopicFocus: this.onTopicFocus,
+      topicOpen: s.box === 'topic', topicExpanded: String(s.box === 'topic'), topicGroups: this.grouped(topts, 'topic', 'tg'),
+      noTopics: s.box === 'topic' && !topts.length,
+      topicActiveId: s.box === 'topic' && topts[s.active] ? topts[s.active].id : undefined,
+      topicSr: s.box === 'topic' && topts.length ? topts.length + (topts.length === 1 ? ' suggestion' : ' suggestions') + '. Use the up and down arrow keys to move, Enter to choose.' : '',
+      topicHint: s.fromReason ? 'Filled in from the reason. You can change it.' : 'Picking a reason fills this in. You can change it.',
+      onBlur: this.onBlur, onSubmit: this.onSubmit, hasError: s.error,
+      selectAll: this.selectAll, copy: this.copy, copyLabel: s.copied ? 'Copied' : 'Copy link', copiedSr: s.copied ? 'Link copied.' : '',
+      showAllKinds: this.showAllKinds, groups: [], kinds: [], hasKinds: false
+    };
+    if (searched) {
+      var a = s.applied, ar = a.reason ? F.REASON[a.reason] : null;
+      v.sumTopic = a.query ? F.queryLabel(a.query) : 'Picks for this LOJ reason';
+      v.sumCounty = a.county ? ' · ' + F.countyLabel(a.county) : '';
+      v.hasSumReason = !!ar;
+      v.sumReason = ar ? 'LOJ reason: ' + ar.name + (a.loj ? ' (' + a.loj + ')' : '') : '';
+      v.link = this.link();
+      var r = F.results({ query: a.query, county: a.county, kinds: s.kinds, reason: a.reason, lojArea: a.loj });
+      v.groups = r.groups;
+      v.countText = r.total + (r.total === 1 ? ' result' : ' results');
+      v.noResults = r.total === 0;
+      v.kinds = r.kinds.map((k) => ({ name: k.name, count: k.count, checked: k.checked, toggle: () => {
+        var next = Object.assign({}, this.state.kinds); if (next[k.id]) delete next[k.id]; else next[k.id] = true; this.setState({ kinds: next });
+      } }));
+      v.hasKinds = v.kinds.length > 0;
+      v.hasHidden = r.hidden > 0;
+      v.hiddenText = r.hidden + (r.hidden === 1 ? ' other result is hidden.' : ' other results are hidden.');
+      v.narrowedTo = r.narrowedTo;
+      v.showAllText = 'Show all ' + r.before;
+    }
+    return v;
+  }
+}
+</script>
+</body>
+</html>

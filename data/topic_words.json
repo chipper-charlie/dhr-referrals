@@ -1,0 +1,7434 @@
+[
+{
+"topic_id": "A01.01",
+"word": "boss did not pay me"
+},
+{
+"topic_id": "A01.01",
+"word": "owed money"
+},
+{
+"topic_id": "A01.01",
+"word": "wage theft"
+},
+{
+"topic_id": "A01.01",
+"word": "job"
+},
+{
+"topic_id": "A01.01",
+"word": "work"
+},
+{
+"topic_id": "A01.01",
+"word": "Unpaid wages"
+},
+{
+"topic_id": "A01.01",
+"word": "didn't get paid"
+},
+{
+"topic_id": "A01.01",
+"word": "bounced paycheck"
+},
+{
+"topic_id": "A01.01",
+"word": "Overtime and minimum wage"
+},
+{
+"topic_id": "A01.01",
+"word": "no overtime pay"
+},
+{
+"topic_id": "A01.01",
+"word": "paid under minimum wage"
+},
+{
+"topic_id": "A01.01",
+"word": "off the clock"
+},
+{
+"topic_id": "A01.01",
+"word": "Final paycheck"
+},
+{
+"topic_id": "A01.01",
+"word": "last paycheck after quitting or being fired"
+},
+{
+"topic_id": "A01.01",
+"word": "didn't get my final check"
+},
+{
+"topic_id": "A01.01",
+"word": "Withheld tips or commissions"
+},
+{
+"topic_id": "A01.01",
+"word": "tip theft"
+},
+{
+"topic_id": "A01.01",
+"word": "commission not paid"
+},
+{
+"topic_id": "A01.01",
+"word": "bonus"
+},
+{
+"topic_id": "A01.01",
+"word": "Treated as a contractor"
+},
+{
+"topic_id": "A01.01",
+"word": "paid as a contractor instead of an employee"
+},
+{
+"topic_id": "A01.01",
+"word": "misclassified"
+},
+{
+"topic_id": "A01.01",
+"word": "1099"
+},
+{
+"topic_id": "A01.01",
+"word": "independent contractor"
+},
+{
+"topic_id": "A01.01",
+"word": "Illegal deductions from pay"
+},
+{
+"topic_id": "A01.01",
+"word": "docked pay"
+},
+{
+"topic_id": "A01.01",
+"word": "charged for uniform"
+},
+{
+"topic_id": "A01.02",
+"word": "lost my job"
+},
+{
+"topic_id": "A01.02",
+"word": "terminated"
+},
+{
+"topic_id": "A01.02",
+"word": "let go"
+},
+{
+"topic_id": "A01.02",
+"word": "can't get hired"
+},
+{
+"topic_id": "A01.02",
+"word": "job"
+},
+{
+"topic_id": "A01.02",
+"word": "work"
+},
+{
+"topic_id": "A01.02",
+"word": "Fired unfairly"
+},
+{
+"topic_id": "A01.02",
+"word": "wrongful termination"
+},
+{
+"topic_id": "A01.02",
+"word": "fired for no reason"
+},
+{
+"topic_id": "A01.02",
+"word": "Laid off or severance"
+},
+{
+"topic_id": "A01.02",
+"word": "layoff"
+},
+{
+"topic_id": "A01.02",
+"word": "severance package"
+},
+{
+"topic_id": "A01.02",
+"word": "plant closing"
+},
+{
+"topic_id": "A01.02",
+"word": "Not hired or offer pulled"
+},
+{
+"topic_id": "A01.02",
+"word": "application rejected"
+},
+{
+"topic_id": "A01.02",
+"word": "offer rescinded"
+},
+{
+"topic_id": "A01.02",
+"word": "job offer pulled"
+},
+{
+"topic_id": "A01.02",
+"word": "Background check problems"
+},
+{
+"topic_id": "A01.02",
+"word": "record blocked job"
+},
+{
+"topic_id": "A01.02",
+"word": "background check error"
+},
+{
+"topic_id": "A01.02",
+"word": "arrest or conviction record at work"
+},
+{
+"topic_id": "A01.02",
+"word": "Fired after injury or illness"
+},
+{
+"topic_id": "A01.02",
+"word": "fired when sick"
+},
+{
+"topic_id": "A01.02",
+"word": "medical leave fired"
+},
+{
+"topic_id": "A01.02",
+"word": "pushed out after an injury"
+},
+{
+"topic_id": "A01.02",
+"word": "Fired over a new conviction"
+},
+{
+"topic_id": "A01.02",
+"word": "conviction after hire"
+},
+{
+"topic_id": "A01.02",
+"word": "arrested after I was hired"
+},
+{
+"topic_id": "A01.02",
+"word": "Fired for political views"
+},
+{
+"topic_id": "A01.02",
+"word": "off-duty politics"
+},
+{
+"topic_id": "A01.02",
+"word": "political activity"
+},
+{
+"topic_id": "A01.02",
+"word": "political beliefs"
+},
+{
+"topic_id": "A01.02",
+"word": "Unpaid internship problems"
+},
+{
+"topic_id": "A01.02",
+"word": "unpaid intern"
+},
+{
+"topic_id": "A01.02",
+"word": "intern with a record"
+},
+{
+"topic_id": "A01.03",
+"word": "manager"
+},
+{
+"topic_id": "A01.03",
+"word": "supervisor"
+},
+{
+"topic_id": "A01.03",
+"word": "coworker"
+},
+{
+"topic_id": "A01.03",
+"word": "job"
+},
+{
+"topic_id": "A01.03",
+"word": "work"
+},
+{
+"topic_id": "A01.03",
+"word": "Bullying or abuse by a manager"
+},
+{
+"topic_id": "A01.03",
+"word": "abusive boss"
+},
+{
+"topic_id": "A01.03",
+"word": "yelling"
+},
+{
+"topic_id": "A01.03",
+"word": "humiliated"
+},
+{
+"topic_id": "A01.03",
+"word": "Violence from a coworker"
+},
+{
+"topic_id": "A01.03",
+"word": "coworker threatened me"
+},
+{
+"topic_id": "A01.03",
+"word": "assaulted at work"
+},
+{
+"topic_id": "A01.03",
+"word": "threats"
+},
+{
+"topic_id": "A01.03",
+"word": "Management ignored my complaint"
+},
+{
+"topic_id": "A01.03",
+"word": "HR did nothing"
+},
+{
+"topic_id": "A01.03",
+"word": "reported to HR"
+},
+{
+"topic_id": "A01.03",
+"word": "Toxic workplace"
+},
+{
+"topic_id": "A01.03",
+"word": "picked on"
+},
+{
+"topic_id": "A01.03",
+"word": "hostile workplace"
+},
+{
+"topic_id": "A01.03",
+"word": "not about a protected trait"
+},
+{
+"topic_id": "A01.04",
+"word": "payback"
+},
+{
+"topic_id": "A01.04",
+"word": "got in trouble for speaking up"
+},
+{
+"topic_id": "A01.04",
+"word": "whistleblower"
+},
+{
+"topic_id": "A01.04",
+"word": "fired for complaining"
+},
+{
+"topic_id": "A01.04",
+"word": "retaliation"
+},
+{
+"topic_id": "A01.04",
+"word": "retaliating"
+},
+{
+"topic_id": "A01.04",
+"word": "Punished for safety complaint"
+},
+{
+"topic_id": "A01.04",
+"word": "complained about safety then fired"
+},
+{
+"topic_id": "A01.04",
+"word": "Whistleblowing"
+},
+{
+"topic_id": "A01.04",
+"word": "reported illegal activity"
+},
+{
+"topic_id": "A01.04",
+"word": "fraud at work"
+},
+{
+"topic_id": "A01.04",
+"word": "Punished for workers' comp claim"
+},
+{
+"topic_id": "A01.04",
+"word": "bad review after injury claim"
+},
+{
+"topic_id": "A01.04",
+"word": "Punished for discussing pay"
+},
+{
+"topic_id": "A01.04",
+"word": "discussing salary"
+},
+{
+"topic_id": "A01.04",
+"word": "union activity"
+},
+{
+"topic_id": "A01.04",
+"word": "organizing"
+},
+{
+"topic_id": "A01.04",
+"word": "Refused an illegal order"
+},
+{
+"topic_id": "A01.04",
+"word": "told to do something illegal"
+},
+{
+"topic_id": "A01.04",
+"word": "punished for refusing to break the law"
+},
+{
+"topic_id": "A01.05",
+"word": "hurt at work"
+},
+{
+"topic_id": "A01.05",
+"word": "unsafe job"
+},
+{
+"topic_id": "A01.05",
+"word": "workers compensation"
+},
+{
+"topic_id": "A01.05",
+"word": "workers comp"
+},
+{
+"topic_id": "A01.05",
+"word": "compensation"
+},
+{
+"topic_id": "A01.05",
+"word": "Unsafe working conditions"
+},
+{
+"topic_id": "A01.05",
+"word": "no safety gear"
+},
+{
+"topic_id": "A01.05",
+"word": "heat"
+},
+{
+"topic_id": "A01.05",
+"word": "chemicals"
+},
+{
+"topic_id": "A01.05",
+"word": "Workers' compensation"
+},
+{
+"topic_id": "A01.05",
+"word": "injured on the job"
+},
+{
+"topic_id": "A01.05",
+"word": "comp claim denied"
+},
+{
+"topic_id": "A01.05",
+"word": "State disability benefits"
+},
+{
+"topic_id": "A01.05",
+"word": "short-term disability"
+},
+{
+"topic_id": "A01.05",
+"word": "NYS disability"
+},
+{
+"topic_id": "A01.05",
+"word": "Workplace safety complaint"
+},
+{
+"topic_id": "A01.05",
+"word": "OSHA"
+},
+{
+"topic_id": "A01.05",
+"word": "PESH"
+},
+{
+"topic_id": "A01.05",
+"word": "safety inspection"
+},
+{
+"topic_id": "A01.06",
+"word": "unemployment"
+},
+{
+"topic_id": "A01.06",
+"word": "UI"
+},
+{
+"topic_id": "A01.06",
+"word": "jobless benefits"
+},
+{
+"topic_id": "A01.06",
+"word": "Unemployment benefits denied"
+},
+{
+"topic_id": "A01.06",
+"word": "claim rejected"
+},
+{
+"topic_id": "A01.06",
+"word": "denied unemployment"
+},
+{
+"topic_id": "A01.06",
+"word": "Applying for unemployment"
+},
+{
+"topic_id": "A01.06",
+"word": "how to file for unemployment"
+},
+{
+"topic_id": "A01.06",
+"word": "Unemployment overpayment"
+},
+{
+"topic_id": "A01.06",
+"word": "asked to pay back unemployment"
+},
+{
+"topic_id": "A01.06",
+"word": "fraud accusation"
+},
+{
+"topic_id": "A01.06",
+"word": "Unemployment after quitting"
+},
+{
+"topic_id": "A01.06",
+"word": "quit my job"
+},
+{
+"topic_id": "A01.06",
+"word": "benefits if I quit"
+},
+{
+"topic_id": "A01.07",
+"word": "sick days"
+},
+{
+"topic_id": "A01.07",
+"word": "family leave"
+},
+{
+"topic_id": "A01.07",
+"word": "Family and medical leave"
+},
+{
+"topic_id": "A01.07",
+"word": "FMLA"
+},
+{
+"topic_id": "A01.07",
+"word": "leave for new baby"
+},
+{
+"topic_id": "A01.07",
+"word": "care for parent"
+},
+{
+"topic_id": "A01.07",
+"word": "Paid sick leave"
+},
+{
+"topic_id": "A01.07",
+"word": "fired for calling out"
+},
+{
+"topic_id": "A01.07",
+"word": "Paid family leave"
+},
+{
+"topic_id": "A01.07",
+"word": "PFL"
+},
+{
+"topic_id": "A01.07",
+"word": "bonding leave"
+},
+{
+"topic_id": "A01.07",
+"word": "Time off to vote or serve on a jury"
+},
+{
+"topic_id": "A01.07",
+"word": "jury duty"
+},
+{
+"topic_id": "A01.07",
+"word": "vote"
+},
+{
+"topic_id": "A01.08",
+"word": "union"
+},
+{
+"topic_id": "A01.08",
+"word": "labor board"
+},
+{
+"topic_id": "A01.08",
+"word": "Union grievance"
+},
+{
+"topic_id": "A01.08",
+"word": "union rep"
+},
+{
+"topic_id": "A01.08",
+"word": "contract violation"
+},
+{
+"topic_id": "A01.08",
+"word": "Starting or joining a union"
+},
+{
+"topic_id": "A01.08",
+"word": "organizing"
+},
+{
+"topic_id": "A01.09",
+"word": "farmworker"
+},
+{
+"topic_id": "A01.09",
+"word": "nanny"
+},
+{
+"topic_id": "A01.09",
+"word": "day laborer"
+},
+{
+"topic_id": "A01.09",
+"word": "Farmworker rights"
+},
+{
+"topic_id": "A01.09",
+"word": "farm labor"
+},
+{
+"topic_id": "A01.09",
+"word": "seasonal"
+},
+{
+"topic_id": "A01.09",
+"word": "migrant worker"
+},
+{
+"topic_id": "A01.09",
+"word": "Domestic workers"
+},
+{
+"topic_id": "A01.09",
+"word": "housekeeper"
+},
+{
+"topic_id": "A01.09",
+"word": "home health aide"
+},
+{
+"topic_id": "A01.09",
+"word": "home care worker"
+},
+{
+"topic_id": "A01.09",
+"word": "Day laborers"
+},
+{
+"topic_id": "A01.09",
+"word": "cash jobs"
+},
+{
+"topic_id": "A01.09",
+"word": "day labor"
+},
+{
+"topic_id": "A01.09",
+"word": "Immigrant workers' rights"
+},
+{
+"topic_id": "A01.09",
+"word": "undocumented workers"
+},
+{
+"topic_id": "A01.10",
+"word": "civil service"
+},
+{
+"topic_id": "A01.10",
+"word": "government job"
+},
+{
+"topic_id": "A01.10",
+"word": "Local or state government job"
+},
+{
+"topic_id": "A01.10",
+"word": "public sector job"
+},
+{
+"topic_id": "A01.10",
+"word": "city employee"
+},
+{
+"topic_id": "A12.08",
+"word": "Federal employee problems"
+},
+{
+"topic_id": "A12.08",
+"word": "postal worker"
+},
+{
+"topic_id": "A12.08",
+"word": "federal job"
+},
+{
+"topic_id": "A12.08",
+"word": "EEO counselor"
+},
+{
+"topic_id": "A12.08",
+"word": "federal employee"
+},
+{
+"topic_id": "A12.08",
+"word": "VA employee"
+},
+{
+"topic_id": "A12.08",
+"word": "post office"
+},
+{
+"topic_id": "A12.08",
+"word": "USPS"
+},
+{
+"topic_id": "A01.11",
+"word": "job search"
+},
+{
+"topic_id": "A01.11",
+"word": "training"
+},
+{
+"topic_id": "A01.11",
+"word": "GED to career"
+},
+{
+"topic_id": "A01.11",
+"word": "Job training"
+},
+{
+"topic_id": "A01.11",
+"word": "skills training"
+},
+{
+"topic_id": "A01.11",
+"word": "apprenticeship"
+},
+{
+"topic_id": "A01.11",
+"word": "workforce program"
+},
+{
+"topic_id": "A01.11",
+"word": "Job search help"
+},
+{
+"topic_id": "A01.11",
+"word": "resume"
+},
+{
+"topic_id": "A01.11",
+"word": "job placement"
+},
+{
+"topic_id": "A01.11",
+"word": "Jobs after prison"
+},
+{
+"topic_id": "A01.11",
+"word": "felony job help"
+},
+{
+"topic_id": "A01.11",
+"word": "record and work"
+},
+{
+"topic_id": "A01.11",
+"word": "Working under 18"
+},
+{
+"topic_id": "A01.11",
+"word": "child labor"
+},
+{
+"topic_id": "A01.11",
+"word": "youth work permit"
+},
+{
+"topic_id": "A01.11",
+"word": "minor"
+},
+{
+"topic_id": "A02.01",
+"word": "broken"
+},
+{
+"topic_id": "A02.01",
+"word": "unsafe apartment"
+},
+{
+"topic_id": "A02.01",
+"word": "Landlord won't make repairs"
+},
+{
+"topic_id": "A02.01",
+"word": "nothing gets fixed"
+},
+{
+"topic_id": "A02.01",
+"word": "super won't fix"
+},
+{
+"topic_id": "A02.01",
+"word": "No heat or hot water"
+},
+{
+"topic_id": "A02.01",
+"word": "cold apartment"
+},
+{
+"topic_id": "A02.01",
+"word": "no electricity"
+},
+{
+"topic_id": "A02.01",
+"word": "no hot water"
+},
+{
+"topic_id": "A02.01",
+"word": "Mold, pests or bed bugs"
+},
+{
+"topic_id": "A02.01",
+"word": "mice"
+},
+{
+"topic_id": "A02.01",
+"word": "roaches"
+},
+{
+"topic_id": "A02.01",
+"word": "exterminator"
+},
+{
+"topic_id": "A02.01",
+"word": "Unsafe building"
+},
+{
+"topic_id": "A02.01",
+"word": "lead paint"
+},
+{
+"topic_id": "A02.01",
+"word": "peeling paint"
+},
+{
+"topic_id": "A02.01",
+"word": "broken stairs"
+},
+{
+"topic_id": "A02.01",
+"word": "fire hazard"
+},
+{
+"topic_id": "A02.01",
+"word": "Building code violations"
+},
+{
+"topic_id": "A02.01",
+"word": "housing inspector"
+},
+{
+"topic_id": "A02.01",
+"word": "code enforcement"
+},
+{
+"topic_id": "A02.01",
+"word": "health code"
+},
+{
+"topic_id": "A02.01",
+"word": "Superintendent problems"
+},
+{
+"topic_id": "A02.01",
+"word": "building staff"
+},
+{
+"topic_id": "A02.01",
+"word": "super dislikes me"
+},
+{
+"topic_id": "A02.01",
+"word": "super helps others but not me"
+},
+{
+"topic_id": "A02.02",
+"word": "evicted"
+},
+{
+"topic_id": "A02.02",
+"word": "court papers"
+},
+{
+"topic_id": "A02.02",
+"word": "kicked out of my apartment"
+},
+{
+"topic_id": "A02.02",
+"word": "housing counseling"
+},
+{
+"topic_id": "A02.02",
+"word": "Eviction papers"
+},
+{
+"topic_id": "A02.02",
+"word": "notice to quit"
+},
+{
+"topic_id": "A02.02",
+"word": "petition"
+},
+{
+"topic_id": "A02.02",
+"word": "Locked out by landlord"
+},
+{
+"topic_id": "A02.02",
+"word": "illegal eviction"
+},
+{
+"topic_id": "A02.02",
+"word": "changed locks"
+},
+{
+"topic_id": "A02.02",
+"word": "removed my things"
+},
+{
+"topic_id": "A02.02",
+"word": "Eviction court help"
+},
+{
+"topic_id": "A02.02",
+"word": "housing court"
+},
+{
+"topic_id": "A02.02",
+"word": "court date"
+},
+{
+"topic_id": "A02.02",
+"word": "holdover"
+},
+{
+"topic_id": "A02.02",
+"word": "Lease not renewed or ended"
+},
+{
+"topic_id": "A02.02",
+"word": "non-renewal"
+},
+{
+"topic_id": "A02.02",
+"word": "month to month"
+},
+{
+"topic_id": "A02.02",
+"word": "Eviction record"
+},
+{
+"topic_id": "A02.02",
+"word": "sealing or fixing an eviction record"
+},
+{
+"topic_id": "A02.02",
+"word": "tenant blacklist"
+},
+{
+"topic_id": "A02.03",
+"word": "rent"
+},
+{
+"topic_id": "A02.03",
+"word": "lease"
+},
+{
+"topic_id": "A02.03",
+"word": "deposit"
+},
+{
+"topic_id": "A02.03",
+"word": "housing counseling"
+},
+{
+"topic_id": "A02.03",
+"word": "rental assistance"
+},
+{
+"topic_id": "A02.03",
+"word": "help paying rent"
+},
+{
+"topic_id": "A02.03",
+"word": "Rent increase"
+},
+{
+"topic_id": "A02.03",
+"word": "raised my rent"
+},
+{
+"topic_id": "A02.03",
+"word": "rent hike"
+},
+{
+"topic_id": "A02.03",
+"word": "Rent stabilization"
+},
+{
+"topic_id": "A02.03",
+"word": "rent control"
+},
+{
+"topic_id": "A02.03",
+"word": "stabilized apartment"
+},
+{
+"topic_id": "A02.03",
+"word": "overcharge"
+},
+{
+"topic_id": "A02.03",
+"word": "Security deposit not returned"
+},
+{
+"topic_id": "A02.03",
+"word": "landlord kept my deposit"
+},
+{
+"topic_id": "A02.03",
+"word": "Lease problems"
+},
+{
+"topic_id": "A02.03",
+"word": "break my lease"
+},
+{
+"topic_id": "A02.03",
+"word": "lease terms"
+},
+{
+"topic_id": "A02.03",
+"word": "guarantor"
+},
+{
+"topic_id": "A02.03",
+"word": "Subletting and roommates"
+},
+{
+"topic_id": "A02.03",
+"word": "sublet"
+},
+{
+"topic_id": "A02.03",
+"word": "roommate"
+},
+{
+"topic_id": "A02.03",
+"word": "not on lease"
+},
+{
+"topic_id": "A02.03",
+"word": "back rent"
+},
+{
+"topic_id": "A02.03",
+"word": "emergency rent"
+},
+{
+"topic_id": "A02.03",
+"word": "Tenant organizing"
+},
+{
+"topic_id": "A02.03",
+"word": "tenant association"
+},
+{
+"topic_id": "A02.03",
+"word": "tenants union"
+},
+{
+"topic_id": "A02.03",
+"word": "rent strike"
+},
+{
+"topic_id": "A02.03",
+"word": "Landlord won't count my income"
+},
+{
+"topic_id": "A02.03",
+"word": "source of income"
+},
+{
+"topic_id": "A02.03",
+"word": "loan as income"
+},
+{
+"topic_id": "A02.03",
+"word": "partner's income"
+},
+{
+"topic_id": "A02.04",
+"word": "landlord bullying"
+},
+{
+"topic_id": "A02.04",
+"word": "harassing me"
+},
+{
+"topic_id": "A02.04",
+"word": "tenant harassment"
+},
+{
+"topic_id": "A02.04",
+"word": "retaliation"
+},
+{
+"topic_id": "A02.04",
+"word": "retaliating"
+},
+{
+"topic_id": "A02.04",
+"word": "payback"
+},
+{
+"topic_id": "A02.04",
+"word": "Threats from my landlord"
+},
+{
+"topic_id": "A02.04",
+"word": "landlord harassment or threats"
+},
+{
+"topic_id": "A02.04",
+"word": "threatened me"
+},
+{
+"topic_id": "A02.04",
+"word": "Landlord entering without notice"
+},
+{
+"topic_id": "A02.04",
+"word": "landlord walks in"
+},
+{
+"topic_id": "A02.04",
+"word": "privacy"
+},
+{
+"topic_id": "A02.04",
+"word": "Payback after a repair complaint"
+},
+{
+"topic_id": "A02.04",
+"word": "threatened with eviction after complaint"
+},
+{
+"topic_id": "A02.04",
+"word": "punished for complaining"
+},
+{
+"topic_id": "A02.04",
+"word": "Pressure to move out"
+},
+{
+"topic_id": "A02.04",
+"word": "buyout"
+},
+{
+"topic_id": "A02.05",
+"word": "Section 8"
+},
+{
+"topic_id": "A02.05",
+"word": "NYCHA"
+},
+{
+"topic_id": "A02.05",
+"word": "housing authority"
+},
+{
+"topic_id": "A02.05",
+"word": "Section 8 or voucher problems"
+},
+{
+"topic_id": "A02.05",
+"word": "housing choice voucher"
+},
+{
+"topic_id": "A02.05",
+"word": "Public housing problems"
+},
+{
+"topic_id": "A02.05",
+"word": "projects"
+},
+{
+"topic_id": "A02.05",
+"word": "Waitlist or application denied"
+},
+{
+"topic_id": "A02.05",
+"word": "waiting list"
+},
+{
+"topic_id": "A02.05",
+"word": "denied apartment application"
+},
+{
+"topic_id": "A02.05",
+"word": "Housing benefit decision"
+},
+{
+"topic_id": "A02.05",
+"word": "voucher decision"
+},
+{
+"topic_id": "A02.05",
+"word": "recertification"
+},
+{
+"topic_id": "A02.05",
+"word": "benefit cut"
+},
+{
+"topic_id": "A02.05",
+"word": "Affordable housing rules"
+},
+{
+"topic_id": "A02.05",
+"word": "income limits"
+},
+{
+"topic_id": "A02.05",
+"word": "affordable housing lottery"
+},
+{
+"topic_id": "A02.06",
+"word": "nowhere to live"
+},
+{
+"topic_id": "A02.06",
+"word": "discriminated against for being homeless"
+},
+{
+"topic_id": "A02.06",
+"word": "shelter"
+},
+{
+"topic_id": "A02.06",
+"word": "shelter bed"
+},
+{
+"topic_id": "A02.06",
+"word": "safe place"
+},
+{
+"topic_id": "A02.06",
+"word": "emergency housing"
+},
+{
+"topic_id": "A02.06",
+"word": "Homeless or about to be"
+},
+{
+"topic_id": "A02.06",
+"word": "couch surfing"
+},
+{
+"topic_id": "A02.06",
+"word": "Emergency shelter"
+},
+{
+"topic_id": "A02.06",
+"word": "DHS shelter"
+},
+{
+"topic_id": "A02.06",
+"word": "Shelter conditions or rules"
+},
+{
+"topic_id": "A02.06",
+"word": "shelter complaint"
+},
+{
+"topic_id": "A02.06",
+"word": "shelter treatment"
+},
+{
+"topic_id": "A02.06",
+"word": "Finding a new place"
+},
+{
+"topic_id": "A02.06",
+"word": "apartment search"
+},
+{
+"topic_id": "A02.06",
+"word": "relocation"
+},
+{
+"topic_id": "A02.06",
+"word": "moving help"
+},
+{
+"topic_id": "A02.06",
+"word": "Supportive housing"
+},
+{
+"topic_id": "A02.06",
+"word": "transitional housing"
+},
+{
+"topic_id": "A02.06",
+"word": "halfway house"
+},
+{
+"topic_id": "A02.07",
+"word": "mortgage"
+},
+{
+"topic_id": "A02.07",
+"word": "owner"
+},
+{
+"topic_id": "A02.07",
+"word": "house"
+},
+{
+"topic_id": "A02.07",
+"word": "housing counseling"
+},
+{
+"topic_id": "A02.07",
+"word": "Foreclosure"
+},
+{
+"topic_id": "A02.07",
+"word": "behind on mortgage"
+},
+{
+"topic_id": "A02.07",
+"word": "losing my house"
+},
+{
+"topic_id": "A02.07",
+"word": "Mortgage or loan modification"
+},
+{
+"topic_id": "A02.07",
+"word": "mortgage help"
+},
+{
+"topic_id": "A02.07",
+"word": "Home repair help"
+},
+{
+"topic_id": "A02.07",
+"word": "roof"
+},
+{
+"topic_id": "A02.07",
+"word": "repair grant"
+},
+{
+"topic_id": "A02.07",
+"word": "Deed theft or home scams"
+},
+{
+"topic_id": "A02.07",
+"word": "someone stole my deed"
+},
+{
+"topic_id": "A02.07",
+"word": "title fraud"
+},
+{
+"topic_id": "A02.07",
+"word": "Mobile home parks"
+},
+{
+"topic_id": "A02.07",
+"word": "trailer park"
+},
+{
+"topic_id": "A02.07",
+"word": "manufactured home"
+},
+{
+"topic_id": "A02.07",
+"word": "Co-op, condo or HOA disputes"
+},
+{
+"topic_id": "A02.07",
+"word": "board"
+},
+{
+"topic_id": "A02.07",
+"word": "maintenance fees"
+},
+{
+"topic_id": "A03.01",
+"word": "neighbor"
+},
+{
+"topic_id": "A03.01",
+"word": "other tenant"
+},
+{
+"topic_id": "A03.01",
+"word": "Noise or nuisance from a neighbor"
+},
+{
+"topic_id": "A03.01",
+"word": "loud"
+},
+{
+"topic_id": "A03.01",
+"word": "smoke"
+},
+{
+"topic_id": "A03.01",
+"word": "parties"
+},
+{
+"topic_id": "A03.01",
+"word": "Fence, tree or property line"
+},
+{
+"topic_id": "A03.01",
+"word": "boundary"
+},
+{
+"topic_id": "A03.01",
+"word": "tree"
+},
+{
+"topic_id": "A03.01",
+"word": "property line dispute"
+},
+{
+"topic_id": "A03.01",
+"word": "Neighbor harassing me"
+},
+{
+"topic_id": "A03.01",
+"word": "neighbor threats"
+},
+{
+"topic_id": "A03.01",
+"word": "neighbor threatening me"
+},
+{
+"topic_id": "A03.01",
+"word": "Fight with a tenant or roommate"
+},
+{
+"topic_id": "A03.01",
+"word": "co-tenant"
+},
+{
+"topic_id": "A03.01",
+"word": "roommate dispute"
+},
+{
+"topic_id": "A03.01",
+"word": "Shared driveway or parking"
+},
+{
+"topic_id": "A03.01",
+"word": "parking spot"
+},
+{
+"topic_id": "A03.01",
+"word": "Community mediation center"
+},
+{
+"topic_id": "A03.01",
+"word": "dispute resolution center"
+},
+{
+"topic_id": "A03.01",
+"word": "DRC"
+},
+{
+"topic_id": "A03.01",
+"word": "neighbor mediation"
+},
+{
+"topic_id": "A03.02",
+"word": "someone I know"
+},
+{
+"topic_id": "A03.02",
+"word": "argument"
+},
+{
+"topic_id": "A03.02",
+"word": "Dispute with someone I know"
+},
+{
+"topic_id": "A03.02",
+"word": "friend"
+},
+{
+"topic_id": "A03.02",
+"word": "ex"
+},
+{
+"topic_id": "A03.02",
+"word": "acquaintance"
+},
+{
+"topic_id": "A03.02",
+"word": "False statements about me"
+},
+{
+"topic_id": "A03.02",
+"word": "rumors"
+},
+{
+"topic_id": "A03.02",
+"word": "defamation"
+},
+{
+"topic_id": "A03.02",
+"word": "slander"
+},
+{
+"topic_id": "A03.02",
+"word": "libel"
+},
+{
+"topic_id": "A03.02",
+"word": "Online bullying or harassment"
+},
+{
+"topic_id": "A03.02",
+"word": "cyberbullying"
+},
+{
+"topic_id": "A03.02",
+"word": "social media"
+},
+{
+"topic_id": "A03.02",
+"word": "Dispute with a business owner"
+},
+{
+"topic_id": "A03.02",
+"word": "shop owner"
+},
+{
+"topic_id": "A03.02",
+"word": "contractor argument"
+},
+{
+"topic_id": "A03.02",
+"word": "Dispute with another customer"
+},
+{
+"topic_id": "A03.02",
+"word": "rude customer"
+},
+{
+"topic_id": "A03.02",
+"word": "patron"
+},
+{
+"topic_id": "A03.02",
+"word": "Small claims court"
+},
+{
+"topic_id": "A03.02",
+"word": "sue for small amount"
+},
+{
+"topic_id": "A03.03",
+"word": "relatives"
+},
+{
+"topic_id": "A03.03",
+"word": "family fight"
+},
+{
+"topic_id": "A03.03",
+"word": "Family conflict"
+},
+{
+"topic_id": "A03.03",
+"word": "siblings"
+},
+{
+"topic_id": "A03.03",
+"word": "Family money or property fight"
+},
+{
+"topic_id": "A03.03",
+"word": "borrowed money"
+},
+{
+"topic_id": "A03.03",
+"word": "family property"
+},
+{
+"topic_id": "A03.03",
+"word": "Parent and teen conflict"
+},
+{
+"topic_id": "A03.03",
+"word": "runaway"
+},
+{
+"topic_id": "A03.03",
+"word": "teen behavior"
+},
+{
+"topic_id": "A04.01",
+"word": "partner abuse"
+},
+{
+"topic_id": "A04.01",
+"word": "abusive relationship"
+},
+{
+"topic_id": "A04.01",
+"word": "counseling"
+},
+{
+"topic_id": "A04.01",
+"word": "victim counseling"
+},
+{
+"topic_id": "A04.01",
+"word": "shelter"
+},
+{
+"topic_id": "A04.01",
+"word": "safe house"
+},
+{
+"topic_id": "A04.01",
+"word": "hotline"
+},
+{
+"topic_id": "A04.01",
+"word": "Abuse by a partner or ex"
+},
+{
+"topic_id": "A04.01",
+"word": "hits me"
+},
+{
+"topic_id": "A04.01",
+"word": "controlling partner"
+},
+{
+"topic_id": "A04.01",
+"word": "Restraining order"
+},
+{
+"topic_id": "A04.01",
+"word": "order of protection"
+},
+{
+"topic_id": "A04.01",
+"word": "protection order"
+},
+{
+"topic_id": "A04.01",
+"word": "stay-away order"
+},
+{
+"topic_id": "A04.01",
+"word": "OOP"
+},
+{
+"topic_id": "A04.01",
+"word": "Leaving an abusive home"
+},
+{
+"topic_id": "A04.01",
+"word": "fleeing"
+},
+{
+"topic_id": "A04.01",
+"word": "safe place"
+},
+{
+"topic_id": "A04.01",
+"word": "Abuse by a family member"
+},
+{
+"topic_id": "A04.01",
+"word": "parent abuse"
+},
+{
+"topic_id": "A04.01",
+"word": "sibling abuse"
+},
+{
+"topic_id": "A04.01",
+"word": "Financial abuse by a partner"
+},
+{
+"topic_id": "A04.01",
+"word": "controls money"
+},
+{
+"topic_id": "A04.01",
+"word": "ruined credit"
+},
+{
+"topic_id": "A04.01",
+"word": "Teen dating abuse"
+},
+{
+"topic_id": "A04.01",
+"word": "dating violence"
+},
+{
+"topic_id": "A04.02",
+"word": "rape"
+},
+{
+"topic_id": "A04.02",
+"word": "assault"
+},
+{
+"topic_id": "A04.02",
+"word": "counseling"
+},
+{
+"topic_id": "A04.02",
+"word": "victim counseling"
+},
+{
+"topic_id": "A04.02",
+"word": "rape crisis"
+},
+{
+"topic_id": "A04.02",
+"word": "hotline"
+},
+{
+"topic_id": "A04.02",
+"word": "Sexual assault or rape"
+},
+{
+"topic_id": "A04.02",
+"word": "raped"
+},
+{
+"topic_id": "A04.02",
+"word": "assaulted"
+},
+{
+"topic_id": "A04.02",
+"word": "Child sexual abuse"
+},
+{
+"topic_id": "A04.02",
+"word": "molested"
+},
+{
+"topic_id": "A04.02",
+"word": "Medical exam after sexual assault"
+},
+{
+"topic_id": "A04.02",
+"word": "rape kit"
+},
+{
+"topic_id": "A04.02",
+"word": "forensic exam"
+},
+{
+"topic_id": "A04.02",
+"word": "Counseling after sexual violence"
+},
+{
+"topic_id": "A04.02",
+"word": "therapy"
+},
+{
+"topic_id": "A04.02",
+"word": "Sexual harassment outside work"
+},
+{
+"topic_id": "A04.02",
+"word": "street harassment"
+},
+{
+"topic_id": "A04.02",
+"word": "stranger"
+},
+{
+"topic_id": "A04.03",
+"word": "followed"
+},
+{
+"topic_id": "A04.03",
+"word": "harassed"
+},
+{
+"topic_id": "A04.03",
+"word": "Stalking"
+},
+{
+"topic_id": "A04.03",
+"word": "watching me"
+},
+{
+"topic_id": "A04.03",
+"word": "Threats"
+},
+{
+"topic_id": "A04.03",
+"word": "death threat"
+},
+{
+"topic_id": "A04.03",
+"word": "threatened me"
+},
+{
+"topic_id": "A04.03",
+"word": "Repeated unwanted contact"
+},
+{
+"topic_id": "A04.03",
+"word": "harassing calls"
+},
+{
+"topic_id": "A04.03",
+"word": "texts"
+},
+{
+"topic_id": "A04.03",
+"word": "Online stalking or harassment"
+},
+{
+"topic_id": "A04.03",
+"word": "doxxing"
+},
+{
+"topic_id": "A04.03",
+"word": "cyberstalking"
+},
+{
+"topic_id": "A04.03",
+"word": "revenge porn"
+},
+{
+"topic_id": "A04.04",
+"word": "hate"
+},
+{
+"topic_id": "A04.04",
+"word": "slur"
+},
+{
+"topic_id": "A04.04",
+"word": "targeted"
+},
+{
+"topic_id": "A04.04",
+"word": "someone insulted me because of who I am"
+},
+{
+"topic_id": "A04.04",
+"word": "LGBTQ"
+},
+{
+"topic_id": "A04.04",
+"word": "gay"
+},
+{
+"topic_id": "A04.04",
+"word": "lesbian"
+},
+{
+"topic_id": "A04.04",
+"word": "trans"
+},
+{
+"topic_id": "A04.04",
+"word": "transgender"
+},
+{
+"topic_id": "A04.04",
+"word": "queer"
+},
+{
+"topic_id": "A04.04",
+"word": "bisexual"
+},
+{
+"topic_id": "A04.04",
+"word": "nonbinary"
+},
+{
+"topic_id": "A04.04",
+"word": "Hate crime"
+},
+{
+"topic_id": "A04.04",
+"word": "attacked because of who I am"
+},
+{
+"topic_id": "A04.04",
+"word": "Bias incident"
+},
+{
+"topic_id": "A04.04",
+"word": "insult"
+},
+{
+"topic_id": "A04.04",
+"word": "offensive comment"
+},
+{
+"topic_id": "A04.04",
+"word": "not a crime"
+},
+{
+"topic_id": "A04.04",
+"word": "Hate graffiti or vandalism"
+},
+{
+"topic_id": "A04.04",
+"word": "swastika"
+},
+{
+"topic_id": "A04.04",
+"word": "vandalism"
+},
+{
+"topic_id": "A04.04",
+"word": "Reporting a hate crime"
+},
+{
+"topic_id": "A04.04",
+"word": "report hate crime"
+},
+{
+"topic_id": "A04.05",
+"word": "attacked"
+},
+{
+"topic_id": "A04.05",
+"word": "robbed"
+},
+{
+"topic_id": "A04.05",
+"word": "mugged"
+},
+{
+"topic_id": "A04.05",
+"word": "stolen"
+},
+{
+"topic_id": "A04.05",
+"word": "victim counseling"
+},
+{
+"topic_id": "A04.05",
+"word": "victim compensation"
+},
+{
+"topic_id": "A04.05",
+"word": "Assault"
+},
+{
+"topic_id": "A04.05",
+"word": "beaten up"
+},
+{
+"topic_id": "A04.05",
+"word": "fight"
+},
+{
+"topic_id": "A04.05",
+"word": "Robbery or theft"
+},
+{
+"topic_id": "A04.06",
+"word": "shot"
+},
+{
+"topic_id": "A04.06",
+"word": "shooting"
+},
+{
+"topic_id": "A04.06",
+"word": "gunshot"
+},
+{
+"topic_id": "A04.07",
+"word": "homicide"
+},
+{
+"topic_id": "A04.07",
+"word": "family of victim"
+},
+{
+"topic_id": "A04.07",
+"word": "someone killed"
+},
+{
+"topic_id": "A04.08",
+"word": "forced labor"
+},
+{
+"topic_id": "A04.08",
+"word": "trafficked"
+},
+{
+"topic_id": "A04.09",
+"word": "drunk driving"
+},
+{
+"topic_id": "A04.09",
+"word": "DWI"
+},
+{
+"topic_id": "A04.09",
+"word": "hit and run"
+},
+{
+"topic_id": "A04.09",
+"word": "hit-and-run"
+},
+{
+"topic_id": "A04.09",
+"word": "car crimes"
+},
+{
+"topic_id": "A04.09",
+"word": "traffic crimes"
+},
+{
+"topic_id": "A04.09",
+"word": "motor vehicle crime"
+},
+{
+"topic_id": "A04.09",
+"word": "drunk driver"
+},
+{
+"topic_id": "A04.09",
+"word": "crash victim"
+},
+{
+"topic_id": "A04.10",
+"word": "mass shooting"
+},
+{
+"topic_id": "A04.10",
+"word": "attack"
+},
+{
+"topic_id": "A04.10",
+"word": "terror"
+},
+{
+"topic_id": "A04.11",
+"word": "victim"
+},
+{
+"topic_id": "A04.11",
+"word": "pay for medical bills"
+},
+{
+"topic_id": "A04.11",
+"word": "OVS"
+},
+{
+"topic_id": "A04.11",
+"word": "funeral costs"
+},
+{
+"topic_id": "A04.11",
+"word": "compensation"
+},
+{
+"topic_id": "A04.11",
+"word": "financial help"
+},
+{
+"topic_id": "A04.11",
+"word": "reimbursement"
+},
+{
+"topic_id": "A04.11",
+"word": "Compensation for crime victims"
+},
+{
+"topic_id": "A04.11",
+"word": "victim compensation claim"
+},
+{
+"topic_id": "A04.11",
+"word": "Moving or relocation after a crime"
+},
+{
+"topic_id": "A04.11",
+"word": "safe housing"
+},
+{
+"topic_id": "A04.11",
+"word": "relocation costs"
+},
+{
+"topic_id": "A04.12",
+"word": "report a crime"
+},
+{
+"topic_id": "A04.12",
+"word": "police report"
+},
+{
+"topic_id": "A04.12",
+"word": "Help filing a police report"
+},
+{
+"topic_id": "A04.12",
+"word": "Court support for victims"
+},
+{
+"topic_id": "A04.12",
+"word": "testify"
+},
+{
+"topic_id": "A04.12",
+"word": "court accompaniment"
+},
+{
+"topic_id": "A05.01",
+"word": "cop"
+},
+{
+"topic_id": "A05.01",
+"word": "officer"
+},
+{
+"topic_id": "A05.01",
+"word": "Excessive force or misconduct"
+},
+{
+"topic_id": "A05.01",
+"word": "police brutality"
+},
+{
+"topic_id": "A05.01",
+"word": "officer hit me"
+},
+{
+"topic_id": "A05.01",
+"word": "Wrongful stop, search or arrest"
+},
+{
+"topic_id": "A05.01",
+"word": "racial profiling"
+},
+{
+"topic_id": "A05.01",
+"word": "stop and frisk"
+},
+{
+"topic_id": "A05.01",
+"word": "discrimination by police"
+},
+{
+"topic_id": "A05.01",
+"word": "Complaint against an officer"
+},
+{
+"topic_id": "A05.01",
+"word": "file a complaint"
+},
+{
+"topic_id": "A05.01",
+"word": "CCRB"
+},
+{
+"topic_id": "A05.01",
+"word": "Police did not respond"
+},
+{
+"topic_id": "A05.01",
+"word": "refused to take report"
+},
+{
+"topic_id": "A05.01",
+"word": "ignored me"
+},
+{
+"topic_id": "A05.02",
+"word": "charged"
+},
+{
+"topic_id": "A05.02",
+"word": "arrested"
+},
+{
+"topic_id": "A05.02",
+"word": "I was arrested or charged"
+},
+{
+"topic_id": "A05.02",
+"word": "arraignment"
+},
+{
+"topic_id": "A05.02",
+"word": "charges"
+},
+{
+"topic_id": "A05.02",
+"word": "Public defender"
+},
+{
+"topic_id": "A05.02",
+"word": "criminal defense lawyer"
+},
+{
+"topic_id": "A05.02",
+"word": "free criminal defense lawyer"
+},
+{
+"topic_id": "A05.02",
+"word": "assigned counsel"
+},
+{
+"topic_id": "A05.02",
+"word": "Bail"
+},
+{
+"topic_id": "A05.02",
+"word": "bail help"
+},
+{
+"topic_id": "A05.02",
+"word": "bail fund"
+},
+{
+"topic_id": "A05.02",
+"word": "Sealing or clearing a record"
+},
+{
+"topic_id": "A05.02",
+"word": "expungement"
+},
+{
+"topic_id": "A05.02",
+"word": "seal record"
+},
+{
+"topic_id": "A05.02",
+"word": "pending arrest"
+},
+{
+"topic_id": "A05.02",
+"word": "arrested not convicted"
+},
+{
+"topic_id": "A05.02",
+"word": "Criminal record mistakes"
+},
+{
+"topic_id": "A05.02",
+"word": "wrong record"
+},
+{
+"topic_id": "A05.02",
+"word": "rap sheet error"
+},
+{
+"topic_id": "A05.02",
+"word": "Juvenile justice"
+},
+{
+"topic_id": "A05.02",
+"word": "juvenile"
+},
+{
+"topic_id": "A05.02",
+"word": "delinquency"
+},
+{
+"topic_id": "A05.03",
+"word": "incarcerated"
+},
+{
+"topic_id": "A05.03",
+"word": "released"
+},
+{
+"topic_id": "A05.03",
+"word": "Treatment in jail or prison"
+},
+{
+"topic_id": "A05.03",
+"word": "guards"
+},
+{
+"topic_id": "A05.03",
+"word": "conditions"
+},
+{
+"topic_id": "A05.03",
+"word": "solitary"
+},
+{
+"topic_id": "A05.03",
+"word": "Parole and probation"
+},
+{
+"topic_id": "A05.03",
+"word": "parole officer"
+},
+{
+"topic_id": "A05.03",
+"word": "violation"
+},
+{
+"topic_id": "A05.03",
+"word": "Coming home"
+},
+{
+"topic_id": "A05.03",
+"word": "reentry help"
+},
+{
+"topic_id": "A05.03",
+"word": "housing after prison"
+},
+{
+"topic_id": "A05.03",
+"word": "Family of someone incarcerated"
+},
+{
+"topic_id": "A05.03",
+"word": "visiting"
+},
+{
+"topic_id": "A05.03",
+"word": "calls"
+},
+{
+"topic_id": "A05.03",
+"word": "support"
+},
+{
+"topic_id": "A05.03",
+"word": "Legal help while incarcerated"
+},
+{
+"topic_id": "A05.03",
+"word": "prisoner legal"
+},
+{
+"topic_id": "A05.03",
+"word": "appeal from prison"
+},
+{
+"topic_id": "A05.04",
+"word": "judge"
+},
+{
+"topic_id": "A05.04",
+"word": "clerk"
+},
+{
+"topic_id": "A05.04",
+"word": "court"
+},
+{
+"topic_id": "A05.04",
+"word": "Unfair judge or court staff"
+},
+{
+"topic_id": "A05.04",
+"word": "judge bias"
+},
+{
+"topic_id": "A05.04",
+"word": "rude clerk"
+},
+{
+"topic_id": "A05.04",
+"word": "Court interpreter"
+},
+{
+"topic_id": "A05.04",
+"word": "language access"
+},
+{
+"topic_id": "A05.04",
+"word": "translator"
+},
+{
+"topic_id": "A05.04",
+"word": "Court accessibility"
+},
+{
+"topic_id": "A05.04",
+"word": "wheelchair access court"
+},
+{
+"topic_id": "A05.04",
+"word": "Appealing a court decision"
+},
+{
+"topic_id": "A05.04",
+"word": "appeal"
+},
+{
+"topic_id": "A05.04",
+"word": "Article 78"
+},
+{
+"topic_id": "A05.04",
+"word": "Self-help court centers"
+},
+{
+"topic_id": "A05.04",
+"word": "help desk"
+},
+{
+"topic_id": "A05.04",
+"word": "court navigator"
+},
+{
+"topic_id": "A05.05",
+"word": "innocent"
+},
+{
+"topic_id": "A05.05",
+"word": "exoneration"
+},
+{
+"topic_id": "A06.01",
+"word": "welfare"
+},
+{
+"topic_id": "A06.01",
+"word": "food stamps"
+},
+{
+"topic_id": "A06.01",
+"word": "financial help"
+},
+{
+"topic_id": "A06.01",
+"word": "money help"
+},
+{
+"topic_id": "A06.01",
+"word": "SNAP denied or cut"
+},
+{
+"topic_id": "A06.01",
+"word": "EBT"
+},
+{
+"topic_id": "A06.01",
+"word": "Cash assistance"
+},
+{
+"topic_id": "A06.01",
+"word": "TANF"
+},
+{
+"topic_id": "A06.01",
+"word": "public assistance"
+},
+{
+"topic_id": "A06.01",
+"word": "temporary assistance"
+},
+{
+"topic_id": "A06.01",
+"word": "Benefit sanctions"
+},
+{
+"topic_id": "A06.01",
+"word": "sanction"
+},
+{
+"topic_id": "A06.01",
+"word": "work activity"
+},
+{
+"topic_id": "A06.01",
+"word": "work requirements"
+},
+{
+"topic_id": "A06.01",
+"word": "Benefit overpayment"
+},
+{
+"topic_id": "A06.01",
+"word": "recoupment"
+},
+{
+"topic_id": "A06.01",
+"word": "overpaid"
+},
+{
+"topic_id": "A06.01",
+"word": "asked to pay back"
+},
+{
+"topic_id": "A06.01",
+"word": "Accused of benefit fraud"
+},
+{
+"topic_id": "A06.01",
+"word": "welfare fraud"
+},
+{
+"topic_id": "A06.01",
+"word": "investigation"
+},
+{
+"topic_id": "A06.01",
+"word": "Benefits appeal"
+},
+{
+"topic_id": "A06.01",
+"word": "fair hearing"
+},
+{
+"topic_id": "A06.01",
+"word": "appeal denial"
+},
+{
+"topic_id": "A06.02",
+"word": "SSI"
+},
+{
+"topic_id": "A06.02",
+"word": "SSDI"
+},
+{
+"topic_id": "A06.02",
+"word": "Social Security"
+},
+{
+"topic_id": "A06.02",
+"word": "SSI or SSDI"
+},
+{
+"topic_id": "A06.02",
+"word": "disability benefits"
+},
+{
+"topic_id": "A06.02",
+"word": "Social Security disability"
+},
+{
+"topic_id": "A06.02",
+"word": "Social Security retirement"
+},
+{
+"topic_id": "A06.02",
+"word": "retirement"
+},
+{
+"topic_id": "A06.02",
+"word": "widow benefits"
+},
+{
+"topic_id": "A06.02",
+"word": "survivor benefits"
+},
+{
+"topic_id": "A06.02",
+"word": "Social Security overpayment"
+},
+{
+"topic_id": "A06.02",
+"word": "SSA overpaid"
+},
+{
+"topic_id": "A06.03",
+"word": "agency"
+},
+{
+"topic_id": "A06.03",
+"word": "city hall"
+},
+{
+"topic_id": "A06.03",
+"word": "DMV"
+},
+{
+"topic_id": "A06.03",
+"word": "federal"
+},
+{
+"topic_id": "A06.03",
+"word": "Local or state agency problem"
+},
+{
+"topic_id": "A06.03",
+"word": "rude worker"
+},
+{
+"topic_id": "A06.03",
+"word": "denied service"
+},
+{
+"topic_id": "A06.03",
+"word": "Federal agency problem"
+},
+{
+"topic_id": "A06.03",
+"word": "post office"
+},
+{
+"topic_id": "A06.03",
+"word": "Social Security office"
+},
+{
+"topic_id": "A06.03",
+"word": "Unfair treatment by an agency"
+},
+{
+"topic_id": "A06.03",
+"word": "discrimination in a government benefit or service"
+},
+{
+"topic_id": "A06.03",
+"word": "benefits discrimination"
+},
+{
+"topic_id": "A06.03",
+"word": "Port Authority problems"
+},
+{
+"topic_id": "A06.03",
+"word": "Port Authority"
+},
+{
+"topic_id": "A06.03",
+"word": "PATH"
+},
+{
+"topic_id": "A06.03",
+"word": "airports"
+},
+{
+"topic_id": "A06.03",
+"word": "Permit or license denied"
+},
+{
+"topic_id": "A06.03",
+"word": "building permit"
+},
+{
+"topic_id": "A06.03",
+"word": "business license"
+},
+{
+"topic_id": "A06.03",
+"word": "Public records requests"
+},
+{
+"topic_id": "A06.03",
+"word": "FOIL"
+},
+{
+"topic_id": "A06.03",
+"word": "records"
+},
+{
+"topic_id": "A06.04",
+"word": "ID"
+},
+{
+"topic_id": "A06.04",
+"word": "voting"
+},
+{
+"topic_id": "A06.04",
+"word": "transit"
+},
+{
+"topic_id": "A06.04",
+"word": "Getting ID or vital records"
+},
+{
+"topic_id": "A06.04",
+"word": "birth certificate"
+},
+{
+"topic_id": "A06.04",
+"word": "Voting rights"
+},
+{
+"topic_id": "A06.04",
+"word": "registration"
+},
+{
+"topic_id": "A06.04",
+"word": "polling place"
+},
+{
+"topic_id": "A06.04",
+"word": "Public transportation problems"
+},
+{
+"topic_id": "A06.04",
+"word": "bus"
+},
+{
+"topic_id": "A06.04",
+"word": "subway"
+},
+{
+"topic_id": "A06.04",
+"word": "Access-A-Ride"
+},
+{
+"topic_id": "A06.04",
+"word": "Language access at agencies"
+},
+{
+"topic_id": "A06.04",
+"word": "interpreter"
+},
+{
+"topic_id": "A06.04",
+"word": "translation"
+},
+{
+"topic_id": "A06.04",
+"word": "Disability access at agencies"
+},
+{
+"topic_id": "A06.04",
+"word": "accessible"
+},
+{
+"topic_id": "A06.04",
+"word": "accommodations"
+},
+{
+"topic_id": "A06.05",
+"word": "veteran"
+},
+{
+"topic_id": "A06.05",
+"word": "veterans"
+},
+{
+"topic_id": "A06.05",
+"word": "military"
+},
+{
+"topic_id": "A06.05",
+"word": "service member"
+},
+{
+"topic_id": "A06.05",
+"word": "VA benefits"
+},
+{
+"topic_id": "A06.05",
+"word": "veterans benefits"
+},
+{
+"topic_id": "A06.05",
+"word": "GI Bill"
+},
+{
+"topic_id": "A06.05",
+"word": "PTSD"
+},
+{
+"topic_id": "A07.01",
+"word": "doctor"
+},
+{
+"topic_id": "A07.01",
+"word": "hospital"
+},
+{
+"topic_id": "A07.01",
+"word": "nursing home"
+},
+{
+"topic_id": "A07.01",
+"word": "Poor care or misdiagnosis"
+},
+{
+"topic_id": "A07.01",
+"word": "wrong diagnosis"
+},
+{
+"topic_id": "A07.01",
+"word": "malpractice"
+},
+{
+"topic_id": "A07.01",
+"word": "Doctor or hospital complaint"
+},
+{
+"topic_id": "A07.01",
+"word": "complaint about a doctor or hospital"
+},
+{
+"topic_id": "A07.01",
+"word": "Nursing home problems"
+},
+{
+"topic_id": "A07.01",
+"word": "care facility"
+},
+{
+"topic_id": "A07.01",
+"word": "neglect"
+},
+{
+"topic_id": "A07.01",
+"word": "care home"
+},
+{
+"topic_id": "A07.01",
+"word": "Medical records and privacy"
+},
+{
+"topic_id": "A07.01",
+"word": "HIPAA"
+},
+{
+"topic_id": "A07.01",
+"word": "records access"
+},
+{
+"topic_id": "A07.01",
+"word": "Patient rights and consent"
+},
+{
+"topic_id": "A07.01",
+"word": "informed consent"
+},
+{
+"topic_id": "A07.01",
+"word": "refused treatment"
+},
+{
+"topic_id": "A07.01",
+"word": "Medical bills"
+},
+{
+"topic_id": "A07.01",
+"word": "hospital bill"
+},
+{
+"topic_id": "A07.01",
+"word": "surprise bill"
+},
+{
+"topic_id": "A07.02",
+"word": "coverage"
+},
+{
+"topic_id": "A07.02",
+"word": "claim"
+},
+{
+"topic_id": "A07.02",
+"word": "Medicaid"
+},
+{
+"topic_id": "A07.02",
+"word": "insurance"
+},
+{
+"topic_id": "A07.02",
+"word": "health insurance"
+},
+{
+"topic_id": "A07.02",
+"word": "Health insurance claim denied"
+},
+{
+"topic_id": "A07.02",
+"word": "denied claim"
+},
+{
+"topic_id": "A07.02",
+"word": "prior authorization"
+},
+{
+"topic_id": "A07.02",
+"word": "Medicaid denied"
+},
+{
+"topic_id": "A07.02",
+"word": "Medicaid coverage"
+},
+{
+"topic_id": "A07.02",
+"word": "Medicare"
+},
+{
+"topic_id": "A07.02",
+"word": "Medigap"
+},
+{
+"topic_id": "A07.02",
+"word": "Appealing an insurance decision"
+},
+{
+"topic_id": "A07.02",
+"word": "external appeal"
+},
+{
+"topic_id": "A07.02",
+"word": "internal appeal"
+},
+{
+"topic_id": "A07.02",
+"word": "Prescription drug coverage"
+},
+{
+"topic_id": "A07.02",
+"word": "drug coverage"
+},
+{
+"topic_id": "A07.02",
+"word": "formulary"
+},
+{
+"topic_id": "A07.02",
+"word": "Finding health coverage"
+},
+{
+"topic_id": "A07.02",
+"word": "Essential Plan"
+},
+{
+"topic_id": "A07.02",
+"word": "marketplace"
+},
+{
+"topic_id": "A07.03",
+"word": "therapy"
+},
+{
+"topic_id": "A07.03",
+"word": "addiction"
+},
+{
+"topic_id": "A07.03",
+"word": "crisis"
+},
+{
+"topic_id": "A07.03",
+"word": "counseling"
+},
+{
+"topic_id": "A07.03",
+"word": "counselor"
+},
+{
+"topic_id": "A07.03",
+"word": "support group"
+},
+{
+"topic_id": "A07.03",
+"word": "crisis line"
+},
+{
+"topic_id": "A07.03",
+"word": "hotline"
+},
+{
+"topic_id": "A07.03",
+"word": "PTSD"
+},
+{
+"topic_id": "A07.03",
+"word": "trauma"
+},
+{
+"topic_id": "A07.03",
+"word": "Mental health treatment"
+},
+{
+"topic_id": "A07.03",
+"word": "psychiatrist"
+},
+{
+"topic_id": "A07.03",
+"word": "Crisis support"
+},
+{
+"topic_id": "A07.03",
+"word": "988"
+},
+{
+"topic_id": "A07.03",
+"word": "suicide"
+},
+{
+"topic_id": "A07.03",
+"word": "emergency"
+},
+{
+"topic_id": "A07.03",
+"word": "Involuntary treatment"
+},
+{
+"topic_id": "A07.03",
+"word": "committed"
+},
+{
+"topic_id": "A07.03",
+"word": "forced medication"
+},
+{
+"topic_id": "A07.03",
+"word": "patient rights"
+},
+{
+"topic_id": "A07.03",
+"word": "Substance use treatment"
+},
+{
+"topic_id": "A07.03",
+"word": "rehab"
+},
+{
+"topic_id": "A07.03",
+"word": "Family of someone in crisis"
+},
+{
+"topic_id": "A07.03",
+"word": "family of someone mentally ill"
+},
+{
+"topic_id": "A07.04",
+"word": "aging at home"
+},
+{
+"topic_id": "A07.04",
+"word": "hospice"
+},
+{
+"topic_id": "A07.04",
+"word": "senior care"
+},
+{
+"topic_id": "A07.04",
+"word": "Home care services"
+},
+{
+"topic_id": "A07.04",
+"word": "home health aide"
+},
+{
+"topic_id": "A07.04",
+"word": "personal care"
+},
+{
+"topic_id": "A07.04",
+"word": "Palliative and end-of-life care"
+},
+{
+"topic_id": "A07.04",
+"word": "palliative"
+},
+{
+"topic_id": "A07.04",
+"word": "Paying for long-term care"
+},
+{
+"topic_id": "A07.04",
+"word": "Medicaid nursing home"
+},
+{
+"topic_id": "A07.04",
+"word": "Caregiver support"
+},
+{
+"topic_id": "A07.04",
+"word": "caring for parent"
+},
+{
+"topic_id": "A07.06",
+"word": "sliding scale"
+},
+{
+"topic_id": "A07.06",
+"word": "clinic"
+},
+{
+"topic_id": "A07.06",
+"word": "free clinic"
+},
+{
+"topic_id": "A07.06",
+"word": "Community clinics"
+},
+{
+"topic_id": "A07.06",
+"word": "free or low-cost clinics"
+},
+{
+"topic_id": "A07.06",
+"word": "community clinic"
+},
+{
+"topic_id": "A07.06",
+"word": "Reproductive health care"
+},
+{
+"topic_id": "A07.06",
+"word": "birth control"
+},
+{
+"topic_id": "A07.06",
+"word": "abortion"
+},
+{
+"topic_id": "A07.06",
+"word": "family planning"
+},
+{
+"topic_id": "A07.06",
+"word": "Dental and vision"
+},
+{
+"topic_id": "A07.06",
+"word": "dental"
+},
+{
+"topic_id": "A07.06",
+"word": "glasses"
+},
+{
+"topic_id": "A07.07",
+"word": "HIV"
+},
+{
+"topic_id": "A07.07",
+"word": "AIDS"
+},
+{
+"topic_id": "A07.07",
+"word": "HIV positive"
+},
+{
+"topic_id": "A07.07",
+"word": "living with HIV"
+},
+{
+"topic_id": "A08.01",
+"word": "owe money"
+},
+{
+"topic_id": "A08.01",
+"word": "collectors"
+},
+{
+"topic_id": "A08.01",
+"word": "Debt collectors"
+},
+{
+"topic_id": "A08.01",
+"word": "harassing calls"
+},
+{
+"topic_id": "A08.01",
+"word": "collection agency"
+},
+{
+"topic_id": "A08.01",
+"word": "Being sued for a debt"
+},
+{
+"topic_id": "A08.01",
+"word": "summons"
+},
+{
+"topic_id": "A08.01",
+"word": "default judgment"
+},
+{
+"topic_id": "A08.01",
+"word": "Wages or bank account taken"
+},
+{
+"topic_id": "A08.01",
+"word": "wage garnishment"
+},
+{
+"topic_id": "A08.01",
+"word": "frozen account"
+},
+{
+"topic_id": "A08.01",
+"word": "levy"
+},
+{
+"topic_id": "A08.01",
+"word": "Medical debt"
+},
+{
+"topic_id": "A08.01",
+"word": "hospital debt"
+},
+{
+"topic_id": "A08.01",
+"word": "Student loans"
+},
+{
+"topic_id": "A08.01",
+"word": "student debt"
+},
+{
+"topic_id": "A08.01",
+"word": "loan forgiveness"
+},
+{
+"topic_id": "A08.01",
+"word": "Bankruptcy"
+},
+{
+"topic_id": "A08.01",
+"word": "chapter 7"
+},
+{
+"topic_id": "A08.01",
+"word": "chapter 13"
+},
+{
+"topic_id": "A08.02",
+"word": "loan"
+},
+{
+"topic_id": "A08.02",
+"word": "credit report"
+},
+{
+"topic_id": "A08.02",
+"word": "credit"
+},
+{
+"topic_id": "A08.02",
+"word": "Credit report errors"
+},
+{
+"topic_id": "A08.02",
+"word": "wrong credit"
+},
+{
+"topic_id": "A08.02",
+"word": "dispute"
+},
+{
+"topic_id": "A08.02",
+"word": "Loan or credit denied"
+},
+{
+"topic_id": "A08.02",
+"word": "denied loan"
+},
+{
+"topic_id": "A08.02",
+"word": "denied credit card"
+},
+{
+"topic_id": "A08.02",
+"word": "Payday or predatory loans"
+},
+{
+"topic_id": "A08.02",
+"word": "high interest"
+},
+{
+"topic_id": "A08.02",
+"word": "title loan"
+},
+{
+"topic_id": "A08.02",
+"word": "Car loans and repossession"
+},
+{
+"topic_id": "A08.02",
+"word": "repo"
+},
+{
+"topic_id": "A08.02",
+"word": "auto loan"
+},
+{
+"topic_id": "A08.02",
+"word": "Identity theft"
+},
+{
+"topic_id": "A08.02",
+"word": "stolen identity"
+},
+{
+"topic_id": "A08.03",
+"word": "scam"
+},
+{
+"topic_id": "A08.03",
+"word": "refund"
+},
+{
+"topic_id": "A08.03",
+"word": "bad service"
+},
+{
+"topic_id": "A08.03",
+"word": "Scams and fraud"
+},
+{
+"topic_id": "A08.03",
+"word": "swindled"
+},
+{
+"topic_id": "A08.03",
+"word": "Bad product or service"
+},
+{
+"topic_id": "A08.03",
+"word": "defective"
+},
+{
+"topic_id": "A08.03",
+"word": "Contractor or repair dispute"
+},
+{
+"topic_id": "A08.03",
+"word": "contractor"
+},
+{
+"topic_id": "A08.03",
+"word": "home improvement"
+},
+{
+"topic_id": "A08.03",
+"word": "Subscriptions and cancellations"
+},
+{
+"topic_id": "A08.03",
+"word": "auto-renew"
+},
+{
+"topic_id": "A08.03",
+"word": "can't cancel"
+},
+{
+"topic_id": "A08.03",
+"word": "Lemon law car problems"
+},
+{
+"topic_id": "A08.03",
+"word": "used car"
+},
+{
+"topic_id": "A08.03",
+"word": "lemon"
+},
+{
+"topic_id": "A08.03",
+"word": "Utility billing problems"
+},
+{
+"topic_id": "A08.03",
+"word": "electric bill"
+},
+{
+"topic_id": "A08.03",
+"word": "billing error"
+},
+{
+"topic_id": "A08.04",
+"word": "taxes"
+},
+{
+"topic_id": "A08.04",
+"word": "IRS"
+},
+{
+"topic_id": "A08.04",
+"word": "pension"
+},
+{
+"topic_id": "A08.04",
+"word": "Tax filing help"
+},
+{
+"topic_id": "A08.04",
+"word": "free tax prep"
+},
+{
+"topic_id": "A08.04",
+"word": "VITA"
+},
+{
+"topic_id": "A08.04",
+"word": "IRS or state tax problems"
+},
+{
+"topic_id": "A08.04",
+"word": "audit"
+},
+{
+"topic_id": "A08.04",
+"word": "tax debt"
+},
+{
+"topic_id": "A08.04",
+"word": "Tax refunds and credits"
+},
+{
+"topic_id": "A08.04",
+"word": "EITC"
+},
+{
+"topic_id": "A08.04",
+"word": "refund"
+},
+{
+"topic_id": "A08.04",
+"word": "Pension or retirement account"
+},
+{
+"topic_id": "A08.04",
+"word": "401k"
+},
+{
+"topic_id": "A08.04",
+"word": "ERISA"
+},
+{
+"topic_id": "A08.04",
+"word": "employee benefit plan"
+},
+{
+"topic_id": "A08.05",
+"word": "car insurance"
+},
+{
+"topic_id": "A08.05",
+"word": "home insurance"
+},
+{
+"topic_id": "A08.05",
+"word": "not health insurance"
+},
+{
+"topic_id": "A08.05",
+"word": "insurance"
+},
+{
+"topic_id": "A08.05",
+"word": "Car or home insurance claim"
+},
+{
+"topic_id": "A08.05",
+"word": "denied claim"
+},
+{
+"topic_id": "A08.05",
+"word": "renters insurance"
+},
+{
+"topic_id": "A08.05",
+"word": "Insurance company complaint"
+},
+{
+"topic_id": "A08.05",
+"word": "insurer"
+},
+{
+"topic_id": "A08.05",
+"word": "adjuster"
+},
+{
+"topic_id": "A09.01",
+"word": "custody"
+},
+{
+"topic_id": "A09.01",
+"word": "divorce"
+},
+{
+"topic_id": "A09.01",
+"word": "child support"
+},
+{
+"topic_id": "A09.01",
+"word": "Child custody and visitation"
+},
+{
+"topic_id": "A09.01",
+"word": "visitation"
+},
+{
+"topic_id": "A09.01",
+"word": "Divorce or separation"
+},
+{
+"topic_id": "A09.01",
+"word": "separate"
+},
+{
+"topic_id": "A09.01",
+"word": "child support order"
+},
+{
+"topic_id": "A09.01",
+"word": "modify"
+},
+{
+"topic_id": "A09.01",
+"word": "Establishing a child's father"
+},
+{
+"topic_id": "A09.01",
+"word": "paternity"
+},
+{
+"topic_id": "A09.01",
+"word": "DNA test"
+},
+{
+"topic_id": "A09.01",
+"word": "Family court help"
+},
+{
+"topic_id": "A09.01",
+"word": "family court"
+},
+{
+"topic_id": "A09.01",
+"word": "petition"
+},
+{
+"topic_id": "A09.02",
+"word": "CPS"
+},
+{
+"topic_id": "A09.02",
+"word": "ACS"
+},
+{
+"topic_id": "A09.02",
+"word": "caseworker"
+},
+{
+"topic_id": "A09.02",
+"word": "child welfare"
+},
+{
+"topic_id": "A09.02",
+"word": "Investigation of my family"
+},
+{
+"topic_id": "A09.02",
+"word": "CPS investigation"
+},
+{
+"topic_id": "A09.02",
+"word": "Child removed or in foster care"
+},
+{
+"topic_id": "A09.02",
+"word": "removed child"
+},
+{
+"topic_id": "A09.02",
+"word": "Child abuse or neglect"
+},
+{
+"topic_id": "A09.02",
+"word": "abuse"
+},
+{
+"topic_id": "A09.02",
+"word": "neglect"
+},
+{
+"topic_id": "A09.02",
+"word": "Complaint about child welfare"
+},
+{
+"topic_id": "A09.02",
+"word": "appeal ACS"
+},
+{
+"topic_id": "A09.02",
+"word": "complaint"
+},
+{
+"topic_id": "A09.03",
+"word": "foster"
+},
+{
+"topic_id": "A09.03",
+"word": "adopt"
+},
+{
+"topic_id": "A09.03",
+"word": "guardianship"
+},
+{
+"topic_id": "A09.03",
+"word": "Becoming a foster parent"
+},
+{
+"topic_id": "A09.03",
+"word": "foster parent"
+},
+{
+"topic_id": "A09.03",
+"word": "foster child"
+},
+{
+"topic_id": "A09.03",
+"word": "Adoption"
+},
+{
+"topic_id": "A09.03",
+"word": "Guardianship of a child"
+},
+{
+"topic_id": "A09.03",
+"word": "Raising a relative's child"
+},
+{
+"topic_id": "A09.03",
+"word": "kinship care"
+},
+{
+"topic_id": "A09.03",
+"word": "grandparent raising grandchild"
+},
+{
+"topic_id": "A09.04",
+"word": "teens"
+},
+{
+"topic_id": "A09.04",
+"word": "day care"
+},
+{
+"topic_id": "A09.04",
+"word": "youth"
+},
+{
+"topic_id": "A09.04",
+"word": "Child care help"
+},
+{
+"topic_id": "A09.04",
+"word": "subsidy"
+},
+{
+"topic_id": "A09.04",
+"word": "Youth programs"
+},
+{
+"topic_id": "A09.04",
+"word": "after school"
+},
+{
+"topic_id": "A09.04",
+"word": "Teen parents"
+},
+{
+"topic_id": "A09.04",
+"word": "young parents"
+},
+{
+"topic_id": "A09.05",
+"word": "senior"
+},
+{
+"topic_id": "A09.05",
+"word": "elderly"
+},
+{
+"topic_id": "A09.05",
+"word": "abuse of seniors"
+},
+{
+"topic_id": "A09.05",
+"word": "Elder abuse"
+},
+{
+"topic_id": "A09.05",
+"word": "Adult protective services"
+},
+{
+"topic_id": "A09.05",
+"word": "APS"
+},
+{
+"topic_id": "A09.05",
+"word": "Guardianship for an adult"
+},
+{
+"topic_id": "A09.05",
+"word": "conservator"
+},
+{
+"topic_id": "A09.05",
+"word": "guardian"
+},
+{
+"topic_id": "A09.05",
+"word": "Power of attorney"
+},
+{
+"topic_id": "A09.05",
+"word": "POA"
+},
+{
+"topic_id": "A09.05",
+"word": "health care proxy"
+},
+{
+"topic_id": "A09.06",
+"word": "will"
+},
+{
+"topic_id": "A09.06",
+"word": "estate"
+},
+{
+"topic_id": "A09.06",
+"word": "Wills and estate planning"
+},
+{
+"topic_id": "A09.06",
+"word": "trust"
+},
+{
+"topic_id": "A09.06",
+"word": "Settling an estate"
+},
+{
+"topic_id": "A09.06",
+"word": "probate"
+},
+{
+"topic_id": "A09.06",
+"word": "executor"
+},
+{
+"topic_id": "A09.06",
+"word": "Inheritance disputes"
+},
+{
+"topic_id": "A09.06",
+"word": "family inheritance"
+},
+{
+"topic_id": "A09.06",
+"word": "Funeral and burial costs"
+},
+{
+"topic_id": "A09.06",
+"word": "funeral"
+},
+{
+"topic_id": "A09.07",
+"word": "name change"
+},
+{
+"topic_id": "A09.07",
+"word": "marriage"
+},
+{
+"topic_id": "A09.07",
+"word": "change my name"
+},
+{
+"topic_id": "A09.07",
+"word": "Gender marker change"
+},
+{
+"topic_id": "A09.07",
+"word": "gender on ID"
+},
+{
+"topic_id": "A09.07",
+"word": "Marriage and domestic partnership"
+},
+{
+"topic_id": "A09.07",
+"word": "marry"
+},
+{
+"topic_id": "A09.07",
+"word": "partnership"
+},
+{
+"topic_id": "A10.01",
+"word": "visa"
+},
+{
+"topic_id": "A10.01",
+"word": "green card"
+},
+{
+"topic_id": "A10.01",
+"word": "papers"
+},
+{
+"topic_id": "A10.01",
+"word": "legal status"
+},
+{
+"topic_id": "A10.01",
+"word": "Green card or visa"
+},
+{
+"topic_id": "A10.01",
+"word": "permanent resident"
+},
+{
+"topic_id": "A10.01",
+"word": "Citizenship"
+},
+{
+"topic_id": "A10.01",
+"word": "naturalization"
+},
+{
+"topic_id": "A10.01",
+"word": "DACA"
+},
+{
+"topic_id": "A10.01",
+"word": "dreamers"
+},
+{
+"topic_id": "A10.01",
+"word": "Asylum and refugees"
+},
+{
+"topic_id": "A10.01",
+"word": "asylum"
+},
+{
+"topic_id": "A10.01",
+"word": "refugee"
+},
+{
+"topic_id": "A10.01",
+"word": "Work permits"
+},
+{
+"topic_id": "A10.01",
+"word": "EAD"
+},
+{
+"topic_id": "A10.01",
+"word": "Visa for crime victims"
+},
+{
+"topic_id": "A10.01",
+"word": "U visa"
+},
+{
+"topic_id": "A10.01",
+"word": "T visa"
+},
+{
+"topic_id": "A10.01",
+"word": "victim visa"
+},
+{
+"topic_id": "A10.01",
+"word": "Immigration scams"
+},
+{
+"topic_id": "A10.01",
+"word": "notario"
+},
+{
+"topic_id": "A10.01",
+"word": "fake lawyer"
+},
+{
+"topic_id": "A10.01",
+"word": "Immigrants and public benefits"
+},
+{
+"topic_id": "A10.01",
+"word": "public charge"
+},
+{
+"topic_id": "A10.02",
+"word": "removal"
+},
+{
+"topic_id": "A10.02",
+"word": "ICE"
+},
+{
+"topic_id": "A10.02",
+"word": "Deportation defense"
+},
+{
+"topic_id": "A10.02",
+"word": "immigration court"
+},
+{
+"topic_id": "A10.02",
+"word": "Immigration detention"
+},
+{
+"topic_id": "A10.02",
+"word": "detained"
+},
+{
+"topic_id": "A10.02",
+"word": "ICE detention"
+},
+{
+"topic_id": "A10.02",
+"word": "Know your rights with ICE"
+},
+{
+"topic_id": "A10.02",
+"word": "raids"
+},
+{
+"topic_id": "A10.02",
+"word": "ICE at door"
+},
+{
+"topic_id": "A11.01",
+"word": "school"
+},
+{
+"topic_id": "A11.01",
+"word": "teacher"
+},
+{
+"topic_id": "A11.01",
+"word": "principal"
+},
+{
+"topic_id": "A11.01",
+"word": "Suspension or expulsion"
+},
+{
+"topic_id": "A11.01",
+"word": "suspended"
+},
+{
+"topic_id": "A11.01",
+"word": "Special education and IEPs"
+},
+{
+"topic_id": "A11.01",
+"word": "IEP"
+},
+{
+"topic_id": "A11.01",
+"word": "504 plan"
+},
+{
+"topic_id": "A11.01",
+"word": "Bullying at school"
+},
+{
+"topic_id": "A11.01",
+"word": "bullied"
+},
+{
+"topic_id": "A11.01",
+"word": "School discipline"
+},
+{
+"topic_id": "A11.01",
+"word": "punished at school"
+},
+{
+"topic_id": "A11.01",
+"word": "Enrolling in school"
+},
+{
+"topic_id": "A11.01",
+"word": "residency"
+},
+{
+"topic_id": "A11.01",
+"word": "enrollment"
+},
+{
+"topic_id": "A11.01",
+"word": "Objecting to a school event"
+},
+{
+"topic_id": "A11.01",
+"word": "offensive speaker"
+},
+{
+"topic_id": "A11.01",
+"word": "assembly"
+},
+{
+"topic_id": "A11.02",
+"word": "college"
+},
+{
+"topic_id": "A11.02",
+"word": "university"
+},
+{
+"topic_id": "A11.02",
+"word": "Admissions problems"
+},
+{
+"topic_id": "A11.02",
+"word": "denied admission"
+},
+{
+"topic_id": "A11.02",
+"word": "Financial aid"
+},
+{
+"topic_id": "A11.02",
+"word": "FAFSA"
+},
+{
+"topic_id": "A11.02",
+"word": "aid"
+},
+{
+"topic_id": "A11.02",
+"word": "For-profit school problems"
+},
+{
+"topic_id": "A11.02",
+"word": "trade school"
+},
+{
+"topic_id": "A11.02",
+"word": "scam school"
+},
+{
+"topic_id": "A11.03",
+"word": "adult ed"
+},
+{
+"topic_id": "A11.03",
+"word": "pre-K"
+},
+{
+"topic_id": "A11.03",
+"word": "Adult education and GED"
+},
+{
+"topic_id": "A11.03",
+"word": "GED"
+},
+{
+"topic_id": "A11.03",
+"word": "ESL"
+},
+{
+"topic_id": "A11.03",
+"word": "Early childhood and pre-K"
+},
+{
+"topic_id": "A11.03",
+"word": "preschool"
+},
+{
+"topic_id": "A11.03",
+"word": "early intervention"
+},
+{
+"topic_id": "A11.03",
+"word": "Transportation to school"
+},
+{
+"topic_id": "A11.03",
+"word": "school bus"
+},
+{
+"topic_id": "A12.01",
+"word": "job discrimination"
+},
+{
+"topic_id": "A12.01",
+"word": "unfair treatment at work"
+},
+{
+"topic_id": "A12.01",
+"word": "harassed at work because of who I am"
+},
+{
+"topic_id": "A12.01",
+"word": "LGBTQ"
+},
+{
+"topic_id": "A12.01",
+"word": "gay"
+},
+{
+"topic_id": "A12.01",
+"word": "lesbian"
+},
+{
+"topic_id": "A12.01",
+"word": "trans"
+},
+{
+"topic_id": "A12.01",
+"word": "transgender"
+},
+{
+"topic_id": "A12.01",
+"word": "queer"
+},
+{
+"topic_id": "A12.01",
+"word": "bisexual"
+},
+{
+"topic_id": "A12.01",
+"word": "nonbinary"
+},
+{
+"topic_id": "A12.01",
+"word": "veteran"
+},
+{
+"topic_id": "A12.01",
+"word": "military"
+},
+{
+"topic_id": "A12.01",
+"word": "service member"
+},
+{
+"topic_id": "A12.01",
+"word": "Fired because of who I am"
+},
+{
+"topic_id": "A12.01",
+"word": "race"
+},
+{
+"topic_id": "A12.01",
+"word": "sex"
+},
+{
+"topic_id": "A12.01",
+"word": "age"
+},
+{
+"topic_id": "A12.01",
+"word": "disability"
+},
+{
+"topic_id": "A12.01",
+"word": "religion"
+},
+{
+"topic_id": "A12.01",
+"word": "fired for being"
+},
+{
+"topic_id": "A12.01",
+"word": "Not hired because of who I am"
+},
+{
+"topic_id": "A12.01",
+"word": "turned down for a job"
+},
+{
+"topic_id": "A12.01",
+"word": "hiring discrimination"
+},
+{
+"topic_id": "A12.01",
+"word": "Sexual harassment at work"
+},
+{
+"topic_id": "A12.01",
+"word": "harassed at work"
+},
+{
+"topic_id": "A12.01",
+"word": "unwanted advances"
+},
+{
+"topic_id": "A12.01",
+"word": "Record held against me at work"
+},
+{
+"topic_id": "A12.01",
+"word": "arrest record"
+},
+{
+"topic_id": "A12.01",
+"word": "conviction record"
+},
+{
+"topic_id": "A12.01",
+"word": "youthful offender"
+},
+{
+"topic_id": "A12.01",
+"word": "sealed conviction"
+},
+{
+"topic_id": "A12.01",
+"word": "Pregnancy at work"
+},
+{
+"topic_id": "A12.01",
+"word": "pregnant"
+},
+{
+"topic_id": "A12.01",
+"word": "maternity"
+},
+{
+"topic_id": "A12.01",
+"word": "fired for being pregnant"
+},
+{
+"topic_id": "A12.01",
+"word": "Age discrimination at work"
+},
+{
+"topic_id": "A12.01",
+"word": "too old"
+},
+{
+"topic_id": "A12.01",
+"word": "too young"
+},
+{
+"topic_id": "A12.01",
+"word": "Disability accommodation at work"
+},
+{
+"topic_id": "A12.01",
+"word": "reasonable accommodation"
+},
+{
+"topic_id": "A12.01",
+"word": "needs at work"
+},
+{
+"topic_id": "A12.01",
+"word": "Very small employer"
+},
+{
+"topic_id": "A12.01",
+"word": "few employees"
+},
+{
+"topic_id": "A12.01",
+"word": "small business"
+},
+{
+"topic_id": "A12.01",
+"word": "Family employer"
+},
+{
+"topic_id": "A12.01",
+"word": "family member who employs me"
+},
+{
+"topic_id": "A12.01",
+"word": "Volunteer or unpaid intern"
+},
+{
+"topic_id": "A12.01",
+"word": "volunteer"
+},
+{
+"topic_id": "A12.01",
+"word": "intern"
+},
+{
+"topic_id": "A12.01",
+"word": "Employer outside New York"
+},
+{
+"topic_id": "A12.01",
+"word": "out of state"
+},
+{
+"topic_id": "A12.02",
+"word": "landlord discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "fair housing"
+},
+{
+"topic_id": "A12.02",
+"word": "refused to rent to me because of who I am"
+},
+{
+"topic_id": "A12.02",
+"word": "LGBTQ"
+},
+{
+"topic_id": "A12.02",
+"word": "gay"
+},
+{
+"topic_id": "A12.02",
+"word": "lesbian"
+},
+{
+"topic_id": "A12.02",
+"word": "trans"
+},
+{
+"topic_id": "A12.02",
+"word": "transgender"
+},
+{
+"topic_id": "A12.02",
+"word": "queer"
+},
+{
+"topic_id": "A12.02",
+"word": "bisexual"
+},
+{
+"topic_id": "A12.02",
+"word": "nonbinary"
+},
+{
+"topic_id": "A12.02",
+"word": "veteran"
+},
+{
+"topic_id": "A12.02",
+"word": "military"
+},
+{
+"topic_id": "A12.02",
+"word": "service member"
+},
+{
+"topic_id": "A12.02",
+"word": "Landlord refused to rent to me"
+},
+{
+"topic_id": "A12.02",
+"word": "denied apartment"
+},
+{
+"topic_id": "A12.02",
+"word": "steering"
+},
+{
+"topic_id": "A12.02",
+"word": "Landlord refused my voucher"
+},
+{
+"topic_id": "A12.02",
+"word": "source of income"
+},
+{
+"topic_id": "A12.02",
+"word": "Section 8 refused"
+},
+{
+"topic_id": "A12.02",
+"word": "Discriminatory housing ads"
+},
+{
+"topic_id": "A12.02",
+"word": "online ads"
+},
+{
+"topic_id": "A12.02",
+"word": "ads"
+},
+{
+"topic_id": "A12.02",
+"word": "Fair housing groups and testing"
+},
+{
+"topic_id": "A12.02",
+"word": "fair housing group"
+},
+{
+"topic_id": "A12.02",
+"word": "Arrest record used in housing"
+},
+{
+"topic_id": "A12.02",
+"word": "arrest record resolved in my favor"
+},
+{
+"topic_id": "A12.02",
+"word": "sealed record"
+},
+{
+"topic_id": "A12.02",
+"word": "apartment background check"
+},
+{
+"topic_id": "A12.02",
+"word": "Owner-occupied small building"
+},
+{
+"topic_id": "A12.02",
+"word": "housing exempt from state law"
+},
+{
+"topic_id": "A12.03",
+"word": "public places"
+},
+{
+"topic_id": "A12.03",
+"word": "service refused"
+},
+{
+"topic_id": "A12.03",
+"word": "stores"
+},
+{
+"topic_id": "A12.03",
+"word": "restaurants"
+},
+{
+"topic_id": "A12.03",
+"word": "services"
+},
+{
+"topic_id": "A12.03",
+"word": "LGBTQ"
+},
+{
+"topic_id": "A12.03",
+"word": "gay"
+},
+{
+"topic_id": "A12.03",
+"word": "lesbian"
+},
+{
+"topic_id": "A12.03",
+"word": "trans"
+},
+{
+"topic_id": "A12.03",
+"word": "transgender"
+},
+{
+"topic_id": "A12.03",
+"word": "queer"
+},
+{
+"topic_id": "A12.03",
+"word": "bisexual"
+},
+{
+"topic_id": "A12.03",
+"word": "nonbinary"
+},
+{
+"topic_id": "A12.03",
+"word": "Refused service"
+},
+{
+"topic_id": "A12.03",
+"word": "refused service or treated differently"
+},
+{
+"topic_id": "A12.03",
+"word": "kicked out"
+},
+{
+"topic_id": "A12.03",
+"word": "Taxis and rideshare"
+},
+{
+"topic_id": "A12.03",
+"word": "Uber"
+},
+{
+"topic_id": "A12.03",
+"word": "taxi refused"
+},
+{
+"topic_id": "A12.04",
+"word": "school discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "college discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "university"
+},
+{
+"topic_id": "A12.04",
+"word": "student"
+},
+{
+"topic_id": "A12.04",
+"word": "Title VI"
+},
+{
+"topic_id": "A12.04",
+"word": "Title IX"
+},
+{
+"topic_id": "A12.04",
+"word": "Public school discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "K-12 discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "charter school"
+},
+{
+"topic_id": "A12.04",
+"word": "BOCES"
+},
+{
+"topic_id": "A12.04",
+"word": "pre-K"
+},
+{
+"topic_id": "A12.04",
+"word": "OCR"
+},
+{
+"topic_id": "A12.04",
+"word": "Discrimination on campus"
+},
+{
+"topic_id": "A12.04",
+"word": "campus"
+},
+{
+"topic_id": "A12.04",
+"word": "discrimination in college"
+},
+{
+"topic_id": "A12.04",
+"word": "career school"
+},
+{
+"topic_id": "A12.04",
+"word": "Harassment at school"
+},
+{
+"topic_id": "A12.04",
+"word": "bullied because of race"
+},
+{
+"topic_id": "A12.04",
+"word": "bullied because of religion"
+},
+{
+"topic_id": "A12.04",
+"word": "bullied because of disability"
+},
+{
+"topic_id": "A12.04",
+"word": "sexual harassment at school"
+},
+{
+"topic_id": "A12.04",
+"word": "Retaliation at school"
+},
+{
+"topic_id": "A12.04",
+"word": "punished after reporting"
+},
+{
+"topic_id": "A12.04",
+"word": "disciplined after complaining about discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "lending"
+},
+{
+"topic_id": "A12.05",
+"word": "credit discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "insurance discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "lending discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "ECOA"
+},
+{
+"topic_id": "A12.05",
+"word": "insurance unfair"
+},
+{
+"topic_id": "A12.05",
+"word": "Arrest record, credit or insurance"
+},
+{
+"topic_id": "A12.05",
+"word": "arrest record resolved in my favor"
+},
+{
+"topic_id": "A12.05",
+"word": "denied credit or insurance because of arrest"
+},
+{
+"topic_id": "A12.06",
+"word": "retaliation"
+},
+{
+"topic_id": "A12.06",
+"word": "punished for reporting discrimination"
+},
+{
+"topic_id": "A12.06",
+"word": "fired for reporting harassment"
+},
+{
+"topic_id": "A12.06",
+"word": "retaliating"
+},
+{
+"topic_id": "A12.06",
+"word": "payback"
+},
+{
+"topic_id": "A12.06",
+"word": "reported discrimination then fired"
+},
+{
+"topic_id": "A12.06",
+"word": "Cut hours after a complaint"
+},
+{
+"topic_id": "A12.06",
+"word": "demoted after discrimination complaint"
+},
+{
+"topic_id": "A12.07",
+"word": "retaliation"
+},
+{
+"topic_id": "A12.07",
+"word": "punished for fair housing complaint"
+},
+{
+"topic_id": "A12.07",
+"word": "retaliating"
+},
+{
+"topic_id": "A12.07",
+"word": "payback"
+},
+{
+"topic_id": "A12.07",
+"word": "Eviction after a complaint"
+},
+{
+"topic_id": "A12.07",
+"word": "fair housing complaint then evicted"
+},
+{
+"topic_id": "A12.07",
+"word": "Rent raised after a complaint"
+},
+{
+"topic_id": "A12.07",
+"word": "landlord punished me after discrimination complaint"
+},
+{
+"topic_id": "A12.08",
+"word": "federal"
+},
+{
+"topic_id": "A12.08",
+"word": "EEO office"
+},
+{
+"topic_id": "A12.08",
+"word": "EEOC"
+},
+{
+"topic_id": "A12.08",
+"word": "Federal job discrimination"
+},
+{
+"topic_id": "A12.08",
+"word": "federal employer"
+},
+{
+"topic_id": "A12.08",
+"word": "Federal agency discrimination"
+},
+{
+"topic_id": "A12.08",
+"word": "federal agency"
+},
+{
+"topic_id": "A12.08",
+"word": "HUD or housing authority"
+},
+{
+"topic_id": "A12.08",
+"word": "federal or public housing agency discrimination"
+},
+{
+"topic_id": "A12.08",
+"word": "UN, embassy or consulate"
+},
+{
+"topic_id": "A12.08",
+"word": "diplomatic immunity"
+},
+{
+"topic_id": "A12.08",
+"word": "foreign government job"
+},
+{
+"topic_id": "A12.09",
+"word": "NYC Commission"
+},
+{
+"topic_id": "A12.09",
+"word": "local law"
+},
+{
+"topic_id": "A12.09",
+"word": "city human rights law"
+},
+{
+"topic_id": "A12.09",
+"word": "county human rights law"
+},
+{
+"topic_id": "A12.09",
+"word": "local human rights commission"
+},
+{
+"topic_id": "A12.09",
+"word": "County or city commission"
+},
+{
+"topic_id": "A12.09",
+"word": "county commission"
+},
+{
+"topic_id": "A12.09",
+"word": "human rights commission"
+},
+{
+"topic_id": "A12.09",
+"word": "local commission"
+},
+{
+"topic_id": "A12.09",
+"word": "New York City local law"
+},
+{
+"topic_id": "A12.09",
+"word": "NYC job discrimination"
+},
+{
+"topic_id": "A12.09",
+"word": "Height or weight"
+},
+{
+"topic_id": "A12.09",
+"word": "weight discrimination"
+},
+{
+"topic_id": "A12.09",
+"word": "overweight"
+},
+{
+"topic_id": "A12.09",
+"word": "obese"
+},
+{
+"topic_id": "A12.09",
+"word": "fat"
+},
+{
+"topic_id": "A12.09",
+"word": "weight"
+},
+{
+"topic_id": "A12.09",
+"word": "height"
+},
+{
+"topic_id": "A12.09",
+"word": "too short"
+},
+{
+"topic_id": "A12.09",
+"word": "Credit history"
+},
+{
+"topic_id": "A12.09",
+"word": "credit check job"
+},
+{
+"topic_id": "A12.09",
+"word": "credit check apartment"
+},
+{
+"topic_id": "A12.09",
+"word": "Conviction record in housing"
+},
+{
+"topic_id": "A12.09",
+"word": "conviction record housing"
+},
+{
+"topic_id": "A12.09",
+"word": "fair chance"
+},
+{
+"topic_id": "A12.09",
+"word": "fair chance housing"
+},
+{
+"topic_id": "A12.09",
+"word": "background check apartment"
+},
+{
+"topic_id": "A12.09",
+"word": "NYC only"
+},
+{
+"topic_id": "A12.10",
+"word": "church"
+},
+{
+"topic_id": "A12.10",
+"word": "private club"
+},
+{
+"topic_id": "A12.10",
+"word": "religious school"
+},
+{
+"topic_id": "A12.10",
+"word": "religious event"
+},
+{
+"topic_id": "A12.10",
+"word": "Church or religious job"
+},
+{
+"topic_id": "A12.10",
+"word": "religious organization job"
+},
+{
+"topic_id": "A12.10",
+"word": "ministerial"
+},
+{
+"topic_id": "A12.10",
+"word": "sectarian school"
+},
+{
+"topic_id": "A12.10",
+"word": "religious school discrimination"
+},
+{
+"topic_id": "A12.10",
+"word": "Private club or religious event"
+},
+{
+"topic_id": "A12.10",
+"word": "club"
+},
+{
+"topic_id": "A12.10",
+"word": "Single-sex programs or spaces"
+},
+{
+"topic_id": "A12.10",
+"word": "women only"
+},
+{
+"topic_id": "A12.10",
+"word": "men only"
+},
+{
+"topic_id": "A12.11",
+"word": "Nation"
+},
+{
+"topic_id": "A12.11",
+"word": "tribal"
+},
+{
+"topic_id": "A12.11",
+"word": "Native American"
+},
+{
+"topic_id": "A12.11",
+"word": "Tribal businesses"
+},
+{
+"topic_id": "A12.11",
+"word": "tribal sovereign immunity"
+},
+{
+"topic_id": "A12.11",
+"word": "casino"
+},
+{
+"topic_id": "A12.11",
+"word": "Tribal government problems"
+},
+{
+"topic_id": "A12.11",
+"word": "tribal council"
+},
+{
+"topic_id": "A12.12",
+"word": "airline"
+},
+{
+"topic_id": "A12.12",
+"word": "bus"
+},
+{
+"topic_id": "A12.12",
+"word": "train"
+},
+{
+"topic_id": "A12.12",
+"word": "Amtrak"
+},
+{
+"topic_id": "A12.12",
+"word": "Airline, Amtrak or Greyhound"
+},
+{
+"topic_id": "A12.12",
+"word": "long-distance buses"
+},
+{
+"topic_id": "A12.12",
+"word": "Megabus"
+},
+{
+"topic_id": "A12.12",
+"word": "Public transit accessibility"
+},
+{
+"topic_id": "A12.12",
+"word": "ADA transit"
+},
+{
+"topic_id": "A12.12",
+"word": "accessible subway"
+},
+{
+"topic_id": "A12.13",
+"word": "ADA"
+},
+{
+"topic_id": "A12.13",
+"word": "accessibility"
+},
+{
+"topic_id": "A12.13",
+"word": "disability services"
+},
+{
+"topic_id": "A12.13",
+"word": "developmental disability"
+},
+{
+"topic_id": "A12.13",
+"word": "OPWDD"
+},
+{
+"topic_id": "A12.13",
+"word": "assistive technology"
+},
+{
+"topic_id": "A12.13",
+"word": "wheelchair"
+},
+{
+"topic_id": "A12.13",
+"word": "ADA complaints"
+},
+{
+"topic_id": "A12.13",
+"word": "accessibility complaint"
+},
+{
+"topic_id": "A12.13",
+"word": "Reasonable accommodations"
+},
+{
+"topic_id": "A12.13",
+"word": "accommodation"
+},
+{
+"topic_id": "A12.13",
+"word": "service animal"
+},
+{
+"topic_id": "A12.13",
+"word": "Accessible buildings and websites"
+},
+{
+"topic_id": "A12.13",
+"word": "ramp"
+},
+{
+"topic_id": "A12.13",
+"word": "website access"
+},
+{
+"topic_id": "A12.14",
+"word": "LGBTQ"
+},
+{
+"topic_id": "A12.14",
+"word": "LGBTQIA"
+},
+{
+"topic_id": "A12.14",
+"word": "gay"
+},
+{
+"topic_id": "A12.14",
+"word": "lesbian"
+},
+{
+"topic_id": "A12.14",
+"word": "trans"
+},
+{
+"topic_id": "A12.14",
+"word": "transgender"
+},
+{
+"topic_id": "A12.14",
+"word": "queer"
+},
+{
+"topic_id": "A12.14",
+"word": "bisexual"
+},
+{
+"topic_id": "A12.14",
+"word": "nonbinary"
+},
+{
+"topic_id": "A12.14",
+"word": "pride center"
+},
+{
+"topic_id": "A13.01",
+"word": "hungry"
+},
+{
+"topic_id": "A13.01",
+"word": "groceries"
+},
+{
+"topic_id": "A13.01",
+"word": "Food pantry"
+},
+{
+"topic_id": "A13.01",
+"word": "food bank"
+},
+{
+"topic_id": "A13.01",
+"word": "Meals and soup kitchens"
+},
+{
+"topic_id": "A13.01",
+"word": "free meals"
+},
+{
+"topic_id": "A13.01",
+"word": "soup kitchen"
+},
+{
+"topic_id": "A13.01",
+"word": "WIC and school meals"
+},
+{
+"topic_id": "A13.01",
+"word": "WIC"
+},
+{
+"topic_id": "A13.01",
+"word": "free lunch"
+},
+{
+"topic_id": "A13.01",
+"word": "Help applying for SNAP"
+},
+{
+"topic_id": "A13.01",
+"word": "SNAP application"
+},
+{
+"topic_id": "A13.02",
+"word": "heat"
+},
+{
+"topic_id": "A13.02",
+"word": "electric"
+},
+{
+"topic_id": "A13.02",
+"word": "Home heating help"
+},
+{
+"topic_id": "A13.02",
+"word": "HEAP"
+},
+{
+"topic_id": "A13.02",
+"word": "heating assistance"
+},
+{
+"topic_id": "A13.02",
+"word": "Utility shutoff protection"
+},
+{
+"topic_id": "A13.02",
+"word": "shutoff"
+},
+{
+"topic_id": "A13.02",
+"word": "disconnect"
+},
+{
+"topic_id": "A13.02",
+"word": "Energy savings and insulation"
+},
+{
+"topic_id": "A13.02",
+"word": "weatherization"
+},
+{
+"topic_id": "A13.02",
+"word": "insulation"
+},
+{
+"topic_id": "A13.02",
+"word": "Phone and internet help"
+},
+{
+"topic_id": "A13.02",
+"word": "Lifeline"
+},
+{
+"topic_id": "A13.02",
+"word": "low-cost internet"
+},
+{
+"topic_id": "A13.03",
+"word": "crisis"
+},
+{
+"topic_id": "A13.03",
+"word": "urgent"
+},
+{
+"topic_id": "A13.03",
+"word": "Emergency cash"
+},
+{
+"topic_id": "A13.03",
+"word": "one-time cash"
+},
+{
+"topic_id": "A13.03",
+"word": "one-time help"
+},
+{
+"topic_id": "A13.03",
+"word": "Clothing and household goods"
+},
+{
+"topic_id": "A13.03",
+"word": "clothes"
+},
+{
+"topic_id": "A13.03",
+"word": "furniture"
+},
+{
+"topic_id": "A13.03",
+"word": "Disaster help"
+},
+{
+"topic_id": "A13.03",
+"word": "flood"
+},
+{
+"topic_id": "A13.03",
+"word": "fire"
+},
+{
+"topic_id": "A13.03",
+"word": "storm"
+},
+{
+"topic_id": "A13.03",
+"word": "Transportation help"
+},
+{
+"topic_id": "A13.03",
+"word": "rides"
+},
+{
+"topic_id": "A13.03",
+"word": "bus pass"
+},
+{
+"topic_id": "A14.01",
+"word": "hotline"
+},
+{
+"topic_id": "A14.01",
+"word": "unfair"
+},
+{
+"topic_id": "A14.01",
+"word": "mistreated"
+},
+{
+"topic_id": "A14.01",
+"word": "don't know what to call it"
+},
+{
+"topic_id": "A14.01",
+"word": "missed the deadline"
+},
+{
+"topic_id": "A14.01",
+"word": "too late"
+},
+{
+"topic_id": "A14.01",
+"word": "already filed somewhere else"
+},
+{
+"topic_id": "A14.01",
+"word": "won my case but they won't comply"
+},
+{
+"topic_id": "A14.01",
+"word": "211 (all services)"
+},
+{
+"topic_id": "A14.01",
+"word": "211"
+},
+{
+"topic_id": "A14.01",
+"word": "information line"
+},
+{
+"topic_id": "A14.01",
+"word": "311 (New York City)"
+},
+{
+"topic_id": "A14.01",
+"word": "311"
+},
+{
+"topic_id": "A14.01",
+"word": "988 (crisis)"
+},
+{
+"topic_id": "A14.01",
+"word": "988"
+},
+{
+"topic_id": "A14.01",
+"word": "mental health emergency"
+},
+{
+"topic_id": "A14.01",
+"word": "Statewide help lines"
+},
+{
+"topic_id": "A14.01",
+"word": "state line"
+},
+{
+"topic_id": "A14.02",
+"word": "lawyer"
+},
+{
+"topic_id": "A14.02",
+"word": "attorney"
+},
+{
+"topic_id": "A14.02",
+"word": "legal aid"
+},
+{
+"topic_id": "A14.02",
+"word": "legal help"
+},
+{
+"topic_id": "A14.02",
+"word": "legal advice"
+},
+{
+"topic_id": "A14.02",
+"word": "free lawyer"
+},
+{
+"topic_id": "A14.02",
+"word": "legal clinic"
+},
+{
+"topic_id": "A14.02",
+"word": "law clinic"
+},
+{
+"topic_id": "A14.02",
+"word": "Legal hotline"
+},
+{
+"topic_id": "A14.02",
+"word": "free legal advice"
+},
+{
+"topic_id": "A14.02",
+"word": "legal advice call"
+},
+{
+"topic_id": "A14.02",
+"word": "Free legal aid"
+},
+{
+"topic_id": "A14.02",
+"word": "legal aid society"
+},
+{
+"topic_id": "A14.02",
+"word": "pro bono"
+},
+{
+"topic_id": "A14.02",
+"word": "legal services"
+},
+{
+"topic_id": "A14.02",
+"word": "Lawyer referral services"
+},
+{
+"topic_id": "A14.02",
+"word": "find a lawyer"
+},
+{
+"topic_id": "A14.02",
+"word": "bar association"
+},
+{
+"topic_id": "A14.02",
+"word": "lawyer referral"
+},
+{
+"topic_id": "A14.02",
+"word": "Legal information and self-help"
+},
+{
+"topic_id": "A14.02",
+"word": "law library"
+},
+{
+"topic_id": "A14.02",
+"word": "court help center"
+},
+{
+"topic_id": "A14.02",
+"word": "legal forms"
+},
+{
+"topic_id": "A14.02",
+"word": "self-help"
+},
+{
+"topic_id": "A12.01",
+"word": "racist"
+},
+{
+"topic_id": "A12.02",
+"word": "racist"
+},
+{
+"topic_id": "A12.03",
+"word": "racist"
+},
+{
+"topic_id": "A12.04",
+"word": "racist"
+},
+{
+"topic_id": "A12.05",
+"word": "racist"
+},
+{
+"topic_id": "A04.04",
+"word": "racist"
+},
+{
+"topic_id": "A12.01",
+"word": "racism"
+},
+{
+"topic_id": "A12.02",
+"word": "racism"
+},
+{
+"topic_id": "A12.03",
+"word": "racism"
+},
+{
+"topic_id": "A12.04",
+"word": "racism"
+},
+{
+"topic_id": "A12.05",
+"word": "racism"
+},
+{
+"topic_id": "A04.04",
+"word": "racism"
+},
+{
+"topic_id": "A12.01",
+"word": "sexist"
+},
+{
+"topic_id": "A12.02",
+"word": "sexist"
+},
+{
+"topic_id": "A12.03",
+"word": "sexist"
+},
+{
+"topic_id": "A12.04",
+"word": "sexist"
+},
+{
+"topic_id": "A12.05",
+"word": "sexist"
+},
+{
+"topic_id": "A04.04",
+"word": "sexist"
+},
+{
+"topic_id": "A12.01",
+"word": "sexism"
+},
+{
+"topic_id": "A12.02",
+"word": "sexism"
+},
+{
+"topic_id": "A12.03",
+"word": "sexism"
+},
+{
+"topic_id": "A12.04",
+"word": "sexism"
+},
+{
+"topic_id": "A12.05",
+"word": "sexism"
+},
+{
+"topic_id": "A04.04",
+"word": "sexism"
+},
+{
+"topic_id": "A12.01",
+"word": "homophobic"
+},
+{
+"topic_id": "A12.02",
+"word": "homophobic"
+},
+{
+"topic_id": "A12.03",
+"word": "homophobic"
+},
+{
+"topic_id": "A12.04",
+"word": "homophobic"
+},
+{
+"topic_id": "A12.05",
+"word": "homophobic"
+},
+{
+"topic_id": "A04.04",
+"word": "homophobic"
+},
+{
+"topic_id": "A12.01",
+"word": "homophobia"
+},
+{
+"topic_id": "A12.02",
+"word": "homophobia"
+},
+{
+"topic_id": "A12.03",
+"word": "homophobia"
+},
+{
+"topic_id": "A12.04",
+"word": "homophobia"
+},
+{
+"topic_id": "A12.05",
+"word": "homophobia"
+},
+{
+"topic_id": "A04.04",
+"word": "homophobia"
+},
+{
+"topic_id": "A12.01",
+"word": "transphobic"
+},
+{
+"topic_id": "A12.02",
+"word": "transphobic"
+},
+{
+"topic_id": "A12.03",
+"word": "transphobic"
+},
+{
+"topic_id": "A12.04",
+"word": "transphobic"
+},
+{
+"topic_id": "A12.05",
+"word": "transphobic"
+},
+{
+"topic_id": "A04.04",
+"word": "transphobic"
+},
+{
+"topic_id": "A12.01",
+"word": "transphobia"
+},
+{
+"topic_id": "A12.02",
+"word": "transphobia"
+},
+{
+"topic_id": "A12.03",
+"word": "transphobia"
+},
+{
+"topic_id": "A12.04",
+"word": "transphobia"
+},
+{
+"topic_id": "A12.05",
+"word": "transphobia"
+},
+{
+"topic_id": "A04.04",
+"word": "transphobia"
+},
+{
+"topic_id": "A12.01",
+"word": "ageist"
+},
+{
+"topic_id": "A12.02",
+"word": "ageist"
+},
+{
+"topic_id": "A12.03",
+"word": "ageist"
+},
+{
+"topic_id": "A12.04",
+"word": "ageist"
+},
+{
+"topic_id": "A12.05",
+"word": "ageist"
+},
+{
+"topic_id": "A04.04",
+"word": "ageist"
+},
+{
+"topic_id": "A12.01",
+"word": "ageism"
+},
+{
+"topic_id": "A12.02",
+"word": "ageism"
+},
+{
+"topic_id": "A12.03",
+"word": "ageism"
+},
+{
+"topic_id": "A12.04",
+"word": "ageism"
+},
+{
+"topic_id": "A12.05",
+"word": "ageism"
+},
+{
+"topic_id": "A04.04",
+"word": "ageism"
+},
+{
+"topic_id": "A12.01",
+"word": "ableist"
+},
+{
+"topic_id": "A12.02",
+"word": "ableist"
+},
+{
+"topic_id": "A12.03",
+"word": "ableist"
+},
+{
+"topic_id": "A12.04",
+"word": "ableist"
+},
+{
+"topic_id": "A12.05",
+"word": "ableist"
+},
+{
+"topic_id": "A04.04",
+"word": "ableist"
+},
+{
+"topic_id": "A12.01",
+"word": "ableism"
+},
+{
+"topic_id": "A12.02",
+"word": "ableism"
+},
+{
+"topic_id": "A12.03",
+"word": "ableism"
+},
+{
+"topic_id": "A12.04",
+"word": "ableism"
+},
+{
+"topic_id": "A12.05",
+"word": "ableism"
+},
+{
+"topic_id": "A04.04",
+"word": "ableism"
+},
+{
+"topic_id": "A12.01",
+"word": "xenophobic"
+},
+{
+"topic_id": "A12.02",
+"word": "xenophobic"
+},
+{
+"topic_id": "A12.03",
+"word": "xenophobic"
+},
+{
+"topic_id": "A12.04",
+"word": "xenophobic"
+},
+{
+"topic_id": "A12.05",
+"word": "xenophobic"
+},
+{
+"topic_id": "A04.04",
+"word": "xenophobic"
+},
+{
+"topic_id": "A12.01",
+"word": "xenophobia"
+},
+{
+"topic_id": "A12.02",
+"word": "xenophobia"
+},
+{
+"topic_id": "A12.03",
+"word": "xenophobia"
+},
+{
+"topic_id": "A12.04",
+"word": "xenophobia"
+},
+{
+"topic_id": "A12.05",
+"word": "xenophobia"
+},
+{
+"topic_id": "A04.04",
+"word": "xenophobia"
+},
+{
+"topic_id": "A12.01",
+"word": "islamophobic"
+},
+{
+"topic_id": "A12.02",
+"word": "islamophobic"
+},
+{
+"topic_id": "A12.03",
+"word": "islamophobic"
+},
+{
+"topic_id": "A12.04",
+"word": "islamophobic"
+},
+{
+"topic_id": "A12.05",
+"word": "islamophobic"
+},
+{
+"topic_id": "A04.04",
+"word": "islamophobic"
+},
+{
+"topic_id": "A12.01",
+"word": "islamophobia"
+},
+{
+"topic_id": "A12.02",
+"word": "islamophobia"
+},
+{
+"topic_id": "A12.03",
+"word": "islamophobia"
+},
+{
+"topic_id": "A12.04",
+"word": "islamophobia"
+},
+{
+"topic_id": "A12.05",
+"word": "islamophobia"
+},
+{
+"topic_id": "A04.04",
+"word": "islamophobia"
+},
+{
+"topic_id": "A12.01",
+"word": "antisemitic"
+},
+{
+"topic_id": "A12.02",
+"word": "antisemitic"
+},
+{
+"topic_id": "A12.03",
+"word": "antisemitic"
+},
+{
+"topic_id": "A12.04",
+"word": "antisemitic"
+},
+{
+"topic_id": "A12.05",
+"word": "antisemitic"
+},
+{
+"topic_id": "A04.04",
+"word": "antisemitic"
+},
+{
+"topic_id": "A12.01",
+"word": "antisemitism"
+},
+{
+"topic_id": "A12.02",
+"word": "antisemitism"
+},
+{
+"topic_id": "A12.03",
+"word": "antisemitism"
+},
+{
+"topic_id": "A12.04",
+"word": "antisemitism"
+},
+{
+"topic_id": "A12.05",
+"word": "antisemitism"
+},
+{
+"topic_id": "A04.04",
+"word": "antisemitism"
+},
+{
+"topic_id": "A12.01",
+"word": "bigot"
+},
+{
+"topic_id": "A12.02",
+"word": "bigot"
+},
+{
+"topic_id": "A12.03",
+"word": "bigot"
+},
+{
+"topic_id": "A12.04",
+"word": "bigot"
+},
+{
+"topic_id": "A12.05",
+"word": "bigot"
+},
+{
+"topic_id": "A04.04",
+"word": "bigot"
+},
+{
+"topic_id": "A12.01",
+"word": "bigoted"
+},
+{
+"topic_id": "A12.02",
+"word": "bigoted"
+},
+{
+"topic_id": "A12.03",
+"word": "bigoted"
+},
+{
+"topic_id": "A12.04",
+"word": "bigoted"
+},
+{
+"topic_id": "A12.05",
+"word": "bigoted"
+},
+{
+"topic_id": "A04.04",
+"word": "bigoted"
+},
+{
+"topic_id": "A12.01",
+"word": "bigotry"
+},
+{
+"topic_id": "A12.02",
+"word": "bigotry"
+},
+{
+"topic_id": "A12.03",
+"word": "bigotry"
+},
+{
+"topic_id": "A12.04",
+"word": "bigotry"
+},
+{
+"topic_id": "A12.05",
+"word": "bigotry"
+},
+{
+"topic_id": "A04.04",
+"word": "bigotry"
+},
+{
+"topic_id": "A12.01",
+"word": "prejudice"
+},
+{
+"topic_id": "A12.02",
+"word": "prejudice"
+},
+{
+"topic_id": "A12.03",
+"word": "prejudice"
+},
+{
+"topic_id": "A12.04",
+"word": "prejudice"
+},
+{
+"topic_id": "A12.05",
+"word": "prejudice"
+},
+{
+"topic_id": "A04.04",
+"word": "prejudice"
+},
+{
+"topic_id": "A12.01",
+"word": "prejudiced"
+},
+{
+"topic_id": "A12.02",
+"word": "prejudiced"
+},
+{
+"topic_id": "A12.03",
+"word": "prejudiced"
+},
+{
+"topic_id": "A12.04",
+"word": "prejudiced"
+},
+{
+"topic_id": "A12.05",
+"word": "prejudiced"
+},
+{
+"topic_id": "A04.04",
+"word": "prejudiced"
+},
+{
+"topic_id": "A12.01",
+"word": "slur"
+},
+{
+"topic_id": "A12.02",
+"word": "slur"
+},
+{
+"topic_id": "A12.03",
+"word": "slur"
+},
+{
+"topic_id": "A12.04",
+"word": "slur"
+},
+{
+"topic_id": "A12.05",
+"word": "slur"
+},
+{
+"topic_id": "A12.01",
+"word": "discriminated"
+},
+{
+"topic_id": "A12.02",
+"word": "discriminated"
+},
+{
+"topic_id": "A12.03",
+"word": "discriminated"
+},
+{
+"topic_id": "A12.04",
+"word": "discriminated"
+},
+{
+"topic_id": "A12.05",
+"word": "discriminated"
+},
+{
+"topic_id": "A04.04",
+"word": "discriminated"
+},
+{
+"topic_id": "A12.01",
+"word": "discriminating"
+},
+{
+"topic_id": "A12.02",
+"word": "discriminating"
+},
+{
+"topic_id": "A12.03",
+"word": "discriminating"
+},
+{
+"topic_id": "A12.04",
+"word": "discriminating"
+},
+{
+"topic_id": "A12.05",
+"word": "discriminating"
+},
+{
+"topic_id": "A04.04",
+"word": "discriminating"
+},
+{
+"topic_id": "A12.01",
+"word": "discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "discrimination"
+},
+{
+"topic_id": "A12.03",
+"word": "discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "discrimination"
+},
+{
+"topic_id": "A04.04",
+"word": "discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "too old"
+},
+{
+"topic_id": "A12.03",
+"word": "too old"
+},
+{
+"topic_id": "A12.04",
+"word": "too old"
+},
+{
+"topic_id": "A12.05",
+"word": "too old"
+},
+{
+"topic_id": "A12.02",
+"word": "too young"
+},
+{
+"topic_id": "A12.03",
+"word": "too young"
+},
+{
+"topic_id": "A12.04",
+"word": "too young"
+},
+{
+"topic_id": "A12.05",
+"word": "too young"
+},
+{
+"topic_id": "A12.01",
+"word": "age discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "age discrimination"
+},
+{
+"topic_id": "A12.03",
+"word": "age discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "age discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "age discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "race"
+},
+{
+"topic_id": "A12.03",
+"word": "race"
+},
+{
+"topic_id": "A12.04",
+"word": "race"
+},
+{
+"topic_id": "A12.05",
+"word": "race"
+},
+{
+"topic_id": "A12.01",
+"word": "racial"
+},
+{
+"topic_id": "A12.02",
+"word": "racial"
+},
+{
+"topic_id": "A12.03",
+"word": "racial"
+},
+{
+"topic_id": "A12.04",
+"word": "racial"
+},
+{
+"topic_id": "A12.05",
+"word": "racial"
+},
+{
+"topic_id": "A12.01",
+"word": "skin color"
+},
+{
+"topic_id": "A12.02",
+"word": "skin color"
+},
+{
+"topic_id": "A12.03",
+"word": "skin color"
+},
+{
+"topic_id": "A12.04",
+"word": "skin color"
+},
+{
+"topic_id": "A12.05",
+"word": "skin color"
+},
+{
+"topic_id": "A12.01",
+"word": "black"
+},
+{
+"topic_id": "A12.02",
+"word": "black"
+},
+{
+"topic_id": "A12.03",
+"word": "black"
+},
+{
+"topic_id": "A12.04",
+"word": "black"
+},
+{
+"topic_id": "A12.05",
+"word": "black"
+},
+{
+"topic_id": "A12.01",
+"word": "african american"
+},
+{
+"topic_id": "A12.02",
+"word": "african american"
+},
+{
+"topic_id": "A12.03",
+"word": "african american"
+},
+{
+"topic_id": "A12.04",
+"word": "african american"
+},
+{
+"topic_id": "A12.05",
+"word": "african american"
+},
+{
+"topic_id": "A12.01",
+"word": "latino"
+},
+{
+"topic_id": "A12.02",
+"word": "latino"
+},
+{
+"topic_id": "A12.03",
+"word": "latino"
+},
+{
+"topic_id": "A12.04",
+"word": "latino"
+},
+{
+"topic_id": "A12.05",
+"word": "latino"
+},
+{
+"topic_id": "A12.01",
+"word": "latina"
+},
+{
+"topic_id": "A12.02",
+"word": "latina"
+},
+{
+"topic_id": "A12.03",
+"word": "latina"
+},
+{
+"topic_id": "A12.04",
+"word": "latina"
+},
+{
+"topic_id": "A12.05",
+"word": "latina"
+},
+{
+"topic_id": "A12.01",
+"word": "latinx"
+},
+{
+"topic_id": "A12.02",
+"word": "latinx"
+},
+{
+"topic_id": "A12.03",
+"word": "latinx"
+},
+{
+"topic_id": "A12.04",
+"word": "latinx"
+},
+{
+"topic_id": "A12.05",
+"word": "latinx"
+},
+{
+"topic_id": "A12.01",
+"word": "hispanic"
+},
+{
+"topic_id": "A12.02",
+"word": "hispanic"
+},
+{
+"topic_id": "A12.03",
+"word": "hispanic"
+},
+{
+"topic_id": "A12.04",
+"word": "hispanic"
+},
+{
+"topic_id": "A12.05",
+"word": "hispanic"
+},
+{
+"topic_id": "A12.01",
+"word": "asian"
+},
+{
+"topic_id": "A12.02",
+"word": "asian"
+},
+{
+"topic_id": "A12.03",
+"word": "asian"
+},
+{
+"topic_id": "A12.04",
+"word": "asian"
+},
+{
+"topic_id": "A12.05",
+"word": "asian"
+},
+{
+"topic_id": "A12.01",
+"word": "hairstyle"
+},
+{
+"topic_id": "A12.02",
+"word": "hairstyle"
+},
+{
+"topic_id": "A12.03",
+"word": "hairstyle"
+},
+{
+"topic_id": "A12.04",
+"word": "hairstyle"
+},
+{
+"topic_id": "A12.05",
+"word": "hairstyle"
+},
+{
+"topic_id": "A12.01",
+"word": "braids"
+},
+{
+"topic_id": "A12.02",
+"word": "braids"
+},
+{
+"topic_id": "A12.03",
+"word": "braids"
+},
+{
+"topic_id": "A12.04",
+"word": "braids"
+},
+{
+"topic_id": "A12.05",
+"word": "braids"
+},
+{
+"topic_id": "A12.01",
+"word": "dreadlocks"
+},
+{
+"topic_id": "A12.02",
+"word": "dreadlocks"
+},
+{
+"topic_id": "A12.03",
+"word": "dreadlocks"
+},
+{
+"topic_id": "A12.04",
+"word": "dreadlocks"
+},
+{
+"topic_id": "A12.05",
+"word": "dreadlocks"
+},
+{
+"topic_id": "A12.01",
+"word": "locs"
+},
+{
+"topic_id": "A12.02",
+"word": "locs"
+},
+{
+"topic_id": "A12.03",
+"word": "locs"
+},
+{
+"topic_id": "A12.04",
+"word": "locs"
+},
+{
+"topic_id": "A12.05",
+"word": "locs"
+},
+{
+"topic_id": "A12.01",
+"word": "afro"
+},
+{
+"topic_id": "A12.02",
+"word": "afro"
+},
+{
+"topic_id": "A12.03",
+"word": "afro"
+},
+{
+"topic_id": "A12.04",
+"word": "afro"
+},
+{
+"topic_id": "A12.05",
+"word": "afro"
+},
+{
+"topic_id": "A12.01",
+"word": "accent"
+},
+{
+"topic_id": "A12.02",
+"word": "accent"
+},
+{
+"topic_id": "A12.03",
+"word": "accent"
+},
+{
+"topic_id": "A12.04",
+"word": "accent"
+},
+{
+"topic_id": "A12.05",
+"word": "accent"
+},
+{
+"topic_id": "A12.01",
+"word": "national origin"
+},
+{
+"topic_id": "A12.02",
+"word": "national origin"
+},
+{
+"topic_id": "A12.03",
+"word": "national origin"
+},
+{
+"topic_id": "A12.04",
+"word": "national origin"
+},
+{
+"topic_id": "A12.05",
+"word": "national origin"
+},
+{
+"topic_id": "A12.01",
+"word": "ethnicity"
+},
+{
+"topic_id": "A12.02",
+"word": "ethnicity"
+},
+{
+"topic_id": "A12.03",
+"word": "ethnicity"
+},
+{
+"topic_id": "A12.04",
+"word": "ethnicity"
+},
+{
+"topic_id": "A12.05",
+"word": "ethnicity"
+},
+{
+"topic_id": "A12.01",
+"word": "ethnic"
+},
+{
+"topic_id": "A12.02",
+"word": "ethnic"
+},
+{
+"topic_id": "A12.03",
+"word": "ethnic"
+},
+{
+"topic_id": "A12.04",
+"word": "ethnic"
+},
+{
+"topic_id": "A12.05",
+"word": "ethnic"
+},
+{
+"topic_id": "A12.01",
+"word": "foreigner"
+},
+{
+"topic_id": "A12.02",
+"word": "foreigner"
+},
+{
+"topic_id": "A12.03",
+"word": "foreigner"
+},
+{
+"topic_id": "A12.04",
+"word": "foreigner"
+},
+{
+"topic_id": "A12.05",
+"word": "foreigner"
+},
+{
+"topic_id": "A12.01",
+"word": "speak english"
+},
+{
+"topic_id": "A12.02",
+"word": "speak english"
+},
+{
+"topic_id": "A12.03",
+"word": "speak english"
+},
+{
+"topic_id": "A12.04",
+"word": "speak english"
+},
+{
+"topic_id": "A12.05",
+"word": "speak english"
+},
+{
+"topic_id": "A12.01",
+"word": "english only"
+},
+{
+"topic_id": "A12.02",
+"word": "english only"
+},
+{
+"topic_id": "A12.03",
+"word": "english only"
+},
+{
+"topic_id": "A12.04",
+"word": "english only"
+},
+{
+"topic_id": "A12.05",
+"word": "english only"
+},
+{
+"topic_id": "A12.01",
+"word": "hijab"
+},
+{
+"topic_id": "A12.02",
+"word": "hijab"
+},
+{
+"topic_id": "A12.03",
+"word": "hijab"
+},
+{
+"topic_id": "A12.04",
+"word": "hijab"
+},
+{
+"topic_id": "A12.05",
+"word": "hijab"
+},
+{
+"topic_id": "A12.01",
+"word": "headscarf"
+},
+{
+"topic_id": "A12.02",
+"word": "headscarf"
+},
+{
+"topic_id": "A12.03",
+"word": "headscarf"
+},
+{
+"topic_id": "A12.04",
+"word": "headscarf"
+},
+{
+"topic_id": "A12.05",
+"word": "headscarf"
+},
+{
+"topic_id": "A12.01",
+"word": "turban"
+},
+{
+"topic_id": "A12.02",
+"word": "turban"
+},
+{
+"topic_id": "A12.03",
+"word": "turban"
+},
+{
+"topic_id": "A12.04",
+"word": "turban"
+},
+{
+"topic_id": "A12.05",
+"word": "turban"
+},
+{
+"topic_id": "A12.01",
+"word": "yarmulke"
+},
+{
+"topic_id": "A12.02",
+"word": "yarmulke"
+},
+{
+"topic_id": "A12.03",
+"word": "yarmulke"
+},
+{
+"topic_id": "A12.04",
+"word": "yarmulke"
+},
+{
+"topic_id": "A12.05",
+"word": "yarmulke"
+},
+{
+"topic_id": "A12.01",
+"word": "kippah"
+},
+{
+"topic_id": "A12.02",
+"word": "kippah"
+},
+{
+"topic_id": "A12.03",
+"word": "kippah"
+},
+{
+"topic_id": "A12.04",
+"word": "kippah"
+},
+{
+"topic_id": "A12.05",
+"word": "kippah"
+},
+{
+"topic_id": "A12.01",
+"word": "muslim"
+},
+{
+"topic_id": "A12.02",
+"word": "muslim"
+},
+{
+"topic_id": "A12.03",
+"word": "muslim"
+},
+{
+"topic_id": "A12.04",
+"word": "muslim"
+},
+{
+"topic_id": "A12.05",
+"word": "muslim"
+},
+{
+"topic_id": "A12.01",
+"word": "jewish"
+},
+{
+"topic_id": "A12.02",
+"word": "jewish"
+},
+{
+"topic_id": "A12.03",
+"word": "jewish"
+},
+{
+"topic_id": "A12.04",
+"word": "jewish"
+},
+{
+"topic_id": "A12.05",
+"word": "jewish"
+},
+{
+"topic_id": "A12.01",
+"word": "sikh"
+},
+{
+"topic_id": "A12.02",
+"word": "sikh"
+},
+{
+"topic_id": "A12.03",
+"word": "sikh"
+},
+{
+"topic_id": "A12.04",
+"word": "sikh"
+},
+{
+"topic_id": "A12.05",
+"word": "sikh"
+},
+{
+"topic_id": "A12.01",
+"word": "religious discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "religious discrimination"
+},
+{
+"topic_id": "A12.03",
+"word": "religious discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "religious discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "religious discrimination"
+},
+{
+"topic_id": "A12.01",
+"word": "disabled"
+},
+{
+"topic_id": "A12.02",
+"word": "disabled"
+},
+{
+"topic_id": "A12.03",
+"word": "disabled"
+},
+{
+"topic_id": "A12.04",
+"word": "disabled"
+},
+{
+"topic_id": "A12.05",
+"word": "disabled"
+},
+{
+"topic_id": "A12.01",
+"word": "deaf"
+},
+{
+"topic_id": "A12.02",
+"word": "deaf"
+},
+{
+"topic_id": "A12.03",
+"word": "deaf"
+},
+{
+"topic_id": "A12.04",
+"word": "deaf"
+},
+{
+"topic_id": "A12.05",
+"word": "deaf"
+},
+{
+"topic_id": "A12.01",
+"word": "blind"
+},
+{
+"topic_id": "A12.02",
+"word": "blind"
+},
+{
+"topic_id": "A12.03",
+"word": "blind"
+},
+{
+"topic_id": "A12.04",
+"word": "blind"
+},
+{
+"topic_id": "A12.05",
+"word": "blind"
+},
+{
+"topic_id": "A12.01",
+"word": "autistic"
+},
+{
+"topic_id": "A12.02",
+"word": "autistic"
+},
+{
+"topic_id": "A12.03",
+"word": "autistic"
+},
+{
+"topic_id": "A12.04",
+"word": "autistic"
+},
+{
+"topic_id": "A12.05",
+"word": "autistic"
+},
+{
+"topic_id": "A12.01",
+"word": "autism"
+},
+{
+"topic_id": "A12.02",
+"word": "autism"
+},
+{
+"topic_id": "A12.03",
+"word": "autism"
+},
+{
+"topic_id": "A12.04",
+"word": "autism"
+},
+{
+"topic_id": "A12.05",
+"word": "autism"
+},
+{
+"topic_id": "A12.01",
+"word": "sign language"
+},
+{
+"topic_id": "A12.02",
+"word": "sign language"
+},
+{
+"topic_id": "A12.03",
+"word": "sign language"
+},
+{
+"topic_id": "A12.04",
+"word": "sign language"
+},
+{
+"topic_id": "A12.05",
+"word": "sign language"
+},
+{
+"topic_id": "A12.01",
+"word": "service dog"
+},
+{
+"topic_id": "A12.02",
+"word": "service dog"
+},
+{
+"topic_id": "A12.03",
+"word": "service dog"
+},
+{
+"topic_id": "A12.04",
+"word": "service dog"
+},
+{
+"topic_id": "A12.05",
+"word": "service dog"
+},
+{
+"topic_id": "A12.01",
+"word": "hard of hearing"
+},
+{
+"topic_id": "A12.02",
+"word": "hard of hearing"
+},
+{
+"topic_id": "A12.03",
+"word": "hard of hearing"
+},
+{
+"topic_id": "A12.04",
+"word": "hard of hearing"
+},
+{
+"topic_id": "A12.05",
+"word": "hard of hearing"
+},
+{
+"topic_id": "A12.01",
+"word": "familial status"
+},
+{
+"topic_id": "A12.02",
+"word": "familial status"
+},
+{
+"topic_id": "A12.03",
+"word": "familial status"
+},
+{
+"topic_id": "A12.04",
+"word": "familial status"
+},
+{
+"topic_id": "A12.05",
+"word": "familial status"
+},
+{
+"topic_id": "A12.01",
+"word": "family status"
+},
+{
+"topic_id": "A12.02",
+"word": "family status"
+},
+{
+"topic_id": "A12.03",
+"word": "family status"
+},
+{
+"topic_id": "A12.04",
+"word": "family status"
+},
+{
+"topic_id": "A12.05",
+"word": "family status"
+},
+{
+"topic_id": "A12.01",
+"word": "gender identity"
+},
+{
+"topic_id": "A12.02",
+"word": "gender identity"
+},
+{
+"topic_id": "A12.03",
+"word": "gender identity"
+},
+{
+"topic_id": "A12.04",
+"word": "gender identity"
+},
+{
+"topic_id": "A12.05",
+"word": "gender identity"
+},
+{
+"topic_id": "A12.01",
+"word": "gender expression"
+},
+{
+"topic_id": "A12.02",
+"word": "gender expression"
+},
+{
+"topic_id": "A12.03",
+"word": "gender expression"
+},
+{
+"topic_id": "A12.04",
+"word": "gender expression"
+},
+{
+"topic_id": "A12.05",
+"word": "gender expression"
+},
+{
+"topic_id": "A12.01",
+"word": "misgendered"
+},
+{
+"topic_id": "A12.02",
+"word": "misgendered"
+},
+{
+"topic_id": "A12.03",
+"word": "misgendered"
+},
+{
+"topic_id": "A12.04",
+"word": "misgendered"
+},
+{
+"topic_id": "A12.05",
+"word": "misgendered"
+},
+{
+"topic_id": "A12.01",
+"word": "misgender"
+},
+{
+"topic_id": "A12.02",
+"word": "misgender"
+},
+{
+"topic_id": "A12.03",
+"word": "misgender"
+},
+{
+"topic_id": "A12.04",
+"word": "misgender"
+},
+{
+"topic_id": "A12.05",
+"word": "misgender"
+},
+{
+"topic_id": "A12.01",
+"word": "pronouns"
+},
+{
+"topic_id": "A12.02",
+"word": "pronouns"
+},
+{
+"topic_id": "A12.03",
+"word": "pronouns"
+},
+{
+"topic_id": "A12.04",
+"word": "pronouns"
+},
+{
+"topic_id": "A12.05",
+"word": "pronouns"
+},
+{
+"topic_id": "A12.01",
+"word": "deadnamed"
+},
+{
+"topic_id": "A12.02",
+"word": "deadnamed"
+},
+{
+"topic_id": "A12.03",
+"word": "deadnamed"
+},
+{
+"topic_id": "A12.04",
+"word": "deadnamed"
+},
+{
+"topic_id": "A12.05",
+"word": "deadnamed"
+},
+{
+"topic_id": "A12.01",
+"word": "marital status"
+},
+{
+"topic_id": "A12.02",
+"word": "marital status"
+},
+{
+"topic_id": "A12.03",
+"word": "marital status"
+},
+{
+"topic_id": "A12.04",
+"word": "marital status"
+},
+{
+"topic_id": "A12.05",
+"word": "marital status"
+},
+{
+"topic_id": "A12.01",
+"word": "reservist"
+},
+{
+"topic_id": "A12.02",
+"word": "reservist"
+},
+{
+"topic_id": "A12.03",
+"word": "reservist"
+},
+{
+"topic_id": "A12.04",
+"word": "reservist"
+},
+{
+"topic_id": "A12.05",
+"word": "reservist"
+},
+{
+"topic_id": "A12.01",
+"word": "national guard"
+},
+{
+"topic_id": "A12.02",
+"word": "national guard"
+},
+{
+"topic_id": "A12.03",
+"word": "national guard"
+},
+{
+"topic_id": "A12.04",
+"word": "national guard"
+},
+{
+"topic_id": "A12.05",
+"word": "national guard"
+},
+{
+"topic_id": "A12.01",
+"word": "military status"
+},
+{
+"topic_id": "A12.02",
+"word": "military status"
+},
+{
+"topic_id": "A12.03",
+"word": "military status"
+},
+{
+"topic_id": "A12.04",
+"word": "military status"
+},
+{
+"topic_id": "A12.05",
+"word": "military status"
+},
+{
+"topic_id": "A12.01",
+"word": "active duty"
+},
+{
+"topic_id": "A12.02",
+"word": "active duty"
+},
+{
+"topic_id": "A12.03",
+"word": "active duty"
+},
+{
+"topic_id": "A12.04",
+"word": "active duty"
+},
+{
+"topic_id": "A12.05",
+"word": "active duty"
+},
+{
+"topic_id": "A12.01",
+"word": "genetic"
+},
+{
+"topic_id": "A12.02",
+"word": "genetic"
+},
+{
+"topic_id": "A12.03",
+"word": "genetic"
+},
+{
+"topic_id": "A12.04",
+"word": "genetic"
+},
+{
+"topic_id": "A12.05",
+"word": "genetic"
+},
+{
+"topic_id": "A12.02",
+"word": "pregnant"
+},
+{
+"topic_id": "A12.03",
+"word": "pregnant"
+},
+{
+"topic_id": "A12.04",
+"word": "pregnant"
+},
+{
+"topic_id": "A12.05",
+"word": "pregnant"
+},
+{
+"topic_id": "A12.01",
+"word": "pregnancy"
+},
+{
+"topic_id": "A12.02",
+"word": "pregnancy"
+},
+{
+"topic_id": "A12.03",
+"word": "pregnancy"
+},
+{
+"topic_id": "A12.04",
+"word": "pregnancy"
+},
+{
+"topic_id": "A12.05",
+"word": "pregnancy"
+},
+{
+"topic_id": "A12.01",
+"word": "breastfeeding"
+},
+{
+"topic_id": "A12.02",
+"word": "breastfeeding"
+},
+{
+"topic_id": "A12.03",
+"word": "breastfeeding"
+},
+{
+"topic_id": "A12.04",
+"word": "breastfeeding"
+},
+{
+"topic_id": "A12.05",
+"word": "breastfeeding"
+},
+{
+"topic_id": "A12.01",
+"word": "lactation"
+},
+{
+"topic_id": "A12.02",
+"word": "lactation"
+},
+{
+"topic_id": "A12.03",
+"word": "lactation"
+},
+{
+"topic_id": "A12.04",
+"word": "lactation"
+},
+{
+"topic_id": "A12.05",
+"word": "lactation"
+},
+{
+"topic_id": "A12.01",
+"word": "lactating"
+},
+{
+"topic_id": "A12.02",
+"word": "lactating"
+},
+{
+"topic_id": "A12.03",
+"word": "lactating"
+},
+{
+"topic_id": "A12.04",
+"word": "lactating"
+},
+{
+"topic_id": "A12.05",
+"word": "lactating"
+},
+{
+"topic_id": "A12.02",
+"word": "maternity"
+},
+{
+"topic_id": "A12.03",
+"word": "maternity"
+},
+{
+"topic_id": "A12.04",
+"word": "maternity"
+},
+{
+"topic_id": "A12.05",
+"word": "maternity"
+},
+{
+"topic_id": "A12.01",
+"word": "gender discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "gender discrimination"
+},
+{
+"topic_id": "A12.03",
+"word": "gender discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "gender discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "gender discrimination"
+},
+{
+"topic_id": "A12.01",
+"word": "sex discrimination"
+},
+{
+"topic_id": "A12.02",
+"word": "sex discrimination"
+},
+{
+"topic_id": "A12.03",
+"word": "sex discrimination"
+},
+{
+"topic_id": "A12.04",
+"word": "sex discrimination"
+},
+{
+"topic_id": "A12.05",
+"word": "sex discrimination"
+},
+{
+"topic_id": "A12.01",
+"word": "sexual harassment"
+},
+{
+"topic_id": "A12.02",
+"word": "sexual harassment"
+},
+{
+"topic_id": "A12.03",
+"word": "sexual harassment"
+},
+{
+"topic_id": "A12.04",
+"word": "sexual harassment"
+},
+{
+"topic_id": "A12.05",
+"word": "sexual harassment"
+},
+{
+"topic_id": "A12.01",
+"word": "sexual orientation"
+},
+{
+"topic_id": "A12.02",
+"word": "sexual orientation"
+},
+{
+"topic_id": "A12.03",
+"word": "sexual orientation"
+},
+{
+"topic_id": "A12.04",
+"word": "sexual orientation"
+},
+{
+"topic_id": "A12.05",
+"word": "sexual orientation"
+},
+{
+"topic_id": "A12.01",
+"word": "homosexual"
+},
+{
+"topic_id": "A12.02",
+"word": "homosexual"
+},
+{
+"topic_id": "A12.03",
+"word": "homosexual"
+},
+{
+"topic_id": "A12.04",
+"word": "homosexual"
+},
+{
+"topic_id": "A12.05",
+"word": "homosexual"
+},
+{
+"topic_id": "A12.01",
+"word": "asexual"
+},
+{
+"topic_id": "A12.02",
+"word": "asexual"
+},
+{
+"topic_id": "A12.03",
+"word": "asexual"
+},
+{
+"topic_id": "A12.04",
+"word": "asexual"
+},
+{
+"topic_id": "A12.05",
+"word": "asexual"
+}
+]

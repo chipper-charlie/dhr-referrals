@@ -1,0 +1,14 @@
+[
+{
+"topic_id": "A12.02",
+"text": "A landlord won’t rent to you",
+"why": "because you have children",
+"order": 1
+},
+{
+"topic_id": "A12.02",
+"text": "Your landlord makes repairs for others but not you",
+"why": "because of your race",
+"order": 2
+}
+]

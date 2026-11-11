@@ -1,0 +1,1612 @@
+[
+{
+"word": "racist",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "racism",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "sexist",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "sexism",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "homophobic",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "homophobia",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "transphobic",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "transphobia",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "ageist",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "ageism",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "ableist",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "ableism",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "xenophobic",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "xenophobia",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "islamophobic",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "islamophobia",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "antisemitic",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "antisemitism",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "bigot",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "bigoted",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "bigotry",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "prejudice",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "prejudiced",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "slur",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "discriminated",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "discriminating",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "discrimination",
+"role": "bias",
+"topic_id": ""
+},
+{
+"word": "too old",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "too young",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "age discrimination",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "age",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "old",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "older",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "younger",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "elderly",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "race",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "racial",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "skin color",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "black",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "african american",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "latino",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "latina",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "latinx",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "hispanic",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "asian",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "hairstyle",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "braids",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "dreadlocks",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "locs",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "afro",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "white",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "hair",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "accent",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "national origin",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "ethnicity",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "ethnic",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "foreigner",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "speak english",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "english only",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "english",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "language",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "spanish",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "country",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "citizenship",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "citizen",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "immigrant",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "immigration status",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "green card",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "undocumented",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "visa",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "hijab",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "headscarf",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "turban",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "yarmulke",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "kippah",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "muslim",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "jewish",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "sikh",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "religious discrimination",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "religion",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "religious",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "christian",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "catholic",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "hindu",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "buddhist",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "sabbath",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "prayer",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "pray",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "disability",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "disabled",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "deaf",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "blind",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "autistic",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "autism",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "sign language",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "service dog",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "hard of hearing",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "wheelchair",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "adhd",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "ptsd",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "depression",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "anxiety",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "mental illness",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "diabetes",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "cancer",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "hiv",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "medical condition",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "domestic violence",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "abuser",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "order of protection",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "familial status",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "family status",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "kids",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "children",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "child",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "baby",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "son",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "daughter",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "single mom",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "single mother",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "single father",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "single parent",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "transgender",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "trans",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "nonbinary",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "non-binary",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "gender identity",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "gender expression",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "misgendered",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "misgender",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "pronouns",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "deadnamed",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "source of income",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "voucher",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "section 8",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "public assistance",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "welfare",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "ssi",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "ssdi",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "social security",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "cityfheps",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "fheps",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "child support",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "marital status",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "married",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "unmarried",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "divorced",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "widowed",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "reservist",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "national guard",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "military status",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "active duty",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "veteran",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "military",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "service member",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "deployed",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "genetic",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "dna test",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "pregnant",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "pregnancy",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "breastfeeding",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "lactation",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "lactating",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "maternity",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "miscarriage",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "abortion",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "ivf",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "childbirth",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "gender discrimination",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "sex discrimination",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "sexual harassment",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "sex",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "gender",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "woman",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "women",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "female",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "male",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "girl",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "sexual orientation",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "homosexual",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "asexual",
+"role": "basis",
+"topic_id": ""
+},
+{
+"word": "gay",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "lesbian",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "bisexual",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "queer",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "lgbtq",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "criminal record",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "conviction record",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "arrest record",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "felony",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "conviction",
+"role": "basis (place rule only)",
+"topic_id": ""
+},
+{
+"word": "boss",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "manager",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "supervisor",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "employer",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "coworker",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "co-worker",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "job",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "work",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "workplace",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "fired",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "hired",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "hiring",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "promotion",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "promoted",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "interview",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "HR",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "human resources",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "company",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "paid less",
+"role": "place",
+"topic_id": "A12.01"
+},
+{
+"word": "landlord",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "apartment",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "rent",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "renting",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "lease",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "tenant",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "housing",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "building manager",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "broker",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "realtor",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "real estate",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "co-op",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "condo",
+"role": "place",
+"topic_id": "A12.02"
+},
+{
+"word": "store",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "shop",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "restaurant",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "bar",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "club",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "nightclub",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "hotel",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "motel",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "bouncer",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "gym",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "theater",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "theatre",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "movie",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "cafe",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "mall",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "salon",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "barber",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "doctor",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "hospital",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "clinic",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "pharmacy",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "taxi",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "uber",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "lyft",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "security guard",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "cashier",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "locker room",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "bathroom",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "restroom",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "pool",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "museum",
+"role": "place",
+"topic_id": "A12.03"
+},
+{
+"word": "teacher",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "school",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "principal",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "professor",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "college",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "university",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "class",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "classmate",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "student",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "campus",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "coach",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "dorm",
+"role": "place",
+"topic_id": "A12.04"
+},
+{
+"word": "loan",
+"role": "place",
+"topic_id": "A12.05"
+},
+{
+"word": "mortgage",
+"role": "place",
+"topic_id": "A12.05"
+},
+{
+"word": "lender",
+"role": "place",
+"topic_id": "A12.05"
+},
+{
+"word": "bank",
+"role": "place",
+"topic_id": "A12.05"
+},
+{
+"word": "credit card",
+"role": "place",
+"topic_id": "A12.05"
+},
+{
+"word": "police",
+"role": "place",
+"topic_id": "A05.01"
+},
+{
+"word": "cop",
+"role": "place",
+"topic_id": "A05.01"
+},
+{
+"word": "cops",
+"role": "place",
+"topic_id": "A05.01"
+},
+{
+"word": "officer",
+"role": "place",
+"topic_id": "A05.01"
+},
+{
+"word": "trooper",
+"role": "place",
+"topic_id": "A05.01"
+},
+{
+"word": "sheriff",
+"role": "place",
+"topic_id": "A05.01"
+},
+{
+"word": "neighbor",
+"role": "place",
+"topic_id": "A04.04"
+},
+{
+"word": "stranger",
+"role": "place",
+"topic_id": "A04.04"
+},
+{
+"word": "street",
+"role": "place",
+"topic_id": "A04.04"
+},
+{
+"word": "subway",
+"role": "place",
+"topic_id": "A04.04"
+},
+{
+"word": "on the bus",
+"role": "place",
+"topic_id": "A04.04"
+},
+{
+"word": "post office",
+"role": "place",
+"topic_id": "A12.08"
+},
+{
+"word": "postal",
+"role": "place",
+"topic_id": "A12.08"
+},
+{
+"word": "USPS",
+"role": "place",
+"topic_id": "A12.08"
+},
+{
+"word": "federal",
+"role": "place",
+"topic_id": "A12.08"
+},
+{
+"word": "VA hospital",
+"role": "place",
+"topic_id": "A12.08"
+},
+{
+"word": "military base",
+"role": "place",
+"topic_id": "A12.08"
+},
+{
+"word": "work",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "job",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "insurance",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "credit",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "services",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "service",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "problems",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "public",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "care",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "help",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "support",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "rights",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "programs",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "groups",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "needs",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "general",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "retaliation",
+"role": "generic",
+"topic_id": ""
+},
+{
+"word": "a",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "an",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "the",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "and",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "or",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "of",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "to",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "for",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "my",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "me",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "i",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "in",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "on",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "with",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "help",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "is",
+"role": "filler",
+"topic_id": ""
+},
+{
+"word": "it",
+"role": "filler",
+"topic_id": ""
+}
+]

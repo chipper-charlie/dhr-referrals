@@ -1,0 +1,22 @@
+[
+{
+"kind_id": "F15.01",
+"name": "Legal help",
+"order": 1
+},
+{
+"kind_id": "F15.02",
+"name": "Complaint or oversight office",
+"order": 2
+},
+{
+"kind_id": "F15.03",
+"name": "Mediation",
+"order": 3
+},
+{
+"kind_id": "F15.04",
+"name": "Advocacy and case management",
+"order": 4
+}
+]

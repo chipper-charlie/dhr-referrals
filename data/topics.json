@@ -1,0 +1,597 @@
+[
+{
+"topic_id": "A01.01",
+"area_id": "A01",
+"name": "Unpaid or underpaid wages",
+"may_handle": false,
+"order": 1
+},
+{
+"topic_id": "A01.02",
+"area_id": "A01",
+"name": "Fired, laid off, not hired",
+"may_handle": false,
+"order": 2
+},
+{
+"topic_id": "A01.03",
+"area_id": "A01",
+"name": "Bosses and coworkers",
+"may_handle": false,
+"order": 3
+},
+{
+"topic_id": "A01.04",
+"area_id": "A01",
+"name": "Punished for complaining",
+"may_handle": false,
+"order": 4
+},
+{
+"topic_id": "A01.05",
+"area_id": "A01",
+"name": "Workplace safety and injuries",
+"may_handle": false,
+"order": 5
+},
+{
+"topic_id": "A01.06",
+"area_id": "A01",
+"name": "Unemployment insurance",
+"may_handle": false,
+"order": 6
+},
+{
+"topic_id": "A01.07",
+"area_id": "A01",
+"name": "Time off and leave",
+"may_handle": false,
+"order": 7
+},
+{
+"topic_id": "A01.08",
+"area_id": "A01",
+"name": "Unions and organizing",
+"may_handle": false,
+"order": 8
+},
+{
+"topic_id": "A01.09",
+"area_id": "A01",
+"name": "Farm, domestic and day workers",
+"may_handle": false,
+"order": 9
+},
+{
+"topic_id": "A01.10",
+"area_id": "A01",
+"name": "Public employees",
+"may_handle": false,
+"order": 10
+},
+{
+"topic_id": "A01.11",
+"area_id": "A01",
+"name": "Job training and finding work",
+"may_handle": false,
+"order": 11
+},
+{
+"topic_id": "A02.01",
+"area_id": "A02",
+"name": "Repairs and living conditions",
+"may_handle": false,
+"order": 12
+},
+{
+"topic_id": "A02.02",
+"area_id": "A02",
+"name": "Eviction and losing your home",
+"may_handle": false,
+"order": 13
+},
+{
+"topic_id": "A02.03",
+"area_id": "A02",
+"name": "Rent, leases and deposits",
+"may_handle": false,
+"order": 14
+},
+{
+"topic_id": "A02.04",
+"area_id": "A02",
+"name": "Landlord harassment",
+"may_handle": false,
+"order": 15
+},
+{
+"topic_id": "A02.05",
+"area_id": "A02",
+"name": "Public and subsidized housing",
+"may_handle": false,
+"order": 16
+},
+{
+"topic_id": "A02.06",
+"area_id": "A02",
+"name": "Homelessness and shelter",
+"may_handle": false,
+"order": 17
+},
+{
+"topic_id": "A02.07",
+"area_id": "A02",
+"name": "Owning and keeping a home",
+"may_handle": false,
+"order": 18
+},
+{
+"topic_id": "A03.01",
+"area_id": "A03",
+"name": "Neighbor and tenant disputes",
+"may_handle": false,
+"order": 19
+},
+{
+"topic_id": "A03.02",
+"area_id": "A03",
+"name": "Personal disputes",
+"may_handle": false,
+"order": 20
+},
+{
+"topic_id": "A03.03",
+"area_id": "A03",
+"name": "Family disputes",
+"may_handle": false,
+"order": 21
+},
+{
+"topic_id": "A04.01",
+"area_id": "A04",
+"name": "Domestic violence",
+"may_handle": false,
+"order": 22
+},
+{
+"topic_id": "A04.02",
+"area_id": "A04",
+"name": "Sexual violence",
+"may_handle": false,
+"order": 23
+},
+{
+"topic_id": "A04.03",
+"area_id": "A04",
+"name": "Stalking and harassment",
+"may_handle": false,
+"order": 24
+},
+{
+"topic_id": "A04.04",
+"area_id": "A04",
+"name": "Hate crimes and bias incidents",
+"may_handle": false,
+"order": 25
+},
+{
+"topic_id": "A04.05",
+"area_id": "A04",
+"name": "Assault and robbery",
+"may_handle": false,
+"order": 26
+},
+{
+"topic_id": "A04.06",
+"area_id": "A04",
+"name": "Gun violence",
+"may_handle": false,
+"order": 27
+},
+{
+"topic_id": "A04.07",
+"area_id": "A04",
+"name": "Murder of a loved one",
+"may_handle": false,
+"order": 28
+},
+{
+"topic_id": "A04.08",
+"area_id": "A04",
+"name": "Human trafficking",
+"may_handle": false,
+"order": 29
+},
+{
+"topic_id": "A04.09",
+"area_id": "A04",
+"name": "Motor vehicle crimes",
+"may_handle": false,
+"order": 30
+},
+{
+"topic_id": "A04.10",
+"area_id": "A04",
+"name": "Mass violence or terrorism",
+"may_handle": false,
+"order": 31
+},
+{
+"topic_id": "A04.11",
+"area_id": "A04",
+"name": "Crime victim compensation",
+"may_handle": false,
+"order": 32
+},
+{
+"topic_id": "A04.12",
+"area_id": "A04",
+"name": "Reporting a crime",
+"may_handle": false,
+"order": 33
+},
+{
+"topic_id": "A05.01",
+"area_id": "A05",
+"name": "Police problems",
+"may_handle": false,
+"order": 34
+},
+{
+"topic_id": "A05.02",
+"area_id": "A05",
+"name": "Arrest and criminal charges",
+"may_handle": false,
+"order": 35
+},
+{
+"topic_id": "A05.03",
+"area_id": "A05",
+"name": "Jail, prison and reentry",
+"may_handle": false,
+"order": 36
+},
+{
+"topic_id": "A05.04",
+"area_id": "A05",
+"name": "Courts",
+"may_handle": false,
+"order": 37
+},
+{
+"topic_id": "A05.05",
+"area_id": "A05",
+"name": "Wrongful conviction",
+"may_handle": false,
+"order": 38
+},
+{
+"topic_id": "A06.01",
+"area_id": "A06",
+"name": "Cash and food assistance",
+"may_handle": false,
+"order": 39
+},
+{
+"topic_id": "A06.02",
+"area_id": "A06",
+"name": "Social Security and disability",
+"may_handle": false,
+"order": 40
+},
+{
+"topic_id": "A06.03",
+"area_id": "A06",
+"name": "Government agency problems",
+"may_handle": false,
+"order": 41
+},
+{
+"topic_id": "A06.04",
+"area_id": "A06",
+"name": "Public services and ID",
+"may_handle": false,
+"order": 42
+},
+{
+"topic_id": "A06.05",
+"area_id": "A06",
+"name": "Veterans services",
+"may_handle": false,
+"order": 43
+},
+{
+"topic_id": "A07.01",
+"area_id": "A07",
+"name": "Medical care problems",
+"may_handle": false,
+"order": 44
+},
+{
+"topic_id": "A07.02",
+"area_id": "A07",
+"name": "Health insurance",
+"may_handle": false,
+"order": 45
+},
+{
+"topic_id": "A07.03",
+"area_id": "A07",
+"name": "Mental health and substance use",
+"may_handle": false,
+"order": 46
+},
+{
+"topic_id": "A07.04",
+"area_id": "A07",
+"name": "Home care and long-term care",
+"may_handle": false,
+"order": 47
+},
+{
+"topic_id": "A07.06",
+"area_id": "A07",
+"name": "Clinics and basic care",
+"may_handle": false,
+"order": 48
+},
+{
+"topic_id": "A07.07",
+"area_id": "A07",
+"name": "HIV and AIDS services",
+"may_handle": false,
+"order": 49
+},
+{
+"topic_id": "A08.01",
+"area_id": "A08",
+"name": "Debt and collections",
+"may_handle": false,
+"order": 50
+},
+{
+"topic_id": "A08.02",
+"area_id": "A08",
+"name": "Credit and lending",
+"may_handle": false,
+"order": 51
+},
+{
+"topic_id": "A08.03",
+"area_id": "A08",
+"name": "Scams and consumer complaints",
+"may_handle": false,
+"order": 52
+},
+{
+"topic_id": "A08.04",
+"area_id": "A08",
+"name": "Taxes",
+"may_handle": false,
+"order": 53
+},
+{
+"topic_id": "A08.05",
+"area_id": "A08",
+"name": "Insurance claims",
+"may_handle": false,
+"order": 54
+},
+{
+"topic_id": "A09.01",
+"area_id": "A09",
+"name": "Custody, divorce and support",
+"may_handle": false,
+"order": 55
+},
+{
+"topic_id": "A09.02",
+"area_id": "A09",
+"name": "Child protective services",
+"may_handle": false,
+"order": 56
+},
+{
+"topic_id": "A09.03",
+"area_id": "A09",
+"name": "Foster care and adoption",
+"may_handle": false,
+"order": 57
+},
+{
+"topic_id": "A09.04",
+"area_id": "A09",
+"name": "Child care and youth programs",
+"may_handle": false,
+"order": 58
+},
+{
+"topic_id": "A09.05",
+"area_id": "A09",
+"name": "Elder abuse and guardianship",
+"may_handle": false,
+"order": 59
+},
+{
+"topic_id": "A09.06",
+"area_id": "A09",
+"name": "Wills and estates",
+"may_handle": false,
+"order": 60
+},
+{
+"topic_id": "A09.07",
+"area_id": "A09",
+"name": "Name and document changes",
+"may_handle": false,
+"order": 61
+},
+{
+"topic_id": "A10.01",
+"area_id": "A10",
+"name": "Immigration status and documents",
+"may_handle": false,
+"order": 62
+},
+{
+"topic_id": "A10.02",
+"area_id": "A10",
+"name": "Deportation and detention",
+"may_handle": false,
+"order": 63
+},
+{
+"topic_id": "A11.01",
+"area_id": "A11",
+"name": "School problems (K-12)",
+"may_handle": false,
+"order": 64
+},
+{
+"topic_id": "A11.02",
+"area_id": "A11",
+"name": "College and training",
+"may_handle": false,
+"order": 65
+},
+{
+"topic_id": "A11.03",
+"area_id": "A11",
+"name": "Adult and early education",
+"may_handle": false,
+"order": 66
+},
+{
+"topic_id": "A12.01",
+"area_id": "A12",
+"name": "Discrimination at work",
+"may_handle": true,
+"order": 67
+},
+{
+"topic_id": "A12.02",
+"area_id": "A12",
+"name": "Discrimination in housing",
+"may_handle": true,
+"order": 68
+},
+{
+"topic_id": "A12.03",
+"area_id": "A12",
+"name": "Discrimination in public places",
+"may_handle": true,
+"order": 69
+},
+{
+"topic_id": "A12.04",
+"area_id": "A12",
+"name": "Discrimination at school",
+"may_handle": true,
+"order": 70
+},
+{
+"topic_id": "A12.05",
+"area_id": "A12",
+"name": "Credit and insurance discrimination",
+"may_handle": true,
+"order": 71
+},
+{
+"topic_id": "A12.06",
+"area_id": "A12",
+"name": "Retaliation at work",
+"may_handle": true,
+"order": 72
+},
+{
+"topic_id": "A12.07",
+"area_id": "A12",
+"name": "Landlord retaliation",
+"may_handle": true,
+"order": 73
+},
+{
+"topic_id": "A12.08",
+"area_id": "A12",
+"name": "Federal employers and agencies",
+"may_handle": false,
+"order": 74
+},
+{
+"topic_id": "A12.09",
+"area_id": "A12",
+"name": "Local human rights commissions",
+"may_handle": false,
+"order": 75
+},
+{
+"topic_id": "A12.10",
+"area_id": "A12",
+"name": "Religious and private groups",
+"may_handle": false,
+"order": 76
+},
+{
+"topic_id": "A12.11",
+"area_id": "A12",
+"name": "Tribal nations",
+"may_handle": false,
+"order": 77
+},
+{
+"topic_id": "A12.12",
+"area_id": "A12",
+"name": "Airlines, trains and buses",
+"may_handle": false,
+"order": 78
+},
+{
+"topic_id": "A12.13",
+"area_id": "A12",
+"name": "Disability rights and access",
+"may_handle": false,
+"order": 79
+},
+{
+"topic_id": "A12.14",
+"area_id": "A12",
+"name": "LGBTQ+ support",
+"may_handle": false,
+"order": 80
+},
+{
+"topic_id": "A13.01",
+"area_id": "A13",
+"name": "Food",
+"may_handle": false,
+"order": 81
+},
+{
+"topic_id": "A13.02",
+"area_id": "A13",
+"name": "Utilities and energy",
+"may_handle": false,
+"order": 82
+},
+{
+"topic_id": "A13.03",
+"area_id": "A13",
+"name": "Emergency needs",
+"may_handle": false,
+"order": 83
+},
+{
+"topic_id": "A14.01",
+"area_id": "A14",
+"name": "Hotlines and help for any problem",
+"may_handle": false,
+"order": 84
+},
+{
+"topic_id": "A14.02",
+"area_id": "A14",
+"name": "Lawyers and legal help",
+"may_handle": false,
+"order": 85
+}
+]

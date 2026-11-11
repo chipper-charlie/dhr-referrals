@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Referral finder: result groups</title>
+</head>
+<body>
+<!-- Result groups and cards, shared by the public finder and the staff view so both show exactly the same thing.
+     Loaded by <dc-import name="ResultGroups" groups="{{groups}}">. groups comes from FinderCore.results(). -->
+<x-dc>
+<helmet>
+<style>
+.grp{margin-top:32px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.gbar{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 24px;background:#ececec}
+.gbar span{font-size:13px}
+.g0{border:2px solid var(--navy)}
+.g0 .gbar{background:#fff;color:var(--navy);border-bottom:2px solid var(--navy)}
+.g1 .gbar{background:var(--navy);color:#fff}
+.scr .g1 .gbar h2{color:#fff}
+.g2 .gbar{background:var(--tint);color:var(--navy)}
+.g3 .gbar{background:#ececec;color:var(--ink)}
+.scr .g3 .gbar h2{color:var(--ink)}
+.gsub{margin:0;padding:14px 24px 0;font-size:13px;color:var(--gray)}
+.res{list-style:none;margin:0;padding:0}
+.res>li{padding:24px;border-top:1px solid var(--rule)}
+.res>li:first-child{border-top:0}
+.res h3{margin:0;font-size:17px;line-height:1.3}
+.res h3 a{color:var(--accent);text-decoration:underline}
+.ext{width:12px;height:12px;margin-left:6px}
+.ph{margin:8px 0 0;font-weight:700}
+.ph a{color:var(--accent)}
+.ph span{margin-left:10px;font-size:13px;font-weight:400;color:var(--gray)}
+.noph{margin:8px 0 0;font-size:13px;color:var(--gray)}
+.desc{max-width:46em;margin:8px 0 0;color:var(--soft)}
+.calert{margin:8px 0 0;padding:8px 12px;background:var(--warn-bg);border-left:0;border-radius:6px;color:var(--warn-ink);font-size:13px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+.tags li{padding:2px 10px;border-radius:14px;background:var(--tint);color:var(--navy);font-size:13px}
+.offn{margin:14px 0 0;font-size:13px;font-weight:700;color:var(--gray)}
+.off{list-style:none;margin:8px 0 0;padding:4px 16px;background:var(--page);border:1px solid var(--rule);border-radius:6px}
+.off li{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 16px;padding:10px 0;border-top:1px dashed #c4c4c4}
+.off li:first-child{border-top:0}
+.off a{font-weight:700;color:var(--accent)}
+.off span{font-size:13px;color:var(--gray)}
+.offx{list-style:none;margin:8px 0 0;padding:4px 16px;background:var(--page);border:1px solid var(--rule);border-radius:6px}
+.offx>li{padding:12px 0;border-top:1px dashed #c4c4c4}
+.offx>li:first-child{border-top:0}
+.offx .ol{margin:0;font-weight:700}
+.offx .ol a{color:var(--accent);text-decoration:underline}
+.offx .ph{margin-top:2px}
+.offx .tags{margin-top:8px}
+.prog{list-style:none;margin:8px 0 0;padding:0}
+.prog>li{margin:0 0 12px;padding:16px;background:var(--page);border:1px solid var(--rule);border-radius:6px}
+.prog>li:last-child{margin-bottom:0}
+.prog h4{margin:0;font-size:15px;line-height:1.3;font-weight:700}
+.prog h4 a{color:var(--accent);text-decoration:underline}
+.prog .ph{margin-top:6px}
+.prog .off{background:#fff}
+@media (max-width:600px){
+.grp{margin-top:28px}
+.gbar{padding:14px 16px}
+.gsub{padding:14px 16px 0}
+.res>li{padding:20px 16px}
+.ph span{display:block;margin-left:0}
+}
+</style>
+</helmet>
+<div class="rgroups">
+<sc-for list="{{groups}}" as="g" hint-placeholder-count="2">
+  <div class="{{g.cls}}">
+    <div class="gbar"><h2>{{g.title}}</h2><span>{{g.count}}</span></div>
+    <sc-if value="{{g.hasSub}}" hint-placeholder-val="{{false}}"><p class="gsub">{{g.sub}}</p></sc-if>
+    <ul class="res">
+      <sc-for list="{{g.cards}}" as="c" hint-placeholder-count="2">
+        <li>
+          <h3><sc-if value="{{c.url}}" hint-placeholder-val="{{true}}"><a href="{{c.url}}" target="_blank" rel="noopener">{{c.name}}<svg class="ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M5 2H2v8h8V7M7 2h3v3M10 2L5.5 6.5" fill="none" stroke="#2a63d6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="sr"> (opens in a new tab)</span></a></sc-if><sc-if value="{{c.noUrl}}" hint-placeholder-val="{{false}}">{{c.name}}</sc-if></h3>
+          <sc-if value="{{c.hasPhone}}" hint-placeholder-val="{{true}}"><p class="ph"><a href="{{c.phone.href}}">{{c.phone.shown}}</a><sc-if value="{{c.hasWhere}}" hint-placeholder-val="{{true}}"><span>{{c.where}}</span></sc-if></p></sc-if>
+          <sc-if value="{{c.noPhone}}" hint-placeholder-val="{{false}}"><p class="noph">No phone listed. Use the website.</p></sc-if>
+          <sc-if value="{{c.hasAlert}}" hint-placeholder-val="{{false}}"><p class="calert">{{c.alert}}</p></sc-if>
+          <sc-if value="{{c.hasDesc}}" hint-placeholder-val="{{true}}"><p class="desc">{{c.desc}}</p></sc-if>
+          <sc-if value="{{c.grouped}}" hint-placeholder-val="{{false}}">
+            <p class="offn" id="{{c.offId}}">{{c.officeHead}}</p>
+            <ul class="off" aria-labelledby="{{c.offId}}">
+              <sc-for list="{{c.offices}}" as="o" hint-placeholder-count="2"><li><sc-if value="{{o.hasPhone}}" hint-placeholder-val="{{true}}"><a href="{{o.phone.href}}">{{o.phone.shown}}</a></sc-if><span>{{o.where}}</span></li></sc-for>
+            </ul>
+          </sc-if>
+          <sc-if value="{{c.sites}}" hint-placeholder-val="{{false}}">
+            <p class="offn" id="{{c.offId}}">{{c.officeHead}}</p>
+            <ul class="offx" aria-labelledby="{{c.offId}}">
+              <sc-for list="{{c.offices}}" as="o" hint-placeholder-count="2">
+                <li>
+                  <p class="ol"><a href="{{o.url}}" target="_blank" rel="noopener">{{o.name}}<svg class="ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M5 2H2v8h8V7M7 2h3v3M10 2L5.5 6.5" fill="none" stroke="#2a63d6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="sr"> (opens in a new tab)</span></a></p>
+                  <sc-if value="{{o.hasPhone}}" hint-placeholder-val="{{true}}"><p class="ph"><a href="{{o.phone.href}}">{{o.phone.shown}}</a></p></sc-if>
+                  <ul class="tags"><sc-for list="{{o.tags}}" as="t" hint-placeholder-count="2"><li>{{t.name}}</li></sc-for></ul>
+                </li>
+              </sc-for>
+            </ul>
+          </sc-if>
+          <sc-if value="{{c.hasTags}}" hint-placeholder-val="{{true}}"><ul class="tags"><sc-for list="{{c.tags}}" as="t" hint-placeholder-count="2"><li>{{t.name}}</li></sc-for></ul></sc-if>
+          <sc-if value="{{c.hasPrograms}}" hint-placeholder-val="{{false}}">
+            <p class="offn" id="{{c.progId}}">{{c.programHead}}</p>
+            <ul class="prog" aria-labelledby="{{c.progId}}">
+              <sc-for list="{{c.programs}}" as="p" hint-placeholder-count="2">
+                <li>
+                  <h4><a href="{{p.url}}" target="_blank" rel="noopener">{{p.name}}<svg class="ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M5 2H2v8h8V7M7 2h3v3M10 2L5.5 6.5" fill="none" stroke="#2a63d6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="sr"> (opens in a new tab)</span></a></h4>
+                  <sc-if value="{{p.hasPhone}}" hint-placeholder-val="{{true}}"><p class="ph"><a href="{{p.phone.href}}">{{p.phone.shown}}</a><span>{{p.where}}</span></p></sc-if>
+                  <sc-if value="{{p.noPhone}}" hint-placeholder-val="{{false}}"><p class="noph">No phone listed. Use the website.</p></sc-if>
+                  <sc-if value="{{p.alert}}" hint-placeholder-val="{{false}}"><p class="calert">{{p.alert}}</p></sc-if>
+                  <sc-if value="{{p.desc}}" hint-placeholder-val="{{true}}"><p class="desc">{{p.desc}}</p></sc-if>
+                  <sc-if value="{{p.many}}" hint-placeholder-val="{{false}}">
+                    <p class="offn">{{p.siteHead}}</p>
+                    <ul class="off"><sc-for list="{{p.sites}}" as="s" hint-placeholder-count="2"><li><sc-if value="{{s.hasPhone}}" hint-placeholder-val="{{true}}"><a href="{{s.phone.href}}">{{s.phone.shown}}</a></sc-if><span>{{s.where}}</span></li></sc-for></ul>
+                  </sc-if>
+                  <ul class="tags"><sc-for list="{{p.tags}}" as="t" hint-placeholder-count="2"><li>{{t.name}}</li></sc-for></ul>
+                </li>
+              </sc-for>
+            </ul>
+          </sc-if>
+        </li>
+      </sc-for>
+    </ul>
+  </div>
+</sc-for>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"groups":{"editor":null,"tsType":"Array<object>"},"$preview":{"width":900,"height":600}}'>
+class Component extends DCLogic {
+  renderVals() {
+    // Ids for the office and program lists, unique per group and card; empty fields made safe for the template
+    var groups = (this.props.groups || []).map((g) => Object.assign({}, g, {
+      cards: g.cards.map((c) => Object.assign({}, c, {
+        noUrl: !c.url, offId: 'off-' + g.key + '-' + c.key, progId: 'prog-' + g.key + '-' + c.key,
+        programs: (c.programs || []).map((p) => Object.assign({}, p, { alert: p.alert || '' }))
+      }))
+    }));
+    return { groups: groups };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,3632 @@
+[
+{
+"org_id": "ORG-338836",
+"name": "1 in 6",
+"website": "https://www.1in6.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C1D249",
+"name": "211 New York",
+"website": "https://www.211newyork.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DDD08F",
+"name": "311",
+"website": "https://www.nyc.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-049132",
+"name": "4th Family",
+"website": "https://4thfamily.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DC9EE0",
+"name": "988 Suicide and Crisis Lifeline",
+"website": "https://988lifeline.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E67C79",
+"name": "A Long Walk Home",
+"website": "https://www.alongwalkhome.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DCDE38",
+"name": "A New Hope Center",
+"website": "https://www.anewhopecenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-EC957C",
+"name": "ACCORD",
+"website": "https://accordny.com/",
+"description": ""
+},
+{
+"org_id": "ORG-72CF49",
+"name": "ACR Health",
+"website": "https://www.acrhealth.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DB4366",
+"name": "Adirondack North Country Gender Alliance",
+"website": "https://adkncga.org/",
+"description": ""
+},
+{
+"org_id": "ORG-140DE9",
+"name": "Adirondack Roots",
+"website": "https://adirondackroots.org/",
+"description": ""
+},
+{
+"org_id": "ORG-48064A",
+"name": "ADL – The Anti-Defamation League of New York/New Jersey",
+"website": "https://nynj.adl.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2328D0",
+"name": "Advocacy Center of Tompkins County",
+"website": "https://www.actompkins.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BAF508",
+"name": "Albany Commission on Human Rights",
+"website": "https://www.albanyny.gov/645/Commission-on-Human-Rights",
+"description": ""
+},
+{
+"org_id": "ORG-CD3FBC",
+"name": "Albany Community Police Review Board",
+"website": "https://www.albanyny.gov/865/Community-Police-Review-Board",
+"description": ""
+},
+{
+"org_id": "ORG-CBA2E4",
+"name": "Albany County Crime Victim and Sexual Violence Center",
+"website": "https://www.albanycountyny.gov/cvsvc",
+"description": ""
+},
+{
+"org_id": "ORG-B4752B",
+"name": "Albany County Department of Social Services",
+"website": "https://www.albanycountyny.gov/dss",
+"description": ""
+},
+{
+"org_id": "ORG-78C7E0",
+"name": "Albany County District Attorney's Crime Victim Bureau",
+"website": "https://www.albanycountyny.gov/victims-services",
+"description": ""
+},
+{
+"org_id": "ORG-94471B",
+"name": "Albany County Office of Weights and Measures (Consumer Affairs)",
+"website": "https://www.albanycountyny.gov/how-to-resolve-a-problem",
+"description": ""
+},
+{
+"org_id": "ORG-56631F",
+"name": "Albany County Regional Immigration Assistance Center",
+"website": "https://www.albanycountyny.gov/government/immigration-services",
+"description": ""
+},
+{
+"org_id": "ORG-086642",
+"name": "Albany Law School",
+"website": "https://www.albanylaw.edu/",
+"description": ""
+},
+{
+"org_id": "ORG-B9DA0A",
+"name": "Allegany County Department of Social Services",
+"website": "https://www.alleganyco.gov/departments/social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-ACDBF7",
+"name": "American Civic Association",
+"website": "https://www.americancivic.com/",
+"description": ""
+},
+{
+"org_id": "ORG-FFA601",
+"name": "American Council of the Blind of New York",
+"website": "https://www.acbny.info/",
+"description": ""
+},
+{
+"org_id": "ORG-C71F0B",
+"name": "Amtrak",
+"website": "https://www.amtrak.com/planning-booking/accessible-travel-services/non-discrimination-policy",
+"description": ""
+},
+{
+"org_id": "ORG-5CCD05",
+"name": "Arab American Anti-Discrimination Committee",
+"website": "https://www.adc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CBE7B5",
+"name": "Arab-American Family Support Center",
+"website": "https://www.aafscny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-81A5B6",
+"name": "Arbor Housing and Development The NET DV shelter",
+"website": "https://arbordevelopment.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6A5872",
+"name": "Asian American Federation",
+"website": "https://www.aafederation.org/",
+"description": ""
+},
+{
+"org_id": "ORG-56221D",
+"name": "Asiyah Women’s Center",
+"website": "https://asiyahwomenscenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-235ADC",
+"name": "Ask a Law Librarian",
+"website": "https://askalawlibrarian.nycourts.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-A03319",
+"name": "Attorney Grievance Committee of the Third Judicial District",
+"website": "https://nycourts.gov/ad3/agc/",
+"description": ""
+},
+{
+"org_id": "ORG-982053",
+"name": "AWAKE (Asian Women’s Alliance for Kinship and Equality)",
+"website": "https://www.awakempowers.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6D298E",
+"name": "Bait-UL-Jamaat House of Community",
+"website": "https://www.baituljamaat.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B05584",
+"name": "Behavioral Health Services North",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-5FE5D0",
+"name": "Bellevue Hospital",
+"website": "https://www.nychealthandhospitals.org/bellevue/services/victim-services-program/",
+"description": ""
+},
+{
+"org_id": "ORG-F33509",
+"name": "BestSelf Behavioral Health",
+"website": "https://www.cacbuffalo.org/",
+"description": ""
+},
+{
+"org_id": "ORG-09319A",
+"name": "BRAVE at Erie County Medical Center",
+"website": "https://www.ecmc.edu/",
+"description": ""
+},
+{
+"org_id": "ORG-11C1D4",
+"name": "Bronx County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F05408",
+"name": "Bronx County District Attorney's Office",
+"website": "https://www.bronxda.nyc.gov",
+"description": ""
+},
+{
+"org_id": "ORG-981CA5",
+"name": "Bronx Independent Living Services",
+"website": "https://www.bils.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DD182E",
+"name": "BronxWorks",
+"website": "https://www.bronxworks.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BA1FCF",
+"name": "Brooklyn Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-71F26E",
+"name": "Brooklyn Chinese-American Association",
+"website": "https://www.bca.net/",
+"description": ""
+},
+{
+"org_id": "ORG-AABB01",
+"name": "Brooklyn Community Pride Center",
+"website": "https://www.lgbtbrooklyn.org/",
+"description": ""
+},
+{
+"org_id": "ORG-313409",
+"name": "Broome County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-6AE4D1",
+"name": "Broome County Council of Churches",
+"website": "https://www.broomecouncil.net/",
+"description": ""
+},
+{
+"org_id": "ORG-C0CBEA",
+"name": "Broome County Department of Social Services",
+"website": "https://www.gobroomecounty.com/dss",
+"description": ""
+},
+{
+"org_id": "ORG-671A9C",
+"name": "Broome County Urban League",
+"website": "https://bcul.org/",
+"description": ""
+},
+{
+"org_id": "ORG-7BDD5C",
+"name": "Brown Boi Project",
+"website": "https://www.brownboiproject.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9CA251",
+"name": "Buffalo Urban League",
+"website": "https://www.buffalourbanleague.org",
+"description": ""
+},
+{
+"org_id": "ORG-24DEBD",
+"name": "Build Up Justice NYC! (formerly Brooklyn Legal Services Corporation)",
+"website": "https://buj.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BFA0F9",
+"name": "CAIR: Council on American-Islamic Relations",
+"website": "https://www.cair.com/",
+"description": ""
+},
+{
+"org_id": "ORG-C000B4",
+"name": "CAMBA",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-0747F2",
+"name": "Capital District Center for Independence",
+"website": "https://www.cdciweb.com/",
+"description": ""
+},
+{
+"org_id": "ORG-C2F166",
+"name": "Catalyst Cayuga/Human Services Coalition",
+"website": "https://catalystcayuga.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DC847E",
+"name": "Catholic Charities",
+"website": "https://www.catholiccharitiesusa.org/",
+"description": ""
+},
+{
+"org_id": "ORG-1FEB52",
+"name": "Catskill Regional Medical Center- Rape Intervention Services and Education (RISE)",
+"website": "https://www.garnethealth.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E602FC",
+"name": "Cattaraugus County Department of Social Services",
+"website": "https://www.cattco.gov/social-services/social-services",
+"description": ""
+},
+{
+"org_id": "ORG-FE41C4",
+"name": "Cayuga Counseling Services",
+"website": "https://cayugacounseling.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A537F8",
+"name": "Cayuga County Department of Health and Human Services",
+"website": "https://www.cayugacounty.gov/260/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-484382",
+"name": "Cayuga County District Attorney's Office",
+"website": "https://www.cayugacounty.us/214/Victims",
+"description": ""
+},
+{
+"org_id": "ORG-41DFD7",
+"name": "Cayuga Nation",
+"website": "https://cayuganation-nsn.gov",
+"description": ""
+},
+{
+"org_id": "ORG-34F30D",
+"name": "Cayuga/Seneca Community Action Agency, Inc. DBA Community Action Programs Cayuga/Seneca",
+"website": "https://www.caphelps.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DC461A",
+"name": "Center for Community Justice",
+"website": "https://www.theccj.org/",
+"description": ""
+},
+{
+"org_id": "ORG-574310",
+"name": "Center for Dispute Settlement",
+"website": "https://www.cdsadr.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2B5653",
+"name": "Center for Elder Law and Justice",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-7E1A83",
+"name": "Center for Justice Innovation (formerly Center for Court Innovation)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-7C3FF6",
+"name": "Center for Law and Justice",
+"website": "https://www.cflj.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D5B88F",
+"name": "Center for Safety and Change",
+"website": "https://www.centerforsafetyandchange.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D4F77D",
+"name": "Central American Refugee Center (CARECEN)",
+"website": "https://www.carecenny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DD2FAB",
+"name": "Central Family Life Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-0B92C1",
+"name": "Chances and Changes",
+"website": "https://www.chancesandchanges.org/",
+"description": ""
+},
+{
+"org_id": "ORG-615D87",
+"name": "Chautauqua County Department of Social Services",
+"website": "https://chautauquacountyny.gov/social-services/social-services",
+"description": ""
+},
+{
+"org_id": "ORG-5E9903",
+"name": "Chautauqua County District Attorney Victim Assistance Center",
+"website": "https://chqgov.com/district-attorney/victim-assistance-center",
+"description": ""
+},
+{
+"org_id": "ORG-7D1754",
+"name": "Chemung County Department of Social Services Human Resource Center",
+"website": "https://www.chemungcountyny.gov/260/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-F0CFA2",
+"name": "Chenango County Child Advocacy Center",
+"website": "https://www.cvac.us/",
+"description": ""
+},
+{
+"org_id": "ORG-B27A60",
+"name": "Chenango County Department of Social Services",
+"website": "https://www.chenangocountyny.gov/228/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-088C61",
+"name": "Chhaya Community Development Corp.",
+"website": "https://www.chhayacdc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C10D69",
+"name": "Child Abuse Prevention Center",
+"website": "https://thecpca.org/",
+"description": ""
+},
+{
+"org_id": "ORG-5C5BF4",
+"name": "Child Advocacy Center of Greater Rochester",
+"website": "https://cacgroc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-0B988D",
+"name": "Child Advocacy Center of Niagara",
+"website": "https://cacofniagara.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CE3DCB",
+"name": "Child Advocacy Center of Oswego County",
+"website": "https://www.oswegocac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6C083B",
+"name": "Child Advocacy Center of Putnam County",
+"website": "https://putnamcac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-143998",
+"name": "Child Advocacy Center of the Finger Lakes",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-ACCC26",
+"name": "Child Advocacy Center of Wayne County",
+"website": "https://waynenycac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-346304",
+"name": "Child Advocacy Program of Chautauqua County",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-456831",
+"name": "Child and Family Services",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-1CC525",
+"name": "Children's Advocacy Center at the Westchester Institute for Human Development",
+"website": "https://www.wihd.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CC0A2C",
+"name": "Children's Aid",
+"website": "https://www.childrensaidnyc.org/programs/domestic-violence-prevention-and-intervention",
+"description": ""
+},
+{
+"org_id": "ORG-ED69B1",
+"name": "City Bar Justice Center",
+"website": "https://www.citybarjusticecenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C6A220",
+"name": "City of Auburn Human Rights Commission",
+"website": "https://www.auburnny.gov/740/Human-Rights-Commission",
+"description": ""
+},
+{
+"org_id": "ORG-1E8EB5",
+"name": "City of Buffalo Commission on Citizens' Rights and Community Relations",
+"website": "https://www.buffalony.gov/341/Commission-on-Citizens-Rights-Comm-Relat",
+"description": ""
+},
+{
+"org_id": "ORG-FF7700",
+"name": "City of Geneva Human Rights Commission",
+"website": "https://cityofgenevany.com/292/Human-Rights-Commission",
+"description": ""
+},
+{
+"org_id": "ORG-ECF222",
+"name": "City of Jamestown Human Rights Commission",
+"website": "https://www.jamestownny.gov/event/human-rights-commission-2/",
+"description": ""
+},
+{
+"org_id": "ORG-459332",
+"name": "City of Kingston Human Rights Commission",
+"website": "https://www.kingston-ny.gov/content/8399/8469/8551/default.aspx",
+"description": ""
+},
+{
+"org_id": "ORG-8BB27D",
+"name": "City of Lockport Human Rights Commission",
+"website": "https://humanrelationscity.wixsite.com/lkpt-human-relations",
+"description": ""
+},
+{
+"org_id": "ORG-52B9AB",
+"name": "City of Rochester -Victim Assistance Unit",
+"website": "https://cityofrochester.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-2615AF",
+"name": "City of Rye Human Rights Commission",
+"website": "https://www.ryeny.gov/government/boards-and-commissions/human-rights-commission",
+"description": ""
+},
+{
+"org_id": "ORG-CAC572",
+"name": "Clinton County Child Advocacy Center",
+"website": "https://www.clintoncountygov.com/CAC",
+"description": ""
+},
+{
+"org_id": "ORG-81E671",
+"name": "Clinton County Department of Social Services",
+"website": "https://www.clintoncountyny.gov/dss",
+"description": ""
+},
+{
+"org_id": "ORG-48F932",
+"name": "Clinton County District Attorney",
+"website": "https://www.clintoncountygov.com/",
+"description": ""
+},
+{
+"org_id": "ORG-10C987",
+"name": "Clinton County Human Rights Commission",
+"website": "https://www.clintoncountyny.gov/human-rights-commission",
+"description": ""
+},
+{
+"org_id": "ORG-78BB74",
+"name": "Cluster Community Services",
+"website": "https://www.clusterinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8CEB8F",
+"name": "CNY Fair Housing",
+"website": "https://www.cnyfairhousing.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E14D50",
+"name": "Columbia County Department of Social Services",
+"website": "https://www.columbiacountyny.gov/294/Department-of-Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-497422",
+"name": "Committee on Open Government",
+"website": "https://opengovernment.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-05C438",
+"name": "Common Ground Dispute Resolution",
+"website": "https://www.commongroundinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A2ADE8",
+"name": "Community Action of Greene County",
+"website": "https://www.cagcny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F94B25",
+"name": "Community Action Partnership for Dutchess County",
+"website": "https://www.dutchesscap.org/",
+"description": ""
+},
+{
+"org_id": "ORG-EDF3E8",
+"name": "Community Agency for Senior Citizens (CASC)",
+"website": "https://cascsiny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A4006A",
+"name": "Community Dispute Resolution Center (CDRC)",
+"website": "https://www.cdrc.org",
+"description": ""
+},
+{
+"org_id": "ORG-101047",
+"name": "Community Health Advocates",
+"website": "https://www.communityhealthadvocates.org",
+"description": ""
+},
+{
+"org_id": "ORG-C6A0F8",
+"name": "Community Mediation Services",
+"website": "https://mediatenyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DA2D57",
+"name": "Community Services for Every1",
+"website": "https://csevery1.com/",
+"description": ""
+},
+{
+"org_id": "ORG-6460C0",
+"name": "Community Voices Heard",
+"website": "https://www.cvhaction.org/",
+"description": ""
+},
+{
+"org_id": "ORG-667B28",
+"name": "Connecting Communities in Action",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-6175F3",
+"name": "Consumer Financial Protection Bureau (CFPB)",
+"website": "https://www.consumerfinance.gov/complaint",
+"description": ""
+},
+{
+"org_id": "ORG-552CAB",
+"name": "CoRe (Communities Resist)",
+"website": "https://communitiesresist.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F8DD4D",
+"name": "Correctional Association of New York (CANY)",
+"website": "https://www.correctionalassociation.org/",
+"description": ""
+},
+{
+"org_id": "ORG-43EE1A",
+"name": "Cortland County Child Advocacy Center",
+"website": "https://stopchildabuseincortland.org/",
+"description": ""
+},
+{
+"org_id": "ORG-59BDF5",
+"name": "Cortland County Department of Social Services",
+"website": "https://www.cortlandcountyny.gov/149/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-712923",
+"name": "Council of Peoples’ Organization (COPO)",
+"website": "https://www.copo.org",
+"description": ""
+},
+{
+"org_id": "ORG-C0E94C",
+"name": "Council on American-Islamic Relations, New York (CAIR-NY)",
+"website": "https://www.cair-ny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4B128C",
+"name": "County Re-Entry Task Force",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-21A3DA",
+"name": "Crime Victim Compensation – Manhattan",
+"website": "https://www.crimevictimcompensation.com/",
+"description": ""
+},
+{
+"org_id": "ORG-2D742B",
+"name": "Crime Victims Assistance Center",
+"website": "https://cvac.us/",
+"description": ""
+},
+{
+"org_id": "ORG-0BED36",
+"name": "Crime Victims Support Services (CVSS)",
+"website": "https://cvssnorthbronx.wixsite.com/cvssofthenorthbronx",
+"description": ""
+},
+{
+"org_id": "ORG-B29A92",
+"name": "Crime Victims Treatment Center",
+"website": "https://cvtcnyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-26B561",
+"name": "Crisis Intervention Services Unit",
+"website": "https://cityofrochester.gov/crisisintervention",
+"description": ""
+},
+{
+"org_id": "ORG-DD9442",
+"name": "Crisis Services",
+"website": "https://www.crisisservices.org/",
+"description": ""
+},
+{
+"org_id": "ORG-679E72",
+"name": "Crisis Text Line",
+"website": "https://www.crisistextline.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C3031B",
+"name": "Crown Heights Jewish Community Council",
+"website": "https://www.chjcc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-5440A8",
+"name": "Círculo de la Hispanidad",
+"website": "https://cdlh.org/",
+"description": ""
+},
+{
+"org_id": "ORG-47C093",
+"name": "Day OneNY",
+"website": "https://www.dayoneny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-840280",
+"name": "Deaf New American Advocacy",
+"website": "https://www.deafnewamerican.org/",
+"description": ""
+},
+{
+"org_id": "ORG-70A1FA",
+"name": "Delaware County Department of Social Services",
+"website": "https://www.delcony.gov/dss/",
+"description": ""
+},
+{
+"org_id": "ORG-F0D5B3",
+"name": "Delaware Opportunities",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-ED0EC6",
+"name": "Department of Defense Safe Helpline",
+"website": "https://www.safehelpline.org/",
+"description": ""
+},
+{
+"org_id": "ORG-FD1985",
+"name": "Desi LGBTQ+ Helpline for South Asians",
+"website": "https://www.deqh.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2F2186",
+"name": "Destination Tomorrow",
+"website": "https://www.destinationtomorrow.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3084EC",
+"name": "Disability Rights New York",
+"website": "https://www.drny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3B83C4",
+"name": "Dispute Resolution Center",
+"website": "https://www.drcservices.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A84D1D",
+"name": "Domestic and Other Violence Emergencies (DOVE) Program",
+"website": "https://www.nyp.org/social-work/domestic-and-other-violence-emergencies",
+"description": ""
+},
+{
+"org_id": "ORG-E993D8",
+"name": "Dominican Women Development Center DWDC",
+"website": "https://www.dwdc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-AC49D6",
+"name": "Dutchess County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F15EB1",
+"name": "Dutchess County Commission on Human Rights",
+"website": "https://www.dutchessny.gov/Departments/Human-Rights/Human-Rights-Commission.htm",
+"description": ""
+},
+{
+"org_id": "ORG-D609DD",
+"name": "Dutchess County Department of Community and Family Services",
+"website": "https://www.dutchessny.gov/Departments/Community-Family-Services/Community-and-Family-Services.htm",
+"description": ""
+},
+{
+"org_id": "ORG-2BB61C",
+"name": "Dutchess County Department of Mental Hygiene",
+"website": "https://www.dutchessny.gov/Departments/DBCH/Mental-Health-Services.htm",
+"description": ""
+},
+{
+"org_id": "ORG-9969F7",
+"name": "Dutchess County District Attorney",
+"website": "https://www.dutchessny.gov/Departments/District-Attorney/District-Attorney.htm",
+"description": ""
+},
+{
+"org_id": "ORG-00A67B",
+"name": "Dutchess County Office of Consumer Affairs",
+"website": "https://www.dutchessny.gov/Departments/Weights-and-Measures/weights-and-measures.htm",
+"description": ""
+},
+{
+"org_id": "ORG-02B77B",
+"name": "Dutchess County Pride Center",
+"website": "https://www.dutchesspride.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4610AC",
+"name": "Dutchess Outreach",
+"website": "https://dutchessoutreach.org/programs/",
+"description": ""
+},
+{
+"org_id": "ORG-76A9AA",
+"name": "EAC Network",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-25F801",
+"name": "EAC Network’s Long Island Dispute Resolution Center",
+"website": "https://www.eac-network.org/li-dispute-resolution-centers/",
+"description": ""
+},
+{
+"org_id": "ORG-FE4A07",
+"name": "East Harlem Neighborhood Based Alliance Corporation",
+"website": "https://www.ehnbac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-042BC1",
+"name": "ECLI-VIBES",
+"website": "https://www.eclivibes.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CE9FA7",
+"name": "Elisabeth Haub School of Law",
+"website": "https://www.pace.edu/law/academics/clinics",
+"description": ""
+},
+{
+"org_id": "ORG-225007",
+"name": "Elmira Police Department Victim Services Program",
+"website": "https://www.cityofelmira.net/",
+"description": ""
+},
+{
+"org_id": "ORG-686794",
+"name": "Empire Justice Center",
+"website": "https://empirejustice.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C37D74",
+"name": "Empire State Association of the Deaf",
+"website": "https://www.esad.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8646A3",
+"name": "Empowered Pathways",
+"website": "https://www.empoweredpathwayscny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A294FF",
+"name": "Equinox",
+"website": "https://www.equinoxinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BE856E",
+"name": "Equinox/Albany",
+"website": "https://www.equinoxinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-484247",
+"name": "Erie County Bar Association",
+"website": "https://eriebar.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9B21A0",
+"name": "Erie County Department of Probation Crime Victim Assistance Program",
+"website": "https://www3.erie.gov/probation/crime-victim-assistance",
+"description": ""
+},
+{
+"org_id": "ORG-B02ADA",
+"name": "Erie County Department of Senior Services (now Department for the Aging)",
+"website": "https://www3.erie.gov/aging/",
+"description": ""
+},
+{
+"org_id": "ORG-A20861",
+"name": "Erie County Department of Social Services",
+"website": "https://www3.erie.gov/socialservices/",
+"description": ""
+},
+{
+"org_id": "ORG-ABA685",
+"name": "Erie County District Attorney's Office-Victim Witness Services Program",
+"website": "https://www4.erie.gov/da",
+"description": ""
+},
+{
+"org_id": "ORG-6D8110",
+"name": "Erie County Division of Consumer Protection",
+"website": "https://www3.erie.gov/consumerprotection",
+"description": ""
+},
+{
+"org_id": "ORG-78C95F",
+"name": "Erie County Restorative Justice Coalition",
+"website": "https://www.ecrjc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-219F2E",
+"name": "Essex County Department of Social Services",
+"website": "https://www.co.essex.ny.us/wp/department-of-social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-949871",
+"name": "Fair Housing Justice Center",
+"website": "https://fairhousingjustice.org",
+"description": ""
+},
+{
+"org_id": "ORG-45FD3D",
+"name": "Families Together NYS",
+"website": "https://www.ftnys.org",
+"description": ""
+},
+{
+"org_id": "ORG-899B7E",
+"name": "Family Advocacy Program at Jacobi Medical Center",
+"website": "http://www.familyadvocacy.net/",
+"description": ""
+},
+{
+"org_id": "ORG-413D90",
+"name": "Family Counseling Service of the Finger Lakes",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-0198B1",
+"name": "Family Justice Center of Erie County",
+"website": "https://www.fjcsafe.org/",
+"description": ""
+},
+{
+"org_id": "ORG-300E40",
+"name": "Family of Woodstock",
+"website": "https://www.familyofwoodstockinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-19A4AF",
+"name": "Family Services of Chemung County",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-57F356",
+"name": "Family Services of Westchester",
+"website": "https://fsw.org/",
+"description": ""
+},
+{
+"org_id": "ORG-388486",
+"name": "Family Services' Center for Victim Safety and Support",
+"website": "https://familyservicesny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4F7CAE",
+"name": "FCA Family and Children's Association",
+"website": "https://fcali.org/",
+"description": ""
+},
+{
+"org_id": "ORG-604847",
+"name": "Fearless! Hudson Valley",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-A4F732",
+"name": "Federal Bureau of Investigation",
+"website": "https://www.fbi.gov/how-we-can-help-you/victim-services/rights-of-federal-crime-victims",
+"description": ""
+},
+{
+"org_id": "ORG-1BE8B6",
+"name": "Federal Deposit Insurance Corporation (FDIC)",
+"website": "https://www.fdic.gov/consumer-resource-center",
+"description": ""
+},
+{
+"org_id": "ORG-18C43E",
+"name": "Federal Motor Carrier Safety Administration (FMCSA)",
+"website": "https://www.fmcsa.dot.gov/safety/look-you-book/report-bus-complaints",
+"description": ""
+},
+{
+"org_id": "ORG-7FA690",
+"name": "Federal Student Aid Ombudsman",
+"website": "https://studentaid.gov/feedback-center/",
+"description": ""
+},
+{
+"org_id": "ORG-D28B64",
+"name": "Federal Transit Administration (FTA), Office of Civil Rights",
+"website": "https://www.transit.dot.gov/regulations-and-guidance/civil-rights-ada/file-complaint-fta",
+"description": ""
+},
+{
+"org_id": "ORG-8B52AD",
+"name": "Food Pantries for the Capital District",
+"website": "https://www.thefoodpantries.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6BF869",
+"name": "FORGE",
+"website": "https://forge-forward.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C61380",
+"name": "Franklin County Department of Social Services",
+"website": "https://www.franklincountyny.gov/departments/human_services/social_services/index.php",
+"description": ""
+},
+{
+"org_id": "ORG-D6AF81",
+"name": "Fulton County Department of Social Services",
+"website": "https://www.fultoncountyny.gov/fulton-county-department-social-services",
+"description": ""
+},
+{
+"org_id": "ORG-FBE1DD",
+"name": "Fulton County District Attorney's Office",
+"website": "https://www.fultoncountyny.gov/home-fulton-county",
+"description": ""
+},
+{
+"org_id": "ORG-78A79F",
+"name": "Garden of Hope",
+"website": "https://www.gohny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3DA3D4",
+"name": "Gender Equality New York",
+"website": "https://genderequalityny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3989AD",
+"name": "Genesee County Department of Social Services",
+"website": "https://www.geneseeny.gov/Department-Content/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-E52CF3",
+"name": "Genesee Justice Victim Advocacy Program - A Division of Genesee County Sheriff's Office",
+"website": "https://www.geneseeny.gov/departments/geneseejustice/index.php",
+"description": ""
+},
+{
+"org_id": "ORG-A23775",
+"name": "Goddard Riverside Law Project",
+"website": "https://goddard.org/programs/fighting-homelessness/goddardlawproject/",
+"description": ""
+},
+{
+"org_id": "ORG-135DBC",
+"name": "Good Shepherd Services",
+"website": "https://goodshepherds.org/program/safe-homes",
+"description": ""
+},
+{
+"org_id": "ORG-0E414C",
+"name": "Grace Smith House",
+"website": "https://www.gracesmithhouse.org/",
+"description": ""
+},
+{
+"org_id": "ORG-25B0CA",
+"name": "Greene County Department of Social Services",
+"website": "https://greenecountyny.gov/departments/social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-4DA119",
+"name": "Hamilton County Department of Social Services",
+"website": "https://www.hamiltoncountyny.gov/health-human-services/social-services",
+"description": ""
+},
+{
+"org_id": "ORG-DBF371",
+"name": "HANAC",
+"website": "https://www.hanac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-229EAE",
+"name": "Harlem Hospital Center for Victim Support",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-9FDEFF",
+"name": "Health Resources and Services Administration (HRSA)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-AA78E8",
+"name": "HELP USA",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-BA1038",
+"name": "Herkimer County Department of Social Services",
+"website": "https://herkimercountyny.gov/departments/social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-5457F5",
+"name": "Herkimer County District Attorney's Victim Services Program",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-C1DC68",
+"name": "Hiscock Legal Aid Society",
+"website": "https://www.hlalaw.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6D58A3",
+"name": "Homeless and Travelers Aid Society/Albany",
+"website": "https://www.hatas.org/",
+"description": ""
+},
+{
+"org_id": "ORG-770297",
+"name": "Hope's Door",
+"website": "https://www.hopesdoorny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-27BAF8",
+"name": "Housing Conservation Coordinators",
+"website": "https://www.hcc-nyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4FED52",
+"name": "Housing for the Many",
+"website": "https://forthemany.org/our-work/housing-for-the-many/",
+"description": ""
+},
+{
+"org_id": "ORG-F6441F",
+"name": "Housing Help",
+"website": "https://www.housinghelpinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-430D9A",
+"name": "Housing Opportunities Made Equal (HOME)",
+"website": "https://www.homeny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-14D257",
+"name": "Hudson Valley Justice Center",
+"website": "https://www.hvjc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D69208",
+"name": "Hunger Solutions New York",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-85D130",
+"name": "Huntington Hate and Bias Task Force",
+"website": "https://www.huntingtonny.gov/abtf",
+"description": ""
+},
+{
+"org_id": "ORG-55FDC3",
+"name": "Ibero-American Action League",
+"website": "https://www.ibero.org/",
+"description": ""
+},
+{
+"org_id": "ORG-143CAE",
+"name": "Impacct Brooklyn",
+"website": "https://impacctbrooklyn.org/",
+"description": ""
+},
+{
+"org_id": "ORG-722CD6",
+"name": "In Our Own Voices",
+"website": "https://www.ioov.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A30C49",
+"name": "Indera (formerly ARISE)",
+"website": "https://indera.org/",
+"description": ""
+},
+{
+"org_id": "ORG-FF35F0",
+"name": "Institute for Mediation and Conflict Resolution, Inc. (IMCR)",
+"website": "https://www.lawhelpny.org/organization/institute-for-mediation-and-conflict-resolution-inc",
+"description": ""
+},
+{
+"org_id": "ORG-666166",
+"name": "Jefferson County Department of Social Services",
+"website": "https://www.jeffersoncountyny.gov/SocialServices",
+"description": ""
+},
+{
+"org_id": "ORG-D28048",
+"name": "Jewish Association for Services for the Aged (JASA)",
+"website": "https://www.jasa.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2B2186",
+"name": "Justice Center for the Protection of People with Special Needs",
+"website": "https://www.justicecenter.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-1B8E83",
+"name": "Justice Center of the Southern Tier",
+"website": "https://www.justicecentersoutherntier.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D123E0",
+"name": "Justice for Children Advocacy Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-2A75F1",
+"name": "Justice for Migrants Families",
+"website": "https://www.justiceformigrantfamilies.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CAB39B",
+"name": "Karen Society of Buffalo",
+"website": "https://www.karenbuffalo.org/",
+"description": ""
+},
+{
+"org_id": "ORG-EE022E",
+"name": "Keeping Our Promise",
+"website": "https://www.keepingourpromise.org/",
+"description": ""
+},
+{
+"org_id": "ORG-198EFD",
+"name": "Kings County District Attorney's Office",
+"website": "http://www.brooklynda.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9D0D0C",
+"name": "Kingsbridge Heights Community Center",
+"website": "https://www.khcc-nyc.org/program/changing-futures",
+"description": ""
+},
+{
+"org_id": "ORG-422BA4",
+"name": "Korean American Family Service Center",
+"website": "https://www.kafsc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3D85D1",
+"name": "Korean Community Services of Metro New York",
+"website": "https://www.kcsny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-AD4BD9",
+"name": "Lambda Legal",
+"website": "https://lambdalegal.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B339FE",
+"name": "LawHelpNY",
+"website": "https://www.lawhelpny.org/find-legal-help",
+"description": ""
+},
+{
+"org_id": "ORG-3AEDF9",
+"name": "Legal Action Center",
+"website": "https://www.lac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-7F01EC",
+"name": "Legal Aid Bureau of Buffalo",
+"website": "https://legalaidbuffalo.org/get-help-now-apply/",
+"description": ""
+},
+{
+"org_id": "ORG-0F9DBD",
+"name": "Legal Aid Society of Mid-New York (LASMNY)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F84FFF",
+"name": "Legal Aid Society of Nassau County",
+"website": "https://www.nclas.org/",
+"description": ""
+},
+{
+"org_id": "ORG-851CF6",
+"name": "Legal Aid Society of Northeastern New York (LASNNY)",
+"website": "https://www.lasnny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-257509",
+"name": "Legal Aid Society of Rockland County",
+"website": "https://legalaidrockland.org/",
+"description": ""
+},
+{
+"org_id": "ORG-632596",
+"name": "Legal Aid Society of Suffolk County",
+"website": "https://sclas.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6DFB33",
+"name": "Legal Assistance of Western New York (LAWNY)",
+"website": "https://www.lawny.org",
+"description": ""
+},
+{
+"org_id": "ORG-E54901",
+"name": "Legal Hand/Capital Region",
+"website": "https://www.legalhand.org/capital-region/",
+"description": ""
+},
+{
+"org_id": "ORG-667EA0",
+"name": "Legal Momentum (for Women)",
+"website": "https://www.legalmomentum.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3EA25A",
+"name": "Legal Services NYC",
+"website": "https://www.legalservicesnyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-1262A2",
+"name": "Legal Services of Central New York (LSCNY)",
+"website": "https://www.lscny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2F74BD",
+"name": "Legal Services of the Hudson Valley",
+"website": "https://lshv.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C042EE",
+"name": "Lenox Hill Neighborhood House",
+"website": "https://www.lenoxhill.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9232AE",
+"name": "Lewis County Department of Social Services",
+"website": "https://lewiscountyny.gov/departments/social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-4F4514",
+"name": "Lewis County Opportunities",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-BBE6DA",
+"name": "Liberty Resources",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-127DFA",
+"name": "Life of WNY/Lockport City Hall",
+"website": "https://lockportny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-88354E",
+"name": "Lifespan of Greater Rochester",
+"website": "https://lifespanrochester.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8658ED",
+"name": "Lincoln Medical Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-8B32DE",
+"name": "Livingston County Department of Social Services",
+"website": "https://www.livingstoncountyny.gov/274/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-0F5EF5",
+"name": "Livingston County Sheriff's Office",
+"website": "https://www.livingstoncounty.us/235/Sheriffs-Office",
+"description": ""
+},
+{
+"org_id": "ORG-74290B",
+"name": "Long Island Advocacy Center",
+"website": "https://theliac.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F21FF9",
+"name": "Long Island Center for Independent Living, Inc. (LICIL)",
+"website": "https://www.licilinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-68F434",
+"name": "Long Island Housing Partnership",
+"website": "https://www.lihp.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BFFA9A",
+"name": "Long Island Housing Services",
+"website": "https://www.lifairhousing.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8845FB",
+"name": "Loveland Foundation",
+"website": "https://thelovelandfoundation.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2DFDC1",
+"name": "Madison County Children's Advocacy Center",
+"website": "https://www.madisoncounty.ny.gov/1492/Childrens-Advocacy-Center",
+"description": ""
+},
+{
+"org_id": "ORG-F6B23A",
+"name": "Madison County Department of Social Services",
+"website": "https://www.madisoncounty.ny.gov/233/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-95082A",
+"name": "Make the Road NY",
+"website": "https://maketheroadny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-43FF0C",
+"name": "Malesurvivor",
+"website": "https://malesurvivor.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3C2990",
+"name": "Malikah",
+"website": "https://www.malikah.org",
+"description": ""
+},
+{
+"org_id": "ORG-35849B",
+"name": "McMahon Ryan Child Advocacy Center",
+"website": "https://www.mcmahonryan.org/",
+"description": ""
+},
+{
+"org_id": "ORG-339323",
+"name": "Mechanicville Area Community Services Center / Domestic Violence Advocacy Program",
+"website": "https://www.mechanicvilleacsc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E6C2A4",
+"name": "Mediation Center of Dutchess County",
+"website": "https://www.dutchessmediation.org/",
+"description": ""
+},
+{
+"org_id": "ORG-82A168",
+"name": "Mediation Matters",
+"website": "https://www.mediationmatters.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B8A265",
+"name": "Mental Health Advocates of Western New York",
+"website": "https://mhawny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D89646",
+"name": "Mental Health America of Dutchess County",
+"website": "https://www.mhadutchess.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4CA26E",
+"name": "Mental Health Association of Columbia-Greene Counties (MHACG)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-3A0485",
+"name": "Mental Health Association of New York State",
+"website": "https://www.mhanys.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F04577",
+"name": "Mental Health Empowerment Project",
+"website": "https://www.mhepinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-30D3B3",
+"name": "Mental Hygiene Legal Service",
+"website": "https://www.nycourts.gov/courts/ad2/mhls_mainpage.shtml",
+"description": ""
+},
+{
+"org_id": "ORG-8ABD15",
+"name": "Met Council",
+"website": "https://metcouncil.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4B360B",
+"name": "Met Council on Housing",
+"website": "https://www.metcouncilonhousing.org/",
+"description": ""
+},
+{
+"org_id": "ORG-432715",
+"name": "Metropolitan Transportation Authority (MTA)",
+"website": "https://www.mta.info/accessibility/ada-complaint",
+"description": ""
+},
+{
+"org_id": "ORG-0CBA89",
+"name": "Mobilization for Justice",
+"website": "https://mobilizationforjustice.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3F2BA2",
+"name": "Modern Military Association of America",
+"website": "https://modernmilitary.org/",
+"description": ""
+},
+{
+"org_id": "ORG-703E8B",
+"name": "Mohawk Valley Latino Association",
+"website": "https://www.mvlautica.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DB130F",
+"name": "Monroe County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-5E0B45",
+"name": "Monroe County Department of Human Services",
+"website": "https://www.monroecounty.gov/hs",
+"description": ""
+},
+{
+"org_id": "ORG-4A5874",
+"name": "Monroe County District Attorney's Office Victim/Witness Bureau",
+"website": "https://www.monroecounty.gov/da",
+"description": ""
+},
+{
+"org_id": "ORG-909ED0",
+"name": "Monroe County Domestic Violence",
+"website": "https://www.rmcdvc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-5DFD40",
+"name": "Monroe County Sheriff's Office",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F1AA17",
+"name": "Montgomery County Department of Social Services",
+"website": "https://www.montgomerycountyny.gov/web/sites/departments/socialservices/default.asp",
+"description": ""
+},
+{
+"org_id": "ORG-207801",
+"name": "Mothers Against Drunk Driving (MADD)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-698AAF",
+"name": "Mount Sinai Beth Israel Victim Services",
+"website": "https://www.mountsinai.org/locations/beth-israel/support/social-work/victim-services",
+"description": ""
+},
+{
+"org_id": "ORG-0A02A2",
+"name": "Mount Sinai Hospital Elder Abuse Program",
+"website": "https://www.mountsinai.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BFE493",
+"name": "Mount Sinai SAVI Program",
+"website": "https://www.mssm.edu/savi",
+"description": ""
+},
+{
+"org_id": "ORG-46D07F",
+"name": "Mount Vernon Office for the Aging",
+"website": "https://www.mountvernonny.gov/176/Office-for-the-Aging",
+"description": ""
+},
+{
+"org_id": "ORG-391017",
+"name": "My Sisters' Place",
+"website": "https://www.mspny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-FE2068",
+"name": "NAACP",
+"website": "https://naacp.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9BA1E2",
+"name": "NAICA (Neighborhood Association of Inter-Cultural Affairs, Inc.)",
+"website": "http://www.naicany.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3E3437",
+"name": "Nassau County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-033BD6",
+"name": "Nassau County Department of Social Services",
+"website": "https://www.nassaucountyny.gov/1895/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-8034AF",
+"name": "Nassau County District Attorney's Office",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-594235",
+"name": "Nassau County Human Rights Commission",
+"website": "https://www.nassaucountyny.gov/414/Human-Rights-Commission",
+"description": ""
+},
+{
+"org_id": "ORG-234C53",
+"name": "Nassau County Office of Consumer Affairs",
+"website": "https://www.nassaucountyny.gov/3512/Consumer-Affairs-Jurisdiction",
+"description": ""
+},
+{
+"org_id": "ORG-BA2003",
+"name": "Nassau County Office of Crime Victim Advocate",
+"website": "https://www.nassaucountyny.gov/1608/Office-of-Crime-Victim-Advocate",
+"description": ""
+},
+{
+"org_id": "ORG-17DDBC",
+"name": "Nassau/Suffolk Law Services",
+"website": "https://www.lawhelpny.org/organization/nassau-suffolk-law-services-pro-bono-project",
+"description": ""
+},
+{
+"org_id": "ORG-2C28B5",
+"name": "National Child Traumatic Stress Network",
+"website": "https://www.nctsn.org/",
+"description": ""
+},
+{
+"org_id": "ORG-661413",
+"name": "National Coalition of Anti-Violence Programs",
+"website": "https://www.avp.org/ncavp/",
+"description": ""
+},
+{
+"org_id": "ORG-83B73C",
+"name": "National Domestic Violence Hotline",
+"website": "https://www.thehotline.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3AD3C3",
+"name": "National Employment Lawyers Association (NELA)",
+"website": "https://www.nela.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8BDC2D",
+"name": "National Labor Relations Board (NLRB)",
+"website": "https://www.nlrb.gov",
+"description": ""
+},
+{
+"org_id": "ORG-D519F6",
+"name": "National Sexual Violence Resource Center",
+"website": "https://www.nsvrc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C8252C",
+"name": "NDS (Neighborhood Defender Service of Harlem)",
+"website": "https://neighborhooddefender.org/",
+"description": ""
+},
+{
+"org_id": "ORG-21CD4B",
+"name": "Neighborhood Legal Services",
+"website": "https://www.nls.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B6849F",
+"name": "Neighborhood SHOPP",
+"website": "https://nshopp.org/",
+"description": ""
+},
+{
+"org_id": "ORG-423FEF",
+"name": "Neighbors Link",
+"website": "https://neighborslink.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A20BA5",
+"name": "Neighbors Together",
+"website": "https://neighborstogether.org/",
+"description": ""
+},
+{
+"org_id": "ORG-04CD0B",
+"name": "New Justice Services",
+"website": "https://www.newjusticeservices.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3FEEBD",
+"name": "New Pride Agenda/Next Generation Men of Transition/URMC",
+"website": "https://www.ngmt18.com/",
+"description": ""
+},
+{
+"org_id": "ORG-B58D72",
+"name": "New Rochelle Human Rights Commission",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-B04F0F",
+"name": "New York Center for Interpersonal Development",
+"website": "https://www.nycid.org/",
+"description": ""
+},
+{
+"org_id": "ORG-71FAD8",
+"name": "New York City Alliance Against Sexual Assault",
+"website": "https://www.svfreenyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-04B5A2",
+"name": "New York Civil Liberties Union (NYCLU)",
+"website": "https://www.nyclu.org/",
+"description": ""
+},
+{
+"org_id": "ORG-1358C5",
+"name": "New York Connects (Allegany)",
+"website": "https://www.nyconnects.ny.gov/services/ny-connects-allegany-county-sofa32166",
+"description": ""
+},
+{
+"org_id": "ORG-88AB78",
+"name": "New York County District Attorney's Office",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-A0058A",
+"name": "New York Legal Assistance Group (NYLAG)",
+"website": "https://nylag.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F53714",
+"name": "New York Peace Institute",
+"website": "https://www.nypeace.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9F8DDA",
+"name": "New York State Attorney General",
+"website": "https://ag.ny.gov/publications/crime-victims",
+"description": ""
+},
+{
+"org_id": "ORG-EB5C1D",
+"name": "New York State Bar Association",
+"website": "https://www.nysba.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C4D8D8",
+"name": "New York State Children's Alliance",
+"website": "https://www.nyschildrensalliance.org/",
+"description": ""
+},
+{
+"org_id": "ORG-843A86",
+"name": "New York State Coalition Against Domestic Violence",
+"website": "https://www.nyscadv.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CD6739",
+"name": "New York State Coalition Against Sexual Assault",
+"website": "https://www.nyscasa.org/",
+"description": ""
+},
+{
+"org_id": "ORG-1CEB92",
+"name": "New York State Courts",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-063038",
+"name": "New York State Department of Corrections and Community Supervision (DOCCS)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-9B7E6E",
+"name": "New York State Hotline for Sexual Assault and Domestic Violence",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-D8553B",
+"name": "New York State Office of Children and Family Services (OCFS)",
+"website": "https://ocfs.ny.gov/main",
+"description": ""
+},
+{
+"org_id": "ORG-345A8E",
+"name": "New York State Office of Victim Services",
+"website": "https://ovs.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-7FC36B",
+"name": "New York State Police",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-94883E",
+"name": "New York Statewide Central Register of Child Abuse and Maltreatment",
+"website": "https://www.ocfs.ny.gov/programs/cps/",
+"description": ""
+},
+{
+"org_id": "ORG-B69EC5",
+"name": "New York Transgender Advocacy Group",
+"website": "https://www.nytag.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C2F7CD",
+"name": "NewYork-Presbyterian Hospital Family PEACE Program",
+"website": "https://www.nyp.org/acn/community-programs/family-peace-trauma-treatment-center",
+"description": ""
+},
+{
+"org_id": "ORG-82D4F6",
+"name": "Niagara Community Action Program",
+"website": "https://niagaracommunityactionprogram.org/",
+"description": ""
+},
+{
+"org_id": "ORG-493341",
+"name": "Niagara County Department of Social Services",
+"website": "https://www.niagaracounty.gov/departments/s-z/social_services/index.php",
+"description": ""
+},
+{
+"org_id": "ORG-5F597E",
+"name": "Niagara County Sheriff's Office Victim Assistance Unit",
+"website": "https://niagarasheriff.com/",
+"description": ""
+},
+{
+"org_id": "ORG-B4C07B",
+"name": "Niagara Falls Human Rights Commission",
+"website": "http://www.niagarafallsusa.org/HumanRightsCommission.cfm",
+"description": ""
+},
+{
+"org_id": "ORG-05313C",
+"name": "Niagara Frontier Transportation Authority",
+"website": "https://www.nfta.com/",
+"description": ""
+},
+{
+"org_id": "ORG-46E7E9",
+"name": "NMIC- Domestic Violence Project",
+"website": "https://www.nmic.org/",
+"description": ""
+},
+{
+"org_id": "ORG-5EBC02",
+"name": "North Brooklyn Coalition Against Family Violence",
+"website": "https://northbrooklyncoalition.org/",
+"description": ""
+},
+{
+"org_id": "ORG-61547B",
+"name": "North Central Bronx Hospital",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-6F122B",
+"name": "Northern District of New York Federal Court Bar Association",
+"website": "https://ndnyfcba.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E74EBC",
+"name": "Northwest Bronx Community Clergy Coalition - Our Bronx",
+"website": "https://ourbronx.org/",
+"description": ""
+},
+{
+"org_id": "ORG-47A424",
+"name": "Northwest Buffalo Community Center, Crime Victim Assistance Program",
+"website": "https://northwestbuffalo.org/",
+"description": ""
+},
+{
+"org_id": "ORG-58BE6B",
+"name": "NY Connects",
+"website": "https://www.nyconnects.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-BCE904",
+"name": "NYC Administration for Children's Services (ACS)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-22813E",
+"name": "NYC Bar Association",
+"website": "https://www.nycbar.org/",
+"description": ""
+},
+{
+"org_id": "ORG-270E83",
+"name": "NYC Board of Correction",
+"website": "https://www.nyc.gov/site/boc/about/how-to-make-a-complaint.page",
+"description": ""
+},
+{
+"org_id": "ORG-173172",
+"name": "NYC Civilian Complaint Review Board - Civilian Assistance Unit",
+"website": "https://www.nyc.gov/site/ccrb/index.page",
+"description": ""
+},
+{
+"org_id": "ORG-5C502B",
+"name": "NYC Commission on Human Rights",
+"website": "https://www.nyc.gov/site/cchr/index.page",
+"description": ""
+},
+{
+"org_id": "ORG-C35272",
+"name": "NYC Department of Consumer and Worker Protection (DCWP)",
+"website": "https://www.nyc.gov/dcwp",
+"description": ""
+},
+{
+"org_id": "ORG-5C7913",
+"name": "NYC Elder Abuse Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-953DDB",
+"name": "NYC Family Justice Centers",
+"website": "https://www.nyc.gov/site/ocdv/programs/family-justice-centers.page",
+"description": ""
+},
+{
+"org_id": "ORG-1BD0EF",
+"name": "NYC Health+Hospitals/Metropolitan",
+"website": "https://www.nychealthandhospitals.org/metropolitan",
+"description": ""
+},
+{
+"org_id": "ORG-101D98",
+"name": "NYC Mayor's Office to End Domestic and Gender-Based Violence",
+"website": "https://www.nyc.gov/site/ocdv/index.page",
+"description": ""
+},
+{
+"org_id": "ORG-5FDD2A",
+"name": "NYCLU Education Policy Center",
+"website": "https://www.nyclu.org/",
+"description": ""
+},
+{
+"org_id": "ORG-41B7AA",
+"name": "NYS Board of Elections",
+"website": "https://elections.ny.gov",
+"description": ""
+},
+{
+"org_id": "ORG-445235",
+"name": "NYS Commission of Correction",
+"website": "https://www.scoc.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-08BE26",
+"name": "NYS Commission on Judicial Conduct",
+"website": "https://www.cjc.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-ACCD16",
+"name": "NYS Department of Financial Services (DFS)",
+"website": "https://www.dfs.ny.gov/contact",
+"description": ""
+},
+{
+"org_id": "ORG-3F80C3",
+"name": "NYS Department of Health",
+"website": "https://www.health.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-8A126C",
+"name": "NYS Department of Labor",
+"website": "https://www.dol.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-557A88",
+"name": "NYS Department of Motor Vehicles (DMV)",
+"website": "https://dmv.ny.gov",
+"description": ""
+},
+{
+"org_id": "ORG-11C0E7",
+"name": "NYS Department of Public Service",
+"website": "https://dps.ny.gov/file-complaint",
+"description": ""
+},
+{
+"org_id": "ORG-22BBBF",
+"name": "NYS Department of Veterans' Services",
+"website": "https://veterans.ny.gov",
+"description": ""
+},
+{
+"org_id": "ORG-7ABC6B",
+"name": "NYS Dispute Resolution Association",
+"website": "https://www.nysdra.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D3F32E",
+"name": "NYS Division of Consumer Protection",
+"website": "https://dos.ny.gov/consumer-protection",
+"description": ""
+},
+{
+"org_id": "ORG-C37800",
+"name": "NYS Education Department (NYSED)",
+"website": "https://www.nysed.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-9167DF",
+"name": "NYS Hate Crimes Task Force",
+"website": "https://www.ny.gov/programs/hate-crimes-task-force",
+"description": ""
+},
+{
+"org_id": "ORG-4D6754",
+"name": "NYS Higher Education Services Corporation (HESC)",
+"website": "https://www.hesc.ny.gov",
+"description": ""
+},
+{
+"org_id": "ORG-4F8DFE",
+"name": "NYS Homes and Community Renewal (HCR)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-5AB576",
+"name": "NYS Inspector General",
+"website": "https://www.ig.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-584B34",
+"name": "NYS Office for New Americans",
+"website": "https://dos.ny.gov/office-new-americans-0",
+"description": ""
+},
+{
+"org_id": "ORG-A5DA4C",
+"name": "NYS Office of Mental Health",
+"website": "https://www.omh.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-EA429B",
+"name": "NYS Office of Prevention of Domestic Violence",
+"website": "https://www.opdv.ny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-7F83D9",
+"name": "NYS Office of Professional Medical Conduct",
+"website": "https://www.health.ny.gov/professionals/doctors/conduct/",
+"description": ""
+},
+{
+"org_id": "ORG-CE5CA8",
+"name": "NYS Office of Religious and Independent School Support (ORISS)",
+"website": "https://www.nysed.gov/nonpublic-schools",
+"description": ""
+},
+{
+"org_id": "ORG-5955B4",
+"name": "NYS Office of Temporary and Disability Assistance (OTDA)",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-BF286A",
+"name": "NYS Office of the Professions",
+"website": "https://www.op.nysed.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-AF8E60",
+"name": "NYS Public Employment Relations Board (PERB)",
+"website": "https://perb.ny.gov",
+"description": ""
+},
+{
+"org_id": "ORG-5B210B",
+"name": "NYS Unemployment Insurance Appeal Board",
+"website": "https://uiappeals.ny.gov/request-hearing",
+"description": ""
+},
+{
+"org_id": "ORG-E3B93B",
+"name": "NYS Workers' Compensation Board",
+"website": "https://wcb.ny.gov",
+"description": ""
+},
+{
+"org_id": "ORG-AC81C8",
+"name": "Occupational Safety and Health Administration (OSHA)",
+"website": "https://www.osha.gov/workers/file-complaint",
+"description": ""
+},
+{
+"org_id": "ORG-47D8A2",
+"name": "Office for the Prevention of Hate Crimes",
+"website": "https://www.nyc.gov/site/stophate/index.page",
+"description": ""
+},
+{
+"org_id": "ORG-254954",
+"name": "Office of the Queens County District Attorney",
+"website": "https://www.queensda.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E02E1D",
+"name": "On Point for College",
+"website": "https://www.onpointforcollege.org/",
+"description": ""
+},
+{
+"org_id": "ORG-47B0BA",
+"name": "Oneida County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-173A3D",
+"name": "Oneida County Department of Social Services",
+"website": "https://oneidacountyny.gov/departments/department-of-family-and-community-services/department-of-social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-40512F",
+"name": "Oneida County District Attorney's Office",
+"website": "https://ocgov.net/departments/district-attorney",
+"description": ""
+},
+{
+"org_id": "ORG-AE3CBF",
+"name": "Oneida Indian Nation",
+"website": "https://www.oneidaindiannation.com",
+"description": ""
+},
+{
+"org_id": "ORG-24EB93",
+"name": "Onondaga County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-FDA9B2",
+"name": "Onondaga County Department of Social Services",
+"website": "https://onondaga.gov/dss/",
+"description": ""
+},
+{
+"org_id": "ORG-26399E",
+"name": "Onondaga County Human Rights Commission / Office of Diversity and Inclusion",
+"website": "http://www.ongov.net/humanrights/",
+"description": ""
+},
+{
+"org_id": "ORG-BCE0B2",
+"name": "Onondaga Nation",
+"website": "https://www.onondaganation.org",
+"description": ""
+},
+{
+"org_id": "ORG-A1CEEB",
+"name": "Ontario County Department of Social Services",
+"website": "https://www.ontariocountyny.gov/118/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-63EB38",
+"name": "Ontario County District Attorney's Office",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-419FE3",
+"name": "Opportunities for Otsego",
+"website": "https://www.ofoinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8D196A",
+"name": "Orange County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-207367",
+"name": "Orange County Crime Victim Assistance Program",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-7AA64D",
+"name": "Orange County Department of Social Services",
+"website": "https://www.orangecountyny.gov/680/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-FAD0CB",
+"name": "Orange County Human Rights Commission",
+"website": "https://www.orangecountygov.com/1108/Human-Rights",
+"description": ""
+},
+{
+"org_id": "ORG-1B090A",
+"name": "Orange County Sexual Assault Prevention and Advocacy (SAPA)",
+"website": "http://www.mhaorangeny.com/",
+"description": ""
+},
+{
+"org_id": "ORG-B00D31",
+"name": "Orleans County",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F6CF79",
+"name": "Orleans County Department of Social Services",
+"website": "https://www.orleanscountyny.gov/departments/social_services.php",
+"description": ""
+},
+{
+"org_id": "ORG-E5CF4F",
+"name": "Oswego County Department of Social Services",
+"website": "https://www.oswegocountyny.gov/departments/human_services/social_services/index.php",
+"description": ""
+},
+{
+"org_id": "ORG-638FB8",
+"name": "Oswego County Opportunities",
+"website": "https://www.oco.org/",
+"description": ""
+},
+{
+"org_id": "ORG-32FE82",
+"name": "Otsego County Child Advocacy Center",
+"website": "https://www.otsegocounty.com/",
+"description": ""
+},
+{
+"org_id": "ORG-4D18D7",
+"name": "Otsego County Department of Social Services",
+"website": "https://www.otsegocounty.com/departments/social_services/index.php",
+"description": ""
+},
+{
+"org_id": "ORG-2B88F5",
+"name": "Pace Women's Justice Center",
+"website": "https://law.pace.edu/wjc",
+"description": ""
+},
+{
+"org_id": "ORG-265971",
+"name": "Parents to Parents of NYS",
+"website": "https://www.yai.org/resources/parent-parent-new-york-state/",
+"description": ""
+},
+{
+"org_id": "ORG-2D824E",
+"name": "Planned Parenthood",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-CE29D3",
+"name": "Plattsburgh Cares",
+"website": "https://plattsburghcares.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4238E6",
+"name": "Port Authority of New York and New Jersey",
+"website": "https://www.panynj.gov/content/dam/port-authority/help-center/accessibility/PA%20-%20Civil%20Rights%20Complaint%20Form.pdf",
+"description": ""
+},
+{
+"org_id": "ORG-E11A13",
+"name": "Pride Center of the Capital Region",
+"website": "https://capitalpridecenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-ADDD99",
+"name": "Prism Access Initiative/Albany",
+"website": "https://www.prismalbany.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4F1B9D",
+"name": "Prison Families of New York",
+"website": "https://prisonministry.net/PFNY",
+"description": ""
+},
+{
+"org_id": "ORG-8C0644",
+"name": "Prisoners’ Legal Services of New York",
+"website": "https://www.plsny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-94D1FF",
+"name": "Putnam County Department of Social Services",
+"website": "https://www.putnamcountyny.gov/department-of-social-services",
+"description": ""
+},
+{
+"org_id": "ORG-980F95",
+"name": "Putnam County Legal Aid Society",
+"website": "https://www.lawhelpny.org/organization/putnam-county-legal-aid-society-inc",
+"description": ""
+},
+{
+"org_id": "ORG-F819A1",
+"name": "Putnam/Northern Westchester Women's Resource Center",
+"website": "https://www.pnwwrc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-537A44",
+"name": "Queens County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-09CB3B",
+"name": "Queer Family Network",
+"website": "https://www.queerfam.org/",
+"description": ""
+},
+{
+"org_id": "ORG-65CE9F",
+"name": "Rape, Abuse and Incest National Network (RAINN)",
+"website": "https://www.rainn.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E6FE90",
+"name": "Red Hook Community Justice Center",
+"website": "https://www.redhookjustice.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B79720",
+"name": "Refugee and Immigrant Self-Empowerment",
+"website": "https://www.refugeeandimmigrant.org/",
+"description": ""
+},
+{
+"org_id": "ORG-140588",
+"name": "Refugees Helping Refugees",
+"website": "https://www.rhrroc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-72FEEE",
+"name": "Rensselaer County Department of Social Services",
+"website": "https://www.rensco.com/232/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-89A47E",
+"name": "Rensselaer County District Attorney's Office Victim Assistance Program",
+"website": "https://www.rensco.com/",
+"description": ""
+},
+{
+"org_id": "ORG-E4198B",
+"name": "Resolution Center of Jefferson and Lewis Counties",
+"website": "https://www.resolution-center.net",
+"description": ""
+},
+{
+"org_id": "ORG-165236",
+"name": "Resource Center for Independent Living (RCIL)",
+"website": "https://www.rcil.org/",
+"description": ""
+},
+{
+"org_id": "ORG-78889F",
+"name": "Restore NYC",
+"website": "https://restorenyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-130FE2",
+"name": "Richmond County District Attorneys Office",
+"website": "https://www.statenislandda.org/",
+"description": ""
+},
+{
+"org_id": "ORG-DEF741",
+"name": "Right To Be",
+"website": "https://www.righttobe.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2CBAF9",
+"name": "Rise-NY",
+"website": "https://www.rise-ny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-971B75",
+"name": "RiseBoro Community Partnership (LEAP Legal Services)",
+"website": "https://riseboro.org/program/legal-services-leap/",
+"description": ""
+},
+{
+"org_id": "ORG-B880CC",
+"name": "Rising Ground",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-22FB51",
+"name": "Rochester Rainbow Union",
+"website": "https://www.rochesterrainbowunion.com/",
+"description": ""
+},
+{
+"org_id": "ORG-0CCC96",
+"name": "Rockland County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-CA6304",
+"name": "Rockland County Department of Social Services",
+"website": "https://www.rocklandcountyny.gov/departments/social-services",
+"description": ""
+},
+{
+"org_id": "ORG-3111FB",
+"name": "Rockland County Human Rights Commission",
+"website": "https://www.rocklandcountyny.gov/departments/human-rights-commission",
+"description": ""
+},
+{
+"org_id": "ORG-62C8F2",
+"name": "Rockland County Office of Consumer Protection",
+"website": "https://rocklandcountyny.gov/departments/consumer-protection-weights-measures",
+"description": ""
+},
+{
+"org_id": "ORG-96A6F9",
+"name": "Rockland County Pride Center",
+"website": "https://www.rocklandpridecenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F50374",
+"name": "Rural Law Center of New York",
+"website": "https://www.rurallawcenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6B745D",
+"name": "Safe Harbors of the Finger Lakes",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-6DDF8E",
+"name": "Safe Horizon",
+"website": "https://www.safehorizon.org/",
+"description": ""
+},
+{
+"org_id": "ORG-199D62",
+"name": "Sage",
+"website": "https://www.sageusa.org/",
+"description": ""
+},
+{
+"org_id": "ORG-83A939",
+"name": "Saint Regis Mohawk Tribal Police",
+"website": "https://www.srmt-nsn.gov/programs/tribal-police",
+"description": ""
+},
+{
+"org_id": "ORG-49DF83",
+"name": "Saint Regis Mohawk Tribe",
+"website": "https://www.srmt-nsn.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-AE5F21",
+"name": "Sakhi for South Asian Women",
+"website": "https://www.sakhi.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D87633",
+"name": "SAMHSA Disaster Distress Helpline",
+"website": "https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline",
+"description": ""
+},
+{
+"org_id": "ORG-CE828B",
+"name": "Sanctuary for Families",
+"website": "https://sanctuaryforfamilies.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CA529F",
+"name": "SANYS: Self-Advocacy Association of New York State",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-6BD470",
+"name": "Sapna NYC",
+"website": "https://www.sapnanyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8EE228",
+"name": "Saranac Lake Youth Center",
+"website": "https://saranaclakeyouth.wixsite.com/slyc/",
+"description": ""
+},
+{
+"org_id": "ORG-7DB7BB",
+"name": "Saratoga Center for the Family",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-6E2C2F",
+"name": "Saratoga County Department of Social Services",
+"website": "https://www.saratogacountyny.gov/departments/social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-B42C16",
+"name": "Sauti Yetu Center for African Women and Families",
+"website": "https://www.sautiyetunyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-FD2FD7",
+"name": "Save our Streets South Bronx and Brooklyn",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F5E2C0",
+"name": "Schenectady County Child Advocacy Center",
+"website": "https://schenectadycounty.com/",
+"description": ""
+},
+{
+"org_id": "ORG-4B509B",
+"name": "Schenectady County Department of Social Services",
+"website": "https://www.schenectadycountyny.gov/dss",
+"description": ""
+},
+{
+"org_id": "ORG-C04EBE",
+"name": "Schenectady County District Attorney's Office",
+"website": "https://schenectadycounty.com/",
+"description": ""
+},
+{
+"org_id": "ORG-87E115",
+"name": "Schenectady County Human Rights Commission",
+"website": "https://www.schenectadycountyny.gov/human-rights",
+"description": ""
+},
+{
+"org_id": "ORG-AD5C65",
+"name": "Schoharie County Department of Social Services",
+"website": "https://www.schohariecounty-ny.gov/departments/social_services/index.php",
+"description": ""
+},
+{
+"org_id": "ORG-0F8934",
+"name": "Schuyler County Department of Social Services",
+"website": "https://www.schuylercountyny.gov/189/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-A529A5",
+"name": "Schuyler County District Attorney's Office",
+"website": "https://www.schuylercountyny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-25F4F2",
+"name": "Seneca County Department of Social Services",
+"website": "https://www.senecacountyny.gov/255/Human-Services",
+"description": ""
+},
+{
+"org_id": "ORG-A49F6C",
+"name": "Seneca County Victim/Witness Assistance Program",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-C70012",
+"name": "Seneca Nation of Indians",
+"website": "https://sni.org",
+"description": ""
+},
+{
+"org_id": "ORG-919223",
+"name": "SEPA Mujer",
+"website": "https://www.sepamujer.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C6D45C",
+"name": "Shalom Task Force",
+"website": "https://www.shalomtaskforce.org/",
+"description": ""
+},
+{
+"org_id": "ORG-BD6109",
+"name": "Shinnecock Indian Nation",
+"website": "https://www.shinnecock-nsn.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-AD5E56",
+"name": "Sikh Coalition",
+"website": "https://www.sikhcoalition.org/",
+"description": ""
+},
+{
+"org_id": "ORG-95F4D1",
+"name": "Sikh Family Center",
+"website": "https://sikhfamilycenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-EE3A95",
+"name": "SNUG Street Outreach",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-76D6DC",
+"name": "Social Security Administration",
+"website": "https://www.ssa.gov",
+"description": ""
+},
+{
+"org_id": "ORG-D35736",
+"name": "Society for the Protection and Care of Children",
+"website": "https://www.spcc-roch.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8E476D",
+"name": "Southern Finger Lakes Pride",
+"website": "https://www.soflxpride.org/",
+"description": ""
+},
+{
+"org_id": "ORG-33EC17",
+"name": "Southern Tier Child Advocacy Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-4E3766",
+"name": "Sparta",
+"website": "https://spartapride.org/",
+"description": ""
+},
+{
+"org_id": "ORG-91908C",
+"name": "St. Lawrence County Department of Social Services",
+"website": "https://www.stlawco.gov/Departments/SocialServices",
+"description": ""
+},
+{
+"org_id": "ORG-516795",
+"name": "St. Lawrence Valley Renewal House for Victims of Family Violence",
+"website": "https://www.slvrenewalhouse.org/",
+"description": ""
+},
+{
+"org_id": "ORG-FDFAA1",
+"name": "St. Nicks Alliance",
+"website": "https://stnicksalliance.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F22983",
+"name": "St. Peter’s Crime Victim Services",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-60990D",
+"name": "Stand Against Hatred",
+"website": "https://www.standagainsthatred.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F07E39",
+"name": "START Children's Center",
+"website": "https://startchildrenscenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-78495A",
+"name": "Staten Island Community Job Center, Inc. d/b/a La Colmena",
+"website": "https://www.lacolmenanyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-0C5E25",
+"name": "Steuben County Child Advocacy Center",
+"website": "https://www.steubencony.org/",
+"description": ""
+},
+{
+"org_id": "ORG-35F2BD",
+"name": "Steuben County Department of Social Services",
+"website": "https://steubencountyny.gov/364/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-8D8868",
+"name": "Stop AAPI Hate",
+"website": "https://www.stopaapihate.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E3DE40",
+"name": "Stop Sexual Assault in Schools (SSAIS)",
+"website": "https://stopsexualassaultinschools.org/",
+"description": ""
+},
+{
+"org_id": "ORG-766697",
+"name": "Suffolk County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-8E6286",
+"name": "Suffolk County Consumer Affairs",
+"website": "https://suffolkcountyny.gov/Departments/Consumer-Affairs/Consumer-Complaints",
+"description": ""
+},
+{
+"org_id": "ORG-FF3AC0",
+"name": "Suffolk County Department of Social Services",
+"website": "https://www.suffolkcountyny.gov/Departments/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-05A54D",
+"name": "Suffolk County District Attorney Victim Assistance Program",
+"website": "https://suffolkcountyny.gov/da/Contact-Us/Victim-Services",
+"description": ""
+},
+{
+"org_id": "ORG-138486",
+"name": "Suffolk County Human Rights Commission",
+"website": "https://hrc.suffolkcountyny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-5B84A3",
+"name": "Sullivan County Division of Health and Family Services",
+"website": "https://www.sullivanny.gov/Departments/familyservices",
+"description": ""
+},
+{
+"org_id": "ORG-13245A",
+"name": "Sullivan County Human Rights Commission",
+"website": "https://sullivanny.gov/Departments/Humanrights",
+"description": ""
+},
+{
+"org_id": "ORG-336DEF",
+"name": "Sullivan County Victim Services",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-346BE7",
+"name": "Survivor Advocacy Center of the Finger Lakes",
+"website": "https://www.survivoradvocacycenterfl.org/",
+"description": ""
+},
+{
+"org_id": "ORG-7A38F7",
+"name": "SWAN: Service Women’s Action Network",
+"website": "https://www.servicewomensactionnetwork.org/",
+"description": ""
+},
+{
+"org_id": "ORG-1831CC",
+"name": "Taconic Resources for Independence",
+"website": "https://taconicresources.org/",
+"description": ""
+},
+{
+"org_id": "ORG-444084",
+"name": "Tenant Defense Project of Monroe County",
+"website": "https://www.tenantdefense.org/",
+"description": ""
+},
+{
+"org_id": "ORG-370AEF",
+"name": "The Arc New York",
+"website": "https://thearcny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-D5C103",
+"name": "The Breathe Network",
+"website": "https://www.thebreathenetwork.org/",
+"description": ""
+},
+{
+"org_id": "ORG-79CA51",
+"name": "The Bronx Defenders",
+"website": "https://bronxdefenders.org/",
+"description": ""
+},
+{
+"org_id": "ORG-992009",
+"name": "The Center",
+"website": "https://www.thecenterutica.org/",
+"description": ""
+},
+{
+"org_id": "ORG-228FE1",
+"name": "The Center for Independence of the Disabled, New York (CIDNY)",
+"website": "https://www.cidny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-6121D6",
+"name": "The Crime Victims Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-428F0A",
+"name": "The Deposit Foundation",
+"website": "https://www.depositfoundation.com/",
+"description": ""
+},
+{
+"org_id": "ORG-6402AB",
+"name": "The Family Counseling Center of Fulton County Domestic Violence Program",
+"website": "https://www.thefamilycounselingcenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-2E603A",
+"name": "The Greater Syracuse Tenants Network",
+"website": "https://www.syracusetenant.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C15E10",
+"name": "The Hudson Valley LGBTQ Community Center/ Sullivan 180",
+"website": "https://lgbtqcenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-4F3F84",
+"name": "The Innocence Project",
+"website": "https://www.innocenceproject.org/",
+"description": ""
+},
+{
+"org_id": "ORG-8A35B1",
+"name": "The Ismaili Muslim Community",
+"website": "https://the.ismaili",
+"description": ""
+},
+{
+"org_id": "ORG-EE1B15",
+"name": "The Legal Aid Society",
+"website": "https://legalaidnyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-1E166F",
+"name": "The Legal Aid Society of Rochester",
+"website": "https://www.lasroc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-CDDDCF",
+"name": "The Legal Project",
+"website": "http://www.legalproject.org/",
+"description": ""
+},
+{
+"org_id": "ORG-87FE2C",
+"name": "The LGBT Community Center",
+"website": "https://gaycenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-A5C47F",
+"name": "The LGBTQ Center at Binghamton University",
+"website": "https://www.binghamton.edu/centers/lgbtq/index.html",
+"description": ""
+},
+{
+"org_id": "ORG-31A90D",
+"name": "The Loft LGBTQ+ Community Center",
+"website": "https://www.loftgaycenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-7EB0E5",
+"name": "The New York Center for Children",
+"website": "https://www.newyorkcenterforchildren.org/",
+"description": ""
+},
+{
+"org_id": "ORG-520317",
+"name": "The New York City Department for the Aging",
+"website": "https://www.nyc.gov/aging",
+"description": ""
+},
+{
+"org_id": "ORG-8F498B",
+"name": "The Regional Child Advocacy Center in Fulton, Montgomery and Hamilton Counties",
+"website": "https://www.mentalhealthassociation.org/",
+"description": ""
+},
+{
+"org_id": "ORG-AE1D99",
+"name": "The Retreat",
+"website": "https://allagainstabuse.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F5CEA4",
+"name": "The Salvation Army",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-5DF7E4",
+"name": "The Salvation Army Anew Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-08F0B6",
+"name": "The Salvation Army Syracuse Area Services",
+"website": "https://sasyr.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B41D4E",
+"name": "The Trevor Project",
+"website": "https://www.thetrevorproject.org/",
+"description": ""
+},
+{
+"org_id": "ORG-C5832A",
+"name": "Tioga County Child Advocacy Center",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F907B8",
+"name": "Tioga County Department of Social Services",
+"website": "https://www.tiogacountyny.gov/departments/social-services/",
+"description": ""
+},
+{
+"org_id": "ORG-C8E89E",
+"name": "Tompkins Community Action",
+"website": "https://tcaction.org/",
+"description": ""
+},
+{
+"org_id": "ORG-7C237D",
+"name": "Tompkins County Department of Social Services",
+"website": "https://www.tompkinscountyny.gov/All-Departments/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-1E9241",
+"name": "Tompkins County Office of Human Rights",
+"website": "https://www.tompkinscountyny.gov/All-Departments/Human-Rights",
+"description": ""
+},
+{
+"org_id": "ORG-BC8871",
+"name": "Tonawanda Seneca Nation",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-8027FE",
+"name": "Town of Greenburgh Human Rights Advisory Committee",
+"website": "https://greenburghny.com/269/Boards-Commissions",
+"description": ""
+},
+{
+"org_id": "ORG-96A8A7",
+"name": "Town of Woodstock Human Rights Commission",
+"website": "https://townwoodstock.digitaltowpath.org:10111/content/Boards/View/15",
+"description": ""
+},
+{
+"org_id": "ORG-285326",
+"name": "Trans Student Educational Resources",
+"website": "https://transstudent.org/",
+"description": ""
+},
+{
+"org_id": "ORG-9D54C7",
+"name": "Transgender Law Center (TLC)",
+"website": "https://transgenderlawcenter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-3723EC",
+"name": "Trinity Alliance of the Capital Region-Urban Grief",
+"website": "https://www.trinityalliancealbany.org/",
+"description": ""
+},
+{
+"org_id": "ORG-5885CF",
+"name": "Turning Point for Women and Families",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-EEBE1A",
+"name": "Tuscarora Nation",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-F9C4DA",
+"name": "U.S. Committee for Refugees and Immigrants (USCRI)",
+"website": "https://refugees.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F42BF6",
+"name": "U.S. Department of Housing and Urban Development (HUD), Office of Fair Housing and Equal Opportunity",
+"website": "https://www.hud.gov/program_offices/fair_housing_equal_opp/online-complaint",
+"description": ""
+},
+{
+"org_id": "ORG-E0B9C9",
+"name": "U.S. Department of Justice, Office of the Inspector General (OIG)",
+"website": "https://oig.justice.gov/hotline",
+"description": ""
+},
+{
+"org_id": "ORG-C99253",
+"name": "U.S. Department of Labor",
+"website": "https://www.dol.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-5FF3EA",
+"name": "U.S. Department of Transportation, Office of Aviation Consumer Protection",
+"website": "https://www.transportation.gov/airconsumer/file-consumer-complaint",
+"description": ""
+},
+{
+"org_id": "ORG-815426",
+"name": "U.S. Department of Veterans Affairs (VA)",
+"website": "https://www.va.gov",
+"description": ""
+},
+{
+"org_id": "ORG-786EB6",
+"name": "U.S. Equal Employment Opportunity Commission (EEOC)/New York Region",
+"website": "https://www.eeoc.gov/field-office/newyork/location",
+"description": ""
+},
+{
+"org_id": "ORG-FF384D",
+"name": "Ulster County Crime Victim Assistance Program",
+"website": "https://ulstercountyny.gov/probation/crime-victim-assistance",
+"description": ""
+},
+{
+"org_id": "ORG-74EFD9",
+"name": "Ulster County Department of Social Services",
+"website": "https://ulstercountyny.gov/social-services",
+"description": ""
+},
+{
+"org_id": "ORG-8223DA",
+"name": "Ulster County Human Rights Commission",
+"website": "https://www.ulstercountyny.gov/human-rights-commission",
+"description": ""
+},
+{
+"org_id": "ORG-0A97A8",
+"name": "United Sikhs",
+"website": "https://www.unitedsikhs.org/",
+"description": ""
+},
+{
+"org_id": "ORG-806AF0",
+"name": "United Tenants of Albany",
+"website": "https://utalbany.org/",
+"description": ""
+},
+{
+"org_id": "ORG-99A25D",
+"name": "Unity House of Troy",
+"website": "https://www.unityhouseny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B04754",
+"name": "Urban Justice Center",
+"website": "https://www.urbanjustice.org/our-projects/",
+"description": ""
+},
+{
+"org_id": "ORG-D0EEB9",
+"name": "Urban League of Westchester County",
+"website": "https://www.ulwc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-7DD1C7",
+"name": "Urban Resource Institute (URI)",
+"website": "https://urinyc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-02DFDE",
+"name": "US Justice Department, Division of Civil Rights",
+"website": "https://www.justice.gov/crt",
+"description": ""
+},
+{
+"org_id": "ORG-C5E18E",
+"name": "Vera House",
+"website": "https://www.verahouse.org/",
+"description": ""
+},
+{
+"org_id": "ORG-969CD6",
+"name": "Victim Assistance Program at the Onondaga County District Attorney's Office",
+"website": "https://da.ongov.net/",
+"description": ""
+},
+{
+"org_id": "ORG-274CD1",
+"name": "Victim Intervention Program, NewYork-Presbyterian/Weill Cornell",
+"website": "https://www.nyp.org/social-work/victim-intervention-program",
+"description": ""
+},
+{
+"org_id": "ORG-70110C",
+"name": "Victims Assistance Center of Jefferson County",
+"website": "https://www.vacjc.com/",
+"description": ""
+},
+{
+"org_id": "ORG-D0FE88",
+"name": "Victims Assistance Services (Westcop)",
+"website": "https://www.westcopny.org/victims-assistance/",
+"description": ""
+},
+{
+"org_id": "ORG-BFF549",
+"name": "Villa of Hope",
+"website": "https://www.villaofhope.org/",
+"description": ""
+},
+{
+"org_id": "ORG-AFBD58",
+"name": "Violence Intervention Program",
+"website": "https://www.vipmujeres.org/",
+"description": ""
+},
+{
+"org_id": "ORG-AB3D88",
+"name": "Voces Latinas",
+"website": "https://www.voceslatinas.org/",
+"description": ""
+},
+{
+"org_id": "ORG-5FF578",
+"name": "Volunteer Lawyers Project of Onondaga County",
+"website": "https://vlpcny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-57907B",
+"name": "Vulnerable Elder Protection Team",
+"website": "https://emed.weill.cornell.edu/divisions/vulnerable-elder-protection-team-vept",
+"description": ""
+},
+{
+"org_id": "ORG-23F210",
+"name": "WARM",
+"website": "https://www.weallreallymatter.org/",
+"description": ""
+},
+{
+"org_id": "ORG-E82F51",
+"name": "Warren County Department of Social Services",
+"website": "https://warrencountyny.gov/socserv",
+"description": ""
+},
+{
+"org_id": "ORG-1EE328",
+"name": "Warren County District Attorney's Office Victim Assistance Program",
+"website": "https://warrencountyny.gov/da/vap",
+"description": ""
+},
+{
+"org_id": "ORG-8E4BDB",
+"name": "Washington County Department of Social Services",
+"website": "https://www.washingtoncountyny.gov/517/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-EE6448",
+"name": "Washington County District Attorney's Office Victim Assistance Program",
+"website": "https://washingtoncountyny.gov/460/Crime-Victim-Assistance-Program",
+"description": ""
+},
+{
+"org_id": "ORG-F360D5",
+"name": "Wayne County Department of Social Services",
+"website": "https://www.waynecountyny.gov/250/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-D1E28B",
+"name": "Wayne County District Attorney's Office of Victim/Witness Services",
+"website": "https://www.waynecountyny.gov/196/Victims-Assistance",
+"description": ""
+},
+{
+"org_id": "ORG-99F24E",
+"name": "We Belong Here",
+"website": "https://webelonghereny.my.canva.site/",
+"description": ""
+},
+{
+"org_id": "ORG-D62557",
+"name": "Wellspring",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-E30F57",
+"name": "Westchester Community Opportunity Program Inc - Victims Assistance Services",
+"website": "https://www.westcop.org/programs/vas",
+"description": ""
+},
+{
+"org_id": "ORG-1E6E9A",
+"name": "Westchester County Bar Association",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-A5D8DB",
+"name": "Westchester County Department of Consumer Protection",
+"website": "https://consumer.westchestercountyny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-203A21",
+"name": "Westchester County Department of Social Services - Office of Housing Counsel",
+"website": "https://socialservices.westchestercountyny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-6F9F6F",
+"name": "Westchester County District Attorney's Office",
+"website": "https://www.westchesterda.net/",
+"description": ""
+},
+{
+"org_id": "ORG-384E3D",
+"name": "Westchester County Human Rights Commission",
+"website": "https://humanrights.westchestercountyny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-1A5744",
+"name": "Westchester County Office for Women",
+"website": "https://women.westchestergov.com/",
+"description": ""
+},
+{
+"org_id": "ORG-EC41AD",
+"name": "Westchester Family Justice Center",
+"website": "https://www.westchestergov.com/",
+"description": ""
+},
+{
+"org_id": "ORG-6745FE",
+"name": "Westchester Medical Center SAAVE Program",
+"website": "",
+"description": ""
+},
+{
+"org_id": "ORG-AD6863",
+"name": "Westchester Residential Opportunities (WRO)",
+"website": "https://wroinc.org/",
+"description": ""
+},
+{
+"org_id": "ORG-F3FEE0",
+"name": "Willow Domestic Violence Center",
+"website": "https://willowcenterny.org/",
+"description": ""
+},
+{
+"org_id": "ORG-EC8A85",
+"name": "WJCS - Crime Victim Advocacy and Supportive Services Program",
+"website": "https://www.wjcs.com/",
+"description": ""
+},
+{
+"org_id": "ORG-B1F586",
+"name": "Womankind",
+"website": "https://www.iamwomankind.org/",
+"description": ""
+},
+{
+"org_id": "ORG-746FEA",
+"name": "Wyckoff Heights Medical Center - Violence Intervention and Treatment Program (VITP)",
+"website": "https://www.wyckoffhospital.org/",
+"description": ""
+},
+{
+"org_id": "ORG-13FE0D",
+"name": "Wyoming County Department of Social Services",
+"website": "https://www.wyomingcountyny.gov/205/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-9B4644",
+"name": "Wyoming County District Attorney's Office Crime Victim Program",
+"website": "https://www.wyomingcountyny.gov/",
+"description": ""
+},
+{
+"org_id": "ORG-7922A7",
+"name": "Yates County Department of Social Services",
+"website": "https://www.yatescounty.org/317/Social-Services",
+"description": ""
+},
+{
+"org_id": "ORG-5F28C4",
+"name": "Yemeni American Merchants Association (YAMA)",
+"website": "https://www.yamausa.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B06071",
+"name": "Yonkers Community Action Program",
+"website": "https://yonkerscap.org/",
+"description": ""
+},
+{
+"org_id": "ORG-B06D1A",
+"name": "YWCA",
+"website": "",
+"description": ""
+}
+]

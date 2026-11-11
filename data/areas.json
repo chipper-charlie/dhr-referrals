@@ -1,0 +1,100 @@
+[
+{
+"area_id": "A01",
+"name": "Work and wages",
+"hint": "Pay, firing, safety",
+"order": 1,
+"is_start": false
+},
+{
+"area_id": "A02",
+"name": "Housing and landlords",
+"hint": "Rent, eviction, repairs",
+"order": 2,
+"is_start": false
+},
+{
+"area_id": "A03",
+"name": "Neighbors and personal disputes",
+"hint": "Neighbors, family, people you know",
+"order": 3,
+"is_start": false
+},
+{
+"area_id": "A04",
+"name": "Violence, harassment and crime",
+"hint": "Abuse, stalking, hate crimes",
+"order": 4,
+"is_start": false
+},
+{
+"area_id": "A05",
+"name": "Police, courts and jail",
+"hint": "Arrest, charges, police",
+"order": 5,
+"is_start": false
+},
+{
+"area_id": "A06",
+"name": "Government benefits and services",
+"hint": "Food stamps, SSI, agencies",
+"order": 6,
+"is_start": false
+},
+{
+"area_id": "A07",
+"name": "Health care and insurance",
+"hint": "Doctors, Medicaid, nursing homes",
+"order": 7,
+"is_start": false
+},
+{
+"area_id": "A08",
+"name": "Money, debt and consumer problems",
+"hint": "Debt, credit, scams",
+"order": 8,
+"is_start": false
+},
+{
+"area_id": "A09",
+"name": "Family, children and older adults",
+"hint": "Custody, support, older adults",
+"order": 9,
+"is_start": false
+},
+{
+"area_id": "A10",
+"name": "Immigration",
+"hint": "Status, visas, deportation",
+"order": 10,
+"is_start": false
+},
+{
+"area_id": "A11",
+"name": "Schools and education",
+"hint": "Discipline, special education",
+"order": 11,
+"is_start": false
+},
+{
+"area_id": "A12",
+"name": "Discrimination and civil rights",
+"hint": "Other agencies that handle it",
+"order": 12,
+"is_start": false
+},
+{
+"area_id": "A13",
+"name": "Food, utilities and emergency help",
+"hint": "Food, heat, emergency cash",
+"order": 13,
+"is_start": false
+},
+{
+"area_id": "A14",
+"name": "General help and legal advice",
+"hint": "Hotlines and help for any problem.",
+"order": 14,
+"is_start": true
+}
+]

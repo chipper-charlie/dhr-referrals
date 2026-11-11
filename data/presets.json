@@ -1,0 +1,597 @@
+[
+{
+"reason_id": "L01",
+"area": "Employment",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Housing",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Places of Public Accommodation",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Education",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Credit and lending",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "None",
+"topic_id": "A12.08"
+},
+{
+"reason_id": "L01",
+"area": "Credit and lending",
+"topic_id": "A08.02"
+},
+{
+"reason_id": "L02",
+"area": "Places of Public Accommodation",
+"topic_id": "A12.12"
+},
+{
+"reason_id": "L02",
+"area": "None",
+"topic_id": "A12.12"
+},
+{
+"reason_id": "L02",
+"area": "Employment",
+"topic_id": "A12.01"
+},
+{
+"reason_id": "L03",
+"area": "Employment",
+"topic_id": "A01.06"
+},
+{
+"reason_id": "L03",
+"area": "Housing",
+"topic_id": "A02.05"
+},
+{
+"reason_id": "L03",
+"area": "Places of Public Accommodation",
+"topic_id": "A06.01"
+},
+{
+"reason_id": "L03",
+"area": "None",
+"topic_id": "A06.01"
+},
+{
+"reason_id": "L04",
+"area": "Housing",
+"topic_id": "A05.04"
+},
+{
+"reason_id": "L04",
+"area": "Places of Public Accommodation",
+"topic_id": "A05.04"
+},
+{
+"reason_id": "L04",
+"area": "None",
+"topic_id": "A05.04"
+},
+{
+"reason_id": "L05",
+"area": "Housing",
+"topic_id": "A03.01"
+},
+{
+"reason_id": "L05",
+"area": "Places of Public Accommodation",
+"topic_id": "A04.03"
+},
+{
+"reason_id": "L05",
+"area": "None",
+"topic_id": "A03.01"
+},
+{
+"reason_id": "L06",
+"area": "Places of Public Accommodation",
+"topic_id": "A05.01"
+},
+{
+"reason_id": "L06",
+"area": "None",
+"topic_id": "A05.01"
+},
+{
+"reason_id": "L07",
+"area": "Places of Public Accommodation",
+"topic_id": "A05.03"
+},
+{
+"reason_id": "L07",
+"area": "None",
+"topic_id": "A05.03"
+},
+{
+"reason_id": "L09",
+"area": "Places of Public Accommodation",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L09",
+"area": "None",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L10",
+"area": "Education",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L10",
+"area": "Housing",
+"topic_id": "A12.02"
+},
+{
+"reason_id": "L11",
+"area": "Housing",
+"topic_id": "A12.02"
+},
+{
+"reason_id": "L13",
+"area": "Employment",
+"topic_id": "A01.04"
+},
+{
+"reason_id": "L13",
+"area": "Housing",
+"topic_id": "A02.04"
+},
+{
+"reason_id": "L13",
+"area": "Places of Public Accommodation",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Housing",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Places of Public Accommodation",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Education",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Credit and lending",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L14",
+"area": "None",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L15",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L16",
+"area": "Housing",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L16",
+"area": "Places of Public Accommodation",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L16",
+"area": "Education",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L16",
+"area": "Credit and lending",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L16",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L17",
+"area": "Places of Public Accommodation",
+"topic_id": "A12.12"
+},
+{
+"reason_id": "L18",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Housing",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Places of Public Accommodation",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Education",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Credit and lending",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L19",
+"area": "None",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L20",
+"area": "Employment",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Housing",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Places of Public Accommodation",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Education",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Credit and lending",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L20",
+"area": "None",
+"topic_id": "A02.06"
+},
+{
+"reason_id": "L21",
+"area": "Employment",
+"topic_id": "A08.02"
+},
+{
+"reason_id": "L21",
+"area": "Housing",
+"topic_id": "A08.02"
+},
+{
+"reason_id": "L22",
+"area": "Employment",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Housing",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Places of Public Accommodation",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Education",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Credit and lending",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L22",
+"area": "None",
+"topic_id": "A09.02"
+},
+{
+"reason_id": "L26",
+"area": "Employment",
+"topic_id": "A01.07"
+},
+{
+"reason_id": "L27",
+"area": "Housing",
+"topic_id": "A02.03"
+},
+{
+"reason_id": "L28",
+"area": "Employment",
+"topic_id": "A05.02"
+},
+{
+"reason_id": "L28",
+"area": "Housing",
+"topic_id": "A05.02"
+},
+{
+"reason_id": "L28",
+"area": "Credit and lending",
+"topic_id": "A05.02"
+},
+{
+"reason_id": "L28",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A05.02"
+},
+{
+"reason_id": "L29",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L30",
+"area": "Employment",
+"topic_id": "A01.01"
+},
+{
+"reason_id": "L30",
+"area": "Credit and lending",
+"topic_id": "A01.01"
+},
+{
+"reason_id": "L31",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L32",
+"area": "Employment",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Housing",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Places of Public Accommodation",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Education",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Credit and lending",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L32",
+"area": "None",
+"topic_id": "A12.11"
+},
+{
+"reason_id": "L34",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L35",
+"area": "Places of Public Accommodation",
+"topic_id": "A06.03"
+},
+{
+"reason_id": "L36",
+"area": "Places of Public Accommodation",
+"topic_id": "A08.05"
+},
+{
+"reason_id": "L38",
+"area": "Housing",
+"topic_id": "A12.02"
+},
+{
+"reason_id": "L40",
+"area": "Places of Public Accommodation",
+"topic_id": "A12.13"
+},
+{
+"reason_id": "L42",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Employment",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Housing",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Places of Public Accommodation",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Education",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Credit and lending",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Volunteer Firefighting Organizations",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "Violation of Conciliation Agreement",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L43",
+"area": "None",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L57",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A01.08"
+},
+{
+"reason_id": "L58",
+"area": "Boycotting or Blacklisting",
+"topic_id": "A14.02"
+},
+{
+"reason_id": "L59",
+"area": "Places of Public Accommodation",
+"topic_id": "A12.10"
+},
+{
+"reason_id": "L60",
+"area": "Employment",
+"topic_id": "A14.02"
+}
+]

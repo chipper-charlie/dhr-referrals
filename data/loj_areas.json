@@ -1,0 +1,38 @@
+[
+{
+"area": "Employment",
+"order": 1
+},
+{
+"area": "Housing",
+"order": 2
+},
+{
+"area": "Places of Public Accommodation",
+"order": 3
+},
+{
+"area": "Education",
+"order": 4
+},
+{
+"area": "Credit and lending",
+"order": 5
+},
+{
+"area": "Volunteer Firefighting Organizations",
+"order": 6
+},
+{
+"area": "Boycotting or Blacklisting",
+"order": 7
+},
+{
+"area": "Violation of Conciliation Agreement",
+"order": 8
+},
+{
+"area": "None",
+"order": 9
+}
+]

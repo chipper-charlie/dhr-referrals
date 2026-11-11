@@ -1,0 +1,382 @@
+[
+{
+"reason_id": "L01",
+"area": "All"
+},
+{
+"reason_id": "L02",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L02",
+"area": "None"
+},
+{
+"reason_id": "L02",
+"area": "Employment"
+},
+{
+"reason_id": "L03",
+"area": "Employment"
+},
+{
+"reason_id": "L03",
+"area": "Housing"
+},
+{
+"reason_id": "L03",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L03",
+"area": "None"
+},
+{
+"reason_id": "L04",
+"area": "Housing"
+},
+{
+"reason_id": "L04",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L04",
+"area": "None"
+},
+{
+"reason_id": "L05",
+"area": "Housing"
+},
+{
+"reason_id": "L05",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L05",
+"area": "None"
+},
+{
+"reason_id": "L06",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L06",
+"area": "None"
+},
+{
+"reason_id": "L07",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L07",
+"area": "None"
+},
+{
+"reason_id": "L08",
+"area": "All"
+},
+{
+"reason_id": "L09",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L09",
+"area": "None"
+},
+{
+"reason_id": "L10",
+"area": "Employment"
+},
+{
+"reason_id": "L10",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L10",
+"area": "Education"
+},
+{
+"reason_id": "L10",
+"area": "Housing"
+},
+{
+"reason_id": "L11",
+"area": "Housing"
+},
+{
+"reason_id": "L12",
+"area": "Employment"
+},
+{
+"reason_id": "L12",
+"area": "Housing"
+},
+{
+"reason_id": "L12",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L12",
+"area": "Education"
+},
+{
+"reason_id": "L12",
+"area": "Credit and lending"
+},
+{
+"reason_id": "L12",
+"area": "Volunteer Firefighting Organizations"
+},
+{
+"reason_id": "L13",
+"area": "Employment"
+},
+{
+"reason_id": "L13",
+"area": "Housing"
+},
+{
+"reason_id": "L13",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L14",
+"area": "All"
+},
+{
+"reason_id": "L15",
+"area": "Employment"
+},
+{
+"reason_id": "L16",
+"area": "Housing"
+},
+{
+"reason_id": "L16",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L16",
+"area": "Education"
+},
+{
+"reason_id": "L16",
+"area": "Credit and lending"
+},
+{
+"reason_id": "L16",
+"area": "Volunteer Firefighting Organizations"
+},
+{
+"reason_id": "L17",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L18",
+"area": "Employment"
+},
+{
+"reason_id": "L19",
+"area": "All"
+},
+{
+"reason_id": "L20",
+"area": "All"
+},
+{
+"reason_id": "L21",
+"area": "Employment"
+},
+{
+"reason_id": "L21",
+"area": "Housing"
+},
+{
+"reason_id": "L22",
+"area": "All"
+},
+{
+"reason_id": "L23",
+"area": "All"
+},
+{
+"reason_id": "L24",
+"area": "All"
+},
+{
+"reason_id": "L25",
+"area": "All"
+},
+{
+"reason_id": "L26",
+"area": "Employment"
+},
+{
+"reason_id": "L27",
+"area": "Housing"
+},
+{
+"reason_id": "L28",
+"area": "Employment"
+},
+{
+"reason_id": "L28",
+"area": "Housing"
+},
+{
+"reason_id": "L28",
+"area": "Credit and lending"
+},
+{
+"reason_id": "L28",
+"area": "Volunteer Firefighting Organizations"
+},
+{
+"reason_id": "L29",
+"area": "Employment"
+},
+{
+"reason_id": "L30",
+"area": "Employment"
+},
+{
+"reason_id": "L30",
+"area": "Credit and lending"
+},
+{
+"reason_id": "L31",
+"area": "Employment"
+},
+{
+"reason_id": "L32",
+"area": "All"
+},
+{
+"reason_id": "L33",
+"area": "Employment"
+},
+{
+"reason_id": "L34",
+"area": "Employment"
+},
+{
+"reason_id": "L35",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L36",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L37",
+"area": "Volunteer Firefighting Organizations"
+},
+{
+"reason_id": "L38",
+"area": "Employment"
+},
+{
+"reason_id": "L38",
+"area": "Housing"
+},
+{
+"reason_id": "L38",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L39",
+"area": "Education"
+},
+{
+"reason_id": "L39",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L40",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L41",
+"area": "Employment"
+},
+{
+"reason_id": "L42",
+"area": "Employment"
+},
+{
+"reason_id": "L43",
+"area": "All"
+},
+{
+"reason_id": "L44",
+"area": "All"
+},
+{
+"reason_id": "L45",
+"area": "Credit and lending"
+},
+{
+"reason_id": "L45",
+"area": "None"
+},
+{
+"reason_id": "L46",
+"area": "All"
+},
+{
+"reason_id": "L47",
+"area": "All"
+},
+{
+"reason_id": "L48",
+"area": "All"
+},
+{
+"reason_id": "L49",
+"area": "All"
+},
+{
+"reason_id": "L50",
+"area": "Housing"
+},
+{
+"reason_id": "L51",
+"area": "Employment"
+},
+{
+"reason_id": "L52",
+"area": "All"
+},
+{
+"reason_id": "L53",
+"area": "Employment"
+},
+{
+"reason_id": "L54",
+"area": "All"
+},
+{
+"reason_id": "L55",
+"area": "All"
+},
+{
+"reason_id": "L56",
+"area": "Employment"
+},
+{
+"reason_id": "L57",
+"area": "Boycotting or Blacklisting"
+},
+{
+"reason_id": "L58",
+"area": "Boycotting or Blacklisting"
+},
+{
+"reason_id": "L59",
+"area": "Places of Public Accommodation"
+},
+{
+"reason_id": "L60",
+"area": "Employment"
+}
+]
