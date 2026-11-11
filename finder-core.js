@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   var FILES = ['meta', 'areas', 'topics', 'topic_words', 'kinds', 'counties', 'organizations', 'listings', 'phones',
-    'coverage', 'assignments', 'loj_areas', 'reasons', 'reason_areas', 'presets', 'pins', 'search_words', 'examples'];
+    'coverage', 'assignments', 'loj_areas', 'reasons', 'reason_areas', 'presets', 'pins', 'search_words', 'examples', 'reason_words'];
   var DATA_DIR = (document.currentScript && document.currentScript.getAttribute('data-dir')) || 'data/';
 
   var D, AREA, TOPIC, KIND, LISTING, REASON;
@@ -28,6 +28,7 @@
     var cover = group(rows(T.coverage), 'listing_id');
     var assign = group(rows(T.assignments), 'listing_id');
     var reasonAreas = group(rows(T.reason_areas), 'reason_id');
+    var reasonWords = group(rows(T.reason_words), 'reason_id');
     var regions = {}, counties = [];
     rows(T.counties).forEach(function (r) {
       var c = str(r.county), g = str(r.region);
@@ -75,7 +76,8 @@
         var id = str(r.reason_id);
         // description, group and group_order: the line under each reason and its heading in the staff view's reason list
         return { id: id, name: str(r.name), desc: str(r.description), group: str(r.group), groupOrder: num(r.group_order),
-          areas: (reasonAreas[id] || []).map(function (a) { return str(a.area); }) };
+          areas: (reasonAreas[id] || []).map(function (a) { return str(a.area); }),
+          words: (reasonWords[id] || []).map(function (w) { return str(w.word); }) };   // extra words the staff search matches
       }),
       // Shared search words: place words (with a bias or characteristic word, open their topic first), the bias and
       // characteristic words that set that off, and generic words that topic names don't match on

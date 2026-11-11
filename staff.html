@@ -330,7 +330,13 @@ class Component extends DCLogic {
   /* Reasons for the chosen area, matching what's typed (name or description), under their staff group */
   reasonOptions() {
     var qn = F.norm(this.state.reason ? '' : this.state.reasonText);
-    var list = F.reasonsFor(this.state.loj).filter((r) => !qn || F.norm(r.name + ' ' + r.desc).indexOf(qn) >= 0);
+    // Every typed word must start a word in the reason's name, description, staff group or extra search words ("no standing", "on behalf of")
+    var toks = qn.split(' ').filter((t) => t);
+    var list = F.reasonsFor(this.state.loj).filter((r) => {
+      if (!toks.length) return true;
+      var hay = ' ' + F.norm([r.id, r.name, r.desc, r.group].concat(r.words || []).join(' ')) + ' ';
+      return toks.every((t) => hay.indexOf(' ' + t) >= 0);
+    });
     list.sort((a, b) => (a.groupOrder - b.groupOrder) || a.name.localeCompare(b.name));
     return list.map((r) => ({ id: 'r-' + r.id, name: r.name, desc: r.desc, group: r.group || 'Other', choose: () => this.pickReason(r) }));
   }

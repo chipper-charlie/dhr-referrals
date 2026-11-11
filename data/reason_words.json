@@ -1,0 +1,402 @@
+[
+{
+"reason_id": "L01",
+"word": "post office"
+},
+{
+"reason_id": "L01",
+"word": "USPS"
+},
+{
+"reason_id": "L01",
+"word": "VA"
+},
+{
+"reason_id": "L01",
+"word": "military"
+},
+{
+"reason_id": "L01",
+"word": "federal agency"
+},
+{
+"reason_id": "L01",
+"word": "FDIC"
+},
+{
+"reason_id": "L03",
+"word": "SNAP"
+},
+{
+"reason_id": "L03",
+"word": "food stamps"
+},
+{
+"reason_id": "L03",
+"word": "Medicaid"
+},
+{
+"reason_id": "L03",
+"word": "unemployment"
+},
+{
+"reason_id": "L03",
+"word": "Section 8"
+},
+{
+"reason_id": "L03",
+"word": "welfare"
+},
+{
+"reason_id": "L03",
+"word": "SSI"
+},
+{
+"reason_id": "L03",
+"word": "disability benefits"
+},
+{
+"reason_id": "L05",
+"word": "neighbor"
+},
+{
+"reason_id": "L05",
+"word": "roommate"
+},
+{
+"reason_id": "L05",
+"word": "tenant"
+},
+{
+"reason_id": "L05",
+"word": "customer"
+},
+{
+"reason_id": "L05",
+"word": "stranger"
+},
+{
+"reason_id": "L05",
+"word": "family member"
+},
+{
+"reason_id": "L06",
+"word": "cop"
+},
+{
+"reason_id": "L06",
+"word": "officer"
+},
+{
+"reason_id": "L06",
+"word": "NYPD"
+},
+{
+"reason_id": "L06",
+"word": "sheriff"
+},
+{
+"reason_id": "L06",
+"word": "arrest"
+},
+{
+"reason_id": "L06",
+"word": "stopped"
+},
+{
+"reason_id": "L07",
+"word": "inmate"
+},
+{
+"reason_id": "L07",
+"word": "incarcerated"
+},
+{
+"reason_id": "L07",
+"word": "correction officer"
+},
+{
+"reason_id": "L07",
+"word": "DOCCS"
+},
+{
+"reason_id": "L07",
+"word": "Rikers"
+},
+{
+"reason_id": "L08",
+"word": "unfair"
+},
+{
+"reason_id": "L08",
+"word": "wages"
+},
+{
+"reason_id": "L08",
+"word": "bad landlord"
+},
+{
+"reason_id": "L08",
+"word": "rude"
+},
+{
+"reason_id": "L08",
+"word": "no protected characteristic"
+},
+{
+"reason_id": "L09",
+"word": "ACS"
+},
+{
+"reason_id": "L09",
+"word": "CPS"
+},
+{
+"reason_id": "L09",
+"word": "foster care"
+},
+{
+"reason_id": "L09",
+"word": "caseworker"
+},
+{
+"reason_id": "L10",
+"word": "church"
+},
+{
+"reason_id": "L10",
+"word": "mosque"
+},
+{
+"reason_id": "L10",
+"word": "synagogue"
+},
+{
+"reason_id": "L10",
+"word": "religious school"
+},
+{
+"reason_id": "L10",
+"word": "clergy"
+},
+{
+"reason_id": "L10",
+"word": "minister"
+},
+{
+"reason_id": "L11",
+"word": "owner-occupied"
+},
+{
+"reason_id": "L11",
+"word": "two-family"
+},
+{
+"reason_id": "L11",
+"word": "senior housing"
+},
+{
+"reason_id": "L11",
+"word": "room in owner home"
+},
+{
+"reason_id": "L13",
+"word": "whistleblower"
+},
+{
+"reason_id": "L13",
+"word": "safety complaint"
+},
+{
+"reason_id": "L13",
+"word": "reported fraud"
+},
+{
+"reason_id": "L14",
+"word": "too late"
+},
+{
+"reason_id": "L14",
+"word": "statute of limitations"
+},
+{
+"reason_id": "L14",
+"word": "deadline"
+},
+{
+"reason_id": "L14",
+"word": "one year"
+},
+{
+"reason_id": "L14",
+"word": "three years"
+},
+{
+"reason_id": "L19",
+"word": "political party"
+},
+{
+"reason_id": "L19",
+"word": "Democrat"
+},
+{
+"reason_id": "L19",
+"word": "Republican"
+},
+{
+"reason_id": "L19",
+"word": "politics"
+},
+{
+"reason_id": "L20",
+"word": "homeless"
+},
+{
+"reason_id": "L20",
+"word": "shelter"
+},
+{
+"reason_id": "L26",
+"word": "childcare"
+},
+{
+"reason_id": "L26",
+"word": "school meetings"
+},
+{
+"reason_id": "L26",
+"word": "child care"
+},
+{
+"reason_id": "L36",
+"word": "insurance claim"
+},
+{
+"reason_id": "L36",
+"word": "insurance policy"
+},
+{
+"reason_id": "L44",
+"word": "on behalf of"
+},
+{
+"reason_id": "L44",
+"word": "for someone else"
+},
+{
+"reason_id": "L44",
+"word": "guardian"
+},
+{
+"reason_id": "L44",
+"word": "power of attorney"
+},
+{
+"reason_id": "L44",
+"word": "family member filed"
+},
+{
+"reason_id": "L46",
+"word": "minor"
+},
+{
+"reason_id": "L46",
+"word": "child filed"
+},
+{
+"reason_id": "L46",
+"word": "teenager"
+},
+{
+"reason_id": "L47",
+"word": "lawsuit"
+},
+{
+"reason_id": "L47",
+"word": "court case"
+},
+{
+"reason_id": "L47",
+"word": "already filed"
+},
+{
+"reason_id": "L47",
+"word": "EEOC"
+},
+{
+"reason_id": "L48",
+"word": "New Jersey"
+},
+{
+"reason_id": "L48",
+"word": "Connecticut"
+},
+{
+"reason_id": "L48",
+"word": "out of state"
+},
+{
+"reason_id": "L53",
+"word": "EEOC"
+},
+{
+"reason_id": "L53",
+"word": "dual-filed"
+},
+{
+"reason_id": "L55",
+"word": "did not sign"
+},
+{
+"reason_id": "L55",
+"word": "no response"
+},
+{
+"reason_id": "L55",
+"word": "withdrew"
+},
+{
+"reason_id": "L57",
+"word": "strike"
+},
+{
+"reason_id": "L57",
+"word": "picket"
+},
+{
+"reason_id": "L57",
+"word": "union"
+},
+{
+"reason_id": "L58",
+"word": "protest"
+},
+{
+"reason_id": "L59",
+"word": "country club"
+},
+{
+"reason_id": "L59",
+"word": "members only"
+},
+{
+"reason_id": "L59",
+"word": "private club"
+},
+{
+"reason_id": "L60",
+"word": "Article 78"
+},
+{
+"reason_id": "L60",
+"word": "public employer"
+},
+{
+"reason_id": "L60",
+"word": "civil service"
+},
+{
+"reason_id": "L60",
+"word": "licensing agency"
+}
+]
