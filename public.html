@@ -45,10 +45,11 @@ body{margin:0}
 .field.srch:focus{border-color:var(--navy)}
 .ico{position:absolute;left:12px;top:13px;width:20px;height:20px;pointer-events:none}
 /* Search form (design 1d): heading, then "Your problem" and "County" side by side */
-.sform{display:grid;grid-template-columns:minmax(0,1fr) 240px auto;grid-template-areas:"qt qt qt" "lq lc ." "hq hc ." "fq fc fb";column-gap:20px;align-items:end}
+.sform{display:grid;grid-template-columns:320px minmax(0,1fr) auto;grid-template-areas:"qt qt qt" "lc lq ." "lc hq ." "fc fq fb" ". eq .";column-gap:20px;align-items:end}
 .scr .sform .qt{grid-area:qt;margin:0 0 20px;padding-bottom:16px;border-bottom:1px solid var(--line)}
-.l-q{grid-area:lq}.l-c{grid-area:lc}.h-q{grid-area:hq}.h-c{grid-area:hc}.f-q{grid-area:fq}.f-c{grid-area:fc}.f-b{grid-area:fb}
-.sform .h-q,.sform .h-c{margin:0 0 8px}
+.l-q{grid-area:lq}.l-c{grid-area:lc}.h-q{grid-area:hq}.f-q{grid-area:fq}.f-c{grid-area:fc}.f-b{grid-area:fb}.e-q{grid-area:eq}
+.sform .h-q{margin:0 0 8px}
+.qerr{margin:8px 0 0;color:#a40e26;font-weight:700}
 .opt-l{font-weight:400}
 .field.srch{padding-right:54px}
 .field::placeholder{color:#666;opacity:1}
@@ -74,6 +75,8 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .gh{display:block;margin:0 0 4px;padding:6px 16px;background:#f0f0f0;font-size:13px;font-weight:700;color:#4a4a4a;letter-spacing:.05em;text-transform:uppercase;cursor:default}
 .opt{display:block;min-height:44px;padding:10px 16px;cursor:pointer}
 .opt:hover{background:var(--tint)}
+.opt.sub::after{content:"\203A";float:right;font-size:20px;line-height:1;color:var(--gray)}
+.opt.back{font-weight:700}
 .opt[aria-selected="true"]{background:var(--tint);outline:2px solid var(--accent);outline-offset:-2px}
 .ot{display:block;color:var(--ink)}
 .os{display:block;margin-top:2px;font-size:13px;color:var(--gray)}
@@ -139,6 +142,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .may{margin-top:16px;padding:20px 24px;background:#fff;border:2px solid var(--navy);border-radius:8px}
 .may h3{margin:0 0 8px;font-size:17px;line-height:1.3;color:var(--navy)}
 .may p{margin:0;color:var(--soft)}
+.seealso{margin:16px 0 0;color:var(--soft)}
 .eg{margin:8px 0 0;padding-left:22px;list-style:disc;color:var(--ink)}
 .eg li{margin:0 0 6px}
 .eg li:last-child{margin-bottom:0}
@@ -173,8 +177,8 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .card.main{padding:0;border:0;box-shadow:none;background:none}
 .fb{flex:1 1 100%}
 .fb .btn{width:100%}
-.sform{grid-template-columns:1fr;grid-template-areas:"qt" "lq" "hq" "fq" "lc" "hc" "fc" "fb"}
-.l-c{margin-top:16px}
+.sform{grid-template-columns:1fr;grid-template-areas:"qt" "lc" "fc" "lq" "hq" "fq" "eq" "fb"}
+.l-q{margin-top:16px}
 .f-b{margin-top:20px}
 .f-b .btn{width:100%}
 .grid{grid-template-columns:1fr}
@@ -239,11 +243,16 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
     <div class="{{cardCls}}" id="search-card">
       <form class="sform" role="search" aria-labelledby="q-title" onSubmit="{{onSubmit}}">
         <h2 class="qt" id="q-title">What do you need help with?</h2>
+        <label class="lbl l-c" for="county">Your county <span class="opt-l">(shows local organizations)</span></label>
+        <select id="county" class="{{countyCls}}" value="{{county}}" onChange="{{onCounty}}">
+          <option value="">Choose your county (optional)</option>
+          <sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for>
+        </select>
         <label class="lbl l-q" for="q">Your problem</label>
         <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-q" id="q-hint">You can use your own words, like “eviction” or “unpaid wages”.</span></sc-if>
         <div class="inwrap f-q" id="q-wrap">
           <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
-          <input id="q" class="field srch" type="text" value="{{q}}" onChange="{{onInput}}" onKeyDown="{{onKey}}" onFocus="{{onFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{expanded}}" aria-controls="q-list" aria-activedescendant="{{activeId}}" aria-describedby="q-hint" placeholder="Type to search, or pick from list" autocomplete="off">
+          <input id="q" class="field srch" type="text" value="{{q}}" onChange="{{onInput}}" onKeyDown="{{onKey}}" onFocus="{{onFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{expanded}}" aria-controls="q-list" aria-activedescendant="{{activeId}}" aria-describedby="q-hint q-err" placeholder="Type to search, or pick from list" autocomplete="off">
           <button class="tog" type="button" tabindex="-1" aria-label="Show topics" aria-expanded="{{expanded}}" aria-controls="q-list" onMouseDown="{{togDown}}" onClick="{{toggle}}">
             <sc-if value="{{open}}" hint-placeholder-val="{{false}}"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 9l5-5 5 5" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-if>
             <sc-if value="{{closed}}" hint-placeholder-val="{{true}}"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 5l5 5 5-5" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-if>
@@ -254,11 +263,11 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
               <sc-if value="{{picking}}" hint-placeholder-val="{{false}}"><p class="nomsg pick">No results for those words. Pick a topic:</p></sc-if>
               <ul id="q-list" role="listbox" aria-label="Suggestions">
                 <sc-if value="{{isBrowse}}" hint-placeholder-val="{{true}}">
-                  <li role="presentation"><ul role="presentation"><li id="{{bStart.id}}" role="option" aria-selected="{{bStart.sel}}" class="opt" onMouseDown="{{bStart.pick}}">{{bStart.name}}</li></ul></li>
+                  <li role="presentation"><ul role="presentation"><li id="{{bStart.id}}" role="option" aria-selected="{{bStart.sel}}" class="{{bStart.cls}}" onMouseDown="{{bStart.pick}}">{{bStart.name}}</li></ul></li>
                   <li role="group" aria-labelledby="g-pick">
-                    <span class="gh" id="g-pick" role="presentation">Or pick a topic</span>
+                    <span class="gh" id="g-pick" role="presentation">{{bHead}}</span>
                     <ul role="presentation">
-                      <sc-for list="{{bAreas}}" as="s" hint-placeholder-count="13"><li id="{{s.id}}" role="option" aria-selected="{{s.sel}}" class="opt" onMouseDown="{{s.pick}}">{{s.name}}</li></sc-for>
+                      <sc-for list="{{bAreas}}" as="s" hint-placeholder-count="13"><li id="{{s.id}}" role="option" aria-selected="{{s.sel}}" class="{{s.cls}}" onMouseDown="{{s.pick}}">{{s.name}}</li></sc-for>
                     </ul>
                   </li>
                 </sc-if>
@@ -296,12 +305,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
           </sc-if>
           <div class="sr" role="status">{{srText}}</div>
         </div>
-        <label class="lbl l-c" for="county">County <span class="opt-l">(optional)</span></label>
-        <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-c" id="c-hint">To show help near you.</span></sc-if>
-        <select id="county" class="{{countyCls}}" value="{{county}}" onChange="{{onCounty}}" aria-describedby="c-hint">
-          <option value="">Choose your county</option>
-          <sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for>
-        </select>
+        <sc-if value="{{needTopic}}" hint-placeholder-val="{{false}}"><p class="qerr e-q" id="q-err" role="alert">Type or pick your problem, then choose Search.</p></sc-if>
         <div class="f-b"><button class="btn" type="submit">Search</button></div>
       </form>
 
@@ -318,7 +322,6 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
             <sc-for list="{{areas}}" as="a" hint-placeholder-count="13">
               <li class="{{a.cls}}"><button class="area" type="button" aria-expanded="{{a.expanded}}" aria-controls="{{a.panelId}}" onClick="{{a.toggle}}"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-{{a.icon}}"></use></svg><span class="an">{{a.name}}</span><span class="ah">{{a.hint}}</span></button>
                 <sc-if value="{{a.open}}" hint-placeholder-val="{{false}}"><div class="panel" id="{{a.panelId}}"><ul>
-                  <li><a class="all" href="{{a.href}}" onClick="{{a.pick}}">All help for this topic<span class="sr">{{a.srName}}</span></a></li>
                   <sc-for list="{{a.topics}}" as="t" hint-placeholder-count="5"><li><a href="{{t.href}}" onClick="{{t.pick}}">{{t.name}}</a></li></sc-for>
                 </ul></div></sc-if></li>
             </sc-for>
@@ -330,21 +333,6 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
     <sc-if value="{{isResults}}" hint-placeholder-val="{{false}}">
       <section class="top res-top">
         <h2 role="status" id="count" tabindex="-1">{{countText}}</h2>
-        <sc-if value="{{hasKinds}}" hint-placeholder-val="{{false}}">
-          <div class="nar">
-            <fieldset>
-              <legend>Narrow by kind of help (optional)</legend>
-              <div class="opts">
-                <sc-for list="{{kinds}}" as="k" hint-placeholder-count="3">
-                  <label class="chk"><input type="checkbox" checked="{{k.checked}}" onChange="{{k.toggle}}"><span>{{k.name}} <i>({{k.count}})</i></span></label>
-                </sc-for>
-              </div>
-            </fieldset>
-          </div>
-        </sc-if>
-        <sc-if value="{{hasHidden}}" hint-placeholder-val="{{false}}">
-          <p class="hid">Showing {{narrowedTo}} only. {{hiddenText}} <button class="linkbtn" type="button" onClick="{{showAllKinds}}">{{showAllText}}</button></p>
-        </sc-if>
         <sc-if value="{{mayHandle}}" hint-placeholder-val="{{false}}">
           <div class="may">
             <h3>NYDHR may handle this</h3>
@@ -355,11 +343,14 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
             <a class="btnlink" href="{{screenerHref}}">See if NYDHR can take your report</a>
           </div>
         </sc-if>
+        <sc-if value="{{hasSeeAlso}}" hint-placeholder-val="{{false}}">
+          <p class="seealso">{{seeAlsoText}} <a href="{{seeAlsoHref}}" onClick="{{seeAlsoPick}}">{{seeAlsoName}}</a>.</p>
+        </sc-if>
         <sc-if value="{{hasNote}}" hint-placeholder-val="{{false}}">
           <div class="note"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#5a3600" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#5a3600" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#5a3600"></circle></svg><p>{{note}}</p></div>
         </sc-if>
         <sc-if value="{{askCounty}}" hint-placeholder-val="{{false}}">
-          <div class="note pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#1f3a5f"></circle></svg><div class="ncw"><p>{{countyNote}}</p><label class="lbl" for="county2">County</label><select id="county2" class="field unset ncs" onChange="{{addCounty}}"><option value="">Choose your county</option><sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for></select></div></div>
+          <div class="note pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#1f3a5f"></circle></svg><div class="ncw"><p>{{countyNote}}</p><label class="lbl" for="county2">Your county <span class="opt-l">(shows local organizations)</span></label><select id="county2" class="field unset ncs" onChange="{{addCounty}}"><option value="">Choose your county</option><sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for></select></div></div>
         </sc-if>
         <sc-if value="{{noResultsShown}}" hint-placeholder-val="{{false}}">
           <p class="msg">{{noResultsMsg}}</p>
@@ -368,7 +359,6 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
               <sc-for list="{{likeAreas}}" as="a" hint-placeholder-count="3">
                 <li class="{{a.cls}}"><button class="area" type="button" aria-expanded="{{a.expanded}}" aria-controls="{{a.panelId}}" onClick="{{a.toggle}}"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-{{a.icon}}"></use></svg><span class="an">{{a.name}}</span><span class="ah">{{a.hint}}</span></button>
                 <sc-if value="{{a.open}}" hint-placeholder-val="{{false}}"><div class="panel" id="{{a.panelId}}"><ul>
-                  <li><a class="all" href="{{a.href}}" onClick="{{a.pick}}">All help for this topic<span class="sr">{{a.srName}}</span></a></li>
                   <sc-for list="{{a.topics}}" as="t" hint-placeholder-count="5"><li><a href="{{t.href}}" onClick="{{t.pick}}">{{t.name}}</a></li></sc-for>
                 </ul></div></sc-if></li>
               </sc-for>
@@ -399,7 +389,7 @@ var SCREENER = 'https://dhr.ny.gov/complaint';   // the live NYDHR complaint pag
 function readUrl() {
   var p = new URLSearchParams(window.location.search);
   var query = null;
-  if (p.get('topic') && F.TOPIC[p.get('topic')]) query = { type: 'topic', value: p.get('topic') };
+  if (p.get('topic') && F.TOPIC[F.topicId(p.get('topic'))]) query = { type: 'topic', value: F.topicId(p.get('topic')) };
   else if (p.get('group') && F.AREA[p.get('group')]) query = { type: 'area', value: p.get('group') };
   else if (p.get('org') && F.data.orgs[p.get('org')]) query = { type: 'org', value: p.get('org') };
   else if (p.get('q')) query = { type: 'text', value: p.get('q') };
@@ -421,29 +411,39 @@ function urlFor(s) {
 }
 /* Phones and tablets: tapping the box brings up the keyboard; only the arrow opens the topic list.
    Computers: clicking into the box shows the cursor and opens the list below it. */
+/* 2026-11-16 TEST CHANGE (user-test round 3): dropdown opens on typing only; revert by restoring the commented block below: the "Computers" line above is not true while the test is on (see listOpensEarly). Down Arrow in the box opens the list (onKey). */
 /* Topic icons (design 1g) are the <symbol>s at the top of the page, one per area id in the tag tree (ic-A01 and so on). */
 function isTouch() { try { return window.matchMedia('(hover: none) and (pointer: coarse)').matches; } catch (err) { return false; } }
+/* TEST CHANGE (user-test round 3): dropdown opens on typing only; revert by restoring the commented block below (2026-11-16).
+   THE ONE SWITCH. listOpensEarly() answers: should the topic list open on a click into the box and on the first key typed?
+   Now: never (computers behave like phones). The Down Arrow key and the arrow button still open the full list. */
+function listOpensEarly() { return false; }
+// function listOpensEarly() { return !isTouch(); }   // OLD (2026-11-16): computers opened the list on click; phones did not
 function topicHref(id, county) { return '?topic=' + encodeURIComponent(id) + (county ? '&county=' + encodeURIComponent(county) : ''); }
 
 class Component extends DCLogic {
   constructor(props) {
     super(props);
     // The search in the address is read once the listings have loaded (componentDidMount)
-    this.state = { loaded: false, failed: false, q: '', open: false, active: -1, topicsOpen: false, openAreas: {}, query: null, county: '', reason: '', loj: '', view: 'home', kinds: {}, editOpen: false };
-    this.onPop = () => { var u = readUrl(); this.setState({ query: u.query, county: u.county, reason: u.reason, loj: u.loj, view: u.view, kinds: {}, open: false }); };
-    this.onInput = (e) => this.setState({ q: e.target.value, open: !isTouch() || this.state.open || e.target.value.trim().length >= 2, active: -1 });
-    this.onFocus = () => { if (!isTouch() || this.state.q.trim().length >= 2) this.setState({ open: true }); };
+    this.state = { loaded: false, failed: false, q: '', open: false, active: -1, topicsOpen: false, openAreas: {}, query: null, county: '', reason: '', loj: '', view: 'home', pick: null, needTopic: false, drill: '', editOpen: false };
+    this.onPop = () => { var u = readUrl(); this.setState({ query: u.query, county: u.county, reason: u.reason, loj: u.loj, view: u.view, pick: null, needTopic: false, drill: '', open: false }); };
+    // 2026-11-16 TEST CHANGE (user-test round 3): dropdown opens on typing only; revert by restoring the commented block below
+    // this.onInput = (e) => this.setState({ q: e.target.value, open: !isTouch() || this.state.open || e.target.value.trim().length >= 2, active: -1 });
+    this.onInput = (e) => this.setState({ q: e.target.value, pick: null, needTopic: false, drill: '', open: listOpensEarly() || this.state.open || e.target.value.trim().length >= 2, active: -1 });
+    // 2026-11-16 TEST CHANGE (user-test round 3): dropdown opens on typing only; revert by restoring the commented block below
+    // this.onFocus = () => { if (!isTouch() || this.state.q.trim().length >= 2) this.setState({ open: true }); };
+    this.onFocus = () => { if (listOpensEarly() || this.state.q.trim().length >= 2) this.setState({ open: true }); };
     // The arrow: keep the box's focus on a mouse press, then open or close the list
     this.togDown = (e) => e.preventDefault();
     this.toggle = () => {
-      if (this.state.open) { this.setState({ open: false, active: -1 }); return; }
-      this.setState({ open: true, active: -1 });
+      if (this.state.open) { this.setState({ open: false, active: -1, drill: '' }); return; }
+      this.setState({ open: true, active: -1, drill: '' });
       if (!isTouch()) { var el = document.getElementById('q'); if (el) el.focus(); }
     };
     // A tap or click outside the box closes the list (on phones the box may not have focus)
-    this.onDocDown = (e) => { if (this.state.open && !(e.target.closest && e.target.closest('#q-wrap'))) this.setState({ open: false, active: -1 }); };
+    this.onDocDown = (e) => { if (this.state.open && !(e.target.closest && e.target.closest('#q-wrap'))) this.setState({ open: false, active: -1, drill: '' }); };
     this.toggleTopics = () => this.setState({ topicsOpen: !this.state.topicsOpen });
-    this.onBlur = () => this.setState({ open: false, active: -1 });
+    this.onBlur = () => this.setState({ open: false, active: -1, drill: '' });
     this.onKey = (e) => {
       var opts = this.options();
       if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
@@ -457,12 +457,16 @@ class Component extends DCLogic {
         opts[this.state.active].choose();
       } else if (e.key === 'Escape' && this.state.open) {
         e.preventDefault();
-        this.setState({ open: false, active: -1 });
+        this.setState({ open: false, active: -1, drill: '' });
       }
     };
+    // 2026-11-18: choosing from the list only fills the box. The search runs when the person chooses Search (WCAG 3.2.2:
+    // a choice must not change the page by itself), and the county is in view first.
+    this.choosePick = (type, value, label) => this.setState({ pick: { type: type, value: value, label: label }, q: label, needTopic: false, drill: '', open: false, active: -1 });
     this.onSubmit = (e) => {
       e.preventDefault();
-      var q = this.state.q.trim();
+      var q = this.state.q.trim(), pk = this.state.pick;
+      if (pk && q === pk.label) { this.go({ query: { type: pk.type, value: pk.value }, view: 'results', q: '' }); return; }
       if (q) {
         var t = F.exactTopic(q);
         if (t) { this.go({ query: { type: 'topic', value: t.id }, view: 'results', q: '' }); return; }
@@ -489,6 +493,10 @@ class Component extends DCLogic {
         this.go({ query: { type: 'text', value: q }, view: 'results', q: '' });
       } else if (this.state.query) {
         this.go({ view: 'results' });
+      } else {
+        // Nothing to search for (for example only a county was chosen): say so, and put the cursor in the box
+        this.setState({ needTopic: true });
+        var box3 = document.getElementById('q'); if (box3) box3.focus();
       }
     };
     this.onCounty = (e) => this.go({ county: e.target.value });
@@ -501,7 +509,6 @@ class Component extends DCLogic {
     };
     this.toggleArea = (id) => { var o = Object.assign({}, this.state.openAreas); if (o[id]) delete o[id]; else o[id] = true; this.setState({ openAreas: o }); };
     this.clearAll = () => this.go({ query: null, county: '', reason: '', loj: '', view: 'home', q: '' });
-    this.showAllKinds = () => this.setState({ kinds: {} });
     // Results: the search sits folded under "Change search" (design 3); opening it puts the cursor in the box
     this.toggleEdit = () => {
       var open = !this.state.editOpen;
@@ -525,7 +532,8 @@ class Component extends DCLogic {
   go(change) {
     var next = Object.assign({}, this.state, change, { open: false, active: -1 });
     if ('query' in change || 'view' in change) next.editOpen = false;   // a new search folds the search away again (a county change keeps it open)
-    if ('query' in change) next.kinds = {};
+    if ('query' in change) next.pick = null;
+    next.needTopic = false; next.drill = '';
     if ('query' in change && !change.query && next.view === 'results') next.view = 'home';
     this.setState(next);
     var url = urlFor(next);
@@ -548,11 +556,18 @@ class Component extends DCLogic {
     if (q.length < 2) {
       // Nothing typed yet: general help, then every area
       var D = F.data, start = D.areas.filter((a) => a.start)[0];
-      var browse = start ? [{ id: 'b-start', name: start.name, choose: () => this.pickTopic(D.generalTopic) }] : [];
-      return browse.concat(D.areas.filter((a) => !a.start).map((a) => ({ id: 'b-' + a.id, name: a.name, area: true, choose: () => this.pickArea(a.id) })));
+      // 2026-11-18: no "All help" for a whole area (it mixed every topic in it). An area opens its topics in this list; a Back row returns.
+      var dr = this.state.drill && D.areas.filter((a) => a.id === this.state.drill)[0];
+      if (dr) {
+        var back = { id: 'b-back', name: 'Back to the full list', back: true, choose: () => this.setState({ drill: '', open: true, active: -1 }) };
+        return [back].concat(D.topics.filter((t) => t.area === dr.id).map((t) => ({ id: 'b-' + t.id, name: t.name, choose: () => this.choosePick('topic', t.id, t.name) })));
+      }
+      var browse = start ? [{ id: 'b-start', name: start.name, start: true, choose: () => this.choosePick('topic', D.generalTopic, start.name) }] : [];
+      return browse.concat(D.areas.filter((a) => !a.start).map((a) => ({ id: 'b-' + a.id, name: a.name, area: D.topics.filter((t) => t.area === a.id).length > 1,
+        choose: () => { var ts = D.topics.filter((t) => t.area === a.id); if (ts.length === 1) this.choosePick('topic', ts[0].id, ts[0].name); else this.setState({ drill: a.id, open: true, active: 1 }); } })));
     }
-    var list = F.suggest(q, 5).map((s) => ({ id: 'opt-' + s.id.replace(/\W/g, '-'), name: s.name, sub: s.sub, choose: () => this.pickTopic(s.id) }));
-    list = list.concat(F.suggestOrgs(q, 3).map((o) => ({ id: 'opt-' + o.id, org: true, name: o.name, sub: o.sub ? 'Organization · ' + o.sub : 'Organization', choose: () => this.pickOrg(o.id) })));
+    var list = F.suggest(q, 5).map((s) => ({ id: 'opt-' + s.id.replace(/\W/g, '-'), name: s.name, sub: s.sub, choose: () => this.choosePick('topic', s.id, s.name) }));
+    list = list.concat(F.suggestOrgs(q, 3).map((o) => ({ id: 'opt-' + o.id, org: true, name: o.name, sub: o.sub ? 'Organization · ' + o.sub : 'Organization', choose: () => this.choosePick('org', o.id, o.name) })));
     // After Enter found nothing for these words, searching them again is a dead end: leave it off
     if (this.state.pickFor !== q) list.push({ id: 'opt-all', free: true, choose: () => this.pickFreeAll() });
     return list;
@@ -562,9 +577,10 @@ class Component extends DCLogic {
     var s = this.state, D = F.data;
     var opts = this.options(), active = s.open ? s.active : -1;
     var isBrowse = s.q.trim().length < 2;
-    var mark = (o, i) => ({ id: o.id, name: o.name, sel: String(i === active), pick: (e) => { e.preventDefault(); o.choose(); } });
-    var bStart = isBrowse && opts[0] && !opts[0].area ? mark(opts[0], 0) : { id: 'b-none', name: '', sel: 'false', pick: () => {} };
-    var bAreas = isBrowse ? opts.map(mark).filter((o, i) => opts[i].area) : [];
+    var mark = (o, i) => ({ id: o.id, name: o.name, sel: String(i === active), cls: 'opt' + (o.area ? ' sub' : o.back ? ' back' : ''), pick: (e) => { e.preventDefault(); o.choose(); } });
+    var bStart = isBrowse && opts[0] && (opts[0].start || opts[0].back) ? mark(opts[0], 0) : { id: 'b-none', name: '', sel: 'false', cls: 'opt', pick: () => {} };
+    var bAreas = isBrowse ? opts.map(mark).filter((o, i) => !opts[i].start && !opts[i].back) : [];
+    var drillArea = s.drill ? D.areas.filter((a) => a.id === s.drill)[0] : null;
     var marked = isBrowse ? [] : opts.map((o, i) => ({ id: o.id, name: o.name, sub: o.sub, sel: String(i === active), pick: (e) => { e.preventDefault(); o.choose(); }, kind: o.free ? 'free' : o.org ? 'org' : 'topic' }));
     var sugs = marked.filter((o) => o.kind === 'topic'), orgSugs = marked.filter((o) => o.kind === 'org');
     var nTopics = sugs.length + orgSugs.length;
@@ -581,17 +597,17 @@ class Component extends DCLogic {
         : 'A prototype for testing, not the live NYDHR website. Listings as of ' + D.built + '.',
       loading: !s.loaded && !s.failed, failed: s.failed,
       notAll: s.loaded, isHome: s.view === 'home', isResults: s.loaded && s.view === 'results' && !!s.query,
-      q: s.q, qTrim: s.q.trim(), open: open, closed: !open, expanded: String(open), isBrowse: isBrowse, isSuggest: !isBrowse, bStart: bStart, bAreas: bAreas, activeId: active >= 0 && opts[active] ? opts[active].id : undefined,
-      picking: picking, notPicking: !picking,
+      q: s.q, qTrim: s.q.trim(), open: open, closed: !open, expanded: String(open), bHead: drillArea ? drillArea.name : 'Or pick a topic', isBrowse: isBrowse, isSuggest: !isBrowse, bStart: bStart, bAreas: bAreas, activeId: active >= 0 && opts[active] ? opts[active].id : undefined,
+      picking: picking, notPicking: !picking, needTopic: !!s.needTopic,
       sugs: sugs, hasSug: sugs.length > 0, orgSugs: orgSugs, hasOrgSug: orgSugs.length > 0, noSug: !isBrowse && nTopics === 0,
       freeAllSel: String(active === nTopics),
-      srText: !open ? '' : picking ? 'No results for those words. Pick a topic: ' + opts.length + (opts.length === 1 ? ' suggestion' : ' suggestions') + '. Use the up and down arrow keys to move, Enter to choose.'
-        : isBrowse ? opts.length + ' suggestions. Start typing to search, or use the up and down arrow keys to pick one.'
+      srText: !open ? (s.pick && s.q.trim() === s.pick.label ? 'Selected: ' + s.pick.label + '. Choose Search to see results.' : '') : picking ? 'No results for those words. Pick a topic: ' + opts.length + (opts.length === 1 ? ' suggestion' : ' suggestions') + '. Use the up and down arrow keys to move, Enter to choose.'
+        : isBrowse ? (drillArea ? 'Topics in ' + drillArea.name + '. ' : '') + opts.length + ' suggestions. Start typing to search, or use the up and down arrow keys to pick one.'
         : opts.length + (opts.length === 1 ? ' suggestion' : ' suggestions') + '. Use the up and down arrow keys to move, Enter to choose.',
       togDown: this.togDown, toggle: this.toggle, toggleTopics: this.toggleTopics, topicsOpen: s.topicsOpen, topicsOpenText: String(s.topicsOpen),
       onInput: this.onInput, onKey: this.onKey, onFocus: this.onFocus, onBlur: this.onBlur, onSubmit: this.onSubmit,
       onCounty: this.onCounty, pickFreeAll: this.pickFreeAll, seeAllTopics: this.seeAllTopics,
-      clearAll: this.clearAll, showAllKinds: this.showAllKinds,
+      clearAll: this.clearAll,
       county: s.county, countyCls: s.county ? 'field f-c' : 'field unset f-c', counties: D.counties.map((c) => ({ name: c })),
       chips: chips, toggleEdit: this.toggleEdit, addCounty: this.addCounty, editText: String(!!s.editOpen),
       screenerHref: SCREENER, cardCls: s.view === 'home' ? 'card main' : 'card'
@@ -615,26 +631,21 @@ class Component extends DCLogic {
     vals.start = { name: startArea.name, hint: startArea.hint, href: topicHref(D.generalTopic, s.county), pick: linkTo(() => this.pickTopic(D.generalTopic)) };
 
     if (vals.isResults) {
-      var r = F.results({ query: s.query, county: s.county, kinds: s.kinds, reason: s.reason, lojArea: s.loj });
+      var r = F.results({ query: s.query, county: s.county, reason: s.reason, lojArea: s.loj });
       r.groups.forEach((g) => g.cards.forEach((c) => {
       }));
       vals.groups = r.groups;
-      vals.kinds = r.kinds.map((k) => ({ name: k.name, count: k.count, checked: k.checked, toggle: () => {
-        var next = Object.assign({}, this.state.kinds); if (next[k.id]) delete next[k.id]; else next[k.id] = true; this.setState({ kinds: next });
-      } }));
-      vals.hasKinds = vals.kinds.length > 0;
-      vals.hasHidden = r.hidden > 0;
-      vals.hiddenText = r.hidden + (r.hidden === 1 ? ' other result is hidden.' : ' other results are hidden.');
-      vals.narrowedTo = r.narrowedTo;
-      vals.showAllText = 'Show all ' + r.before;
       vals.note = r.note; vals.hasNote = !!r.note;
       // No county yet: always offer one, even when nothing statewide or federal matched (there may still be local help)
       vals.askCounty = !s.county && s.query.type !== 'org';
       var noneWide = vals.askCounty && r.total === 0;
-      vals.countyNote = noneWide ? 'We didn’t find statewide or federal help for this, but there may be local help. Add your county to check.'
-        : 'These groups help anywhere in New York. Add your county to see help near you too.';
+      vals.countyNote = noneWide ? 'We didn’t find statewide or federal help for this, but there may be organizations in your county. Choose your county to check.'
+        : 'These groups help anywhere in New York. There may be more organizations in your county. Choose your county to see them.';
       var topic = s.query.type === 'topic' ? F.TOPIC[s.query.value] : null;
       vals.mayHandle = !!(topic && topic.mayHandle);
+      var see = topic && topic.seeAlso && F.TOPIC[topic.seeAlso.topic];   // a line pointing to another topic (data/topics.json: see_also_*)
+      vals.hasSeeAlso = !!see;
+      if (see) { vals.seeAlsoText = topic.seeAlso.text; vals.seeAlsoName = see.name; vals.seeAlsoHref = topicHref(see.id, s.county); vals.seeAlsoPick = linkTo(() => this.pickTopic(see.id)); }
       vals.examples = topic ? topic.examples : [];   // from data/examples.json
       vals.hasExamples = vals.examples.length > 0;
       vals.noResults = r.total === 0;
@@ -658,7 +669,7 @@ class Component extends DCLogic {
         vals.groups = cards.length ? [{ key: 'gen', cls: 'grp', title: startArea.name, count: cards.length + (cards.length === 1 ? ' result' : ' results'), cards: cards, hasSub: false }] : [];
       }
     } else {
-      vals.groups = []; vals.kinds = []; vals.hasKinds = false;
+      vals.groups = [];
     }
     // The search form shows on the start page, when "Change search" is open, and when nothing was found (to try again;
     // with no county, the county note is the next step instead)

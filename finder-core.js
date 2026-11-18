@@ -7,7 +7,8 @@
     'coverage', 'assignments', 'loj_areas', 'reasons', 'reason_areas', 'presets', 'pins', 'search_words', 'examples', 'reason_words'];
   var DATA_DIR = (document.currentScript && document.currentScript.getAttribute('data-dir')) || 'data/';
 
-  var D, AREA, TOPIC, KIND, LISTING, REASON;
+  var D, AREA, TOPIC, KIND, LISTING, REASON, PINNED;
+  var OLD_TOPIC = { 'A03.02': 'A03.01', 'A03.03': 'A03.01' };   // old links and bookmarks
   var FC = window.FinderCore = { loaded: false, error: '' };
 
   // ---------- Reading the List exports ----------
@@ -38,7 +39,7 @@
     });
     counties.sort();
     var orgs = {};
-    rows(T.organizations).forEach(function (r) { orgs[str(r.org_id)] = { name: str(r.name), website: str(r.website), desc: str(r.description) }; });
+    rows(T.organizations).forEach(function (r) { orgs[str(r.org_id)] = { name: str(r.name), website: str(r.website), desc: str(r.description), community: str(r.community) }; });
     var listings = rows(T.listings).map(function (r) {
       var id = str(r.listing_id), cov = cover[id] || [], as = assign[id] || [];
       var scopes = cov.map(function (c) { return str(c.scope).toLowerCase(); });
@@ -47,7 +48,7 @@
       function placesOf(s) { return cov.filter(function (c) { return str(c.scope).toLowerCase() === s; }).map(function (c) { return str(c.place); }).filter(Boolean); }
       function idsOf(t) { return as.filter(function (a) { return str(a.type).toLowerCase() === t; }).map(function (a) { return str(a.id); }); }
       return {
-        id: id, org: str(r.org_id), role: str(r.role), program: str(r.program), office: str(r.office),
+        id: id, org: str(r.org_id), communities: ((orgs[str(r.org_id)] || {}).community || '').split('; ').filter(Boolean), role: str(r.role), program: str(r.program), office: str(r.office),
         website: str(r.website), email: str(r.email), intake: str(r.intake_link), desc: str(r.description), alert: str(r.alert),
         checked: str(r.last_checked).slice(0, 10), source: str(r.source),
         phone: (phones[id] || []).slice().sort(byOrder).map(function (p) {
@@ -64,7 +65,8 @@
       areas: rows(T.areas).slice().sort(byOrder).map(function (r) { return { id: str(r.area_id), name: str(r.name), hint: str(r.hint), start: yes(r.is_start) }; }),
       topics: rows(T.topics).slice().sort(byOrder).map(function (r) {
         var id = str(r.topic_id);
-        return { id: id, area: str(r.area_id), name: str(r.name), mayHandle: yes(r.may_handle),
+        return { id: id, area: str(r.area_id), name: str(r.name), mayHandle: yes(r.may_handle), community: str(r.community),
+          seeAlso: r.see_also_topic ? { text: str(r.see_also_text), topic: str(r.see_also_topic) } : null,
           // examples for the "NYDHR may handle this" box (LEGAL CHECK the wording before it goes live)
           examples: (examples[id] || []).map(function (e) { return { text: str(e.text), why: str(e.why) }; }), words: (words[id] || []).map(function (w) { return str(w.word); }).filter(Boolean) };
       }),
@@ -96,6 +98,9 @@
   function init(data) {
     D = data;
     AREA = byId(D.areas); TOPIC = byId(D.topics); KIND = byId(D.kinds); LISTING = byId(D.listings); REASON = byId(D.reasons);
+    // Organizations that have ever been picked for an LOJ reason: listed first within a group (a sign that people sent here are likely to find it relevant)
+    PINNED = {};
+    D.pins.forEach(function (p) { var l = LISTING[p.listing]; if (l) PINNED[l.org] = 1; });
     // Text each listing can be found by: its names, description, and its topics' names and hidden words.
     D.listings.forEach(function (l) {
       var org = D.orgs[l.org] || {};
@@ -363,6 +368,10 @@
   }
 
   // ---------- Cards: one per organization ----------
+  // Kinds of help shown as a tag on a card (2026-11-18: the public page no longer narrows by kind). Legal help, Complaint or
+  // oversight office, Mediation. "Advocacy and case management" (F15.04) is left off: it is on over half of all listings and
+  // testers did not know what it meant. The staff page still narrows by kind.
+  var CARD_KINDS = { 'F15.01': 1, 'F15.02': 1, 'F15.03': 1 };
   function tagsFor(list, query) {
     var first = [], rest = [], seen = {};
     list.forEach(function (l) {
@@ -372,7 +381,7 @@
       });
     });
     var kinds = [];
-    list.forEach(function (l) { l.kinds.forEach(function (k) { if (!seen[k] && KIND[k]) { seen[k] = 1; kinds.push(KIND[k].name); } }); });
+    list.forEach(function (l) { l.kinds.forEach(function (k) { if (!seen[k] && KIND[k] && CARD_KINDS[k]) { seen[k] = 1; kinds.push(KIND[k].name); } }); });
     return first.concat(rest).slice(0, 4).concat(kinds).map(function (n) { return { name: n }; });
   }
   function phoneOf(l) {
@@ -381,6 +390,13 @@
   }
   function unique(arr) { var s = {}; return arr.filter(function (x) { if (s[x]) return false; s[x] = 1; return true; }); }
 
+  // Order within a group: organizations picked for an LOJ reason first, then A to Z (ignoring a leading "The"). There is no quality rating to rank by.
+  function sortCards(cards) {
+    var key = function (n) { return String(n).toLowerCase().replace(/^the\s+/, ''); };
+    return cards.map(function (c, i) { return { c: c, i: i }; }).sort(function (a, b) {
+      return (PINNED[a.c.key] ? 0 : 1) - (PINNED[b.c.key] ? 0 : 1) || key(a.c.name).localeCompare(key(b.c.name)) || a.i - b.i;
+    }).map(function (x) { return x.c; });
+  }
   function buildCards(list, query, county) {
     var byOrg = {}, order = [];
     list.forEach(function (l) { if (!byOrg[l.org]) { byOrg[l.org] = []; order.push(l.org); } byOrg[l.org].push(l); });
@@ -391,7 +407,7 @@
       ls.filter(function (l) { return l.program; }).forEach(function (l) { if (!progs[l.program]) { progs[l.program] = []; progOrder.push(l.program); } progs[l.program].push(l); });
       var placeName = county ? countyLabel(county) : 'New York';
       var c = {
-        key: orgId, name: org.name, url: org.website || websiteOf(ls[0]), listings: ls,
+        key: orgId, name: org.name, communities: ls[0].communities || [], url: org.website || websiteOf(ls[0]), listings: ls,
         kinds: unique([].concat.apply([], ls.map(function (l) { return l.kinds; }))),
         simple: false, grouped: false, sites: false, hasPrograms: progOrder.length > 0,
         phone: null, where: '', desc: '', alert: '', noPhone: false, tags: [], offices: [], programs: []
@@ -474,8 +490,13 @@
     var pinned = pinsFor(opts.reason, opts.lojArea, county);
     var pinnedOrgs = {}; pinned.forEach(function (l) { pinnedOrgs[l.org] = 1; });
     var rest = all.filter(function (l) { return !pinnedOrgs[l.org]; });
-    var local = county ? rest.filter(function (l) { return inCounty(l, county); }) : [];
-    var wide = rest.filter(isWide);
+    // Organizations that focus on one community (communities.csv) are listed apart, at the end, unless the topic is about that
+    // community (LGBTQ+ support, Tribal nations). Looking up one organization shows it as it is.
+    var topicCommunity = query && query.type === 'topic' && TOPIC[query.value] ? TOPIC[query.value].community : '';
+    var focused = function (l) { return !(query && query.type === 'org') && l.communities.length > 0 && l.communities.indexOf(topicCommunity) < 0; };
+    var local = county ? rest.filter(function (l) { return inCounty(l, county) && !focused(l); }) : [];
+    var wide = rest.filter(function (l) { return isWide(l) && !focused(l); });
+    var aside = rest.filter(function (l) { return focused(l) && (isWide(l) || inCounty(l, county)); });
     // An organization search shows all of that organization, so its offices elsewhere get their own group
     var elsewhere = query && query.type === 'org' ? rest.filter(function (l) { return !isWide(l) && !inCounty(l, county); }) : [];
 
@@ -485,17 +506,18 @@
     if (query && query.type === 'topic' && areaId) {
       var shown = {}; all.forEach(function (l) { shown[l.id] = 1; });
       broad = D.listings.filter(function (l) {
-        return !shown[l.id] && !pinnedOrgs[l.org] && (l.areas || []).indexOf(areaId) >= 0 && (isWide(l) || inCounty(l, county));
+        return !shown[l.id] && !pinnedOrgs[l.org] && !focused(l) && (l.areas || []).indexOf(areaId) >= 0 && (isWide(l) || inCounty(l, county));
       });
     }
 
-    var cardsLocal = buildCards(local, query, county), cardsWide = buildCards(wide, query, county), cardsBroad = buildCards(broad, query, county);
+    var cardsLocal = sortCards(buildCards(local, query, county)), cardsWide = sortCards(buildCards(wide, query, county)), cardsBroad = sortCards(buildCards(broad, query, county));
+    var cardsAside = buildCards(aside, query, county);
     var cardsPinned = buildCards(pinned, query, county), cardsElse = buildCards(elsewhere, query, '');
     var localCount = cardsLocal.length;
 
     // Kinds of help, with counts across the three groups (not the picks)
     var canNarrow = !!query && query.type !== 'text' && query.type !== 'org';
-    var pool = cardsLocal.concat(cardsWide, cardsBroad);
+    var pool = cardsLocal.concat(cardsWide, cardsBroad, cardsAside);
     var kindList = D.kinds.map(function (k) {
       var n = pool.filter(function (c) { return c.kinds.indexOf(k.id) >= 0; }).length;
       return { id: k.id, name: k.name, count: n, checked: !!checked[k.id] };
@@ -503,8 +525,8 @@
     var anyChecked = canNarrow && kindList.some(function (k) { return k.checked; });
     function keep(c) { return !anyChecked || c.kinds.some(function (k) { return checked[k]; }); }
     var before = pool.length;
-    cardsLocal = cardsLocal.filter(keep); cardsWide = cardsWide.filter(keep); cardsBroad = cardsBroad.filter(keep);
-    var after = cardsLocal.length + cardsWide.length + cardsBroad.length + cardsElse.length;
+    cardsLocal = cardsLocal.filter(keep); cardsWide = cardsWide.filter(keep); cardsBroad = cardsBroad.filter(keep); cardsAside = cardsAside.filter(keep);
+    var after = cardsLocal.length + cardsWide.length + cardsBroad.length + cardsAside.length + cardsElse.length;
 
     var groups = [];
     if (cardsPinned.length) groups.push({ key: 'g0', cls: 'grp g0', title: 'Often helps with this', cards: cardsPinned });
@@ -516,13 +538,23 @@
         sub: 'These help with ' + an.toLowerCase() + ' in general, not “' + queryLabel(query) + '” in particular.' });
     }
     if (cardsElse.length) groups.push({ key: 'g4', cls: 'grp g3', title: county ? 'Other places it helps' : 'Where it helps', cards: cardsElse });
-    groups.forEach(function (g) { g.count = g.cards.length + (g.cards.length === 1 ? ' result' : ' results'); g.hasSub = !!g.sub; });
+    // Community groups, A to Z, each its own group; the first carries the heading that explains them
+    var byCommunity = {};
+    // An organization with two communities is listed under both (the result count still counts it once)
+    cardsAside.forEach(function (c) { c.communities.forEach(function (n) { (byCommunity[n] = byCommunity[n] || []).push(c); }); });
+    Object.keys(byCommunity).sort().forEach(function (name, i) {
+      var g = { key: 'c' + i, cls: 'grp g3', title: name, cards: sortCards(byCommunity[name]) };
+      if (i === 0) { g.sectionTitle = 'Groups for a specific community'; g.sectionText = 'These groups focus on one community. They may help others too. Call or check the website to ask.'; }
+      groups.push(g);
+    });
+    groups.forEach(function (g) { g.hasSection = !!g.sectionTitle; g.count = g.cards.length + (g.cards.length === 1 ? ' result' : ' results'); g.hasSub = !!g.sub; });
 
     var total = cardsPinned.length + after;
     // Warn only when nothing local turned up at all (a local pick counts as local help)
     var note = '';
     var localPicks = pinned.filter(function (l) { return inCounty(l, county); }).length;
-    if (query && query.type !== 'org' && county && total > 0 && localCount === 0 && localPicks === 0) {
+    var localAside = aside.filter(function (l) { return inCounty(l, county); }).length;
+    if (query && query.type !== 'org' && county && total > 0 && localCount === 0 && localPicks === 0 && localAside === 0) {
       note = 'There are no local organizations listed in ' + countyLabel(county) + ' for this search'
         + (cardsWide.length ? ', but we’ve included statewide and federal help instead.' : '.');
     }
@@ -551,6 +583,7 @@
   var api = {
     norm: norm, suggest: suggest, intentTopic: intentTopic, suggestOrgs: suggestOrgs, exactOrg: exactOrg, exactTopic: exactTopic, matches: matches, results: results, buildCards: buildCards,
     queryLabel: queryLabel, queryAreaId: queryAreaId, whereLine: whereLine, websiteOf: websiteOf, phoneOf: phoneOf,
+    topicId: function (id) { return OLD_TOPIC[id] || id; },
     isWide: isWide, countyLabel: countyLabel, countyFrom: countyFrom, inCounty: inCounty, pinsFor: pinsFor, presetFor: presetFor, presetQuery: presetQuery, reasonsFor: reasonsFor, areasLike: areasLike
   };
   Object.keys(api).forEach(function (k) { FC[k] = api[k]; });

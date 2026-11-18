@@ -13026,18 +13026,13 @@
 },
 {
 "listing_id": "LST-FC3A58",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-FC3A58",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-FC3A58",
 "type": "kind",
 "id": "F15.03"
+},
+{
+"listing_id": "LST-FC3A58",
+"type": "topic",
+"id": "A09.01"
 },
 {
 "listing_id": "LST-387B2B",
@@ -15381,16 +15376,6 @@
 },
 {
 "listing_id": "LST-90C8F9",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-90C8F9",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-90C8F9",
 "type": "kind",
 "id": "F15.03"
 },
@@ -15656,16 +15641,6 @@
 },
 {
 "listing_id": "LST-9B9C3B",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-9B9C3B",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-9B9C3B",
 "type": "kind",
 "id": "F15.03"
 },
@@ -15683,16 +15658,6 @@
 "listing_id": "LST-CFDC03",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-CFDC03",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-CFDC03",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-CFDC03",
@@ -15721,18 +15686,23 @@
 },
 {
 "listing_id": "LST-1983EE",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-1983EE",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-1983EE",
 "type": "kind",
 "id": "F15.03"
+},
+{
+"listing_id": "LST-1983EE",
+"type": "topic",
+"id": "A02.02"
+},
+{
+"listing_id": "LST-1983EE",
+"type": "topic",
+"id": "A02.03"
+},
+{
+"listing_id": "LST-1983EE",
+"type": "topic",
+"id": "A09.01"
 },
 {
 "listing_id": "LST-41277A",
@@ -15916,16 +15886,6 @@
 },
 {
 "listing_id": "LST-B6C7F3",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-B6C7F3",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-B6C7F3",
 "type": "kind",
 "id": "F15.03"
 },
@@ -15951,33 +15911,23 @@
 },
 {
 "listing_id": "LST-F95AFD",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-F95AFD",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-F95AFD",
 "type": "kind",
 "id": "F15.03"
+},
+{
+"listing_id": "LST-F95AFD",
+"type": "topic",
+"id": "A02.02"
+},
+{
+"listing_id": "LST-F95AFD",
+"type": "topic",
+"id": "A02.03"
 },
 {
 "listing_id": "LST-F34BA3",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-F34BA3",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-F34BA3",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-F34BA3",
@@ -15988,16 +15938,6 @@
 "listing_id": "LST-E49C03",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-E49C03",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-E49C03",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-E49C03",
@@ -16141,16 +16081,6 @@
 },
 {
 "listing_id": "LST-4D106B",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-4D106B",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-4D106B",
 "type": "kind",
 "id": "F15.03"
 },
@@ -16176,16 +16106,6 @@
 },
 {
 "listing_id": "LST-ACF7C7",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-ACF7C7",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-ACF7C7",
 "type": "kind",
 "id": "F15.03"
 },
@@ -16193,6 +16113,11 @@
 "listing_id": "LST-ACF7C7",
 "type": "topic",
 "id": "A12.01"
+},
+{
+"listing_id": "LST-ACF7C7",
+"type": "topic",
+"id": "A09.01"
 },
 {
 "listing_id": "LST-0C2076",
@@ -16208,16 +16133,6 @@
 "listing_id": "LST-6D6716",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-6D6716",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-6D6716",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-6D6716",
@@ -16333,16 +16248,6 @@
 "listing_id": "LST-CA86BA",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-CA86BA",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-CA86BA",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-CA86BA",
@@ -16571,16 +16476,6 @@
 },
 {
 "listing_id": "LST-82173D",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-82173D",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-82173D",
 "type": "kind",
 "id": "F15.03"
 },
@@ -16588,16 +16483,6 @@
 "listing_id": "LST-6465FC",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-6465FC",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-6465FC",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-6465FC",
@@ -16816,16 +16701,6 @@
 },
 {
 "listing_id": "LST-FCD0D8",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-FCD0D8",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-FCD0D8",
 "type": "kind",
 "id": "F15.03"
 },
@@ -16841,16 +16716,6 @@
 },
 {
 "listing_id": "LST-A223B8",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-A223B8",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-A223B8",
 "type": "kind",
 "id": "F15.03"
 },
@@ -16888,16 +16753,6 @@
 "listing_id": "LST-16AB19",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-16AB19",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-16AB19",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-16AB19",
@@ -17138,16 +16993,6 @@
 "listing_id": "LST-BBE6F2",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-BBE6F2",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-BBE6F2",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-BBE6F2",
@@ -17476,16 +17321,6 @@
 },
 {
 "listing_id": "LST-55D402",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-55D402",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-55D402",
 "type": "kind",
 "id": "F15.03"
 },
@@ -17793,16 +17628,6 @@
 "listing_id": "LST-2DD359",
 "type": "topic",
 "id": "A03.01"
-},
-{
-"listing_id": "LST-2DD359",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-2DD359",
-"type": "topic",
-"id": "A03.03"
 },
 {
 "listing_id": "LST-2DD359",
@@ -18977,17 +18802,17 @@
 {
 "listing_id": "LST-AB4058",
 "type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-AB4058",
-"type": "topic",
 "id": "A08.03"
 },
 {
 "listing_id": "LST-AB4058",
 "type": "topic",
 "id": "A05.04"
+},
+{
+"listing_id": "LST-AB4058",
+"type": "topic",
+"id": "A03.01"
 },
 {
 "listing_id": "LST-F911E0",
@@ -19536,18 +19361,18 @@
 },
 {
 "listing_id": "LST-608AE1",
-"type": "topic",
-"id": "A03.02"
+"type": "kind",
+"id": "F15.03"
 },
 {
 "listing_id": "LST-608AE1",
 "type": "topic",
-"id": "A03.03"
+"id": "A02.02"
 },
 {
 "listing_id": "LST-608AE1",
-"type": "kind",
-"id": "F15.03"
+"type": "topic",
+"id": "A02.03"
 },
 {
 "listing_id": "LST-CE13F7",
@@ -19556,18 +19381,18 @@
 },
 {
 "listing_id": "LST-CE13F7",
-"type": "topic",
-"id": "A03.02"
+"type": "kind",
+"id": "F15.03"
 },
 {
 "listing_id": "LST-CE13F7",
 "type": "topic",
-"id": "A03.03"
+"id": "A02.02"
 },
 {
 "listing_id": "LST-CE13F7",
-"type": "kind",
-"id": "F15.03"
+"type": "topic",
+"id": "A02.03"
 },
 {
 "listing_id": "LST-7D9B74",
@@ -19576,18 +19401,18 @@
 },
 {
 "listing_id": "LST-7D9B74",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-7D9B74",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-7D9B74",
 "type": "kind",
 "id": "F15.03"
+},
+{
+"listing_id": "LST-7D9B74",
+"type": "topic",
+"id": "A02.02"
+},
+{
+"listing_id": "LST-7D9B74",
+"type": "topic",
+"id": "A02.03"
 },
 {
 "listing_id": "LST-BD4839",
@@ -19596,18 +19421,18 @@
 },
 {
 "listing_id": "LST-BD4839",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-BD4839",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-BD4839",
 "type": "kind",
 "id": "F15.03"
+},
+{
+"listing_id": "LST-BD4839",
+"type": "topic",
+"id": "A02.02"
+},
+{
+"listing_id": "LST-BD4839",
+"type": "topic",
+"id": "A02.03"
 },
 {
 "listing_id": "LST-A3B681",
@@ -19616,18 +19441,18 @@
 },
 {
 "listing_id": "LST-A3B681",
-"type": "topic",
-"id": "A03.02"
-},
-{
-"listing_id": "LST-A3B681",
-"type": "topic",
-"id": "A03.03"
-},
-{
-"listing_id": "LST-A3B681",
 "type": "kind",
 "id": "F15.03"
+},
+{
+"listing_id": "LST-A3B681",
+"type": "topic",
+"id": "A02.02"
+},
+{
+"listing_id": "LST-A3B681",
+"type": "topic",
+"id": "A02.03"
 },
 {
 "listing_id": "LST-2AEBD2",

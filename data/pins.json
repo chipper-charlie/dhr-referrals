@@ -351,6 +351,27 @@
 },
 {
 "reason_id": "L08",
+"area": "Employment",
+"order": 3,
+"listing_id": "LST-74CBB7",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Employment",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Housing",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
 "area": "Places of Public Accommodation",
 "order": 1,
 "listing_id": "LST-D80471",
@@ -361,6 +382,20 @@
 "area": "Places of Public Accommodation",
 "order": 2,
 "listing_id": "LST-E62457",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Places of Public Accommodation",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Education",
+"order": 4,
+"listing_id": "LST-4C86D9",
 "any_county": false
 },
 {
@@ -379,9 +414,44 @@
 },
 {
 "reason_id": "L08",
+"area": "Credit and lending",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Volunteer Firefighting Organizations",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Boycotting or Blacklisting",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Violation of Conciliation Agreement",
+"order": 4,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L08",
 "area": "None",
 "order": 1,
 "listing_id": "LST-883A15",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "None",
+"order": 4,
+"listing_id": "LST-4C86D9",
 "any_county": false
 },
 {
@@ -2216,6 +2286,69 @@
 "area": "None",
 "order": 2,
 "listing_id": "LST-5CBE7C",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Employment",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Housing",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Places of Public Accommodation",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Education",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Credit and lending",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Volunteer Firefighting Organizations",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Boycotting or Blacklisting",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "Violation of Conciliation Agreement",
+"order": 1,
+"listing_id": "LST-4C86D9",
+"any_county": false
+},
+{
+"reason_id": "L44",
+"area": "None",
+"order": 1,
+"listing_id": "LST-4C86D9",
 "any_county": false
 },
 {
