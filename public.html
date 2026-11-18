@@ -249,7 +249,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
           <sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for>
         </select>
         <label class="lbl l-q" for="q">Your problem</label>
-        <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-q" id="q-hint">Use your own words, like “racist boss” or “eviction help”.</span></sc-if>
+        <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-q" id="q-hint">Use your own words, like “racist neighbor” or “eviction help”.</span></sc-if>
         <div class="inwrap f-q" id="q-wrap">
           <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
           <input id="q" class="field srch" type="text" value="{{q}}" onChange="{{onInput}}" onKeyDown="{{onKey}}" onFocus="{{onFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{expanded}}" aria-controls="q-list" aria-activedescendant="{{activeId}}" aria-describedby="q-hint q-err" placeholder="Type to search, or pick from list" autocomplete="off">
