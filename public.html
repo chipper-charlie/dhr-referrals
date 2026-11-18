@@ -45,12 +45,11 @@ body{margin:0}
 .field.srch:focus{border-color:var(--navy)}
 .ico{position:absolute;left:12px;top:13px;width:20px;height:20px;pointer-events:none}
 /* Search form (design 1d): heading, then "Your problem" and "County" side by side */
-.sform{display:grid;grid-template-columns:320px minmax(0,1fr) auto;grid-template-areas:"qt qt qt" "lc lq ." "lc hq ." "fc fq fb" ". eq .";column-gap:20px;align-items:end}
+.sform{display:grid;grid-template-columns:320px minmax(0,1fr) auto;grid-template-areas:"qt qt qt" "lc lq ." "hc hq ." "fc fq fb" ". eq .";column-gap:20px;align-items:end}
 .scr .sform .qt{grid-area:qt;margin:0 0 20px;padding-bottom:16px;border-bottom:1px solid var(--line)}
-.l-q{grid-area:lq}.l-c{grid-area:lc}.h-q{grid-area:hq}.f-q{grid-area:fq}.f-c{grid-area:fc}.f-b{grid-area:fb}.e-q{grid-area:eq}
-.sform .h-q{margin:0 0 8px}
+.l-q{grid-area:lq}.l-c{grid-area:lc}.h-q{grid-area:hq}.h-c{grid-area:hc}.f-q{grid-area:fq}.f-c{grid-area:fc}.f-b{grid-area:fb}.e-q{grid-area:eq}
+.sform .hint{align-self:start}
 .qerr{margin:8px 0 0;color:#a40e26;font-weight:700}
-.opt-l{font-weight:400}
 .field.srch{padding-right:54px}
 .field::placeholder{color:#666;opacity:1}
 /* The arrow at the right of the search box opens the topic list */
@@ -177,7 +176,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .card.main{padding:0;border:0;box-shadow:none;background:none}
 .fb{flex:1 1 100%}
 .fb .btn{width:100%}
-.sform{grid-template-columns:1fr;grid-template-areas:"qt" "lc" "fc" "lq" "hq" "fq" "eq" "fb"}
+.sform{grid-template-columns:1fr;grid-template-areas:"qt" "lc" "hc" "fc" "lq" "hq" "fq" "eq" "fb"}
 .l-q{margin-top:16px}
 .f-b{margin-top:20px}
 .f-b .btn{width:100%}
@@ -243,13 +242,14 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
     <div class="{{cardCls}}" id="search-card">
       <form class="sform" role="search" aria-labelledby="q-title" onSubmit="{{onSubmit}}">
         <h2 class="qt" id="q-title">What do you need help with?</h2>
-        <label class="lbl l-c" for="county">Your county <span class="opt-l">(shows local organizations)</span></label>
-        <select id="county" class="{{countyCls}}" value="{{county}}" onChange="{{onCounty}}">
+        <label class="lbl l-c" for="county">Your county</label>
+        <span class="hint h-c" id="c-hint">Adding this shows local organizations too.</span>
+        <select id="county" aria-describedby="c-hint" class="{{countyCls}}" value="{{county}}" onChange="{{onCounty}}">
           <option value="">Choose your county (optional)</option>
           <sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for>
         </select>
         <label class="lbl l-q" for="q">Your problem</label>
-        <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-q" id="q-hint">You can use your own words, like “eviction” or “unpaid wages”.</span></sc-if>
+        <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-q" id="q-hint">Use your own words, like “racist boss” or “eviction help”.</span></sc-if>
         <div class="inwrap f-q" id="q-wrap">
           <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
           <input id="q" class="field srch" type="text" value="{{q}}" onChange="{{onInput}}" onKeyDown="{{onKey}}" onFocus="{{onFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{expanded}}" aria-controls="q-list" aria-activedescendant="{{activeId}}" aria-describedby="q-hint q-err" placeholder="Type to search, or pick from list" autocomplete="off">
@@ -350,7 +350,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
           <div class="note"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#5a3600" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#5a3600" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#5a3600"></circle></svg><p>{{note}}</p></div>
         </sc-if>
         <sc-if value="{{askCounty}}" hint-placeholder-val="{{false}}">
-          <div class="note pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#1f3a5f"></circle></svg><div class="ncw"><p>{{countyNote}}</p><label class="lbl" for="county2">Your county <span class="opt-l">(shows local organizations)</span></label><select id="county2" class="field unset ncs" onChange="{{addCounty}}"><option value="">Choose your county</option><sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for></select></div></div>
+          <div class="note pick"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#1f3a5f"></circle></svg><div class="ncw"><p>{{countyNote}}</p><label class="lbl" for="county2">Your county</label><select id="county2" class="field unset ncs" onChange="{{addCounty}}"><option value="">Choose your county</option><sc-for list="{{counties}}" as="c" hint-placeholder-count="5"><option value="{{c.name}}">{{c.name}}</option></sc-for></select></div></div>
         </sc-if>
         <sc-if value="{{noResultsShown}}" hint-placeholder-val="{{false}}">
           <p class="msg">{{noResultsMsg}}</p>
