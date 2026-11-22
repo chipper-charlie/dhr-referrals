@@ -5413,5 +5413,315 @@
 "listing_id": "LST-81C77E",
 "scope": "region",
 "place": "New York City"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Bronx"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Dutchess"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Nassau"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "New York (Manhattan)"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Orange"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Putnam"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Queens"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Richmond (Staten Island)"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Rockland"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Suffolk"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Sullivan"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Ulster"
+},
+{
+"listing_id": "LST-4BCCEE",
+"scope": "county",
+"place": "Westchester"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Albany"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Allegany"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Broome"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Cattaraugus"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Chautauqua"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Chemung"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Clinton"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Columbia"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Cortland"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Erie"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Essex"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Franklin"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Genesee"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Greene"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Hamilton"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Jefferson"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Lewis"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Livingston"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Madison"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Monroe"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Niagara"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Oneida"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Onondaga"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Ontario"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Orleans"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Oswego"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Rensselaer"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Saratoga"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Schenectady"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Schoharie"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Schuyler"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Seneca"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "St. Lawrence"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Steuben"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Tioga"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Tompkins"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Warren"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Washington"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Wayne"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Wyoming"
+},
+{
+"listing_id": "LST-3467E8",
+"scope": "county",
+"place": "Yates"
 }
 ]

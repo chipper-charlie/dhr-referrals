@@ -454,9 +454,19 @@
   }
 
   // ---------- Picks ("Often helps with this") ----------
+  // No area chosen (2026-11-22): a reason that applies in one area only uses that area; any other uses "None", the general picks.
+  // Before, it mixed every area's picks (Not discrimination with no area showed labor, consumer and credit agencies).
+  function areaOrDefault(reason, lojArea) {
+    if (lojArea) return lojArea;
+    var r = REASON[reason], a = r ? r.areas : [];
+    return a.length === 1 && a[0] !== 'All' ? a[0] : 'None';
+  }
   function pinsFor(reason, lojArea, county) {
     if (!reason) return [];
-    var rows = D.pins.filter(function (p) { return p.reason === reason && (p.area === 'All' || !lojArea || p.area === lojArea); });
+    var area = areaOrDefault(reason, lojArea);
+    var rows = D.pins.filter(function (p) { return p.reason === reason && (p.area === 'All' || p.area === area); });
+    // A reason with no general ("None") picks keeps all its picks when no area is chosen
+    if (!lojArea && area === 'None' && !rows.some(function (p) { return p.area === 'None'; })) rows = D.pins.filter(function (p) { return p.reason === reason; });
     rows.sort(function (a, b) { return a.order - b.order; });
     var out = [], orgs = {};
     rows.forEach(function (p) {
@@ -479,7 +489,7 @@
   function presetQuery(reason, lojArea) {
     var t = presetFor(reason, lojArea);
     if (t && TOPIC[t]) return { type: 'topic', value: t };
-    var a = (D.lojFinderArea || {})[lojArea];
+    var a = (D.lojFinderArea || {})[areaOrDefault(reason, lojArea)];
     return a && AREA[a] ? { type: 'area', value: a } : null;
   }
   function reasonsFor(lojArea) {

@@ -598,7 +598,7 @@ class Component extends DCLogic {
         var back = { id: 'b-back', name: 'Back to the full list', back: true, choose: () => this.setState({ drill: '', open: true, active: -1 }) };
         return [back].concat(D.topics.filter((t) => t.area === dr.id).map((t) => ({ id: 'b-' + t.id, name: t.name, choose: () => this.choosePick('topic', t.id, t.name) })));
       }
-      var browse = start ? [{ id: 'b-start', name: start.name, start: true, choose: () => this.choosePick('topic', D.generalTopic, start.name) }] : [];
+      var browse = start ? [{ id: 'b-start', name: start.name, start: true, choose: () => this.choosePick('area', start.id, start.name) }] : [];
       return browse.concat(D.areas.filter((a) => !a.start).map((a) => ({ id: 'b-' + a.id, name: a.name, area: D.topics.filter((t) => t.area === a.id).length > 1,
         choose: () => { var ts = D.topics.filter((t) => t.area === a.id); if (ts.length === 1) this.choosePick('topic', ts[0].id, ts[0].name); else this.setState({ drill: a.id, open: true, active: 1 }); } })));
     }
@@ -664,7 +664,8 @@ class Component extends DCLogic {
     vals.areas = tiles.map((a) => areaItem(a, 'p-'));
     vals.seeAllText = 'See all ' + tiles.length + ' topics';
     var startArea = D.areas.filter((a) => a.start)[0] || { name: 'General help', hint: '' };
-    vals.start = { name: startArea.name, hint: startArea.hint, href: topicHref(D.generalTopic, s.county), pick: linkTo(() => this.pickTopic(D.generalTopic)) };
+    // The general help tile opens its whole area, hotlines and legal help both (2026-11-22; it opened only the hotlines topic)
+    vals.start = { name: startArea.name, hint: startArea.hint, href: '?group=' + startArea.id + (s.county ? '&county=' + encodeURIComponent(s.county) : ''), pick: linkTo(() => this.pickArea(startArea.id)) };
 
     if (vals.isResults) {
       var r = F.results({ query: s.query, county: s.county, reason: s.reason, lojArea: s.loj });
@@ -698,7 +699,7 @@ class Component extends DCLogic {
         vals.likeAreas = like.map((a) => areaItem(a, 'm-'));
         vals.hasLikeAreas = vals.likeAreas.length > 0;
         // General help for anyone, near the person first
-        var gen = F.matches({ type: 'topic', value: D.generalTopic }).filter((l) => F.isWide(l) || F.inCounty(l, s.county));
+        var gen = F.matches(startArea.id ? { type: 'area', value: startArea.id } : { type: 'topic', value: D.generalTopic }).filter((l) => F.isWide(l) || F.inCounty(l, s.county));
         gen.sort((a, b) => (F.isWide(a) ? 1 : 0) - (F.isWide(b) ? 1 : 0));
         var cards = F.buildCards(gen, null, s.county);
         cards.forEach((c) => { c.tags = []; c.hasTags = false; });

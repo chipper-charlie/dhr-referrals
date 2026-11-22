@@ -50,19 +50,19 @@ select.field.unset option{color:var(--ink)}
 .ot{display:block;color:var(--ink)}
 .os{display:block;margin-top:2px;font-size:13px;color:var(--gray)}
 .nomsg{margin:0;padding:12px 16px;font-size:13px;color:var(--gray)}
-/* The search: two panels, letter then need (design 12b) */
+/* The search: two panels, letter then need (design 12b), stacked in one column (2026-11-22: the reason list gets the full width) */
 .sf{background:#fff;border:2px solid var(--navy);border-radius:8px;padding:24px}
 .formwrap.after{margin-top:16px}
 .finfo{display:flex;gap:10px;align-items:flex-start;margin:0 0 20px;color:var(--soft)}
 .finfo svg{flex:0 0 20px;width:20px;height:20px;margin-top:2px}
-.duo{display:grid;grid-template-columns:minmax(0,1fr) 40px minmax(0,1fr);align-items:stretch}
+.duo{display:grid;grid-template-columns:minmax(0,1fr);align-items:stretch}
 .pane{margin:0;padding:20px;border:1px solid var(--line);border-radius:8px;min-width:0}
 .p1{position:relative;z-index:2;background:#f7f7f7}
 .fl{float:left;width:100%;padding:0;margin:0 0 12px;font-size:13px;font-weight:700;color:var(--gray)}
 .fl+*{clear:both}
 .f+.f{margin-top:16px}
-.arr{display:flex;align-items:center;justify-content:center}
-.arr svg{width:24px;height:24px}
+.arr{display:flex;align-items:center;justify-content:center;height:40px}
+.arr svg{width:24px;height:24px;transform:rotate(90deg)}
 .err{display:flex;gap:10px;align-items:flex-start;margin:16px 0 0;font-weight:700;color:var(--err)}
 .err svg{flex:0 0 20px;width:20px;height:20px;margin-top:2px}
 .sfoot{display:flex;justify-content:flex-end;margin-top:20px}
@@ -93,7 +93,7 @@ select.field.unset option{color:var(--ink)}
 .chk i{font-style:normal;font-size:13px;color:var(--gray)}
 .hid{margin:12px 0 0;color:var(--soft)}
 .msg{margin:12px 0 0;color:var(--soft)}
-@media (max-width:700px){.duo{grid-template-columns:1fr}.arr{transform:rotate(90deg);height:40px}.sfoot .btn{width:100%}}
+@media (max-width:700px){.sfoot .btn{width:100%}}
 @media (max-width:600px){.wrap{padding:28px 16px 48px}.sf{padding:16px}}
 </style>
 </helmet>
@@ -251,6 +251,9 @@ select.field.unset option{color:var(--ink)}
 var F = window.FinderCore;
 var PUBLIC_PAGE = 'public';
 
+// The LOJ reasons staff pick most often, shown first in the reason list (user, 2026-11-22, from the coded LOJ counts; "Untimely" left out
+// because the filing deadline is now 3 years). IDs from loj_reasons.csv.
+var COMMON_REASONS = ['L08', 'L13', 'L01', 'L05'];
 class Component extends DCLogic {
   constructor(props) {
     super(props);
@@ -337,15 +340,18 @@ class Component extends DCLogic {
       var hay = ' ' + F.norm([r.id, r.name, r.desc, r.group].concat(r.words || []).join(' ')) + ' ';
       return toks.every((t) => hay.indexOf(' ' + t) >= 0);
     });
-    list.sort((a, b) => (a.groupOrder - b.groupOrder) || a.name.localeCompare(b.name));
-    return list.map((r) => ({ id: 'r-' + r.id, name: r.name, desc: r.desc, group: r.group || 'Other', choose: () => this.pickReason(r) }));
+    // The most common reasons come first, in their own group (and not again in their staff group)
+    var common = (r) => COMMON_REASONS.indexOf(r.id);
+    var rank = (r) => common(r) >= 0 ? -1 : r.groupOrder;
+    list.sort((a, b) => (rank(a) - rank(b)) || (common(a) - common(b)) || a.name.localeCompare(b.name));
+    return list.map((r) => ({ id: 'r-' + r.id, name: r.name, desc: r.desc, group: common(r) >= 0 ? 'Most common' : (r.group || 'Other'), choose: () => this.pickReason(r) }));
   }
   /* Topic box: nothing typed = general help then the 13 areas (as on the public page); typing = matching topics */
   topicOptions() {
     var q = this.state.query ? '' : this.state.topicText.trim(), D = F.data;
     if (q.length < 2) {
       var start = D.areas.filter((a) => a.start)[0];
-      var list = start ? [{ id: 't-start', name: start.name, group: '', choose: () => this.pickQuery({ type: 'topic', value: D.generalTopic }) }] : [];
+      var list = start ? [{ id: 't-start', name: start.name, group: '', choose: () => this.pickQuery({ type: 'area', value: start.id }) }] : [];
       return list.concat(D.areas.filter((a) => !a.start).map((a) => ({ id: 't-' + a.id, name: a.name, group: 'Or pick a topic', choose: () => this.pickQuery({ type: 'area', value: a.id }) })));
     }
     return F.suggest(q, 8).map((s) => ({ id: 't-' + s.id.replace(/\W/g, '-'), name: s.name, sub: s.sub, group: 'Topics', choose: () => this.pickQuery({ type: 'topic', value: s.id }) }));

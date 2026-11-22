@@ -387,6 +387,20 @@
 {
 "reason_id": "L08",
 "area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-4BCCEE",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Places of Public Accommodation",
+"order": 3,
+"listing_id": "LST-3467E8",
+"any_county": false
+},
+{
+"reason_id": "L08",
+"area": "Places of Public Accommodation",
 "order": 4,
 "listing_id": "LST-4C86D9",
 "any_county": false
