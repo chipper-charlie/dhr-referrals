@@ -82,7 +82,6 @@ select.field.unset option{color:var(--ink)}
 /* Results: the same groups and cards as the public page (ResultGroups.dc.html) */
 .top{margin-top:32px}
 .scr .top>h2{font-size:20px}
-.top>h2:focus{outline:3px solid var(--accent);outline-offset:4px}
 .nar{margin-top:16px;padding:10px 16px 4px;border:1px solid var(--line);border-radius:8px;background:#fff}
 .nar fieldset{margin:0;padding:0;border:0;min-width:0}
 .nar legend{padding:0;margin:0 0 4px;font-size:13px;font-weight:700;color:var(--gray)}
@@ -219,7 +218,7 @@ select.field.unset option{color:var(--ink)}
       </div>
 
       <section class="top">
-        <h2 id="res-h" role="status" tabindex="-1">{{countText}}</h2>
+        <h2 id="res-h" role="status">{{countText}}</h2>
         <sc-if value="{{hasKinds}}" hint-placeholder-val="{{false}}">
           <div class="nar">
             <fieldset>
@@ -327,7 +326,7 @@ class Component extends DCLogic {
       query: query, topicText: query ? F.queryLabel(query) : s.topicText, error: false, box: null, editOpen: false, kinds: {}, copied: false,
       applied: { query: query, county: s.county, reason: s.reason, loj: s.loj }
     });
-    setTimeout(() => { var h = document.getElementById('res-h'); if (h) h.focus(); }, 60);
+    // No focus move to the result count (user, 2026-11-22): it drew a box around it. The count is a status line, so screen readers still hear it.
   }
 
   /* Reasons for the chosen area, matching what's typed (name or description), under their staff group */
