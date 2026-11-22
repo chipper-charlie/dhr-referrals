@@ -125,7 +125,8 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .sum+.card{margin-top:16px}
 .top.res-top{margin-top:32px;padding-top:0;border-top:0}
 .top>h2{font-size:20px}
-.top>h2:focus{outline:3px solid var(--accent);outline-offset:4px}
+.top>h2:focus{outline:none}
+.top>h2:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
 .top .nar{margin-top:12px;padding:10px 16px 4px;border:1px solid var(--line);border-radius:8px;background:#fff}
 .ncw{flex:1 1 auto}
 .ncw .lbl{margin-top:12px;color:var(--ink)}
@@ -151,8 +152,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .xbtn{flex:0 0 44px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;background:none;border:0;border-radius:6px;cursor:pointer}
 .xbtn:hover{background:#dfe6ed}
 .xbtn svg{width:16px;height:16px}
-.reopen{display:inline-flex;align-items:center;min-height:44px;margin:8px 0 0;padding:0;background:none;border:0;color:var(--accent);font:inherit;text-decoration:underline;cursor:pointer}
-.xbtn:focus,.reopen:focus{outline:3px solid var(--accent);outline-offset:2px}
+.xbtn:focus{outline:3px solid var(--accent);outline-offset:2px}
 .eg{margin:8px 0 0;padding-left:22px;list-style:disc;color:var(--ink)}
 .eg li{margin:0 0 6px}
 .eg li:last-child{margin-bottom:0}
@@ -392,9 +392,6 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
             <button class="xbtn" id="note-x" type="button" aria-label="Close this message" onClick="{{dismissNote}}"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg></button>
           </div>
         </sc-if>
-        <sc-if value="{{noteShut}}" hint-placeholder-val="{{false}}">
-          <button class="reopen" id="note-reopen" type="button" onClick="{{reopenNote}}">About these organizations</button>
-        </sc-if>
 
         <!-- Result groups and cards: the same component as the staff view -->
         <dc-import name="ResultGroups" groups="{{groups}}" hint-size="100%,400px"></dc-import>
@@ -450,11 +447,14 @@ function listOpensEarly() { return false; }
 // function listOpensEarly() { return !isTouch(); }   // OLD (2026-11-16): computers opened the list on click; phones did not
 function topicHref(id, county) { return '?topic=' + encodeURIComponent(id) + (county ? '&county=' + encodeURIComponent(county) : ''); }
 
+// The "separate from NYDHR" note, once closed, stays closed in this browser
+var NOTE_KEY = 'nydhr-finder-note-closed';
+function noteWasClosed() { try { return window.localStorage.getItem(NOTE_KEY) === '1'; } catch (err) { return false; } }
 class Component extends DCLogic {
   constructor(props) {
     super(props);
     // The search in the address is read once the listings have loaded (componentDidMount)
-    this.state = { loaded: false, failed: false, q: '', open: false, active: -1, topicsOpen: false, openAreas: {}, query: null, county: '', reason: '', loj: '', view: 'home', pick: null, needTopic: false, drill: '', editOpen: false, noteClosed: false };
+    this.state = { loaded: false, failed: false, q: '', open: false, active: -1, topicsOpen: false, openAreas: {}, query: null, county: '', reason: '', loj: '', view: 'home', pick: null, needTopic: false, drill: '', editOpen: false, noteClosed: noteWasClosed() };
     this.onPop = () => { var u = readUrl(); this.setState({ query: u.query, county: u.county, reason: u.reason, loj: u.loj, view: u.view, pick: null, needTopic: false, drill: '', open: false }); };
     // 2026-11-16 TEST CHANGE (user-test round 3): dropdown opens on typing only; revert by restoring the commented block below
     // this.onInput = (e) => this.setState({ q: e.target.value, open: !isTouch() || this.state.open || e.target.value.trim().length >= 2, active: -1 });
@@ -472,9 +472,13 @@ class Component extends DCLogic {
     // A tap or click outside the box closes the list (on phones the box may not have focus)
     this.onDocDown = (e) => { if (this.state.open && !(e.target.closest && e.target.closest('#q-wrap'))) this.setState({ open: false, active: -1, drill: '' }); };
     this.toggleTopics = () => this.setState({ topicsOpen: !this.state.topicsOpen });
-    // The "separate from NYDHR" note: closing it lasts for the visit (it stays closed on later searches); focus moves to the link that reopens it, and back
-    this.dismissNote = () => { this.setState({ noteClosed: true }); setTimeout(() => { var b = document.getElementById('note-reopen'); if (b) b.focus(); }, 60); };
-    this.reopenNote = () => { this.setState({ noteClosed: false }); setTimeout(() => { var b = document.getElementById('note-x'); if (b) b.focus(); }, 60); };
+    // The "separate from NYDHR" note: closing it is for good (user, 2026-11-22). It is remembered in this browser, so it stays
+    // closed on later searches and visits; there is no link to open it again (the footer says the same thing). Focus moves to the result count.
+    this.dismissNote = () => {
+      this.setState({ noteClosed: true });
+      try { window.localStorage.setItem(NOTE_KEY, '1'); } catch (err) { /* storage blocked: closed for this visit only */ }
+      setTimeout(() => { var h = document.getElementById('count'); if (h) h.focus({ preventScroll: true }); }, 60);
+    };
     this.onBlur = () => this.setState({ open: false, active: -1, drill: '' });
     this.onKey = (e) => {
       var opts = this.options();
@@ -706,9 +710,8 @@ class Component extends DCLogic {
     // The note that these organizations are separate from NYDHR: shown whenever there are groups to list. "The following" after the NYDHR box would read oddly if it said "These".
     var hasGroups = vals.groups.length > 0;
     vals.noteOpen = hasGroups && !s.noteClosed;
-    vals.noteShut = hasGroups && !!s.noteClosed;
     vals.noteTitle = 'The following organizations are separate from NYDHR';
-    vals.dismissNote = this.dismissNote; vals.reopenNote = this.reopenNote;
+    vals.dismissNote = this.dismissNote;
     // The search form shows on the start page, when "Change search" is open, and when nothing was found (to try again;
     // with no county, the county note is the next step instead)
     vals.notResults = !vals.isResults;
