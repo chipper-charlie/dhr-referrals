@@ -2080,7 +2080,7 @@
 "website": "https://mediatenyc.org/",
 "email": "info@mediatenyc.org",
 "intake_link": "",
-"description": "Free community mediation to settle disputes without going to court, in all five boroughs.",
+"description": "Free community mediation to settle disputes without going to court, in Queens and Brooklyn.",
 "alert": "",
 "last_checked": "",
 "source": "No Hate NYS"
@@ -7345,6 +7345,20 @@
 "email": "",
 "intake_link": "",
 "description": "Takes complaints about businesses in New York City and may assign a mediator. Call 311 (212-NEW-YORK outside the city). Send receipts and other papers with your complaint.",
+"alert": "",
+"last_checked": "",
+"source": "Division research"
+},
+{
+"listing_id": "LST-81C77E",
+"org_id": "ORG-C35272",
+"role": "program",
+"program": "Domestic Worker Mediation Program",
+"office": "",
+"website": "https://www.nyc.gov/site/dca/workers/workersrights/paid-care-workers.page",
+"email": "OLPS@dcwp.nyc.gov",
+"intake_link": "",
+"description": "Free, confidential mediation between domestic workers in New York City (such as nannies, house cleaners and other care workers who work for a private household) and their employers. It covers unpaid wages, minimum wage and overtime, paid safe and sick leave, and retaliation. Email or call 311 for an appointment.",
 "alert": "",
 "last_checked": "",
 "source": "Division research"

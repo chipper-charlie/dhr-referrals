@@ -28,9 +28,9 @@
 "is_start": false
 },
 {
-"area_id": "A05",
-"name": "Police, courts and jail",
-"hint": "Arrest, charges, police",
+"area_id": "A07",
+"name": "Health care and insurance",
+"hint": "Doctors, Medicaid, nursing homes",
 "order": 5,
 "is_start": false
 },
@@ -42,59 +42,66 @@
 "is_start": false
 },
 {
-"area_id": "A07",
-"name": "Health care and insurance",
-"hint": "Doctors, Medicaid, nursing homes",
+"area_id": "A05",
+"name": "Police, courts and jail",
+"hint": "Arrest, charges, police",
 "order": 7,
 "is_start": false
 },
 {
-"area_id": "A08",
-"name": "Money, debt and consumer problems",
-"hint": "Debt, credit, scams",
+"area_id": "A15",
+"name": "LGBTQ+ and disability",
+"hint": "Support, rights and access",
 "order": 8,
-"is_start": false
-},
-{
-"area_id": "A09",
-"name": "Family, children and older adults",
-"hint": "Custody, support, older adults",
-"order": 9,
-"is_start": false
-},
-{
-"area_id": "A10",
-"name": "Immigration",
-"hint": "Status, visas, deportation",
-"order": 10,
-"is_start": false
-},
-{
-"area_id": "A11",
-"name": "Schools and education",
-"hint": "Discipline, special education",
-"order": 11,
-"is_start": false
-},
-{
-"area_id": "A12",
-"name": "Discrimination and civil rights",
-"hint": "Other agencies that handle it",
-"order": 12,
 "is_start": false
 },
 {
 "area_id": "A13",
 "name": "Food, utilities and emergency help",
 "hint": "Food, heat, emergency cash",
+"order": 9,
+"is_start": false
+},
+{
+"area_id": "A11",
+"name": "Schools and education",
+"hint": "Discipline, special education",
+"order": 10,
+"is_start": false
+},
+{
+"area_id": "A09",
+"name": "Family, children and older adults",
+"hint": "Custody, support, older adults",
+"order": 11,
+"is_start": false
+},
+{
+"area_id": "A10",
+"name": "Immigration",
+"hint": "Status, visas, deportation",
+"order": 12,
+"is_start": false
+},
+{
+"area_id": "A08",
+"name": "Money, debt and consumer problems",
+"hint": "Debt, credit, scams",
 "order": 13,
+"is_start": false
+},
+{
+"area_id": "A12",
+"name": "Discrimination and civil rights",
+"hint": "Other agencies that handle it",
+"order": 14,
 "is_start": false
 },
 {
 "area_id": "A14",
 "name": "General help and legal advice",
 "hint": "Hotlines and help for any problem.",
-"order": 14,
+"order": 15,
 "is_start": true
 }
 ]

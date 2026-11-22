@@ -142,6 +142,17 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .may h3{margin:0 0 8px;font-size:17px;line-height:1.3;color:var(--navy)}
 .may p{margin:0;color:var(--soft)}
 .seealso{margin:16px 0 0;color:var(--soft)}
+/* "Separate from NYDHR" note above the results: closable, with a link to open it again */
+.explain{display:flex;gap:16px;align-items:flex-start;margin:16px 0 0;padding:20px 12px 20px 24px;background:#eef2f6;border:1px solid #8a9aab;border-radius:8px}
+.explain>svg{flex:0 0 28px;width:28px;height:28px;margin-top:2px}
+.explain .tx{flex:1 1 auto}
+.scr .explain h2{margin:0 0 4px;color:var(--ink)}
+.explain p{margin:0;max-width:44em;color:var(--soft)}
+.xbtn{flex:0 0 44px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;background:none;border:0;border-radius:6px;cursor:pointer}
+.xbtn:hover{background:#dfe6ed}
+.xbtn svg{width:16px;height:16px}
+.reopen{display:inline-flex;align-items:center;min-height:44px;margin:8px 0 0;padding:0;background:none;border:0;color:var(--accent);font:inherit;text-decoration:underline;cursor:pointer}
+.xbtn:focus,.reopen:focus{outline:3px solid var(--accent);outline-offset:2px}
 .eg{margin:8px 0 0;padding-left:22px;list-style:disc;color:var(--ink)}
 .eg li{margin:0 0 6px}
 .eg li:last-child{margin-bottom:0}
@@ -185,6 +196,8 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 .top{margin-top:32px;padding-top:24px}
 .top.res-top{margin-top:24px;padding-top:0}
 .sum{padding:12px 14px}
+.explain{gap:12px;padding:16px 4px 16px 16px}
+.explain>svg{flex-basis:24px;width:24px;height:24px}
 .edit{width:100%;justify-content:center}
 }
 </style>
@@ -204,23 +217,24 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
     <symbol id="ic-A10" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"></path></symbol>
     <symbol id="ic-A11" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-2v14c3 0 6 .5 8 2 2-1.5 5-2 8-2V4c-3 0-6 .5-8 2zM12 6v14"></path></symbol>
     <symbol id="ic-A12" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0M8 10h8M8 14h8"></path></symbol>
+    <symbol id="ic-A15" viewBox="0 0 24 24"><path d="M12 11.5s-3.5-2.2-3.5-4.7a1.9 1.9 0 0 1 3.5-1a1.9 1.9 0 0 1 3.5 1c0 2.5-3.5 4.7-3.5 4.7zM3 14h3.5l3 2H13a1.5 1.5 0 0 1 0 3H9M3 13v7M13 17.5l4.5-2a1.6 1.6 0 0 1 1.8 2.6L14 21H6.5"></path></symbol>
     <symbol id="ic-A13" viewBox="0 0 24 24"><path d="M3 11h18c0 5-4 8-9 8s-9-3-9-8zM8 4c-.8 1 .8 2 0 3.5M12 3c-.8 1 .8 2 0 3.5M16 4c-.8 1 .8 2 0 3.5"></path></symbol>
   </svg>
   <div class="strip"><div class="wrap0"><p>{{stripText}}</p></div></div>
   <header>
-    <div class="agency"><div class="wrap0"><p>Division of Human Rights</p></div></div>
+    <div class="agency"><div class="wrap0"><p>New York Division of Human Rights</p></div></div>
   </header>
   <main class="wrap">
 
-  <sc-if value="{{loading}}" hint-placeholder-val="{{false}}"><h1>Find help for other problems</h1><p class="lead" role="status">Loading the listings…</p></sc-if>
+  <sc-if value="{{loading}}" hint-placeholder-val="{{false}}"><h1>Help from other organizations</h1><p class="lead" role="status">Loading the listings…</p></sc-if>
   <sc-if value="{{failed}}" hint-placeholder-val="{{false}}">
-    <h1>Find help for other problems</h1>
+    <h1>Help from other organizations</h1>
     <div class="note" role="alert"><p>The listings didn’t load. Please refresh the page, or call NYDHR at 844-697-3471 for help finding other services.</p></div>
   </sc-if>
 
 
   <sc-if value="{{notAll}}" hint-placeholder-val="{{true}}">
-    <h1>Find help for other problems</h1>
+    <h1>Help from other organizations</h1>
     <sc-if value="{{notResults}}" hint-placeholder-val="{{true}}"><p class="lead">NYDHR only handles discrimination. Search below for help with other problems.</p></sc-if>
 
     <sc-if value="{{isResults}}" hint-placeholder-val="{{false}}">
@@ -367,12 +381,27 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
           <a class="allt" href="?browse=1" onClick="{{seeAllTopics}}">{{seeAllText}}</a>
         </sc-if>
 
+        <!-- Note that the organizations are separate from NYDHR: directly above the groups, after the "NYDHR may handle this" box -->
+        <sc-if value="{{noteOpen}}" hint-placeholder-val="{{true}}">
+          <div class="explain" role="region" aria-labelledby="note-title">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#1f3a5f" stroke-width="2"></circle><path d="M12 11v6" fill="none" stroke="#1f3a5f" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="7.5" r="1.3" fill="#1f3a5f"></circle></svg>
+            <div class="tx">
+              <h2 id="note-title">{{noteTitle}}</h2>
+              <p>NYDHR doesn’t run them and can’t promise they’ll take your case. Contact them directly to find out if they can help.</p>
+            </div>
+            <button class="xbtn" id="note-x" type="button" aria-label="Close this message" onClick="{{dismissNote}}"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg></button>
+          </div>
+        </sc-if>
+        <sc-if value="{{noteShut}}" hint-placeholder-val="{{false}}">
+          <button class="reopen" id="note-reopen" type="button" onClick="{{reopenNote}}">About these organizations</button>
+        </sc-if>
+
         <!-- Result groups and cards: the same component as the staff view -->
         <dc-import name="ResultGroups" groups="{{groups}}" hint-size="100%,400px"></dc-import>
       </section>
     </sc-if>
 
-    <p class="foot">NYDHR doesn’t run these groups and can’t promise they can take your case. Some details were gathered with help from AI tools and may be wrong or out of date. Check with the group before you go.</p>
+    <p class="foot">NYDHR doesn’t run these organizations and can’t promise they can take your case. Some details were gathered with help from AI tools and may be wrong or out of date. Check with the organization before you go.</p>
   </sc-if>
   </main>
   <footer class="sitefoot"><div class="wrap0"><ul><li>Agencies</li><li>App Directory</li><li>Counties</li><li>Events</li><li>Programs</li><li>Services</li></ul></div></footer>
@@ -425,7 +454,7 @@ class Component extends DCLogic {
   constructor(props) {
     super(props);
     // The search in the address is read once the listings have loaded (componentDidMount)
-    this.state = { loaded: false, failed: false, q: '', open: false, active: -1, topicsOpen: false, openAreas: {}, query: null, county: '', reason: '', loj: '', view: 'home', pick: null, needTopic: false, drill: '', editOpen: false };
+    this.state = { loaded: false, failed: false, q: '', open: false, active: -1, topicsOpen: false, openAreas: {}, query: null, county: '', reason: '', loj: '', view: 'home', pick: null, needTopic: false, drill: '', editOpen: false, noteClosed: false };
     this.onPop = () => { var u = readUrl(); this.setState({ query: u.query, county: u.county, reason: u.reason, loj: u.loj, view: u.view, pick: null, needTopic: false, drill: '', open: false }); };
     // 2026-11-16 TEST CHANGE (user-test round 3): dropdown opens on typing only; revert by restoring the commented block below
     // this.onInput = (e) => this.setState({ q: e.target.value, open: !isTouch() || this.state.open || e.target.value.trim().length >= 2, active: -1 });
@@ -443,6 +472,9 @@ class Component extends DCLogic {
     // A tap or click outside the box closes the list (on phones the box may not have focus)
     this.onDocDown = (e) => { if (this.state.open && !(e.target.closest && e.target.closest('#q-wrap'))) this.setState({ open: false, active: -1, drill: '' }); };
     this.toggleTopics = () => this.setState({ topicsOpen: !this.state.topicsOpen });
+    // The "separate from NYDHR" note: closing it lasts for the visit (it stays closed on later searches); focus moves to the link that reopens it, and back
+    this.dismissNote = () => { this.setState({ noteClosed: true }); setTimeout(() => { var b = document.getElementById('note-reopen'); if (b) b.focus(); }, 60); };
+    this.reopenNote = () => { this.setState({ noteClosed: false }); setTimeout(() => { var b = document.getElementById('note-x'); if (b) b.focus(); }, 60); };
     this.onBlur = () => this.setState({ open: false, active: -1, drill: '' });
     this.onKey = (e) => {
       var opts = this.options();
@@ -640,7 +672,7 @@ class Component extends DCLogic {
       vals.askCounty = !s.county && s.query.type !== 'org';
       var noneWide = vals.askCounty && r.total === 0;
       vals.countyNote = noneWide ? 'We didn’t find statewide or federal help for this, but there may be organizations in your county. Choose your county to check.'
-        : 'These groups help anywhere in New York. There may be more organizations in your county. Choose your county to see them.';
+        : 'These organizations help anywhere in New York. There may be more organizations in your county. Choose your county to see them.';
       var topic = s.query.type === 'topic' ? F.TOPIC[s.query.value] : null;
       vals.mayHandle = !!(topic && topic.mayHandle);
       var see = topic && topic.seeAlso && F.TOPIC[topic.seeAlso.topic];   // a line pointing to another topic (data/topics.json: see_also_*)
@@ -671,6 +703,12 @@ class Component extends DCLogic {
     } else {
       vals.groups = [];
     }
+    // The note that these organizations are separate from NYDHR: shown whenever there are groups to list. "The following" after the NYDHR box would read oddly if it said "These".
+    var hasGroups = vals.groups.length > 0;
+    vals.noteOpen = hasGroups && !s.noteClosed;
+    vals.noteShut = hasGroups && !!s.noteClosed;
+    vals.noteTitle = 'The following organizations are separate from NYDHR';
+    vals.dismissNote = this.dismissNote; vals.reopenNote = this.reopenNote;
     // The search form shows on the start page, when "Change search" is open, and when nothing was found (to try again;
     // with no county, the county note is the next step instead)
     vals.notResults = !vals.isResults;

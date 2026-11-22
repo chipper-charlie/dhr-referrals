@@ -390,11 +390,15 @@
   }
   function unique(arr) { var s = {}; return arr.filter(function (x) { if (s[x]) return false; s[x] = 1; return true; }); }
 
-  // Order within a group: organizations picked for an LOJ reason first, then A to Z (ignoring a leading "The"). There is no quality rating to rank by.
+  // Order within a group: organizations with no Legal help tag first (2026-11-22, user test: results felt all legal; this mixes in
+  // other kinds of help without hiding any), then organizations picked for an LOJ reason, then A to Z (ignoring a leading "The").
+  // There is no quality rating to rank by.
+  var LEGAL = 'F15.01';
   function sortCards(cards) {
     var key = function (n) { return String(n).toLowerCase().replace(/^the\s+/, ''); };
+    var legal = function (c) { return (c.kinds || []).indexOf(LEGAL) >= 0 ? 1 : 0; };
     return cards.map(function (c, i) { return { c: c, i: i }; }).sort(function (a, b) {
-      return (PINNED[a.c.key] ? 0 : 1) - (PINNED[b.c.key] ? 0 : 1) || key(a.c.name).localeCompare(key(b.c.name)) || a.i - b.i;
+      return legal(a.c) - legal(b.c) || (PINNED[a.c.key] ? 0 : 1) - (PINNED[b.c.key] ? 0 : 1) || key(a.c.name).localeCompare(key(b.c.name)) || a.i - b.i;
     }).map(function (x) { return x.c; });
   }
   function buildCards(list, query, county) {

@@ -3276,6 +3276,41 @@
 },
 {
 "listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Chenango"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Delaware"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Fulton"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Herkimer"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Montgomery"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Otsego"
+},
+{
+"listing_id": "LST-9B9C3B",
+"scope": "county",
+"place": "Schoharie"
+},
+{
+"listing_id": "LST-9B9C3B",
 "scope": "region",
 "place": "Southern Tier"
 },
@@ -3283,6 +3318,16 @@
 "listing_id": "LST-AE9BBC",
 "scope": "region",
 "place": "Capital Region"
+},
+{
+"listing_id": "LST-CFDC03",
+"scope": "county",
+"place": "Cayuga"
+},
+{
+"listing_id": "LST-CFDC03",
+"scope": "county",
+"place": "Steuben"
 },
 {
 "listing_id": "LST-CFDC03",
@@ -3396,8 +3441,13 @@
 },
 {
 "listing_id": "LST-E49C03",
-"scope": "region",
-"place": "New York City"
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-E49C03",
+"scope": "county",
+"place": "Queens"
 },
 {
 "listing_id": "LST-407171",
@@ -3551,8 +3601,8 @@
 },
 {
 "listing_id": "LST-CA86BA",
-"scope": "region",
-"place": "New York City"
+"scope": "county",
+"place": "Bronx"
 },
 {
 "listing_id": "LST-E86E63",
@@ -3781,8 +3831,8 @@
 },
 {
 "listing_id": "LST-A223B8",
-"scope": "region",
-"place": "New York City"
+"scope": "county",
+"place": "Richmond (Staten Island)"
 },
 {
 "listing_id": "LST-0DBEB0",
@@ -3796,8 +3846,13 @@
 },
 {
 "listing_id": "LST-16AB19",
-"scope": "region",
-"place": "New York City"
+"scope": "county",
+"place": "Kings (Brooklyn)"
+},
+{
+"listing_id": "LST-16AB19",
+"scope": "county",
+"place": "New York (Manhattan)"
 },
 {
 "listing_id": "LST-E62457",
@@ -5353,5 +5408,10 @@
 "listing_id": "LST-C0766D",
 "scope": "statewide",
 "place": ""
+},
+{
+"listing_id": "LST-81C77E",
+"scope": "region",
+"place": "New York City"
 }
 ]
