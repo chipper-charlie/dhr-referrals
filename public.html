@@ -263,30 +263,30 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
         <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}"><span class="hint h-q" id="q-hint">Use your own words, like “racist neighbor” or “eviction help”.</span></sc-if>
         <div class="inwrap f-q" id="q-wrap">
           <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
-          <input id="q" class="field srch" type="text" value="{{q}}" onChange="{{onInput}}" onKeyDown="{{onKey}}" onFocus="{{onFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{expanded}}" aria-controls="q-list" aria-activedescendant="{{activeId}}" aria-describedby="q-hint q-err" placeholder="Type to search, or pick from list" autocomplete="off">
+          <input id="q" class="field srch" type="text" value="{{q}}" onChange="{{onInput}}" onKeyDown="{{onKey}}" onFocus="{{onFocus}}" onBlur="{{onBlur}}" role="combobox" aria-invalid="{{needTopic}}" aria-autocomplete="list" aria-expanded="{{expanded}}" aria-controls="q-list" aria-activedescendant="{{activeId}}" aria-describedby="q-hint q-err" placeholder="Type to search, or pick from list" autocomplete="off">
           <button class="tog" type="button" tabindex="-1" aria-label="Show topics" aria-expanded="{{expanded}}" aria-controls="q-list" onMouseDown="{{togDown}}" onClick="{{toggle}}">
             <sc-if value="{{open}}" hint-placeholder-val="{{false}}"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 9l5-5 5 5" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-if>
             <sc-if value="{{closed}}" hint-placeholder-val="{{true}}"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 5l5 5 5-5" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-if>
           </button>
           <sc-if value="{{open}}" hint-placeholder-val="{{false}}">
-            <div class="dd">
+            <div class="dd" tabindex="-1">
               <sc-if value="{{noSug}}" hint-placeholder-val="{{false}}"><p class="nomsg">No suggestions for “{{qTrim}}”.</p></sc-if>
               <sc-if value="{{picking}}" hint-placeholder-val="{{false}}"><p class="nomsg pick">No results for those words. Pick a topic:</p></sc-if>
               <ul id="q-list" role="listbox" aria-label="Suggestions">
                 <sc-if value="{{isBrowse}}" hint-placeholder-val="{{true}}">
                   <li role="presentation"><ul role="presentation"><li id="{{bStart.id}}" role="option" aria-selected="{{bStart.sel}}" class="{{bStart.cls}}" onMouseDown="{{bStart.pick}}">{{bStart.name}}</li></ul></li>
-                  <li role="group" aria-labelledby="g-pick">
+                  <li role="presentation">
                     <span class="gh" id="g-pick" role="presentation">{{bHead}}</span>
-                    <ul role="presentation">
+                    <ul role="group" aria-labelledby="g-pick">
                       <sc-for list="{{bAreas}}" as="s" hint-placeholder-count="13"><li id="{{s.id}}" role="option" aria-selected="{{s.sel}}" class="{{s.cls}}" onMouseDown="{{s.pick}}">{{s.name}}</li></sc-for>
                     </ul>
                   </li>
                 </sc-if>
                 <sc-if value="{{isSuggest}}" hint-placeholder-val="{{false}}">
                   <sc-if value="{{hasSug}}" hint-placeholder-val="{{true}}">
-                    <li role="group" aria-labelledby="g-topics">
+                    <li role="presentation">
                       <sc-if value="{{notPicking}}" hint-placeholder-val="{{true}}"><span class="gh" id="g-topics" role="presentation">Topics</span></sc-if>
-                      <ul role="presentation">
+                      <ul role="group" aria-labelledby="g-topics">
                         <sc-for list="{{sugs}}" as="s" hint-placeholder-count="3">
                           <li id="{{s.id}}" role="option" aria-selected="{{s.sel}}" class="opt" onMouseDown="{{s.pick}}"><span class="ot">{{s.name}}</span><span class="os">{{s.sub}}</span></li>
                         </sc-for>
@@ -294,9 +294,9 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
                     </li>
                   </sc-if>
                   <sc-if value="{{hasOrgSug}}" hint-placeholder-val="{{false}}">
-                    <li role="group" aria-labelledby="g-orgs">
+                    <li role="presentation">
                       <span class="gh" id="g-orgs" role="presentation">Organizations</span>
-                      <ul role="presentation">
+                      <ul role="group" aria-labelledby="g-orgs">
                         <sc-for list="{{orgSugs}}" as="s" hint-placeholder-count="2">
                           <li id="{{s.id}}" role="option" aria-selected="{{s.sel}}" class="opt" onMouseDown="{{s.pick}}"><span class="ot">{{s.name}}</span><span class="os">{{s.sub}}</span></li>
                         </sc-for>
@@ -343,7 +343,7 @@ select.field{-webkit-appearance:none;appearance:none;padding-right:44px;backgrou
 
     <sc-if value="{{isResults}}" hint-placeholder-val="{{false}}">
       <section class="top res-top">
-        <h2 role="status" id="count" tabindex="-1">{{countText}}</h2>
+        <h2 id="count" tabindex="-1" aria-live="polite">{{countText}}</h2>
         <sc-if value="{{mayHandle}}" hint-placeholder-val="{{false}}">
           <div class="may">
             <h3>NYDHR may handle this</h3>
@@ -541,7 +541,7 @@ class Component extends DCLogic {
       setTimeout(() => { var b = document.getElementById('browse'); if (b) { b.scrollIntoView(); b.focus(); } }, 60);
     };
     this.toggleArea = (id) => { var o = Object.assign({}, this.state.openAreas); if (o[id]) delete o[id]; else o[id] = true; this.setState({ openAreas: o }); };
-    this.clearAll = () => this.go({ query: null, county: '', reason: '', loj: '', view: 'home', q: '' });
+    this.clearAll = () => { this.go({ query: null, county: '', reason: '', loj: '', view: 'home', q: '' }); setTimeout(() => { var c = document.getElementById('county'); if (c) c.focus(); }, 60); };
     // Results: the search sits folded under "Change search" (design 3); opening it puts the cursor in the box
     this.toggleEdit = () => {
       var open = !this.state.editOpen;

@@ -137,13 +137,13 @@ select.field.unset option{color:var(--ink)}
                   <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
                   <input id="reason" class="field srch" type="text" value="{{reasonText}}" placeholder="Type to search reasons" onChange="{{onReasonInput}}" onKeyDown="{{onReasonKey}}" onFocus="{{onReasonFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{reasonExpanded}}" aria-controls="r-list" aria-activedescendant="{{reasonActiveId}}" aria-describedby="r-hint" autocomplete="off">
                   <sc-if value="{{reasonOpen}}" hint-placeholder-val="{{false}}">
-                    <div class="dd">
+                    <div class="dd" tabindex="-1">
                       <sc-if value="{{noReasons}}" hint-placeholder-val="{{false}}"><p class="nomsg">No reasons match “{{reasonText}}”.</p></sc-if>
                       <ul id="r-list" role="listbox" aria-label="Reasons">
                         <sc-for list="{{reasonGroups}}" as="g" hint-placeholder-count="2">
-                          <li role="group" aria-labelledby="{{g.id}}">
+                          <li role="presentation">
                             <span class="gh" id="{{g.id}}" role="presentation">{{g.name}}</span>
-                            <ul role="presentation">
+                            <ul role="group" aria-labelledby="{{g.id}}">
                               <sc-for list="{{g.items}}" as="o" hint-placeholder-count="2">
                                 <li id="{{o.id}}" role="option" aria-selected="{{o.sel}}" class="opt" onMouseDown="{{o.pick}}"><span class="ot">{{o.name}}</span><span class="os">{{o.desc}}</span></li>
                               </sc-for>
@@ -167,13 +167,13 @@ select.field.unset option{color:var(--ink)}
                   <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1a1a1a" stroke-width="2"></circle><path d="M15.5 15.5L21 21" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"></path></svg>
                   <input id="q" class="field srch" type="text" value="{{topicText}}" placeholder="Type to search, or pick from list" onChange="{{onTopicInput}}" onKeyDown="{{onTopicKey}}" onFocus="{{onTopicFocus}}" onBlur="{{onBlur}}" role="combobox" aria-autocomplete="list" aria-expanded="{{topicExpanded}}" aria-controls="q-list" aria-activedescendant="{{topicActiveId}}" aria-describedby="q-hint" autocomplete="off">
                   <sc-if value="{{topicOpen}}" hint-placeholder-val="{{false}}">
-                    <div class="dd">
+                    <div class="dd" tabindex="-1">
                       <sc-if value="{{noTopics}}" hint-placeholder-val="{{false}}"><p class="nomsg">No topics match “{{topicText}}”.</p></sc-if>
                       <ul id="q-list" role="listbox" aria-label="Topics">
                         <sc-for list="{{topicGroups}}" as="g" hint-placeholder-count="2">
-                          <li role="group" aria-labelledby="{{g.id}}">
+                          <li role="presentation">
                             <sc-if value="{{g.name}}" hint-placeholder-val="{{true}}"><span class="gh" id="{{g.id}}" role="presentation">{{g.name}}</span></sc-if>
-                            <ul role="presentation">
+                            <ul role="group" aria-labelledby="{{g.id}}">
                               <sc-for list="{{g.items}}" as="o" hint-placeholder-count="3">
                                 <li id="{{o.id}}" role="option" aria-selected="{{o.sel}}" class="opt" onMouseDown="{{o.pick}}"><span class="ot">{{o.name}}</span><sc-if value="{{o.sub}}" hint-placeholder-val="{{false}}"><span class="os">{{o.sub}}</span></sc-if></li>
                               </sc-for>
@@ -218,7 +218,7 @@ select.field.unset option{color:var(--ink)}
       </div>
 
       <section class="top">
-        <h2 id="res-h" role="status">{{countText}}</h2>
+        <h2 id="res-h" aria-live="polite">{{countText}}</h2>
         <sc-if value="{{hasKinds}}" hint-placeholder-val="{{false}}">
           <div class="nar">
             <fieldset>
