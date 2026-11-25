@@ -4236,7 +4236,7 @@
 "website": "https://www.justicecenter.ny.gov/",
 "email": "",
 "intake_link": "",
-"description": "State agency that protects people with special needs: a 24/7 hotline for reports of abuse and neglect, investigations, an information and referral line for disability questions, and support for victims and families through the investigation and any criminal case.",
+"description": "State agency that protects people with special needs: a 24/7 hotline (the Vulnerable Persons Central Register) for reports of abuse and neglect, investigations, an information and referral line for disability questions, and support for victims and families through the investigation and any criminal case.",
 "alert": "",
 "last_checked": "",
 "source": "No Hate NYS, OVS"
@@ -6956,6 +6956,20 @@
 "alert": "",
 "last_checked": "",
 "source": "No Hate NYS, OVS"
+},
+{
+"listing_id": "LST-FD7AF2",
+"org_id": "ORG-D8553B",
+"role": "program",
+"program": "HEARS Family Line",
+"office": "",
+"website": "https://strongerfamilies.ny.gov/HEARS",
+"email": "",
+"intake_link": "",
+"description": "Free state phone line that connects parents and families to services for food, clothing, housing, health care, child care and parenting help. Weekdays, 8:30 a.m. to 4:30 p.m.; recorded messages in 12 languages.",
+"alert": "",
+"last_checked": "",
+"source": "Division research"
 },
 {
 "listing_id": "LST-8A427C",

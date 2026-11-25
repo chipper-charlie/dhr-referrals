@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   var FILES = ['meta', 'areas', 'topics', 'topic_words', 'kinds', 'counties', 'organizations', 'listings', 'phones',
-    'coverage', 'assignments', 'loj_areas', 'reasons', 'reason_areas', 'presets', 'pins', 'search_words', 'examples', 'reason_words'];
+    'coverage', 'assignments', 'loj_areas', 'reasons', 'reason_areas', 'presets', 'pins', 'search_words', 'examples', 'reason_words', 'featured'];
   var DATA_DIR = (document.currentScript && document.currentScript.getAttribute('data-dir')) || 'data/';
 
   var D, AREA, TOPIC, KIND, LISTING, REASON, PINNED;
@@ -85,7 +85,9 @@
       // characteristic words that set that off, and generic words that topic names don't match on
       searchWords: rows(T.search_words).map(function (r) { return { word: str(r.word), role: str(r.role), topic: str(r.topic_id) }; }),
       presets: rows(T.presets).map(function (r) { return { reason: str(r.reason_id), area: str(r.area), topic: str(r.topic_id) }; }),
-      pins: rows(T.pins).map(function (r) { return { reason: str(r.reason_id), area: str(r.area), order: num(r.order), listing: str(r.listing_id), any: yes(r.any_county) }; })
+      pins: rows(T.pins).map(function (r) { return { reason: str(r.reason_id), area: str(r.area), order: num(r.order), listing: str(r.listing_id), any: yes(r.any_county) }; }),
+      // Hotlines shown first for a topic ("Start here"), whatever the county (featured.csv)
+      featured: rows(T.featured).map(function (r) { return { topic: str(r.topic_id), order: num(r.order), listing: str(r.listing_id) }; })
     };
   }
 
@@ -477,6 +479,16 @@
     });
     return out;
   }
+  // ---------- Featured lines ("Start here") ----------
+  // Hotlines NYDHR already sends people to (its standard referral wording: 988, the domestic violence hotlines, the Child Abuse
+  // Hotline and others), shown first for their topic whatever the county (2026-11-25). A topic search only; at most 3.
+  function featuredFor(query) {
+    if (!query || query.type !== 'topic') return [];
+    var out = [];
+    (D.featured || []).filter(function (f) { return f.topic === query.value; }).sort(function (a, b) { return a.order - b.order; })
+      .forEach(function (f) { var l = LISTING[f.listing]; if (l && out.length < 3 && out.indexOf(l) < 0) out.push(l); });
+    return out;
+  }
   function presetFor(reason, lojArea) {
     var hit = null;
     D.presets.some(function (p) { if (p.reason === reason && p.area === lojArea) { hit = p; return true; } return false; });
@@ -501,8 +513,13 @@
   function results(opts) {
     var query = opts.query, county = opts.county || '', checked = opts.kinds || {};
     var all = matches(query);
-    var pinned = pinsFor(opts.reason, opts.lojArea, county);
+    // Featured lines come first; the organization's other matching listings in reach go with them, on the same card
+    var featured = featuredFor(query), featuredOrgs = {};
+    featured.forEach(function (l) { featuredOrgs[l.org] = 1; });
+    featured = featured.concat(all.filter(function (l) { return featuredOrgs[l.org] && featured.indexOf(l) < 0 && (isWide(l) || inCounty(l, county)); }));
+    var pinned = pinsFor(opts.reason, opts.lojArea, county).filter(function (l) { return !featuredOrgs[l.org]; });
     var pinnedOrgs = {}; pinned.forEach(function (l) { pinnedOrgs[l.org] = 1; });
+    for (var o in featuredOrgs) pinnedOrgs[o] = 1;   // so they are left out of the groups below
     var rest = all.filter(function (l) { return !pinnedOrgs[l.org]; });
     // Organizations that focus on one community (communities.csv) are listed apart, at the end, unless the topic is about that
     // community (LGBTQ+ support, Tribal nations). Looking up one organization shows it as it is.
@@ -526,7 +543,7 @@
 
     var cardsLocal = sortCards(buildCards(local, query, county)), cardsWide = sortCards(buildCards(wide, query, county)), cardsBroad = sortCards(buildCards(broad, query, county));
     var cardsAside = buildCards(aside, query, county);
-    var cardsPinned = buildCards(pinned, query, county), cardsElse = buildCards(elsewhere, query, '');
+    var cardsFeatured = buildCards(featured, query, county), cardsPinned = buildCards(pinned, query, county), cardsElse = buildCards(elsewhere, query, '');
     var localCount = cardsLocal.length;
 
     // Kinds of help, with counts across the three groups (not the picks)
@@ -543,6 +560,7 @@
     var after = cardsLocal.length + cardsWide.length + cardsBroad.length + cardsAside.length + cardsElse.length;
 
     var groups = [];
+    if (cardsFeatured.length) groups.push({ key: 'gf', cls: 'grp g0', title: 'Start here', cards: cardsFeatured });
     if (cardsPinned.length) groups.push({ key: 'g0', cls: 'grp g0', title: 'Often helps with this', cards: cardsPinned });
     if (county && cardsLocal.length) groups.push({ key: 'g1', cls: 'grp g1', title: 'In ' + countyLabel(county), cards: cardsLocal });
     if (cardsWide.length) groups.push({ key: 'g2', cls: 'grp g2', title: 'Statewide and federal help', cards: cardsWide });
@@ -563,7 +581,7 @@
     });
     groups.forEach(function (g) { g.hasSection = !!g.sectionTitle; g.count = g.cards.length + (g.cards.length === 1 ? ' result' : ' results'); g.hasSub = !!g.sub; });
 
-    var total = cardsPinned.length + after;
+    var total = cardsFeatured.length + cardsPinned.length + after;
     // Warn only when nothing local turned up at all (a local pick counts as local help)
     var note = '';
     var localPicks = pinned.filter(function (l) { return inCounty(l, county); }).length;
@@ -575,7 +593,7 @@
     var kindNames = kindList.filter(function (k) { return k.checked; }).map(function (k) { return k.name.toLowerCase(); });
     return {
       groups: groups, total: total, note: note, kinds: canNarrow ? kindList : [],
-      hidden: anyChecked ? before - after : 0, before: before + cardsPinned.length,
+      hidden: anyChecked ? before - after : 0, before: before + cardsFeatured.length + cardsPinned.length,
       narrowedTo: kindNames.join(' or '),
       pinnedListings: pinned, restListings: rest.filter(function (l) { return !county || inCounty(l, county) || isWide(l); })
     };

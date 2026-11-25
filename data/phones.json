@@ -3489,7 +3489,7 @@
 "listing_id": "LST-B85316",
 "phone": "8553732122",
 "shown_as": "(855) 373-2122",
-"label": "Report abuse or neglect (24/7 hotline)",
+"label": "Vulnerable Persons Central Register: report abuse or neglect (24/7)",
 "order": 1
 },
 {
@@ -6408,7 +6408,7 @@
 "listing_id": "LST-05AF79",
 "phone": "8003423720",
 "shown_as": "(800) 342-3720",
-"label": "",
+"label": "Child Abuse Hotline: report abuse or neglect (24/7)",
 "order": 1
 },
 {
@@ -7649,5 +7649,12 @@
 "shown_as": "(716) 881-5222",
 "label": "",
 "order": 2
+},
+{
+"listing_id": "LST-FD7AF2",
+"phone": "8885543277",
+"shown_as": "(888) 554-3277",
+"label": "HEARS Family Line (weekdays, 8:30 a.m. to 4:30 p.m.)",
+"order": 1
 }
 ]

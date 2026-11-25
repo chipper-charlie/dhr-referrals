@@ -2564,6 +2564,14 @@
 "word": "appeal denial"
 },
 {
+"topic_id": "A06.01",
+"word": "HEARS family line"
+},
+{
+"topic_id": "A06.01",
+"word": "HEARS line"
+},
+{
 "topic_id": "A06.02",
 "word": "SSI"
 },
@@ -3632,6 +3640,10 @@
 "word": "complaint"
 },
 {
+"topic_id": "A09.02",
+"word": "child abuse hotline"
+},
+{
 "topic_id": "A09.03",
 "word": "foster"
 },
@@ -3758,6 +3770,22 @@
 {
 "topic_id": "A09.05",
 "word": "health care proxy"
+},
+{
+"topic_id": "A09.05",
+"word": "VPCR"
+},
+{
+"topic_id": "A09.05",
+"word": "Vulnerable Persons Central Register"
+},
+{
+"topic_id": "A09.05",
+"word": "special needs abuse"
+},
+{
+"topic_id": "A09.05",
+"word": "abuse of a person with special needs"
 },
 {
 "topic_id": "A09.06",

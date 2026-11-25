@@ -1,0 +1,52 @@
+[
+{
+"topic_id": "A01.01",
+"listing_id": "LST-BE916A",
+"order": 1
+},
+{
+"topic_id": "A04.01",
+"listing_id": "LST-3E313A",
+"order": 1
+},
+{
+"topic_id": "A04.01",
+"listing_id": "LST-882876",
+"order": 2
+},
+{
+"topic_id": "A04.02",
+"listing_id": "LST-3E313A",
+"order": 1
+},
+{
+"topic_id": "A06.01",
+"listing_id": "LST-FD7AF2",
+"order": 1
+},
+{
+"topic_id": "A07.03",
+"listing_id": "LST-761285",
+"order": 1
+},
+{
+"topic_id": "A09.02",
+"listing_id": "LST-05AF79",
+"order": 1
+},
+{
+"topic_id": "A09.04",
+"listing_id": "LST-FD7AF2",
+"order": 1
+},
+{
+"topic_id": "A09.05",
+"listing_id": "LST-B85316",
+"order": 1
+},
+{
+"topic_id": "A10.01",
+"listing_id": "LST-A0C433",
+"order": 1
+}
+]

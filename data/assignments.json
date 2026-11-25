@@ -10220,6 +10220,11 @@
 "id": "A12.13"
 },
 {
+"listing_id": "LST-B85316",
+"type": "topic",
+"id": "A09.05"
+},
+{
 "listing_id": "LST-8A427C",
 "type": "topic",
 "id": "A04.11"
@@ -17182,7 +17187,7 @@
 {
 "listing_id": "LST-05AF79",
 "type": "topic",
-"id": "A11.01"
+"id": "A09.02"
 },
 {
 "listing_id": "LST-B039D5",
@@ -20238,5 +20243,15 @@
 "listing_id": "LST-3467E8",
 "type": "topic",
 "id": "A08.03"
+},
+{
+"listing_id": "LST-FD7AF2",
+"type": "topic",
+"id": "A06.01"
+},
+{
+"listing_id": "LST-FD7AF2",
+"type": "topic",
+"id": "A09.04"
 }
 ]

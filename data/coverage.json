@@ -5723,5 +5723,10 @@
 "listing_id": "LST-3467E8",
 "scope": "county",
 "place": "Yates"
+},
+{
+"listing_id": "LST-FD7AF2",
+"scope": "statewide",
+"place": ""
 }
 ]
